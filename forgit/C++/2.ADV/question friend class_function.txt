@@ -1,0 +1,56 @@
+/*Create two class friend1 and friend2 with balance as private property of each.
+Use default  constructor for friend1 to have balance 5000 by default...
+Use parameterized constructor for friend2 to have 1000 as balance.
+Write a common friend function to display balance of both friends.
+Also allow  friend1 object to modify the balance of friend2 as follows : obj1. updateBalance(obj2, 500).
+Call the common display function and print the balance of both objects....*/
+#include<iostream>
+#include<stdlib.h>
+#include<string>
+using namespace std;
+class friend2;
+class friend1;
+
+class friend2
+{
+    int balance;
+    friend class friend1;
+public:
+    friend2(int balance)
+    {
+        this->balance = balance;
+    }
+   friend void display( friend1 , friend2);
+
+};
+class friend1
+{
+    int balance;
+
+public:
+    friend1()
+    {
+        balance = 5000;
+    }
+   friend void display( friend1 , friend2);
+   void updateBalance( friend2 &ref_Pointer,int bal)
+   {
+       ref_Pointer.balance = bal;
+   }
+};
+
+void display(friend1 objf1_A , friend2 objf2_A)
+{
+    cout<<objf1_A.balance<<endl;
+    cout<<objf2_A.balance<<endl;
+}
+int main()
+{
+    friend1 objf1_A;
+    friend2 objf2_A(1000);
+    display(objf1_A , objf2_A);
+    // now lets update the value friend2 via friend1
+    objf1_A.updateBalance(objf2_A,500);
+    display(objf1_A,objf2_A);
+
+}

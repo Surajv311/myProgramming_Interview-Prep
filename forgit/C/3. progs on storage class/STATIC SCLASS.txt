@@ -1,0 +1,27 @@
+// STATIC SCLASS
+
+#include<stdio.h>
+void function();
+void main()
+{
+function();
+function();
+function();
+}
+void function()
+{
+ static int i=1; 
+ printf("%d \n",i); /* in this case the function first called and 
+                  executed then next time (for the second time ) it does not initialize
+                   back to i=1 due to static and hence the increment value is printed and so on  */
+ i++;
+}
+ 
+o/p = 1
+      2
+      3  
+
+but , now the moment you remove static then the output is 
+  o/p = 1
+        1
+        1

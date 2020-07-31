@@ -1,0 +1,68 @@
+// CHECK IF STRING PALINDROME 
+
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char S[5];
+    int i,j,k,f=1;
+gets(S);
+// now to check if it is palindrome
+i=0;
+    k=strlen(S)-1;
+while(i<=k)
+{
+    if(S[i]=S[k])
+   {
+       k--;
+       i++;
+   }
+   else
+   {
+       f=0;
+       break;
+   }
+}
+if(f==1)
+     printf("the string %s is palindrome",S);
+else
+    printf("The string %s is not palindrome",S);
+}
+
+
+/*
+
+#include <stdio.h>
+#include<string.h>
+void main()
+{
+    char a[100],b[1000];
+    int n,i,j=0,f=0;
+    scanf("%s",a);
+    n=strlen(a);
+    for(i=n-1;i>=0;i--)
+    {
+        b[j]=a[i];
+        j++;
+    }
+    for(i=0;i<n-1;i++)
+    {
+        if(a[i]==b[i])
+        {
+            f++;
+            
+        }
+    }
+    if(f==n-1)
+    {
+        printf("YES");
+    }
+    else
+    {
+        printf("NO");
+    }
+}
+
+*/
+
+

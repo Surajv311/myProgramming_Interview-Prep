@@ -1,0 +1,39 @@
+// sorting in ascending order BUBBLE SORT
+
+#include <stdio.h>
+void main()
+{
+
+    int arr[100],i,j,f,n; // f is flag
+    printf("let the number of elements in array be :\n");
+    scanf("%d",&n);
+    printf("enter the elements \n");
+    for(i=0;i<n;i++)
+    {
+        printf("element arr[%d]:",i);
+        scanf("%d",&arr[i]);
+    }
+    /* BUBBLE SORTING */
+// now we will sort the elements in ascending order
+// we always sort from 0 to n-1 element as the last one gets sorted automatically
+for(i=0;i<n-1;i++)
+{
+    for(j=0;j<n-1-i;j++)     // its j-1-i as once the numbers swapped the locations remaining to swap are less
+
+        if(arr[j]>arr[j+1]) // we compare first element to next element
+    {
+        f=arr[j];           // if condition satisfied then we swap the numbers
+        arr[j]=arr[j+1];     /* say 5 4 3 2 1 then for j=0 i.e arr[0]>arr[1] i.e 5>4 so they both are swapped then order 4 5 3 2 1
+                        - now it goes for j=1 i.e arr[2]>arr[3] i.e 5>3.......so on this order goes on till j
+                        Now once inner loop completed-  order : 4 3 2 1 5 , now comes i=1 and then enters inner loop again starting
+                        form j=0 ..........so on the logic is executed */
+       arr[j+1]=f;
+    }
+}
+printf("sorted array is: "); // your sorted array is stored in a[i] and not a[j] as a[j] just works to exchange the position
+for(i=0;i<n;i++)
+    {
+printf("%d \t ",arr[i]);
+    }
+
+}

@@ -1,0 +1,44 @@
+// FOR LOOP
+
+package proj;
+
+public class prac {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a = 10 , i ;
+	
+		for(i=0;i<a;i++) // i++ or i=i+1 both same 
+		{
+			System.out.println("hi");
+		
+		
+		}
+		for(i=0;i<a;i++)
+		{
+			System.out.println("value of i is :" + i);
+			System.out.printf("value of i is :%d \n",i);
+		} // just like C prog 
+		// here instead of println we used printf 
+		
+	}
+
+}
+
+package pracjavaproject;
+import java.util.Scanner;
+public class Pracname {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String[] s = {"hi" , "bye" , "guy"};
+int i = 0 ;
+int j = s.length;
+for(i=0;i<j;i++)
+{
+	System.out.println(s[i]);
+}
+	}
+
+}

@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main(#@^@%^&)
+{
+    printf(" hello bro ");
+    return 0;
+}
+ o/p - error 
+
+#include <stdio.h>
+int main(32784gwh)
+{
+    printf(" hello bro ");
+    return 0;
+}
+
+
+o/p - error 
+
+#include <stdio.h>
+int main(dskjsgwh)
+{
+    printf(" hello bro ");
+    return 0;
+}
+
+
+o/p - hello bro 
+
+
+#include <stdio.h>
+int main(void)
+{
+    printf(" hello bro ");
+
+}
+
+
+o/p - hello bro 

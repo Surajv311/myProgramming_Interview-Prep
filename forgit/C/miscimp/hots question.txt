@@ -1,0 +1,36 @@
+// to find numbers ranging from 1000 to 3000 whose all digits are even 
+
+// write program in c++ 
+#include<iostream>
+using namespace std;
+class A
+{
+public:
+int checkeven();
+};
+int A::checkeven()
+{
+int i , temp ,temp2 ,flag;
+for(i=1000;i<=3000;i++)
+{
+temp2= i ;
+flag=0;
+while(temp2!=0)
+{
+temp = temp2%10 ;
+if(temp%2==0)
+{
+    flag++;
+}
+temp2= temp2/10 ;
+}
+if(flag==4)
+   cout<<i<<endl;
+}
+}
+int main()
+{
+A obj;
+obj.checkeven();
+return 0;
+}

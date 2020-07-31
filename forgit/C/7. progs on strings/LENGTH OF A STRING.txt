@@ -1,0 +1,14 @@
+//LENGTH OF A STRING 
+
+#include <stdio.h>
+#include <string.h> // to include the library of strings
+void main()
+
+{
+   char sar[20]; // sar is string array
+   int len; // len is length of string
+   printf("write your name: \n");
+   gets(sar); // this acts like scanf statement for multi words( %s read only one word)
+    len=strlen(sar); // strlen is string length i.e length integer equals string length
+   printf("the length of your name %s is %d",sar,len);
+}

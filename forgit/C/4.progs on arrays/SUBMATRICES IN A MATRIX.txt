@@ -1,0 +1,15 @@
+// TOTAL SUBMATRICES IN A GIVEN MATRIX
+
+#include <stdio.h>
+void main()
+{
+    int r,c,n;
+    printf("enter the rows and coloumns in matrix\n");
+    printf("rows\n");
+    scanf("%d",&r);
+    printf("coloumns\n");
+    scanf("%d",&c);
+    printf("the total number of submatrices are \n");
+    n= r*c*(r+1)*(c+1)/4;
+    printf("\t: %d",n);
+}

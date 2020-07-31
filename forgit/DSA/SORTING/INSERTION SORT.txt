@@ -1,0 +1,34 @@
+//INSERTION SORT
+//i keeps increasing and j keeps decreasing
+//we take value from unsorted list and insert it in sorted list
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+void main()
+{
+    int n , i , j , temp ;
+       printf("SIZE OF UNSORTED ARRAY\n");
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++)
+    {
+        printf("element:%d->",i);
+        scanf("%d",&arr[i]);
+    }
+    for(i=1;i<n;i++)
+    {
+        temp=arr[i];
+        j=i-1;
+        while(j>=0&&arr[j]>temp)
+        {
+arr[j+1]=arr[j];
+j--;
+        }
+    arr[j+1]=temp;
+        }
+   printf("SORTED ARRAY\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\t",arr[i]);
+    }
+}

@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+#include <conio.h>
+void main()
+{
+    float x,den=1,num,sum=0;
+    int n,i,sign=-1;
+    printf("enter the angle in degrees \n");
+    scanf("%f",&x);
+    printf("enter the value of n\n");
+    scanf("%d",&n);
+    x=x*(3.1415/180);// x is in radian now
+    sum=x;
+    for(i=3;i<=n;i+=2)
+    {
+        num=pow(x,i);// x raise to i
+        den = i*(i-1);
+        sum+=(num/den)*sign;
+sign = sign*(-1);
+ }
+ printf("the answer is %f",sum);
+}

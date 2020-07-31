@@ -1,0 +1,24 @@
+// SUM OF ALL ODD NO. IN A RANGE 
+
+
+#include <stdio.h>
+int sum_evnod(int a, int b); // a is initial and b is final
+int main()
+{
+    int a,b, sum;
+    printf("initial: ");
+    scanf("%d", &a);
+    printf("final: ");
+    scanf("%d", &b);
+
+    printf("Sum of odd numbers between %d to %d = %d\n",a,b, sum_evnod(a,b));
+
+    return 0;
+}
+int sum_evnod(int a, int b)
+{
+    if(a > b)
+        return 0;
+    else
+        return (a + sum_evnod(a+ 2,b));
+}

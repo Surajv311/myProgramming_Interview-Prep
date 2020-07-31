@@ -1,0 +1,25 @@
+// TEMPLATES/GENERICS IN C++ .
+
+ #include <iostream>
+ #include <stdlib.h>
+ #include <string>
+ using namespace std;
+ template<class A > // CLASS IS A USERDEFINED DATATYPE .
+ // 'A' may carry int/float/double ... based on the type of value that is passed
+ // if int passed then A becomes int....
+ A fun_Name(A a , A b)
+ {
+     return a+b;
+ }
+
+ int main()
+ {
+     cout<<"sum is :"<<fun_Name(6,7)<<endl;
+     cout<<"sum is :"<<fun_Name(3.5,8.9)<<endl;
+     cout<<"sum is :"<<fun_Name(3.34f,1.79f)<<endl; // f indicates float automatically 
+
+ }
+
+
+
+

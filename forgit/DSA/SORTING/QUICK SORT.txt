@@ -1,0 +1,73 @@
+// QUICK SORT OR PARTITION EXCHANGE SORT
+// you do partition and then you place pivot element in between
+// array divided into two sub arrays
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+//int partition(int [] , int , int );
+//int quickSort(int [], int , int);
+
+void main()
+{ // you may choose any element as the pivot element
+int n ,i ;
+ printf("SIZE OF UNSORTED ARRAY\n");
+ scanf("%d",&n);
+int arr[n];
+for(i=0 ; i<n ; i++)
+{
+    printf("element:%d->",i);
+    scanf("%d",&arr[i]);
+}
+int lb=0 , ub =n-1;
+quickSort(arr , lb , ub);
+  printf("SORTED ARRAY\n");
+for(i=0 ; i<n ; i++)
+{
+    printf("%d\t",arr[i]);
+}
+
+}
+
+int partition(int arr[],int lb,int ub)
+{
+    int pivot , start , end ,t;
+    pivot = arr[lb];
+    start = lb ;
+    end = ub ;
+    while(start<end) // as if start go outer than end then you see the next code
+    {
+        while(arr[start]<=pivot)
+        {
+            start++;
+        }
+    while(arr[end]>pivot)
+    {
+        end--;
+    }
+
+    if(start<end)
+    {//swap
+        t = arr[start];
+        arr[start]= arr[end];
+        arr[end]=t;
+    }
+    }
+    // hence if the condition not followed then we replace the end with pivot element and return end
+    //swap
+   t =  arr[lb];
+   arr[lb] = arr[end];
+   arr[end] = t ;
+   return end ;
+}
+int quickSort(int arr[] , int lb ,int  ub )
+{
+    int temp ;
+     if(lb<ub)
+     {
+         temp = partition(arr , lb , ub );// as partition function would return end index which would be used further
+        quickSort(arr , lb , temp-1);
+         quickSort(arr ,temp+1, ub);
+
+     }
+}

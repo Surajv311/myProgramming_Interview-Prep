@@ -1,0 +1,38 @@
+// COUNT THE TOTAL VOWELS,CONSONANTS......
+
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char sar[100];
+    int i, v, c, d, s;// v vowels, c consonants , d digits , s spaces
+    v =  c = d= s = 0;
+    printf("input string: ");
+  gets(sar);
+    for(i=0; sar[i]!='\0'; ++i)
+    {
+        if(sar[i]=='a' || sar[i]=='e' || sar[i]=='i' ||
+           sar[i]=='o' || sar[i]=='u' || sar[i]=='A' ||  // || is OR operator
+           sar[i]=='E' || sar[i]=='I' || sar[i]=='O' ||  // use '' for each letter unlike integer 
+           sar[i]=='U')
+        {
+            ++v;  // vowels
+        }
+        else if((sar[i]>='a'&& sar[i]<='z') || (sar[i]>='A'&& sar[i]<='Z'))
+        {
+            ++c;  // consonants
+        }
+        else if(sar[i]>='0' && sar[i]<='9')
+        {
+            ++d;     // digits
+        }
+        else if (sar[i]==' ')
+        {
+            ++s;
+        }
+    }
+    printf("\nvowels: %d",v);
+    printf("\nconsonants: %d",c);
+    printf("\ndigits: %d",d);
+    printf("\nwhite spaces: %d", s);
+}

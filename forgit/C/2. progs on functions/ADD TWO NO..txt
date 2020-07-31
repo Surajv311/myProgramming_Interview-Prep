@@ -1,0 +1,14 @@
+//ADD TWO NO.
+#include <stdio.h>
+void sum (int a, int b);
+void main()
+{
+    int x,y;
+    printf("the numbers are: \n");
+    scanf("%d%d",&x,&y);
+    sum(x,y);
+}
+void sum( int a , int b )
+{
+    printf("the sum is %d", a + b);
+}

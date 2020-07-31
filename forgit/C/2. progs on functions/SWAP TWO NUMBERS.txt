@@ -1,0 +1,53 @@
+// SWAP TWO NUMBERS 
+
+#include <stdio.h> 
+void main() 
+{ 
+    int a,b,t; 
+    printf("the numbers are\n "); 
+    scanf("%d%d",&a,&b); 
+    t=a; 
+    a=b; 
+    b=t; 
+    printf("the swap numbers are %d %d",a,b); 
+ 
+} 
+Or using functions  
+ 
+#include <stdio.h> 
+void swap(int var1,int var2); 
+void main() 
+{ 
+ int a,b; 
+ printf("the value of a , b is \n"); 
+ scanf("%d%d",&a,&b); 
+ swap(a,b); 
+} 
+void swap(int var1,int var2) 
+{ 
+ int t; 
+ t=var1; 
+ var1=var2; 
+ var2=t; 
+ printf("the swap is %d and %d",var1,var2); 
+}  
+OR 
+#include <stdio.h> 
+void swap(int*x,int*y) 
+{ 
+    int temp; 
+    temp=*x; 
+    *x=*y; 
+    *y=temp; 
+} 
+void main() 
+{ 
+int a=100,b= 200; 
+printf("before swapping\n"); 
+swap(&a,&b); 
+printf("after swapping\n"); 
+printf("%d%d",a,b); 
+ 
+} 
+ 
+ 

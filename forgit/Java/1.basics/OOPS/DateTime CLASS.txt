@@ -1,0 +1,25 @@
+package pracjavaproject;
+import java.util.Scanner; 
+import java.util.*;
+import java.time.*;
+import java.time.LocalDate;
+import java.time.LocalTime;
+// YOU MAY USE 
+// LocalDate class 
+// LocalTime class
+// LocalDateTime class 
+
+class Pracname {
+	
+ 
+	public static void main(String[] args) { 
+		
+	LocalDate obj = LocalDate.now();
+	System.out.println(obj);
+	// we use the now() method to use ...
+	LocalTime obj_ = LocalTime.now();
+	System.out.println(obj_);
+
+		}
+	}
+

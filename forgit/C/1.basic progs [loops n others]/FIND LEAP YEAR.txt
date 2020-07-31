@@ -1,0 +1,19 @@
+// FIND LEAP YEAR 
+
+#include <stdio.h> 
+void main() 
+{ 
+int a; 
+printf("let the year be"); 
+scanf("%d",&a); 
+if(a%4==0&&a%400==0) // IMPORTANT CONDITION 
+{ 
+printf("it is a leap year"); 
+} 
+else 
+{ 
+printf("it is not leap year"); 
+} 
+} 
+ 
+ 

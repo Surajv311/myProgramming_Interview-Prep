@@ -1,0 +1,99 @@
+// MERGE SORT
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+void main()
+{
+    int n ,  i;
+    printf("SIZE OF UNSORTED ARRAY\n");
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0 ; i<n ; i++)
+    {
+        printf("element:%d->",i);
+        scanf("%d",&arr[i]);
+    }
+
+
+int lb =0;
+int ub = n-1;
+
+mergeSort(arr,lb, ub);
+printf("SORTED ARRAY\n");
+
+for(i=0 ; i<n ; i++)
+    {
+        printf("%d\t",arr[i]);
+
+    }
+
+}
+int mergeSort(int arr[],int lb, int ub)
+{
+
+    if(lb<ub)
+    {
+        int mid = (lb+ub)/2;
+        mergeSort(arr,lb,mid);
+        mergeSort(arr,mid+1,ub);
+        merge(arr , lb , mid , ub );
+    }
+}
+int merge(int arr[],int  lb , int mid , int ub )
+{
+    int i = lb ;
+   int j = mid+1;
+    int k = lb;
+    int bb = ub+1 ;
+    int b[bb];
+    while(i<=mid && j<=ub )
+    {
+        if(arr[i]<=arr[j])
+{
+    b[k] = arr[i];
+    i++;
+    //k++;
+}
+else
+{
+    b[k] = arr[j];
+    j++ ;
+    //k++ ;
+
+}
+k++;
+    }
+    // now if j has reached the upperbound and i still hasn't  reached or vice versa then :
+    // say i reached beyond its limit
+    if(i>mid)
+    {
+        while(j<=ub)
+        {
+            b[k] = arr[j];
+            j++ ;
+            k++;
+
+        }
+
+    }
+else
+{
+    while(i<= mid )
+    {
+        b[k] = arr[i];
+        i++ ;
+        k++ ;
+
+    }
+}
+for(k=lb; k<=ub ; k++)
+    // Copying values of  ARRAY b TO THE ARRAY arr USING FOR LOOP
+
+    {
+       arr[k] = b[k];
+    }
+
+}
+
+
+

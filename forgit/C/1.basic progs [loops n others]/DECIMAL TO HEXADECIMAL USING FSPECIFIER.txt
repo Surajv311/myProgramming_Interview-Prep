@@ -1,0 +1,10 @@
+// TO CONVERT INPUT DECIMAL NUMBER TO HEXADECIMAL USING FORMAT SPECIFIER 
+
+
+#include <stdio.h>
+void main()
+{
+
+    int x=10  ;
+    printf(" value of x in hexadecimal :%p",x);
+}

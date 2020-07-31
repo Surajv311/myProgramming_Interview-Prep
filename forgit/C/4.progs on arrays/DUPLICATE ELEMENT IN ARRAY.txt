@@ -1,0 +1,27 @@
+// VERIFY IF THERE IS ANY DUPLICATE ELEMENT IN ARRAY 
+
+#include<stdio.h> 
+ void main() 
+ { 
+  int i,arr[20],j,n; 
+  printf("enter size of array: "); 
+  scanf("%d",&n); 
+  printf("enter any %d elements in array: ",n); 
+  for(i=0;i<n;i++) 
+  { 
+   scanf("%d",&arr[i]); 
+  } 
+  printf("duplicate elements are: "); 
+  for(i=0; i<n; i++) 
+   { 
+    for(j=i+1;j<n;j++) 
+    { 
+    if(arr[i]==arr[j]) 
+    { 
+    printf("%d\n",arr[i]); 
+    } 
+   } 
+   } 
+ } 
+ 
+ 

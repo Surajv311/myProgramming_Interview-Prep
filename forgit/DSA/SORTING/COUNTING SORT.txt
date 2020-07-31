@@ -1,0 +1,66 @@
+// COUNTING SORT
+// not a comparison based sort
+// count number of elements having distinct key values
+// should not have negative values to have you must modified the algorithm
+// how many times a particular number is there is the key value
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+void main()
+{
+    int  n, i ;
+printf("SIZE OF UNSORTED ARRAY\n");
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++)
+    {
+        printf("element:%d->",i);
+        scanf("%d",&arr[i]);
+    }
+    // to find the maximum number of the inputs
+     // k is the largest number
+    countSort(arr , n );
+
+
+}
+int countSort(int arr[] , int n )
+{
+    // the maximum value would be of k
+     int k,j;
+     for (j =1 ; j < n; j++)
+        {
+        if (arr[0] < arr[j])
+            arr[0] = arr[j];
+            k = arr[0];
+        }
+    int i ;
+    int b[n];
+    int count[k+1];
+     for(i=0;i<=k+1;i++)
+    {
+         count[i] = 0 ;
+    }
+    for(i=0;i<n;i++)
+    {
+       ++count[arr[i]];
+    }
+    for(i=1 ; i<=k ; i++)
+    {
+        count[i] = count[i] + count[i-1];
+    }
+    for(i=n-1 ; i>=0 ; i--)
+    {
+        b[--count[arr[i]]] = arr[i];
+    }
+     for(i=0;i<n;i++)
+    {
+    arr[i] = b[i];
+    }
+    printf("SORTED ARRAY\n");
+      for(i=0;i<n;i++)
+    {
+        printf("%d\t",arr[i]);
+    }
+
+}

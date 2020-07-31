@@ -1,0 +1,10 @@
+main()
+{
+    int i =4;
+    printf("%d\n",+i--);
+    printf("%d\n",-i--);
+}
+
+
+o/p - 4
+      -3

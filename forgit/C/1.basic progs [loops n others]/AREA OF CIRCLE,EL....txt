@@ -1,0 +1,63 @@
+// FIND AREA OF CIRCLE,ELLIPSE,TRIANGLE,RECTANGLE USING MENU DRIVEN APPROACH
+
+#include <stdio.h> 
+void main() 
+{ 
+ 
+int a; 
+printf("enter 1 - area of circle\n""2-area of triangle\n""3-area of rectangle\n""4-area of ellipse\n"); 
+scanf("%d",&a); 
+switch (a) 
+{ 
+case 1 : 
+{ 
+int a; 
+float b; 
+printf("the value of radius is"); 
+scanf("%d",&a); 
+b=3.14*a; 
+printf("area of circle is  %f",b); 
+break; 
+} 
+case 2: 
+{ 
+float a,b,c; 
+printf("side a"); 
+scanf("%f",&a); 
+printf("side b"); 
+scanf("%f",&b); 
+c=0.5*a*b; 
+printf("the area of triangle is %f",c); 
+break; 
+} 
+case 3 : 
+{ 
+float a,b,c; 
+printf("side a is"); 
+scanf("%f",&a); 
+printf("side b is"); 
+scanf("%f",&b); 
+c=a*b; 
+printf("area of rectangle is %f",c); 
+break; 
+} 
+case 4 : 
+{ 
+float a,b,c; 
+printf("the major axis a "); 
+scanf("%f",&a); 
+printf("the min axis b "); 
+scanf("%f",&b); 
+c=3.14*a*b; 
+printf("the area of ellipse is %f",c); 
+break; 
+} 
+default : 
+{ 
+printf("an error from your side"); 
+break; 
+} 
+} 
+} 
+ 
+ 

@@ -1,0 +1,21 @@
+// ADD TWO NO. WITHOUT USING ARITHMETICAL OPERATORS 
+
+// u may use subtraction instead of addn ( eg. 2-(-3))
+
+
+#include<stdio.h>
+void main()
+{
+    int n1,n2;
+    printf("input numbers are \n");
+    scanf("%d%d",&n1,&n2);
+    // will iterate till theres no carry
+    while (n2)
+        {
+        int carry = n1 & n2; // carry bit obtained by simple AND
+        n1 = n1 ^ n2; // sum by XOR
+        n2 = carry << 1;// performing left shift
+    }
+    printf("the sum is %d\n",n1);
+}
+

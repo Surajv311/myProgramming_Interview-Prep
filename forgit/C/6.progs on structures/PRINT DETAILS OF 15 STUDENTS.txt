@@ -1,0 +1,34 @@
+// PRINT DETAILS OF 15 STUDENTS 
+
+
+#include <stdio.h>
+#include <string.h>
+void main()
+    {
+struct student
+{
+    int rollno;
+char name[50];
+ int age;
+char address[50];
+int marks;
+}
+
+    s[15];{
+
+    for(int i=0;i<15;i++)
+        {
+printf("enter the roll number,name,age,address,marks of student %d\n",i+1);
+scanf("%d%s%d%s%d",&s[i].rollno,s[i].name,&s[i].age,s[i].address,&s[i].marks);
+}
+for(int i=0;i<15;i++)
+    {
+printf("the roll number,name,age,address,marks of student %d\n",i+1);
+printf("%d \n",s[i].rollno);
+printf("%s \n",s[i].name);
+printf("%d \n",s[i].age);
+printf("%s \n",s[i].address);
+printf("%d \n",s[i].marks);
+}
+}
+}

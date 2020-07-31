@@ -1,0 +1,262 @@
+// linked list 
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+struct node
+{
+    int data ;
+    struct node *next;
+
+};
+// we have defined the structure of our node from above
+int main()
+{
+struct node *head , *temp , *newNode;
+head = NULL ; // initialised head as NULL
+int nodes ;
+int initial;
+printf("the number of nodes would be ? \n");
+scanf("%d",&nodes);
+for(initial = 0 ; initial <nodes ; initial++)
+{
+newNode = (struct node*)malloc(sizeof(struct node)); // returns a void pointer so we add struct node*... also we store the void pointer address into our new node
+printf("enter the data\n");
+scanf("%d",&newNode->data);
+newNode->next = NULL ;
+if(head == NULL ) // this would run only once as after this the head would be having the address of the first node
+{
+    head = temp = newNode;
+
+}
+else
+{
+temp->next = newNode ; // this would fill the next part of the node with the address of the next node
+temp = newNode; // now temp would shift to the latest node
+}
+}
+// now to display the linked list
+temp = head ; // we need to traverse the temp from beginning hence we sue head
+while(temp!=NULL)
+{
+    printf("(ADDRESS)%d -> %d(DATA)\n",temp ,temp->data);
+    temp = temp->next; // so that our temp moves as *next would store the address of the next node
+}
+}
+
+
+
+
+
+
+/*
+ * Functions to create and display list
+ */
+void createList(int n);
+void traverseList();
+
+
+int main()
+{
+    int n;
+
+    printf("Enter the total number of nodes: ");
+    scanf("%d", &n);
+
+    createList(n);
+
+    printf("\nData in the list \n");
+    traverseList();
+
+    return 0;
+}
+
+/*
+ * Create a list of n nodes
+ */
+void createList(int n)
+{
+    struct node *newNode, *temp;
+    int data, i;
+
+    head = (struct node *)malloc(sizeof(struct node));
+
+    // Terminate if memory not allocated
+    if(head == NULL)
+    {
+        printf("Unable to allocate memory.");
+        exit(0);
+    }
+
+
+    // Input data of node from the user
+    printf("Enter the data of node 1: ");
+    scanf("%d", &data);
+
+    head->data = data; // Link data field with data
+    head->next = NULL; // Link address field to NULL
+
+
+    // Create n - 1 nodes and add to list
+    temp = head;
+    for(i=2; i<=n; i++)
+    {
+        newNode = (struct node *)malloc(sizeof(struct node));
+
+        /* If memory is not allocated for newNode */
+        if(newNode == NULL)
+        {
+            printf("Unable to allocate memory.");
+            break;
+        }
+
+        printf("Enter the data of node %d: ", i);
+        scanf("%d", &data);
+
+        newNode->data = data; // Link data field of newNode
+        newNode->next = NULL; // Make sure new node points to NULL
+
+        temp->next = newNode; // Link previous node with newNode
+        temp = temp->next;    // Make current node as previous node
+    }
+}
+
+
+/*
+ * Display entire list
+ */
+void traverseList()
+{
+    struct node *temp;
+
+    // Return if list is empty
+    if(head == NULL)
+    {
+        printf("List is empty.");
+        return;
+    }
+
+    temp = head;
+    while(temp != NULL)
+    {
+        printf("Data = %d\n", temp->data); // Print data of current node
+        temp = temp->next;                 // Move to next node
+    }
+}
+
+/*
+**
+ * C program to create and traverse a Linked List
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Structure of a node */
+struct node {
+    int data;          // Data 
+    struct node *next; // Address 
+}*head;
+
+
+/* 
+ * Functions to create and display list
+ */
+void createList(int n);
+void traverseList();
+
+
+int main()
+{
+    int n;
+
+    printf("Enter the total number of nodes: ");
+    scanf("%d", &n);
+
+    createList(n);
+
+    printf("\nData in the list \n");
+    traverseList();
+
+    return 0;
+}
+
+/*
+ * Create a list of n nodes
+ */
+void createList(int n)
+{
+    struct node *newNode, *temp;
+    int data, i;
+
+    head = (struct node *)malloc(sizeof(struct node));
+
+    // Terminate if memory not allocated
+    if(head == NULL)
+    {
+        printf("Unable to allocate memory.");
+        exit(0);
+    }
+
+
+    // Input data of node from the user
+    printf("Enter the data of node 1: ");
+    scanf("%d", &data);
+
+    head->data = data; // Link data field with data
+    head->next = NULL; // Link address field to NULL
+
+
+    // Create n - 1 nodes and add to list
+    temp = head;
+    for(i=2; i<=n; i++)
+    {
+        newNode = (struct node *)malloc(sizeof(struct node));
+
+        /* If memory is not allocated for newNode */
+        if(newNode == NULL)
+        {
+            printf("Unable to allocate memory.");
+            break;
+        }
+
+        printf("Enter the data of node %d: ", i);
+        scanf("%d", &data);
+
+        newNode->data = data; // Link data field of newNode
+        newNode->next = NULL; // Make sure new node points to NULL 
+
+        temp->next = newNode; // Link previous node with newNode
+        temp = temp->next;    // Make current node as previous node
+    }
+}
+
+
+/*
+ * Display entire list
+ */
+void traverseList()
+{
+    struct node *temp;
+
+    // Return if list is empty 
+    if(head == NULL)
+    {
+        printf("List is empty.");
+        return;
+    }
+    
+    temp = head;
+    while(temp != NULL)
+    {
+        printf("Data = %d\n", temp->data); // Print data of current node
+        temp = temp->next;                 // Move to next node
+    }
+}
+*/
+
+
+
+
+
+

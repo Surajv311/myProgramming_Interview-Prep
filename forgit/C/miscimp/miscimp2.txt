@@ -1,0 +1,106 @@
+int main()
+{
+   printf("hi123");
+    return 0;
+}
+
+even for this i am getting the ouptput but with a warning 
+
+#include <stdio.h>
+int main()
+{
+   printf("hi123");
+    return 234;
+}
+even for this i am getting the output without any error
+
+#include <stdio.h>
+int main()
+{
+   printf("hi123");;;;;
+    return 0;
+}
+
+even for this i am getting an output without any error
+
+
+#include <stdio.h>
+int main()
+{
+    int int a=2;
+
+   printf("value is %d",a);
+    return 0;
+}
+
+we get an error as two or more datatypes in declaration syntax
+
+
+#include <stdio.h>
+int main()
+{
+   printf(""hi"");
+    return 0;
+}
+
+we get an error in it
+
+
+#include <stdio.h>
+void main()
+ {
+      int a=10, b=2;
+      int s= (a>b)?a:b;
+      printf("value is %d",s);
+       }
+
+here exp1 ? exp2 :exp3 Here  exp1 is first evaluated.
+It is true then value return will be exp2 .
+If false then exp3. 
+
+we can use a switch case inside switch case - nested switch case
+syntax:
+switch(c1) {
+case 'A': 
+printf("outer switch" );
+switch(ch2) {
+case 'A':
+printf("inner switch" );
+break;
+case 'B': /* case code */
+      }
+break;
+case 'B': /* case code */
+}
+
+
+#include <stdio.h>
+void main()
+{
+
+    int a[7];
+    printf("%d",a[2]);
+
+}
+
+gives garbage value  of 4200718
+
+#include <stdio.h>
+void main()
+{
+
+    int a[7][3];
+    printf("%d",a[2]);
+
+}
+
+also gives garbage value
+
+
+#include <stdio.h>
+void main()
+{
+
+}
+ o/p - gives blank screen
+

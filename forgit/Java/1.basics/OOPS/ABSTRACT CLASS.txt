@@ -1,0 +1,38 @@
+package pracjavaproject;
+import java.util.Scanner; 
+import java.util.*;
+
+// abstract class is a restricted class that cannot be used to create objects 
+// to create the objects we must inherit it 
+// we use abstract class for security reasons 
+// we do not have body in the method used in abstract class 
+abstract class AbstractC
+{
+	public void fun();
+	 void print()
+		{
+			System.out.println("in child");
+		}
+	
+}
+
+class Child extends AbstractC
+{
+	
+	public void fun()
+	{
+		System.out.println("abstract");
+	}
+}
+class Pracname {
+	
+ 
+	public static void main(String[] args) { 
+		// since Child inherits AbstractC hence we use Child object to use functions in AbstractC
+	
+		Child obj = new Child();
+		obj.fun();
+		obj.print();
+	}
+	}
+

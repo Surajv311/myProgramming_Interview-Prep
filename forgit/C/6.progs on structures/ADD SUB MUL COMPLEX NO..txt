@@ -1,0 +1,32 @@
+// PROGRAM TO ADD,SUBTRACT,MULTIPLY COMPLEX NO.
+
+#include<stdio.h>
+int main(){
+struct num{
+    int real;
+int imaginary;
+}
+n1,n2;
+printf("enter the real and imaginary part of the 1 number");
+scanf("%d %d",&n1.real,&n1.imaginary);
+printf("enter the real and imaginary part of the 2 number");
+scanf("%d %d",&n2.real,&n2.imaginary);
+int sumr,sumi;
+ int subr,subi;
+ int mulr,muli;
+
+sumr =n1.real +n2.real;
+sumi=n1.imaginary+n2.imaginary;
+
+subr =n1.real -n2.real;
+ subi=n1.imaginary-n2.imaginary;
+
+mulr = n1.real*n2.real - n1.imaginary*n2.imaginary;
+ muli = n1.real*n2.imaginary + n2.real*n1.imaginary;
+
+printf("complex number 1 >>> %d + %di\n",n1.real,n1.imaginary);
+ printf("complex number 2 >>> %d + %di\n",n2.real,n2.imaginary);
+  printf("sum of complex numbers >>> %d + %di\n",sumr,sumi);
+  printf("subtraction of complex numbers >>> %d + %di\n",subr,subi);
+  printf("multiplication of complex number >>> %d + %di\n",mulr,muli);
+}

@@ -1,0 +1,150 @@
+//STACK USING ARRAY 
+// <shift> + f11 = to enter full screen mode
+/*#include <stdio.h>
+#include <stdlib.h>
+#define max 3
+int top = -1 , stack[max]; // hence array has been defined as stack[3]
+void push(); // TO PUSH ELEMENT INTO THE STACK
+void pop(); // TO POP OUT THE TOPMOST ELEMENT IN STACK
+void display(); // TO DISPLAY THE STACK
+int main()  // STACK FOLLOWS 'LAST IN FIRST OUT:LIFO ' PRINCIPLE
+{
+    int variable;
+    while(1)
+    {
+
+        printf("1.push 2.pop 3.display 4.exit \n");
+        printf("please enter your choice ! \n");
+        scanf("%d",&variable);
+        switch(variable)
+        {
+
+        case 1: push();
+        break;
+        case 2:pop();
+        break;
+        case 3: display();
+        break;
+        case 4:exit(0);
+        default:printf("please re-enter your choice!\n");
+        }
+    }
+}
+void push()
+{
+    int variable1;
+    if(top == max-1)
+    {
+        printf("STACK IS FULL\n");
+    }
+else
+{
+    printf("enter an element\n");
+    scanf("%d",&variable1);
+    top=top+1;
+    stack[top]=variable1;
+}
+}
+void pop()
+{
+    if(top == -1)
+    {
+        printf("STACK IS EMPTY\n");
+
+    }
+
+else
+{
+    printf("deleted element is : %d\n",stack[top]);
+
+top = top-1;
+}
+}
+void display()
+{
+    int variable2;
+    if(top==-1)
+        printf("EMPTY\n");
+    else
+    {
+        printf("Stack is : \n");
+        for(variable2=top;variable2>=0;variable2--)
+            {
+            printf("%d\n",stack[variable2]);
+    }
+}
+}
+*/
+// STACK USING LINKED LIST 
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+
+struct Node
+{
+   int data;
+   struct Node *next;
+}*top = NULL;
+
+void push(int);
+void pop();
+void display();
+
+void main()
+{
+   int choice, value;
+
+   printf("\n:: Stack using Linked List ::\n");
+   while(1){
+      printf("\n****** MENU ******\n");
+      printf("1. Push\n2. Pop\n3. Display\n4. Exit\n");
+      printf("Enter your choice: ");
+      scanf("%d",&choice);
+      switch(choice){
+	 case 1: printf("Enter the value to be insert: ");
+		 scanf("%d", &value);
+		 push(value);
+		 break;
+	 case 2: pop(); break;
+	 case 3: display(); break;
+	 case 4: exit(0);
+	 default: printf("\nWrong selection!!! Please try again!!!\n");
+      }
+   }
+}
+void push(int value)
+{
+   struct Node *newNode;
+   newNode = (struct Node*)malloc(sizeof(struct Node));
+   newNode->data = value;
+   if(top == NULL)
+      newNode->next = NULL;
+   else
+      newNode->next = top;
+   top = newNode;
+   printf("\nInsertion is Success!!!\n");
+}
+void pop()
+{
+   if(top == NULL)
+      printf("\nStack is Empty!!!\n");
+   else{
+      struct Node *temp = top;
+      printf("\nDeleted element: %d", temp->data);
+      top = temp->next;
+      free(temp);
+   }
+}
+void display()
+{
+   if(top == NULL)
+      printf("\nStack is Empty!!!\n");
+   else{
+      struct Node *temp = top;
+      while(temp->next != NULL){
+	 printf("%d\n",temp->data);
+	 temp = temp -> next;
+      }
+      printf("%d\nNULL",temp->data);
+   }
+}

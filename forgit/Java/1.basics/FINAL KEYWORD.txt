@@ -1,0 +1,20 @@
+package pracjavaproject;
+import java.util.Scanner;
+public class Pracname {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+// we use final keyword if we do not want to override a value with other 
+	  /*  int a = 5 ; 
+		 a = 10 ;
+		System.out.println(a);
+		
+		*we get value of a as 10 (if you add int then error) 
+		*we use final keyword to avoid overwriting of a variable 
+		*/
+		final int a = 5 ; 
+		 //a = 10 ;
+		System.out.println(a);
+	}
+
+}

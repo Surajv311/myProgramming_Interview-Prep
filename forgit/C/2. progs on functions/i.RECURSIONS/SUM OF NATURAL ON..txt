@@ -1,0 +1,27 @@
+// SUM OF NATURAL  NO. TILL n
+
+#include<stdio.h>
+int sumofall(int);
+int main()
+{
+   int a;
+   int sum;
+	printf("sum of all numbers ranging  from 1 to n\n ");
+   printf(" nth number is ");
+   scanf("%d",&a);
+    sum = sumofall(a);
+   printf("The sum of numbers from 1 to %d is %d\n",a, sum);
+    return (0);
+}
+int sumofall(int a)
+{
+   int r;
+   if (a==1)
+   {
+      return (1);
+   } else
+   {
+      r = a + sumofall(a - 1);
+   }
+   return (r);
+}

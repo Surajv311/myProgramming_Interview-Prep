@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+//overloading << operator
+ class Account
+ {
+int balance;
+public:
+Account();
+Account(int);
+friend ostream& operator << (ostream &, Account &);
+};
+Account::Account()
+{
+         this->balance = 0;
+}
+Account::Account(int balance)
+{
+         this->balance = balance;
+}
+ostream& operator<<(ostream &mycout, Account &a)
+{
+    mycout<<" Balance => " <<a.balance;
+}
+
+int main()
+ {
+Account balu(567),ant;
+//Account class have only one private property
+//balance(int)
+//Also default and parameterized constructor
+cout<<balu;
+//Two objects trying to call 1 function
+//i.e., the object of one class is trying to call the private
+//member << of another class cout
+//cout is an object of ostream
+//balu is an object of Account
+//Both trying to call the function <<
+//Not allowed unless it is defined as friend …??? FRIEND ???
+cout<<ant;
+}

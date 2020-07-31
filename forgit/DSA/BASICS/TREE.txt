@@ -1,0 +1,101 @@
+//Complete C program to implement Tree
+#include <stdio.h>
+#include <stdlib.h>
+struct node {
+    int data;
+    struct node* left;
+    struct node* right;
+};
+struct node* createNode(value){
+    struct node* newNode = malloc(sizeof(struct node));
+    newNode->data = value;
+    newNode->left = NULL;
+    newNode->right = NULL;
+    return newNode;
+}
+struct node* insertLeft(struct node *root, int value) {
+    root->left = createNode(value);
+    return root->left;
+} 
+struct node* insertRight(struct node *root, int value){
+    root->right = createNode(value);
+    return root->right;
+}
+int main(){
+    struct node *root = createNode(1);
+    insertLeft(root, 2);
+    insertRight(root, 3);
+    
+    printf("The elements of tree are %d %d %d", root->data, root->left->data, root->right->data);
+}
+
+// code for binary tree
+/*
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+struct node
+{
+    int data ;
+    struct node *left ,*right;
+
+};
+struct node*create() // as we want it to return address
+{ int x ;
+    struct node *newnode;
+    newnode = (struct node*)malloc(sizeof(struct node));
+printf("enter data -1 for no node\n");
+scanf("%d",&x);
+if(x==-1)
+{
+    return 0 ;
+}
+newnode->data = x ;
+printf("enter left child %d",x);
+newnode->left = create();
+printf("enter the right child %d",x);
+newnode->right = create();
+return newnode;
+
+
+
+
+};
+ void main()
+ {
+     struct node * root ;
+     root = 0 ;
+     root = create();
+
+ }
+// now to traverse inorder preorder postorder
+
+/* for preorder
+ void main()
+ {
+     struct node *root ;
+     printf("preorer is \n");
+     preorder(root);
+ }
+ void preorder(struct node*root)
+ {
+     if(root==0)
+     {
+     return ;
+     }
+     printf("%d",root->data);
+     preorder(root->left);
+     preorder(root->right);
+
+     // for inorder
+     void inorder(struct node *root)
+     {
+     if(root=0)
+     {return 0 ;
+     }
+     inorder(root->left);
+     printf("%d",root->data);
+     inorder(root->right);
+
+ }
+*/

@@ -1,0 +1,22 @@
+// SOLVE 1!/1+2!/2+.......
+
+
+#include <stdio.h> 
+void main() 
+{ 
+    int i,j,n,s=0,f; 
+    printf("Enter the number of terms: "); 
+    scanf("%d",&n); 
+    for(i=1;i<=n;i++) 
+    { 
+        f=1; 
+        for(j=1;j<=i;j++) 
+        { 
+            f=f*j; 
+        } 
+        s=s+f/i; 
+    } 
+    printf("The value of the series is %d",s); 
+} 
+ 
+ 

@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+#include <algorithm>
+using namespace std;
+void selection_sort(int arr[], int n ) {
+
+// now we have to sort the array
+	int i , j ;
+	for (i = 0; i < n; i++) {
+		int minIndex = i ;
+		for (j = i; j < n; j++) {
+			if (arr[minIndex] > arr[j]) {
+				minIndex = j ;
+			}
+			swap(arr[minIndex], arr[i]);
+		}
+	}
+}
+
+void display(int arr[], int n) {
+	for (int i = 0; i < n; i++) {
+		cout << arr[i] << " ";
+	}
+}
+int main()
+{
+
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+	int n ;
+// size of array
+	cin >> n ;
+	int arr[n];
+	int i;
+	for (i = 0; i < n; i++) {
+		cin >> arr[i];
+	}
+
+	selection_sort(arr, n);
+	display(arr, n);
+}

@@ -1,0 +1,13 @@
+//INITIAL VALUE OF STATIC 
+
+#include<stdio.h>
+ void main()
+{
+    static i;
+ printf("%d",i);
+}
+ 
+o/p = 0
+
+if %f used then : 0.00000
+if %c used then : (blank screen )

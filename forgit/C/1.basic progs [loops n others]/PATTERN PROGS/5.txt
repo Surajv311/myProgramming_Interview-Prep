@@ -1,0 +1,37 @@
+
+
+
+main()
+{
+   int i,j;
+
+    for(i=0;i<3;i++)
+    {
+
+        for(j=0;j<i+3;j++)
+    {
+        if(j<i)
+    {
+        printf(" ");
+    }
+    else if (i==1&&j==2)
+    {
+        printf(" ");
+    }
+else
+{
+    printf("*");
+}
+
+    }
+    printf("\n");
+    }
+}
+
+
+
+o/p = 
+***
+ * *
+  ***
+  

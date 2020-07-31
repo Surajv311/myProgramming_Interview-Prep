@@ -1,0 +1,15 @@
+// USE ESCAPE SEQUENCES 
+
+
+#include<stdio.h>
+void main()
+{
+printf("hi\n\n" ); // \n gives new line
+printf("this is my \t\tfirst program\n");// \t gives tab spacing
+printf( " i \v\vlike c\n"); // \v is vertical tab
+printf("\'i am a college student\'\n");// \'...
+printf("\"code blocks is a good \"compiler\n");// \"...
+printf("do you believe it \?\n\a"); // \a gives a beep sound when command executes
+printf("i believe\n  \r \t in it \n");/* \r is carriage return - it moves cursor to beginning of line
+                                         without advancing to the next line */
+}

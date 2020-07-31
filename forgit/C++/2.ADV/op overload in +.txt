@@ -1,0 +1,64 @@
+//+ is a binary operator 
+// class is  a user defined datatype
+//+ - ... work only on predefined datatypes and not user defined datatypes like obj , class s........
+// overloading operator means the operator is doing multiple jobs (polymorphism)
+#include <iostream>
+#include <stdlib.h>
+#include <string>
+using namespace std  ;
+class Op_ovrload  // consider a set having two elements
+{
+    int numberA;
+    int numberB ;
+public :
+   int inputNum()
+    {
+       cin >> numberA >> numberB ;
+    }
+int displayInput()
+{
+    cout << "input set from obj are: "<< numberA << " and " <<numberB<<"\n";
+}
+int displayOutput()
+{
+    cout << "output set from obj are: "<< numberA << " and " <<numberB<<"\n";
+}
+
+
+
+//IMPORTANT COMMENT : NOTE
+
+/*Op_ovrload addTheSet(Op_ovrload tempObj)
+{
+    Op_ovrload takeT_Obj ;
+    takeT_Obj.numberA = numberA + tempObj.numberA;
+    takeT_Obj.numberB = numberB + tempObj.numberB;
+    return takeT_Obj;
+}*/
+
+
+
+
+Op_ovrload operator + (Op_ovrload tempObj) // hence you can see the difference between previous function(in comments) and this function
+/*SINCE AN int fun() RETURNS AN INTEGER class fun() CAN BE USED TO RETURN AN OBJECT . THEN THE COMPONENTS IN THIS OBJECT IS USED TO SUBSTITUTE TO OTHER OBJECT IN main()*/
+{ // tempObj is loaded as objB
+    Op_ovrload takeT_Obj ;
+    takeT_Obj.numberA                      =                     numberA                     + tempObj.numberA
+    /*numberA of takeT_Obj is considered via '.'*/  /*numberA of objA is considered*/ /*numberA of tempObj is considered*/;
+    takeT_Obj.numberB = numberB + tempObj.numberB;
+    return takeT_Obj;
+}
+};
+int main()
+{
+    Op_ovrload objA ,objB , objC ;
+    // we would load values in objA and objB
+    objA.inputNum();
+    objB.inputNum();
+    objA.displayInput();
+    objB.displayInput();
+   // objC = objA.addTheSet(objB);
+    objC = objA + objB;
+    objC.displayOutput();
+}
+

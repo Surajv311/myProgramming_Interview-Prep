@@ -1,0 +1,11 @@
+// STRING LOWER TO UPPER CONVERT 
+
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+char sar[100];
+    printf("enter the input text \n");
+    gets(sar);
+    printf("the upper cased text is >>> %s\n",strupr(sar));
+}

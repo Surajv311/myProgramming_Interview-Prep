@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class HumanBeing       // name of class is Human Being
+{                      // First letters are capital
+public:                //public - Means the variables we define in the class is accessible globally
+string name; // we have created a string in the class
+void fun_introduce()  // we have also created a function in the class
+{
+    cout<<"My name is :"<< name ;// I will input the name using this string operator . Since c++ so i don't need scanf or %c usage .
+}
+}; // Now we have ended the class
+
+int main()
+{
+HumanBeing suraj; // we have created an object 'suraj' of this HumanBeing class.
+suraj.name = "SURAJ" ;  // now the object is accessing a member of a class .IT IS ACCESSING THE NAME I.E STRING NAME
+suraj.fun_introduce(); // WE HAVE ACCESSED THE FUNCTION HERE AND HENCE THE FUNCTION IS CALLED AND READ.
+return 0;
+}

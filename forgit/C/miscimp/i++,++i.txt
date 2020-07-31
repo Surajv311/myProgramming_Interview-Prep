@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+int i=5;
+printf("%d",++i);
+}
+o/p - 6
+
+#include <stdio.h>
+void main()
+{
+int i=5;
+printf("%d",i++);
+}
+o/p - 5 as i++ gets value of 5 and i get the value of 4

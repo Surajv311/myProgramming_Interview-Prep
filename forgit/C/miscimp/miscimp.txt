@@ -1,0 +1,45 @@
+#include <stdio.h>
+void main()
+
+{
+   int a;
+   a=(1,2,7,4);
+   printf("%d",a);
+}
+                     o/p is 4 as the rightmost number is given most preference
+
+if brackets
+i.e  are removed         then leftmost number is given most preference
+#include <stdio.h>
+void main()
+
+{
+   int a;
+   a=1,2,7,4;
+   printf("%d",a);
+}
+                           o/p is 1
+
+
+
+#include <stdio.h>
+void main()
+
+{
+   int a=1,b=2,c=3;
+   c=a==b;
+   printf("%d",c);    
+
+}
+                          o/p is 0 as the statement is false
+
+
+#include <stdio.h>
+void main()
+
+{
+  printf("hi");;;;
+}                           it is a valid statement and the o/p be hi only
+
+
+

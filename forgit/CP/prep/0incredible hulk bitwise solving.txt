@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+using namespace std;
+int setBits(int num)
+{
+	int count = 0;
+	while (num > 0)
+	{
+
+		count = count + ( num & 1 );
+		num = num >> 1 ; // to say that num left shifts once
+	}
+	return count ;
+}
+//METHOD2 - FASTER THAN METHOD1
+/*int setBitsFast(int num)
+{
+	int count = 0 ;
+	while(num>0)
+	{
+		num = (num & num-1);
+		count++;
+	}
+	return count ;
+}*/
+// METHOD3 - USE BUILT IN FUNCTION
+int main()
+{
+
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+
+	// set bits count
+
+	int n ;
+	cin >> n ;
+	cout << setBits(n) ;
+	//cout<< setBitsFast(n);
+	//cout << __builtin_popcount(n);
+
+}

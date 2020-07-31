@@ -1,0 +1,21 @@
+// COUNT WORDS IN A STRING 
+
+
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+
+    int i,tw=1; // tw is total words 
+    char sar[100];
+    printf("enter the text\n");
+    gets(sar);
+    for(i=0;sar[i]!='\0';i++)  // \0 character shows the termination of a string
+    {
+        if(sar[i]=='\n'||sar[i]=='\t'||sar[i]==' ')  // || means OR 
+        {
+            tw++;
+        }
+    }
+    printf("total words in the string '%s' are '%d'",sar,tw);
+}

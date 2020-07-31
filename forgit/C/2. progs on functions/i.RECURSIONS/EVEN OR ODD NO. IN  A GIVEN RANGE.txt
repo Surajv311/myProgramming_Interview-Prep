@@ -1,0 +1,22 @@
+// EVEN OR ODD NO. IN  A GIVEN RANGE 
+
+#include <stdio.h>
+void evnod(int x , int limit);
+int main()
+{
+    int llimit, ulimit;
+    printf("Enter lower limit: ");
+    scanf("%d", &llimit);
+    printf("Enter upper limit: ");
+    scanf("%d", &ulimit);
+    printf("odd numbers from %d to %d are: ,(rest are even) ", llimit, ulimit);
+    evnod(llimit, ulimit);
+    return 0;
+}
+void evnod(int x, int limit)
+{
+    if(x > limit)
+        return;
+    printf("%d\n",x);
+    evnod(x + 2, limit);
+}

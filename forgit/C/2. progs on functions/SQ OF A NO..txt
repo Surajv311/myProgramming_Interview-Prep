@@ -1,0 +1,30 @@
+
+// SQUARE OF A NUMBER 
+#include <stdio.h> 
+void main() 
+{ 
+    int a; 
+    printf("the given number is"); 
+    scanf("%d",&a); 
+    printf("the square of number is %d",a*a); 
+} 
+
+
+OR USING FUNCTIONS 
+
+
+#include<stdio.h> 
+void square(int var1); /*function declaring*/ 
+void main() 
+{ 
+int n; 
+printf("enter your number-"); 
+scanf("%d",&n); 
+square(n);  /*Call function*/ 
+} 
+void square(int var1) /*function declaration*/ 
+{ 
+ int square; 
+ square = var1*var1; 
+ printf("the square of number is %d",square); 
+} 

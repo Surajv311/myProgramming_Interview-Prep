@@ -1,0 +1,29 @@
+// ADDING TWO 1D ARRAY 
+
+#include <stdio.h>
+int main()
+{
+ int j,k,a[3],b[3],c[3];
+ printf("Enter the elements in two matrices are : \n");
+ for(j=0;j<3;j++)
+{
+    printf("the elements in matrix b [%d] are ",j);
+    scanf("%d",&b[j]);
+
+}
+for(j=0;j<3;j++)
+{
+    printf("the elements in matrix a [%d] are ",j);
+    scanf("%d",&a[j]);
+
+}
+printf("\nthe result matrix is ");
+for(k=0;k<3;k++)
+{
+    c[k]=a[k]+b[k];
+    printf("%d ",c[k]);
+}
+return 0;
+}
+
+

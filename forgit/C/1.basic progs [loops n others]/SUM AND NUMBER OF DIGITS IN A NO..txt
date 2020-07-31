@@ -1,0 +1,16 @@
+// FIND SUM AND NUMBER OF DIGITS IN A NO.
+
+#include <stdio.h> 
+void main() 
+{ 
+int a , sum=0,i; 
+printf("Enter number a to find sum of its digits "); 
+scanf("%d",&a); 
+for(i=0;a!=0;i++) 
+{ 
+sum += a % 10; 
+a = a / 10; 
+} 
+printf("Sum of digits = %d", sum); 
+printf("the number of digits = %d\n", i); 
+} 

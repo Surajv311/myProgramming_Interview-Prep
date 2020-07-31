@@ -1,0 +1,22 @@
+// SOLVE 1/2+2/5+3/5.........
+
+
+#include <stdio.h> 
+void main() 
+{ 
+    int i,a; 
+    float c=1.0,d=1.0,n=1.0,s=0.0,f; 
+    printf("Enter the number of terms: "); 
+    scanf("%d",&a); 
+    for(i=1;i<=a;i++) 
+    { 
+        d=d+c; 
+        f=n/d; 
+        s=s+f; 
+        c=c+2.0; 
+        n=n+1.0; 
+    } 
+    printf("The value of the series is %f",s); 
+} 
+ 
+ 

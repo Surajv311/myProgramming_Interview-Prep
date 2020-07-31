@@ -1,0 +1,24 @@
+// 1D ARRAY 
+
+
+#include <stdio.h>
+void main()
+{
+ int i,a[5];
+ printf("enter the values");
+ for (i=0;i<5;i++)
+ {
+printf(" elements are a[%d]",i);     
+scanf("%d",&a[i]);
+
+ }
+for (i=0;i<5;i++)
+{
+    printf("%d\t",a[i]);/* here \t is making a gap between each integer
+    because of %d we don't have to write \t 5 times to make a gap
+    as its already in a loop*/
+
+}
+}
+/* you may even write as int a[] ={'1','2','3'} and........
+or as a[3]={'1','2','3'}..........*/

@@ -1,0 +1,29 @@
+// PROGRAM TO COMPARE TWO DATES INPUT BY THE USER 
+
+
+#include<stdio.h>
+int main(){
+struct date{
+     int day;
+ int month;
+  int year
+}
+d1,d2;
+printf("enter day, month,year of first date");
+ scanf("%d %d %d",&d1.day,&d1.month,&d1.year);
+ printf("enter day, month,year of second date");
+ scanf("%d %d %d",&d2.day,&d2.month,&d2.year);
+  int f =0;
+if(d1.day == d2.day){ if(d1.month == d2.month){
+if(d1.year == d2.year){ printf("dates are equal");
+}
+else f =1;
+}
+else f =1;
+}
+else f =1;
+
+if(f ==1){
+printf("The dates are not equal");
+}
+}

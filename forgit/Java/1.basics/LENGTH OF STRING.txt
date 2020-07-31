@@ -1,0 +1,9 @@
+package domain;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+    String misc = "jioewjojfiew";
+        System.out.println(misc.length());
+    }
+// length is 12 

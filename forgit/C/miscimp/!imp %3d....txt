@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int a  = 5 ;
+    printf("%4d",a);
+
+    return 0;
+}
+// here %4d means print an integer which takes atleast 4 spaces in the blank screen 

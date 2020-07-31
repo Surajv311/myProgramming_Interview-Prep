@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+int gcdByEuclidAlgorithm(int a_ , int b_)
+{
+	return b_ == 0 ? a_ : gcdByEuclidAlgorithm(b_, a_ % b_) ;
+	// means if b_==0 return a_ else return...
+	//IF YOU WANT TO FIND LCM THEN : GCD*LCM = A*B
+}
+
+int main()
+{
+
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+
+	int a, b ;
+	cin >> a >> b ;
+	cout << gcdByEuclidAlgorithm(a, b) ;
+//IF YOU WANT TO FIND LCM THEN : GCD*LCM = A*B
+}

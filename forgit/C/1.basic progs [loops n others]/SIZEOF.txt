@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+int main()
+{
+int a ;
+
+    a = sizeof(int);
+     printf(" %d",a);
+    return 0 ;
+}
+// we get 4 bytes 

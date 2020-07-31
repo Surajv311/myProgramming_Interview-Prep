@@ -1,0 +1,30 @@
+
+// GIVE INPUT OF 5 STUDENTS AND PRINT THE DETAILS OF STUDENT WITH ROLL NO. 2 
+
+
+
+
+#include<stdio.h> 
+int main(){ 
+struct student{ 
+int rollno; 
+char name[50]; 
+int age; 
+} 
+s[5]; 
+for(int i=0;i<5;i++) 
+    { 
+printf("enter the roll number, name and age of student %d\n",i+1); 
+scanf("%d",&s[i].rollno); 
+scanf("%s",s[i].name); 
+scanf("%d",&s[i].age); 
+} 
+for(int i=0;i<5;i++) 
+    { 
+        if(s[i].rollno == 2) 
+        { 
+printf("the name of the student is %s\n",s[i].name); 
+printf("the age of the student is %d\n",s[i].age); 
+} 
+} 
+} 

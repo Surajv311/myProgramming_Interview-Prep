@@ -1,0 +1,119 @@
+//VIRTUAL CLASS INHERITANCE FOR DIAMOND PROBLEM [OR] DISINHERITANCE [OR] HYBRID INHERITANCE
+/*DISINHERITANCE*/
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+using namespace std;
+/*class A // parent class
+{
+public :
+    int a;
+    void f1()
+    {
+        cout<<"f1 called...class A\n";
+    }
+};
+class B1:public A
+{
+public :
+    int b1;
+    void f2()
+    {
+        cout<<"f2 called...class B1\n";
+    }
+};
+class B2:public A
+{
+public :
+    int b2;
+    void f3()
+    {
+        cout<<"f3 called...class B2\n";
+    }
+};
+class C:public B1 , public B2
+{
+public :
+    int c ;
+    void f4()
+    {
+        cout<<"f4 called...class C\n";
+    }
+
+};
+int main()
+{
+    C obj;// here obj of class C would be carrying more space than expected as it has inherited the properties of A twice via B1 and B2
+    cout<<"Object size is :" <<sizeof(obj)<<endl;
+    //obj.a = 7 ;
+    //cout<<obj.a; // since two a's would be there because of inheritance so there would be error saying ambiguity
+    obj.f4(); // since caller obj in 'C' class so it search for f4() in it and when found then call  : early binding
+    // IF FUNCTION NOT FOUND THEN IT WOULD GO TO ITS PARENT CLASS
+    obj.f3(); // here obj search in 'C' class first(as obj is of class C) then it would go to class 'B1' as
+    // during declaration we wrote -> class C:public B1 , public B2
+    //IN ABOVE f3() IN CLASS B2 , BUT AFTER PASSING FROM B1 IT WOULD GO TO PARENT CLASS A
+    //IF NOT FOUND IN PARENT CLASS THEN IT TRACES BACK  IT STEPS AND THEN FOLLOWS THE SAME TO THEN GO TO CLASS B2
+    obj.f2();
+    obj.f1();// WE KNOW THAT COMPILER HAS REACHED THE SAME PARENT CLASS TWICE BUT COMPILER DOESN'T THINK LIKE THAT
+
+
+    //NOW TO SOLVE THE DIAMOND PROBLEM: IF A CLASS IS CREATING AMBIGUITY THEN WHEN YOU DO INHERITANCE TO ITS ALL ***CHILD CLASSES*** THEN ADD virtual I.E YOU INHERIT THE PARENT CLASS / ANY PROBLEMATIC CLASS VIRTUALLY
+    */
+
+  class A // parent class
+{
+public :
+    int a;
+    void f1()
+    {
+        cout<<"f1 called...class A\n";
+    }
+};
+class B1:public virtual A
+{
+public :
+    int b1;
+    void f2()
+    {
+        cout<<"f2 called...class B1\n";
+    }
+};
+class B2:virtual public A // public virtual or virtual public is same
+{
+public :
+    int b2;
+    void f3()
+    {
+        cout<<"f3 called...class B2\n";
+    }
+};
+class C:public B1 , public B2
+{
+public :
+    int c ;
+    void f4()
+    {
+        cout<<"f4 called...class C\n";
+    }
+
+};
+int main()
+{
+    C obj;
+    cout<<"Object size is :" <<sizeof(obj)<<endl;
+    obj.f4();// early binding
+    obj.f3(); // here obj search in 'C' class first(as obj is of class C) then it would go to class 'B1' as
+    // during declaration we wrote -> class C:public B1 , public B2
+    /*IN ABOVE f3() IN CLASS B2 , BUT AFTER PASSING FROM B1 IT WOULD GO TO PARENT CLASS A */
+    /*IF NOT FOUND IN PARENT CLASS THEN IT TRACES BACK  IT STEPS AND THEN FOLLOWS THE SAME TO THEN GO TO CLASS B2*/
+    obj.f2();
+    obj.f1(); // TO SOLVE THIS ISSUE OF PROBLEMATIC CLASS WE DO VIRTUAL INHERITANCE
+    /* SO WHAT THIS WOULD DO IS WHEN FUNCTION CALLED THEN main() GOES ONLY ONCE TO ALL THE CLASSES DESPITE YOU CLASSES ARE INHERITED VIRTUALLY */
+/* NOW THE SIZE OF obj IS 24 EARLIER BEFORE virtual INHERITANCE (IT WAS 20)
+SO AFTER DOING VIRTUAL INHERITANCE :- THE COMPILER CREATES POINTER VARIABLES INSIDE THE CHILD CLASSES OF THE PROBLEMATIC CLASS
+WHICH TAKES THE EXTRA SPACE AFTER ADDING VIRTUAL */
+// IN OUR CASE POINTERS WOULD BE CREATED IN B1 CLASS AND B2 CLASS
+// PROOF:
+cout<<"B1 or B2 size :"<<sizeof(B1)<<endl; // a pointer variable takes 4 bytes 
+cout<<"A size :"<<sizeof(A)<<endl;
+}

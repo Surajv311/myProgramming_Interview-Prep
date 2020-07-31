@@ -1,0 +1,13 @@
+main()
+{
+    static int i =4;
+    printf("%d\n",--i);
+    printf("%d\n",--i);
+printf("%d\n",--i);
+}
+
+
+
+o/p = 3
+      2
+      1

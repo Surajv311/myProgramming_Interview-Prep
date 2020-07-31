@@ -1,0 +1,39 @@
+package pracjavaproject;
+import java.util.Scanner;
+
+public class Pracname {
+
+	int a = 5;
+	static void staticMethod()
+	{
+		System.out.println("static method called");
+	}
+	public void publicMethod()
+	{
+		System.out.println("public method called");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*int myMethod(int x)
+		float myMethod(float x)
+		double myMethod(double x, double y) this is method overloading ... same parameters in different methods */
+		
+		// to make an object 
+		// we know class is Pracname
+		Pracname obj = new Pracname() ; 
+		System.out.println(obj.a);
+		// so here we create an object which would seem like creating a pointer object in c++ 
+		
+		// now considering the methods 
+// if you create a static method then it need not require object to access it unlike public method 
+		staticMethod();
+		
+		Pracname temp = new Pracname();
+		temp.publicMethod();
+		// to create a new class you may choose the options in eclipse 
+	
+		
+	}
+
+}

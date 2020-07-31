@@ -1,0 +1,197 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+struct node
+{
+    int data ;
+    struct node *next;
+
+};
+// we have defined the structure of our node from above
+int main()
+{
+struct node *head , *temp , *newNode;
+head = NULL ; // initialised head as NULL
+int nodes ;
+int initial;
+printf("the number of nodes would be ? \n");
+scanf("%d",&nodes);
+for(initial = 0 ; initial <nodes ; initial++)
+{
+newNode = (struct node*)malloc(sizeof(struct node)); // returns a void pointer so we add struct node*... also we store the void pointer address into our new node
+printf("enter the data\n");
+scanf("%d",&newNode->data);
+newNode->next = NULL ;
+if(head == NULL ) // this would run only once as after this the head would be having the address of the first node
+{
+    head = temp = newNode;
+}
+else
+{
+temp->next = newNode ; // this would fill the next part of the node with the address of the next node
+temp = newNode; // now temp would shift to the latest node
+}
+}
+// now to display the linked list
+temp = head ; // we need to traverse the temp from beginning hence we sue head
+while(temp!=NULL)
+{
+    printf("(ADDRESS)%d -> %d(DATA)\n",temp ,temp->data);
+    temp = temp->next; // so that our temp moves as *next would store the address of the next node
+}
+struct node *new_Node , *temp2;
+printf("\n\nDo you want to insert/delete a node ?\n");
+printf("INSERT:1\nDELETE:2\nEXIT:3\n");
+int choice , choice_ ;
+scanf("%d",&choice);
+int position;
+switch(choice)
+{// insert break statement
+case 1:
+
+    printf("1.insert at beginning\n2.insert at end\n3.insert in between\n");
+    scanf("%d",&choice_);
+    switch(choice_)
+    {
+        case 1:
+            new_Node = (struct node*)malloc(sizeof(struct node));
+            printf("enter the data of node to be inserted first\n");
+            scanf("%d",&new_Node->data);
+            new_Node->next = head;
+            head = new_Node;
+temp = head ;
+while(temp!=NULL)
+{
+printf("(ADDRESS)%d -> %d(DATA)\n",temp ,temp->data);
+temp = temp->next;
+}
+break;
+        case 2:
+            new_Node = (struct node*)malloc(sizeof(struct node));
+            printf("enter the data of node to be inserted last\n");
+            scanf("%d",&new_Node->data);
+            new_Node->next = 0 ;
+            temp=head;
+            while(temp->next!=NULL)
+            {
+                temp = temp->next;
+            }
+            temp->next = new_Node;
+temp = head ;
+while(temp!=NULL)
+{
+printf("(ADDRESS)%d -> %d(DATA)\n",temp ,temp->data);
+temp = temp->next;
+}
+break;
+        /*case 3:
+            new_Node = (struct node*)malloc(sizeof(struct node));
+            printf("enter the data of node to be inserted in between\n");
+            scanf("%d",&new_Node->data);
+            printf("enter the position you want to enter the node\n");
+            scanf("%d",&position);
+            temp2 = temp = head;
+            if(position<=nodes)
+            {
+                for(initial = 1 ; initial < position +1 ; initial++)
+                    {
+                    temp=temp->next;
+                    temp2=temp2->next;
+                    if(initial = position -1)
+                    temp2=temp2->next;
+                    temp->next = new_Node;
+                    new_Node->next = temp2;
+                    }
+
+                    temp2 = head ;
+while(temp2!=NULL)
+{
+printf("(ADDRESS)%d -> %d(DATA)\n",temp2 ,temp2->data);
+temp2 = temp2->next;
+}
+
+            }
+            else
+            {
+                printf("position is greater than the number of nodes present in linked list\n");
+            }
+
+break;
+*/
+
+}
+break;
+
+case 2 :
+    printf("1.delete at beginning\n2.delete at end\n3.delete in between\n");
+    scanf("%d",&choice_);
+    switch(choice_)
+    {
+        case 1:
+            printf("first node to be deleted\n");
+            temp = head ;
+            head = temp->next;
+temp = head ;
+while(temp!=NULL)
+{
+printf("(ADDRESS)%d -> %d(DATA)\n",temp ,temp->data);
+temp = temp->next;
+}
+break;
+        case 2:
+            printf("last node to be deleted\n");
+            temp=head;
+            for(initial=1 ; initial<=nodes-1; initial++)
+            {
+                temp = temp->next;
+                if(initial==nodes-2)
+                 temp->next = NULL;
+            }
+
+
+temp = head ;
+while(temp!=NULL)
+{
+printf("(ADDRESS)%d -> %d(DATA)\n",temp ,temp->data);
+temp = temp->next;
+}
+break;
+        /*case 3:
+            new_Node = (struct node*)malloc(sizeof(struct node));
+            printf("enter the position you want to delete the node\n");
+            scanf("%d",&position);
+            temp2 = temp = head;
+            if(position<=nodes)
+            {
+                for(initial = 1 ; initial < position +1 ; initial++)
+                    {
+                    temp=temp->next;
+                    temp2=temp2->next;
+                    if(initial = position -1)
+                    temp2=temp2->next;
+                    temp->next = new_Node;
+                    new_Node->next = temp2;
+                    }
+
+                    temp2 = head ;
+while(temp2!=NULL)
+{
+printf("(ADDRESS)%d -> %d(DATA)\n",temp2 ,temp2->data);
+temp2 = temp2->next;
+}
+
+            }
+            else
+            {
+                printf("position is greater than the number of nodes present in linked list\n");
+            }
+
+break;
+*/
+
+}
+break;
+}
+}
+

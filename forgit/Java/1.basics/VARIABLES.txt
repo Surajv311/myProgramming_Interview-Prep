@@ -1,0 +1,25 @@
+package proj1;
+
+public class Prac2 {
+
+	public static void main(String[] args) {
+		int aInt = 1;  // can be any name of variable 
+		long aLong = 2;
+		float aFloat = 3;
+		short aShort = 4;
+		byte aByte = 5;
+		double aDouble = 6;
+		char aChar = 's';
+		boolean aBoolean = false;
+		
+	System.out.println(aInt);
+	System.out.println(aLong);
+	System.out.println(aFloat);
+	System.out.println(aShort);
+	System.out.println(aByte);
+	System.out.println(aDouble);
+	System.out.println(aChar);
+	System.out.println(aBoolean);
+	}
+
+}

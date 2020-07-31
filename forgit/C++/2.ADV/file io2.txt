@@ -1,0 +1,33 @@
+#include<iostream> //iostream -> cin,cout,cerr,clog.
+#include<fstream> //fstream -> ifstream,ofstream.
+using namespace std;
+main()
+{
+ofstream out;
+//out.open("suraj.jpg",ios::out); //WE CAN OPEN BY : - out mode or binary mode , we may switch the modes
+out.open("suraj.jpg",ios::binary);
+out<<"End Semester Assignment";
+// showing data written in file to console window
+out.close();
+ifstream in;
+in.open("suraj.jpg");
+// now we have to read the data inside it
+// now similar to 'cin' we use 'in' here to read data and store in a variable
+
+/*char data ;
+in>>data ; // this would read only one character
+//to read the entire line we would be using a loop - say 'while' in this case
+while(!in.eof())//eof is end of file
+{
+    cout<< data ; // to output the character from char data
+    in >> data; // to input the from txt file to char data
+}*/
+
+// we notice space is not printed . To overcome that we use the get() function
+char data2;
+data2 = in.get();
+while(!in.eof())
+{
+    cout<< data2 ;
+    data2 = in.get();
+}}

@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+#include <algorithm>
+#include <vector>
+#include <stack>
+using namespace std;
+
+int main()
+{
+
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+
+	stack<int>s; // using vectors
+
+	int n ; // size of the stack
+	cin >> n;
+	for (int i = 0 ; i < n; i++) {
+		s.push(i);
+	}
+	for (int i = 0; i < n; i++) {
+		cout << s.top();
+		s.pop();
+	}
+}
+// NOW ALL ELEMENTS ARE POPPED OUT
+// YOU MAY USE  DIFFERENT METHOD AS :
+
+// 	cout << endl;
+
+// 	while (!s.empty()) {
+
+// 		cout << s.top();
+// 		s.pop();
+// 	}
+//

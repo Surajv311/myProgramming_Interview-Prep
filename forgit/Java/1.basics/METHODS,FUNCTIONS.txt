@@ -1,0 +1,18 @@
+package pracjavaproject;
+import java.util.Scanner;
+
+public class Pracname {
+	// defining & declaring a method 
+    static void methodFun()
+	{
+		System.out.println("method called");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// methods are like functions in java 
+		methodFun();
+	}
+
+}

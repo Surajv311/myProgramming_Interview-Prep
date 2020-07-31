@@ -1,0 +1,48 @@
+// PRINT ALL ALPHABETS in small and capital 
+
+main()
+{
+
+    int i;
+    printf("CAPITAL LETTERS\n\n\t");
+    for(i=65;i<91;i++)
+    {
+
+        printf("%c ",i);
+    }
+    printf("\n\n");
+    printf("SMALL LETTERS\n\n\t");
+    for(i=97;i<123;i++)
+    {
+        printf("%c ",i);
+    }
+    printf("\n\n\n");
+}
+// OR
+/*
+ main()
+	{
+	    char i;
+
+	printf("Small Letters:");
+	printf("\n\n\t");
+	//print small letters alphabets
+	for(i = 'a'; i <='z'; i++)
+        {
+	    printf("%c ", i);
+	}
+	printf("\n\n");
+
+	printf("Capital Letters:");
+	printf("\n\n\t");
+	//print captial letters alphabets
+	for(i = 'A'; i <='Z'; i++)
+        {
+	    printf("%c ", i);
+	}
+	printf("\n\n\n");
+
+
+	}
+
+*/

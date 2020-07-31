@@ -1,0 +1,14 @@
+// USE VARIOUS BITWISE OPERATORS 
+
+#include <stdio.h> 
+void main() 
+{ 
+int a; 
+printf("the value of a is "); 
+scanf("%d",&a); 
+printf("the value using and operator is %d\n",a&2); 
+printf("the value using or operator is %d\n",a|2); 
+printf("now using the xor bitwise operator is %d\n",a^2); 
+} 
+ 
+ 

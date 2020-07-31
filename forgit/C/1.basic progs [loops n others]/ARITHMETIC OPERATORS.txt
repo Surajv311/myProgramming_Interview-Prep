@@ -1,0 +1,18 @@
+// USE OF ARITHMETIC OPERATORS 
+
+#include <stdio.h> 
+void main() 
+{ 
+int a=4,b=2,c; 
+c=a+b; 
+printf("sum is %d\n",c); 
+c=a-b; 
+printf("difference  is %d\n",c); 
+c=a*b; 
+printf("multiply  is %d\n",c); 
+c=a/b; 
+printf("division is  %d\n",c); 
+c=a%b; 
+printf("modulus is %d\n",c); 
+} 
+ 

@@ -1,0 +1,106 @@
+// FRIEND CLASS AND FRIEND FUNCTION
+/*FRIEND CLASS*/
+#include<iostream>
+#include<string>
+#include<stdlib.h>
+using namespace std ;
+class A;
+class B;
+
+class A
+{
+   int balA;
+   string nameA;
+   friend class B ;
+public :
+    A (int balA , string nameA)
+    {
+        this ->balA = balA;
+        this->nameA = nameA ;
+    }
+    string displayA()
+    {
+        return to_string(this->balA) +this->nameA +"\n" ;
+    }
+
+};
+class B
+{
+    int balB;
+   string nameB;
+   
+public:
+     B (int balB , string nameB)
+    {
+        this ->balB= balB;
+        this->nameB = nameB ;
+    }
+    string displayB()
+    {
+        return to_string(this->balB) + this->nameB +"\n"  ;
+    }
+    //now we will access private members of A using functions in B 
+    void updatefun(A &ref_pointer,int refNo) // pass class type parameters 
+    {
+        ref_pointer.balA = refNo;
+    }
+};
+int main()
+{
+    A objA1(18,"suraj") ;
+    B objB1(19,"sv");
+    cout<<objA1.displayA();
+    cout<< objB1.displayB();
+    // now applying the concept of friend class 
+    // suppose functions in class B want to access private members of class A
+    //class B is a friend of A 
+    objB1.updatefun(objA1,98);// to access data of A we pass object of A via B using friend class 
+    // then we pass 'int' argument as well from B1 so that we can rewrite the value of balA(member of A)
+    cout<<objA1.displayA();
+    // so now we can notice that the int value of balA is changed though we haven't changed string value and we have diplayed it 
+  
+}
+
+/*FRIEND FUNCTION*/
+
+
+#include <iostream>
+using namespace std;
+class B;          // forward declarartion.
+class A
+{
+    int x;
+    public:
+    void setdata(int i)
+    {
+        x=i;
+    }
+    friend void min(A,B);         // friend function.
+};
+class B
+{
+    int y;
+    public:
+    void setdata(int i)
+    {
+        y=i;
+    }
+    friend void min(A,B);                    // friend function
+};
+void min(A a,B b)
+{
+    if(a.x<=b.y)
+    cout << a.x ;
+    else
+    cout << b.y ;
+}
+   int main()
+{
+   A a;
+   B b;
+   a.setdata(10);
+   b.setdata(20);
+   min(a,b);
+    return 0;
+ }
+

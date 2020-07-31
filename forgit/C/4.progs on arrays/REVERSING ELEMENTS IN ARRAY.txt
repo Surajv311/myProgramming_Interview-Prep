@@ -1,0 +1,32 @@
+// REVERSING ELEMENTS IN ARRAY 
+
+#include <stdio.h>
+void main()
+{
+int i,j,a[100],n,f;
+printf("let the size of the array be\n");
+scanf("%d",&n);
+printf("the size of array is %d\n",n);
+printf("input the elements in the array \n");
+for(i=0;i<n;i++)
+{
+    printf("element[%d]\n",i);
+    scanf("%d",&a[i]);
+}
+i=0;   // with this we choose first element of array
+j=n-1; // we choose last element of array
+// now to reverse the array
+while(i<j)
+  {
+f=a[i];  /*now consider an array of n elements >>if you notice we are assigning the last value
+a[i]=a[j]; to the first value over here >> i is moving from a[o] to a[n] and j is moving from
+a[j]=f;    a[n] to a[0].until the loop runs for i<j >> now the array is reversed in a[i]
+        which is printed*/
+i++;
+j--;
+  }
+printf("the reversed array is \n");
+for(i=0;i<n;i++)
+    printf("%d\n",a[i]);
+}
+

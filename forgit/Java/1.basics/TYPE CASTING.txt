@@ -1,0 +1,16 @@
+package pracjavaproject;
+
+public class Pracname {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+ double a = 3.4567;
+ int b = (int)a ; 
+ System.out.println(a);
+ System.out.println(b);
+		 
+
+	}
+
+}

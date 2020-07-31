@@ -1,0 +1,25 @@
+package pracjavaproject;
+import java.util.Scanner; // in this util is a package in java and we are using the scanner class in util package
+import java.util.*;// imports all the classes 
+//to learn about inheritance 
+// say parent class 
+
+class Parent 
+{
+	static void fun()
+	{
+		System.out.println("parent entered");
+	}
+	
+}
+// child class . Since .java file saved in 'Pracname' - main() should be in it 
+class Pracname extends Parent {
+ 
+	public static void main(String[] args) { // main function should be inside the class file in java to avoid error 
+		Pracname obj = new Pracname();             // the class file may be child class....
+	    obj.fun();
+	    System.out.println("child entered");
+	}
+		
+	}
+

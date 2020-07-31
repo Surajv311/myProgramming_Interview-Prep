@@ -1,0 +1,45 @@
+// DECLARE A STRING 
+// string cannot be copied by = operator 
+//scanf reads input until it encounters whitespace whereas gets reads input until it encounters new line
+//The problem with the scanf function is that it never reads an entire string. It will halt the reading process as soon as whitespace, form feed, vertical tab, newline or a carriage return occurs.
+
+
+#include <stdio.h>
+void main() 
+{
+char name[10];
+int age;
+printf("enter your first name and age: \n");
+scanf("%s %d", name, &age); }
+printf("You entered: %s %d",name,&age);
+}
+
+
+#include <stdio.h>
+void main()
+ {
+char full_name[25];
+printf("enter your full name: ");
+gets(full_name);  // fgets also does similar job
+printf("my full name is %s ",full_name);
+return 0;
+}
+
+
+/*
+
+#include <stdio.h>
+ // in int array each index take 2 bytes memory and char array take 1 byte memory
+// we don't have to write address variable in case of characters i.e after scanf no need of &
+void main()
+
+{
+   char arr[20];
+   printf("write your name ");
+   scanf("%s",arr);  // %s would read only a single word strings and not multiword 
+                     // hence you may have to use %s%s to read multi word to avoid it , we use >> gets
+   printf("the name is %s",arr);
+
+}
+
+*/

@@ -1,0 +1,24 @@
+// BASICS OF POINTERS 
+#include <stdio.h>
+void main()
+
+/* we have declared integer pointer p here */
+   {
+    int* p;
+   int x; // similarly *float p is pointer to a float , *double p for double .....
+   x = 10; // x has been assigned a value of 10
+   p = &x; // we know & would return the address value of x to p i.e p is now storing address of x hence points * to address of x
+   // done with memory locations
+   printf(" WE KNOW \n X = 10 \n P = &X \n  \t < & - RETURNS THE ADDRESS ... * - RETURNS VALUE INSIDE THE ADDRESS >\n\n");
+   printf("VALUE OF X (for x):%d\n\n",x); // it prints value of x
+   printf("ADDRESS OF X / VALUE OF P (for p):%d\n\n",p);// prints value of p i.e the address of x
+   printf("ADDRESS OF X(LIKE ABOVE) (for &x) :%d\n\n",&x);//prints address of x (just like above )
+  printf("ADDRESS OF P / ADDRESS WHERE ADDRESS OF X IS STORED (for &p):%d\n\n",&p); // prints the address of p i.e address where the address of x is stored
+   printf("VALUE OF THE ADDRESS INSIDE P (for *p):%d\n\n",*p);// prints the value inside the specific address i.e p stores address of x , * p points to the value inside the address >>> 10
+   printf("VALUE INSIDE ADDRESS OF X (LIKE ABOVE) (for &x): %d\n\n",*(&x));// prints the value inside &x i.e value inside the address of &x >>> 10 (just like above)
+   }
+   /* address is always a positive value , hence it is strongly recommended to use %u(unsigned) to print the address of
+  a variable. %d may print negative / positive value . %u will take care of that 
+>>> a pointer is a variable that is the address of another variable
+>>>its used to access information from a particular memory location
+>>>types of pointer - typed(points to  a specific data like , int ,double...) , untyped ( points to any data , void*)*/

@@ -1,0 +1,69 @@
+#include <bits/stdc++.h>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+int main()
+{
+
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+
+// vectors are dynamic arrays that can shrink or expand in size
+	vector<int> a ;
+	vector<int> b(5, 10); // means five integers of initial value - 10 , useful for initialising an array of zero elements
+	vector<int> c(b.begin(), b.end()); // to have all the values vector c has
+	vector<int> d{1, 2, 3, 4, 5};
+
+// to take user input
+// iterate over the vector
+	for (int i = 0 ; i < c.size(); i++) {
+		cout << c[i] << " ";
+
+	}
+	cout << endl;
+	for (auto it = b.begin(); it != b.end(); it++) {
+		cout << (*it) << " ";
+	}
+	cout << endl;
+// for each loop
+	for (int x : d) {
+		cout << x << " ";
+	}
+
+	cout << endl;
+
+	// now user input
+	vector<int> v ;
+	int n ;
+	cin >> n ;
+	for (int i = 0; i < n; i++) {
+		int num ;
+		cin >> num;
+		v.push_back(num);// it adds an element to the end of the vector
+		// this push_back() expands the memory when the vector is full
+		/********
+		 It doubles the memory - which is an expensive operation
+		*****/
+	}
+	for (int x : v) {
+		cout << x << " ";
+	}
+
+	cout << endl;
+// understanding memory level
+
+	cout << v.size() << "  ";
+	cout << v.capacity() << "  "; // size of underlying array
+	cout << v.max_size() << "  "; // maximum number of elements a vector can have in worst case
+
+	cout << endl;
+
+	cout << d.size() << "  ";
+	cout << d.capacity() << "  ";
+	cout << d.max_size() << "  ";
+
+
+
+
+}

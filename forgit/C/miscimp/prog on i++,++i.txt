@@ -1,0 +1,18 @@
+random
+
+#include<stdio.h>
+void main()
+{
+    int i=5;
+    printf("%d %d %d ",i++,i++,i++);
+} o/p=7 6 5
+
+
+#include<stdio.h>
+void main()
+{
+    int i=5;
+    printf("%d %d %d ",++i,++i,++i);
+}
+
+o/p= 8 8 8

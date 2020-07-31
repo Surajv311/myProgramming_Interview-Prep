@@ -1,0 +1,12 @@
+// VOLUME OF CUBE 
+
+#include <stdio.h> 
+void main() 
+{ 
+int a,c; 
+printf("the value of side is"); 
+scanf("%d",&a); 
+c=a*a*a; 
+printf("the volume of cube is %d\n",c); 
+} 
+ 

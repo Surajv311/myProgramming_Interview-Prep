@@ -1,0 +1,377 @@
+Python has no command for declaring a variable.
+A variable is created the moment you first assign a value to it.
+x = 5
+y = "John"
+print(x)
+print(y)
+
+Python allows you to assign values to multiple variables in one line:
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+global x : to define a global variable
+
+You can get the data type of any object by using the type() function:
+x = 5
+print(type(x))
+
+x = ["apple", "banana", "cherry"]	list
+x = ("apple", "banana", "cherry")	tuple
+x = {"name" : "John", "age" : 36}	dict
+x = {"apple", "banana", "cherry"}	set
+x = frozenset({"apple", "banana", "cherry"})	frozenset
+...List is a collection which is ordered and changeable. Allows duplicate members.
+...Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+...Set is a collection which is unordered and unindexed. No duplicate members.
+...Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+
+to set up a datatype we add say: x = tuple(("..."))...
+
+You can assign a multiline string to a variable by using three quotes:
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+Get the character at position 1 (remember that the first character has the position 0):
+a = "Hello, World!"
+print(a[1])
+
+Get the characters from position 2 to position 5 (not included):
+b = "Hello, World!"
+print(b[2:5])
+
+Get the characters from position 5 to position 1, starting the count from the end of the string:
+b = "Hello, World!"
+print(b[-5:-2])
+
+The len() function returns the length of a string:
+a = "Hello, World!"
+print(len(a))
+
+a = "Hello, World!"
+print(a.lower())
+print(a.upper())
+print(a.replace("H", "J"))
+print(a.split(",")) # returns ['Hello', ' World!']
+
+txt = "The rain in Spain stays mainly in the plain"
+x = "ain" in txt
+print(x)
+
+The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+**	Exponentiation	x ** y
+//	Floor division	x // y
+
+Logical operators are used to combine conditional statements:
+and 	- Returns True if both statements are true
+or	 - Returns True if one of the statements is true
+not	 - Reverse the result, returns False if the result is true
+
+loop through a list
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)
+
+  to check if item in this list
+  thislist = ["apple", "banana", "cherry"]
+  if "apple" in thislist:
+      print("Yes, 'apple' is in the fruits list")
+
+Using the append() to append an item
+thislist = ["apple", "banana", "cherry"]
+      thislist.append("orange")
+      print(thislist)
+
+to insert at a specified index
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)
+
+remove is to remove a specified item
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
+
+pop removes the specified index or the last item if index not specified
+thislist = ["apple", "banana", "cherry"]
+thislist.pop()
+print(thislist)
+
+del removes item at specified index
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+print(thislist)
+
+clear() would empty the list
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
+
+to join two lists
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+list3 = list1 + list2
+print(list3)
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[-1])
+
+x = ("apple", "banana", "cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+print(x)
+
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+
+  thistuple = ("apple", "banana", "cherry")
+  print(len(thistuple))
+
+  thistuple = ("apple",)
+  print(type(thistuple))
+  # NOT a tuple
+  thistuple = ("apple")
+  print(type(thistuple))
+
+  thisset = {"apple", "banana", "cherry"}
+  for x in thisset:
+      print(x)
+
+      Once a  set is created, you cannot change  its  items, but  you  can   add  new items.
+
+thisset = {"apple", "banana", "cherry"}
+thisset.add("orange")
+print(thisset)
+
+thisset = {"apple", "banana", "cherry"}
+thisset.update(["orange", "mango", "grapes"])
+print(thisset)
+
+thisset = {"apple", "banana", "cherry"}
+
+thisset.remove("banana")
+
+print(thisset)
+thisset = {"apple", "banana", "cherry"}
+
+thisset.discard("banana")
+
+print(thisset)
+thisset = {"apple", "banana", "cherry"}
+
+x = thisset.pop()
+
+print(x)
+
+print(thisset)
+thisset = {"apple", "banana", "cherry"}
+
+thisset.clear()
+
+print(thisset)
+set1 = {"a", "b" , "c"}
+set2 = {1, 2, 3}
+
+set1.update(set2)
+print(set1)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+x = thisdict.get("model")
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["year"] = 2018
+Print all key names in the dictionary, one by one:
+
+for x in thisdict:
+  print(x)
+  Print all values in the dictionary, one by one:
+  for x in thisdict:
+      print(thisdict[x])
+
+Adding an item to the dictionary is done by using a new index key and assigning a value to it:
+
+Example
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["color"] = "red"
+print(thisdict)
+
+The pop() method removes the item with the specified key name:
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.pop("model")
+print(thisdict)
+
+The clear() method empties the dictionary:
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.clear()
+print(thisdict)
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+mydict = thisdict.copy()
+print(mydict)
+
+Create a dictionary that contain three dictionaries:
+
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+  if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.
+
+  Example
+  a = 33
+  b = 200
+
+  if b > a:
+      pass
+
+  i = 1
+  while i < 6:
+      print(i)
+      if i == 3:
+          break
+      i += 1
+
+      fruits = ["apple", "banana", "cherry"]
+      for x in fruits:
+          print(x)
+
+          for x in range(6):
+              print(x)
+
+def my_function():
+  print("Hello from a function")
+
+  def my_function(child3, child2, child1):
+      print("The youngest child is " + child3)
+
+  my_function(child1="Emil", child2="Tobias", child3="Linus")
+
+def my_function(x):
+  return 5 * x
+
+print(my_function(3))
+print(my_function(5))
+print(my_function(9))
+A lambda function is a small anonymous function.
+
+A lambda function can take any number of arguments, but can only have one expression.
+syntax : lambda arguments : expression
+x = lambda a, b, c : a + b + c
+print(x(5, 6, 2))
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+
+print(mydoubler(11))
+reverse()	Reverses the order of the list
+Create a class named MyClass, with a property named x:
+
+class MyClass:
+  x = 5
+  Create
+  an
+  object
+  named
+  p1, and print
+  the
+  value
+  of
+  x:
+
+  p1 = MyClass()
+  print(p1.x)
+  Delete
+  the
+  p1
+  object:
+
+  del p1
+
+  Create
+  a
+
+  class named Student, which will inherit the properties and methods from the Person class:
+
+  class Student(Person):
+      pass
+
+  Python
+  also
+  has
+  a
+  super()
+  function
+  that
+  will
+  make
+  the
+  child
+
+  class inherit all the methods and properties from its parent:
+
+  Example
+
+  class Student(Person):
+      def __init__(self, fname, lname):
+          super().__init__(fname, lname)
+
+          username = input("Enter username:")
+          print("Username is: " + username)
+
+
+

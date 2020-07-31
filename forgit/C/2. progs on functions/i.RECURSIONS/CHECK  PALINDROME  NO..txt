@@ -1,0 +1,30 @@
+// CHECK  PALINDROME  NO.
+
+#include<stdio.h>
+int p(int );
+int n;
+int main()
+{
+    int pal;
+    printf("\nEnter a number to check for Palindrome: ");
+    scanf("%d", &n);
+    pal = p(n);
+    if(pal == 1)
+        printf("\n%d is palindrome", n);
+    else
+        printf("\n%d is not palindrome", n);
+    return 0;
+}
+int p(int x)
+{
+    static int sum = 0;
+    if(x != 0)
+    {
+        sum = sum *10 + x%10;
+        p(x/10);
+    }
+    else if(sum == n)
+        return 1;
+    else
+        return 0;
+}

@@ -1,0 +1,58 @@
+// MULTIPLICATION OF TWO MATRICES
+
+#include <stdio.h>
+void  main()
+{
+    int m1[10][10], m2[10][10], r[10][10], r1, c1, r2, c2, i, j, n;
+    printf("enter rows and columns of m1 \n"); // m1 is first matrix
+    scanf("%d %d", &r1, &c1);
+    printf("enter rows and columns of m2 \n"); // m2 is second matrix
+    scanf("%d %d",&r2, &c2);
+    // column of m1 should be equal to column of m2
+    while (c1 != r2)
+    {
+        printf("error! \n");
+        printf("enter r1 and c1 : "); // rows of m1 = r1 , columns of m1 = c1
+        scanf("%d %d", &r1, &c1);
+        printf("enter r2 and c2 : "); // rows of m2 = r2 , columns of m2 = c2
+        scanf("%d %d",&r2, &c2);
+    }
+    // storing elements of first matrix.
+    printf("enter elements of m1 :\n");
+    for(i=0; i<r1; i++)
+        for(j=0; j<c1; j++)
+        {
+            printf("element m1[%d][%d]: ",i, j);
+            scanf("%d", &m1[i][j]);
+        }
+    // storing elements of second matrix.
+    printf("enter elements of m2 :\n");
+    for(i=0; i<r2; i++)
+        for(j=0; j<c2; j++)
+        {
+            printf("element m2[%d][%d]: ",i, j);
+            scanf("%d",&m2[i][j]);
+        }
+    // initializing all elements of result matrix to 0
+    for(i=0; i<r1; i++)
+        for(j=0; j<c2; j++)
+        {
+            r[i][j] = 0;
+        }
+    // multiplying matrices a and b and
+       for(i=0; i<r1; i++)
+        for(j=0; j<c2; j++)
+            for(n=0; n<c1; n++) // r[i][j] is resultant matrix 
+            {
+                r[i][j]+=m1[i][n]*m2[n][j]; // we know x+=y is same as x=x+y
+            }
+    // hence resultant
+    printf("\t \t resultant  matrix:\n \n");
+    for(i=0; i<r1; i++)
+        for(j=0; j<c2; j++)
+        {
+            printf("%d\t", r[i][j]);
+            if(j == c2-1)
+                printf("\n\n");
+        }
+}

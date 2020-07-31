@@ -1,0 +1,4 @@
+// in java ^ operator means you are performing XOR operarion 
+/* you import 
+java.lang.Math.*;
+then Math(x , y ) means x^y 

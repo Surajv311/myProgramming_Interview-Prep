@@ -1,0 +1,34 @@
+// CHECK IF MATRIX IS LOWER TRIANGULAR 
+
+#include <stdio.h>
+void main()
+{
+
+int i,j,a[3][3];
+printf("the matrix is 3x3\n");
+printf("enter the elements in the matrix\n");
+for(i=0;i<3;i++)
+{
+    for(j=0;j<3;j++)
+    {
+        printf("element[%d][%d]\n",i,j);
+        scanf("%d",&a[i][j]);
+    }
+}
+// now to check if its lower triangular
+    for(i=0;i<3;i++)
+{
+    for(j=i+1;j<3;j++)
+    {
+        if(a[i][j]==0)
+      printf("lower triangular");
+else
+{
+    printf("not lower triangular ");
+}
+    }
+}
+
+
+}
+

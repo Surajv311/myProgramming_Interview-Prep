@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int fun();
+int main ()
+{
+    cout << "HI\n"<<"HOW ARE YOU?\n";
+    fun();
+}
+int fun()
+{
+    cout<<"I AM FINE !!!";
+}

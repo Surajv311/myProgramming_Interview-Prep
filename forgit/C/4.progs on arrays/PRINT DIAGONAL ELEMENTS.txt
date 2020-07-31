@@ -1,0 +1,46 @@
+// TO PRINT DIAGONAL ELEMENTS IN MATRIX
+
+#include<stdio.h> 
+ 
+void main() 
+{ 
+    int arr[10][10],i,j,m,n,sum = 0; 
+ 
+    printf("no. of rows :"); 
+ scanf("%d", &m); 
+ printf("\n no. of cols :"); 
+ scanf("%d",&n); 
+ printf("\n input "); 
+ for (i = 0; i < m; i++) 
+ { 
+            for (j = 0; j < n; j++) 
+            { 
+                 printf("\nenter a[%d][%d] value : ",i,j); 
+                 scanf("%d", &arr[i][j]); 
+        } 
+    } 
+ 
+    printf("\ndiagonals elements of  matrix  \n\n"); 
+ 
+    /*check condition to print diagonals, matrix must be square matrix*/ 
+    if(m==n) 
+    { 
+            /*print diagonals*/ 
+            for(i=0;i<m;i++) 
+            { 
+                for(j=0;j<n;j++) 
+                { 
+ 
+                    if(i==j) 
+                        printf("\t%d", arr[i][j]);    /*print elements*/ 
+                    else 
+                        printf("\t");   /*print space*/ 
+                } 
+                printf("\n\n");   /*after each row print new line*/ 
+            } 
+    } 
+    else 
+    { 
+        printf("\nmatrix is not a square matrix."); 
+    } 
+} 

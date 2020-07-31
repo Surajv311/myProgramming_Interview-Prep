@@ -1,0 +1,28 @@
+// PERFECT NO. IN A GIVEN RANGE 
+
+
+#include<stdio.h> 
+ void main() 
+ { 
+int j,i,s=0,in,fin; 
+printf("enter the initial value \n "); 
+scanf("%d",&in); 
+printf("enter the final value \n"); 
+scanf("%d",&fin); 
+printf("perfect numbers between the range are \n "); 
+for(i= in; i<= fin; i++) 
+{ 
+j=1; 
+while(j<=(i/2)) 
+{ 
+if(i % j== 0) 
+s=s+j; 
+j++; 
+} 
+if(s==i) 
+printf(" %d ",i); 
+s=0; 
+} 
+} 
+
+

@@ -1,0 +1,49 @@
+package pracjavaproject;
+import java.util.Scanner; 
+import java.util.*;
+
+class Outer
+{
+	int x = 5 ; 
+	
+	class Inner
+	{
+		int y = 6 ;
+		
+	}
+}
+// static means you can access it without using an object 
+class Pracname {
+	
+ 
+	public static void main(String[] args) { 
+		
+		Outer objO = new Outer();
+		Outer.Inner objI = objO.new Inner();
+		System.out.println(objI.y+objO.x);
+	}
+	}
+
+/* ACCESSING OUTER CLASS FROM INNER CLASS 
+
+class OuterClass {
+  int x = 10;
+
+  class InnerClass {
+    public int myInnerMethod() {
+      return x;
+    }
+  }
+}
+
+public class MyMainClass {
+  public static void main(String args[]) {
+    OuterClass myOuter = new OuterClass();
+    OuterClass.InnerClass myInner = myOuter.new InnerClass();
+    System.out.println(myInner.myInnerMethod());
+  }
+}
+
+// Outputs 10
+
+*/

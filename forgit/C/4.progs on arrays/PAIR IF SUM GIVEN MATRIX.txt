@@ -1,0 +1,40 @@
+// FIND PAIR IF THE SUM IS GIVEN 
+
+#include <stdio.h>
+void main()
+{
+
+    int arr[100],i,j,n,f,s; // f is flag
+    printf("let the total elements in array be :\n");
+    scanf("%d", &n);
+    printf("elements in array are  \n");
+        for (i = 0; i < n; i++)
+           {
+               printf("element arr[%d]",i);
+               scanf("%d", &arr[i]);
+           }
+// now we find the pair whose sum equals the number we input
+printf("enter the sum to find the \"pair\" \n");
+scanf("%d",&s); // s is sum
+{
+    for(i=0;i<n;i++)
+    {
+        for(j=i;j<n;j++)
+        {
+            if(arr[j]+arr[i]==s)
+            printf("pair : %d & %d \n",arr[i],arr[j]);
+
+        }
+
+    }
+
+}
+}
+
+
+
+
+
+
+
+

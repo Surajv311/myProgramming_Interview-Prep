@@ -1,0 +1,36 @@
+/*#include <iostream>
+using namespace std;
+int main()
+{
+    int v1,v2,sum;
+    cout<< "enter first value ";
+    cin>> v1;
+    cout << "enter the second value ";
+    cin >> v2; // cin is just like scanf in C
+    sum = v1+v2;
+    cout << "the sum is :";
+    cout<<sum;
+}
+*//* OR*/
+#include <iostream>
+using namespace std;
+int main()
+{
+    int v1,v2,sum;
+    cout<< "enter first value and \n"<<"enter second value ";
+    cin>> v1>>v2;
+    sum = v1+v2;
+    cout<< "the sum is :";
+    cout<<sum;
+}
+/* OR
+#include <iostream>
+using namespace std;
+int main()
+{
+    int v1,v2,sum;
+    cout<< "enter first value and \n"<<"enter second value ";
+    cin>> v1>>v2;
+    cout<< "the sum is :"<<v1+v2;
+}
+*/

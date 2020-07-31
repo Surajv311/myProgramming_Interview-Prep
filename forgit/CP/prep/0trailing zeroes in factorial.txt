@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+int trailingZeroes(int num)
+{
+	int ans = 0;
+	int x = 5 ;
+	while ((num / x) > 0)
+	{
+		ans += (num / x) ;
+		x = x * 5 ;
+	}
+	return ans ;
+}
+
+int main()
+{
+
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+
+	int n ;
+	cin >> n ;
+	cout << trailingZeroes(n) ;
+
+}

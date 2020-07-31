@@ -1,0 +1,56 @@
+//  PROGRAM TO STORE AND PRINT ROLLNO.,AGE,NAME,MARKS OF A STUDENT USING STRUCTURES
+
+
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+struct student
+{
+int rollno;
+char name[50];
+ int age;
+int marks;
+}
+s1; // you may write struct student s1
+{
+printf("enter the roll number, name, age and marks of student");
+scanf("%d%s%d%d",&s1.rollno,s1.name,&s1.age,&s1.marks);
+printf("\n");
+printf("the roll number is %d\n",s1.rollno);
+printf("the name is %s\n",s1.name);
+printf("the age is %d\n",s1.age);
+printf("the marks is %d\n",s1.marks);
+}
+}
+
+
+
+[OR]
+
+
+
+#include <stdio.h>
+#include <string.h>
+struct student
+{
+int rollno;
+char name[50];
+ int age;
+int marks;
+};
+void main()
+{
+struct student s1;
+printf("enter the roll number, name, age and marks of student");
+scanf("%d%s%d%d",&s1.rollno,s1.name,&s1.age,&s1.marks);
+printf("\n");
+printf("the roll number is %d\n",s1.rollno);
+printf("the name is %s\n",s1.name);
+printf("the age is %d\n",s1.age);
+ printf("the marks is %d\n",s1.marks);
+}
+
+ 
+ 
+ 

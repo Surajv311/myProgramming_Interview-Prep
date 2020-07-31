@@ -1,0 +1,84 @@
+//EXCEPTION HANDLING
+ #include <iostream>
+ #include <stdlib.h>
+ #include <string>
+ using namespace std;
+ int main()
+ {
+
+    /*int a = 5 , b = 0 ;
+    cout<<a/b;// in this case THE NEXT LINE WOULD NOT BE EXECUTED AS WE HAVE NOT USED HANDLERS.
+    cout<<a+b;// IF YOU USE float INITIALLY THEN IT WOULD EXECUTE
+    */
+    int c , d  ;
+    //exception handling
+    //try: represents a block of code that can throw an exception/ block of code that gives an error
+    //catch: represents a block of code that is executed when a particular exception is thrown
+    /*throw: Used to throw an exception. Also used to list the exceptions that a function throws,
+            but doesn’t handle itself*/
+            // though in template you may add any two types of numbers but you cannot add strings,i.e concatenate
+
+    cin>>c>>d; // THERE IS NO endl USED IN cin
+    cout<<"c is :"<<c<<"\n"<<"d is :"<<d<<endl;
+    cout<<"\n";
+    //now handling exception for similar case as coded above is below :-
+    // say we always want d>0 , if less then to handle that error via exception is :
+  int e , f;
+    try{
+        cin >> e >> f;
+        if(f<=0) // WE WILL throw A char NOW
+    throw "error" ;// if you throw an int then you must catch int
+    else
+       cout<<"e is :"<<e<<"\n"<<"f is :"<<f<<endl;
+    }
+    catch(const char *msg_Pointer) // const would prevent the change.
+    /*IF YOU NOT TYPE const THEN YOU WOULD GET A MESSAGE IN DISPLAY */
+    {
+        cout<<msg_Pointer;
+    }
+    cout<<"\n";
+    
+    
+    /*WHEN WE THROW string TAKE CARE IN SYNTAX AND ITS BETTER TO AVOID IT AS COMPILER ....CHAR...
+    
+    
+    
+     int e , f;
+    try{
+        cin >> e >> f;
+        if(f<=0) // WE WILL throw A string NOW
+    throw string ("error");
+    else
+       cout<<"e is :"<<e<<"\n"<<"f is :"<<f<<endl;
+    }
+     catch(string msg) // pointer reference is not used
+    {
+        cout<<msg;
+    }
+    cout<<"\n";
+    
+    
+    */
+    
+    
+// NOW LETS THROW int
+int g , h;
+    try{
+        cin >> g >> h;
+        if(h<=0)
+    throw 404 ;// if you throw an int then you must catch int
+    else
+       cout<<"g is :"<<g<<"\n"<<"h is :"<<h<<endl;
+    }
+    catch(int num_P_) // const would prevent the change.
+    /*IF YOU NOT TYPE const THEN YOU WOULD GET A MESSAGE IN DISPLAY */
+    {
+        cout<<num_P_;
+    }
+    cout<<"\n";
+
+
+
+
+ }
+ // error handling better than if-else as consider the case of email@xyz@mail.com should throw error ........

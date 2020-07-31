@@ -1,0 +1,61 @@
+#include <bits/stdc++.h>
+#include <algorithm>
+using namespace std;
+void rotateFunction(int arr[][100], int n);
+void display(int arr[][100], int n);
+int main()
+{
+
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+
+	int arr[100][100];
+	int i, j , n;
+// taking input in the array
+	// size of the matrix
+	cin >> n ;
+	for (i = 0 ; i < n ; i++) {
+		for (j = 0; j < n; j++) {
+			cin >> arr[i][j];
+		}
+	}
+
+	rotateFunction(arr, n);
+	display(arr, n);
+
+}
+void rotateFunction(int arr[][100], int n ) {
+// first we need to swap elements in each row
+	int row , startCol , endCol, col;
+	startCol = 0 ;
+	endCol = n - 1 ;
+	for (row = 0 ; row < n ; row++) {
+		while (startCol > endCol) {
+			swap(arr[row][startCol], arr[row][endCol]);
+			startCol++;
+			endCol--;
+		}
+	}
+	// now taking transpose
+	for (row = 0 ; row < n  ; row++)
+	{
+		for (col = 0 ; col < n ; col++)
+		{
+			if (row < col)
+			{
+				swap(arr[row][col], arr[col][row]);
+			}
+		}
+
+	}
+}
+void display(int arr[][100], int n) {
+	for (int i = 0 ; i < n ; i++) {
+		for (int j = 0; j < n; j++) {
+			cout << arr[i][j] << " ";
+		}
+		cout << endl;
+	}
+}

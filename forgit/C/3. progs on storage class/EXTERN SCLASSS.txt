@@ -1,0 +1,12 @@
+// EXTERN SCLASSS
+
+#include<stdio.h>
+int x=1;
+void main()
+{
+    extern int y;
+    printf("%d %d \n",x,y);
+}
+int y=2;
+/*in external storage class a variable can be define outside the  function 
+if earlier it was declared by keyword extern*/

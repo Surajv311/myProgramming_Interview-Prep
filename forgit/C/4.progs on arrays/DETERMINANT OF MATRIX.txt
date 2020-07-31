@@ -1,0 +1,22 @@
+// DETERMINANT OF MATRIX 
+
+#include <stdio.h>
+void main()
+{
+
+    int arr[3][3],i,j,det;
+     // det is determinant
+    printf("its a 3x3 matrix :\n");
+    printf("give your input elements \n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            printf("element arr[%d][%d]:",i,j);
+            scanf("%d",&arr[i][j]);
+        }
+    }
+ det=arr[0][0]*(arr[1][1]*arr[2][2]-arr[2][1]*arr[1][2]) - arr[0][1]*(arr[1][0]*arr[2][2]-arr[2][0]*arr[1][2])+ arr[0][2]*(arr[1][0]*arr[2][1]-arr[2][0]*arr[1][1]);
+ printf("determinant is :%d",det);
+
+}

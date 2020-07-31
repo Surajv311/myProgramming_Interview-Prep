@@ -1,0 +1,42 @@
+// SCANNER CLASS
+
+
+package proj;
+
+import java.util.Scanner; // import this class first 
+
+public class prac {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Scanner dem36 = new Scanner(System.in) ; // create scanner object 
+	// crtl+shift+o - imports necessary class util . files 
+	// inp234 is your object
+	String usrnam34 = dem36.nextLine();
+	System.out.println(" i am "+ usrnam34);
+	
+	
+	}
+}
+// give first input as fine in the console 
+
+package pracjavaproject;
+import java.util.Scanner;
+public class Pracname {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc = new Scanner(System.in);
+
+//double y = sc.nextDouble();
+//int x = sc.nextInt();
+String a = sc.nextLine();
+//System.out.println(y);
+//System.out.println(x);
+System.out.println(a);
+ // a>b? a : b ; means if a >b then return a else return b . you may nest it as well 
+
+	}
+
+}

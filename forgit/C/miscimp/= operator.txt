@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+void main()
+{
+int n  ;
+printf("input the value of n :");
+scanf("%d",&n);
+getch();
+int i = n ;
+printf("i copies value of n : %d\n",i);
+getch();
+int y = n ;
+printf("y copies value of n : %d\n",y);
+getch();
+printf("the value of n again : %d\n",n);
+}
+

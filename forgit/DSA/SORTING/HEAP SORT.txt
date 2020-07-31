@@ -1,0 +1,83 @@
+//HEAP SORT
+// Max heap : for every node i the value of node is less than or equal to its parent
+// min heap...
+
+// we apply heapify method only on non leaf node then we decrement the node as leaf node need not be heapfied
+
+// WE CALL THE heapify() IN BUILDING AS WELL AS DELETING METHOD
+
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int heapSort( int [] , int );
+int heapify(int  [] ,int ,int );
+ void main()
+ {
+     int n , i ;
+         printf("SIZE OF UNSORTED ARRAY\n");
+     scanf("%d",&n);
+     int arr[n];
+
+     for(i=1 ; i<= n ; i++)
+     {
+         printf("element:%d->",i);
+         scanf("%d",&arr[i]);
+     }
+    heapSort(arr , n );
+     printf("SORTED ARRAY\n");
+      for(i=1 ; i<= n ; i++)
+     {
+         printf("%d\t",arr[i]);
+     }
+
+ }
+ int heapify(int arr[] ,int n ,int i)
+ {
+     int largest , l , r ,t;
+     largest = i ;
+     l = 2*i;
+     r = (2*i)+1;
+     if(l<=n && arr[l]>arr[largest])
+     {
+         largest = l ;
+     }
+     if(r <=n && arr[r]>arr[largest])
+     {
+         largest = r ;
+
+     }
+     if(largest!=i)
+     {
+         //swap arr[largest] , arr[i]
+         t  = arr[largest];
+         arr[largest] = arr[i];
+         arr[i] = t ;
+         heapify(arr , i , l );
+
+
+     }
+
+     }
+     int heapSort( int arr[] , int n )
+     {
+         int temp , i ;
+         // FOR BUILDING
+         for(i=n/2; i >= 1 ; i--)
+         {
+             heapify(arr , n , i );
+         }
+
+// FOR DELETING
+         for (i = n ; i>=1 ; i--)
+         {
+             // swap arr[n] , arr[i]
+            temp =  arr[1];
+            arr[1] = arr[i];
+            arr[i] = temp ;
+             heapify(arr , i-1 , 1);
+         }
+}
+
+
+

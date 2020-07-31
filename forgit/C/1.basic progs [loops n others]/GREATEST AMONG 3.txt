@@ -1,0 +1,70 @@
+// GREATEST NO. AMONG 3 USING LOGICAL,CONDITIONAL,WITHOUT LOGICAL ...
+
+#include <stdio.h> 
+void main() 
+{ 
+int a; 
+printf("give your input for comparing three numbers\n""1without using logical operator\n""2-with using logical operator\n""3- with using conditional operator\n"); 
+scanf("%d",&a); 
+switch(a) 
+{ 
+case 1 : 
+{ 
+int a,b,c; 
+printf("value of a is \n""b is \n""c is \n"); 
+scanf("%d%d%d",&a,&b,&c); 
+if(a>b) 
+{ 
+if (a>c) 
+{ 
+printf("a is the greatest \n"); 
+} 
+} 
+else 
+{ 
+printf("c is the greatest \n"); 
+} 
+ 
+if (b>c) 
+{ 
+printf("b is greatest \n"); 
+} 
+else 
+{ 
+printf("c is greatest"); 
+} 
+break;  // break statement is important 
+} 
+case 2 : 
+{ 
+int a,b,c; 
+printf("value of a is \n""b is \n""c is \n"); 
+scanf("%d%d%d",&a,&b,&c); 
+if( a>b && a>c) 
+{ 
+printf("greatest number a is %d\n", a); 
+} 
+if (b>a && b>c) 
+{ 
+printf("greatest number b is %d\n", b); 
+} 
+if (c>a&&c>b) // && is logical AND operator 
+{ 
+printf("greatest number c is %d\n", c); 
+} 
+} 
+break; 
+ 
+case 3 : 
+{ 
+int a,b,c,d; 
+printf("value of a is\n""b is \n""c is  \n"); 
+scanf("%d%d%d",&a,&b,&c); 
+d = a>b?(a>c?a:c):(b>c?b:c); 
+{ 
+printf("the greatest number is %d\n",d); 
+} 
+break; 
+} 
+} 
+} 

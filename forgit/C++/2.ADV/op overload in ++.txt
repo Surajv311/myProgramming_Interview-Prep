@@ -1,0 +1,68 @@
+// ++ is a unary operator
+# include <iostream>
+# include <string>
+# include <stdlib.h>
+using namespace std;
+class Preincrement
+{
+   int numberA;
+public :
+    Preincrement(int numberA = 0 ) //parameterised constructor <ALSO INITIALISING TO ZERO IS MUST>
+    {
+    this -> numberA = numberA ;
+    }
+    Preincrement operator++() /* ALSO WE CANNOT DEFINE THE FUNCTION OUTSIDE USING :: , WE MUST DECLARE AND DEFINE INSIDE */
+    {// for <preincrement> syntax : operator++()
+    /*SINCE CLASS IS A DATATYPE , HENCE OUR WE ARE USING IT TO NAME OUR FUNCTION TYPE. HENCE IT WOULD RETURN AN OBJECT,
+    JUST LIKE int() RETURNS NUMBER */
+    Preincrement tempObj;// tempObj is a temporary object created . we would perform the increment via this temporary object and then return this object
+    tempObj.numberA = ++numberA; // numberA of objA is incremented and then its stored in the numberA of tempObj
+    return tempObj; // now this tempObj which is returned would be equal to objB as you can see in int main(){};
+    }
+
+    int display()
+    {
+        cout<< numberA<<"\n";
+        return 0 ;
+    }
+
+};
+class Postincrement
+{
+ int numberA_;
+public :
+    Postincrement(int numberA_= 0 ) //parameterised constructor < INITIALISING TO ZERO IS MUST>
+    {
+    this -> numberA_ = numberA_ ;
+    }
+    Postincrement operator++(int)
+    {// for <preincrement> syntax : operator++(int)
+    Postincrement tempObj_;
+    tempObj_.numberA_ =numberA_++;
+    return tempObj_;
+    }
+     int display_()
+    {
+        cout<< numberA_<<"\n";
+        return 0 ;
+    }
+
+};
+int main()
+{
+    Preincrement objA(5),objB ;
+     // we are assigning the value 5 to numberA in the objA (component)
+    cout<<"number passed\n";
+    objA.display();
+    /* ++ REQUIRES SINGLE OPERAND */
+    objB = ++objA;// we are incrementing the components inside objA and storing it in objB. we could have written a function like say objB = objA.fun_() , where the fun_() would perform our desired task . But using ++ operator is easy to interpret
+    cout<<"number after preincrementing , i.e ++i\n";
+    objB.display();
+
+    Postincrement objA_(9),objB_;
+    cout<<"number passed\n";
+    objA_.display_();
+    objB_ = objA_++;
+    cout<<"number after postincrementing , i.e i++\n";
+    objB_.display_();
+}

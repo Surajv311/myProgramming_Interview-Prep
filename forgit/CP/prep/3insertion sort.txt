@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+#include <algorithm>
+using namespace std;
+void insertion_sort(int arr[], int n ) {
+
+// now we have to sort the array
+	int i , j , key ;
+	for (i = 1; i < n; i++) {
+		key = arr[i];
+		j = i - 1;
+		while (j >= 0 and key < arr[j]) {
+			arr[j + 1] = arr[j];
+			j--;
+		}
+		arr[j + 1] = key ;
+
+	}
+}
+
+
+void display(int arr[], int n) {
+	for (int i = 0; i < n; i++) {
+		cout << arr[i] << " ";
+	}
+}
+int main()
+{
+
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+	int n ;
+// size of array
+	cin >> n ;
+	int arr[n];
+	int i;
+	for (i = 0; i < n; i++) {
+		cin >> arr[i];
+	}
+
+	insertion_sort(arr, n);
+	display(arr, n);
+}

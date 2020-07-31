@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+
+// some basic functions
+	int a = 10 , b = 20;
+
+	swap(a, b);
+	cout << "a: " << a << " " << "b: " << b << endl;
+	cout << "max: " << max(a, b) << endl;
+	cout << "min: " << min(a, b) << endl;
+	// to reverse the array
+	int arr[] = {5 , 4 , 2, 6, 7 , 7, 7, 8, 1};
+	int n = sizeof(arr) / sizeof(int);
+	reverse(arr , arr + n); // reversing the whole array
+	for (int i = 0 ; i < n ; i++) {
+
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+	next_permutation(arr, arr + n);
+	for (int i = 0 ; i < n ; i++) {
+
+		cout << arr[i] << " ";
+	}
+
+}

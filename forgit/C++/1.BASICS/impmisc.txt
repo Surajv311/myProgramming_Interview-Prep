@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+string fun2();
+bool fun3();
+int main()
+{
+    // we would use various functions to return
+    // calling function
+    fun2();
+    fun3();
+    return 0 ;
+}
+string fun2()
+{
+    return "anystring";
+}
+bool fun3()
+{
+    return true ;
+}
+// IT WORKS IN C++ BUT NOT IN C 
+// IT WOULD GIVE ERROR 
+#include <stdio.h>
+string fun2();
+bool fun3();
+int main()
+{
+    // we would use various functions to return
+    // calling function
+    fun2();
+    fun3();
+    return 0 ;
+}
+string fun2()
+{
+    return "anystring";
+}
+bool fun3()
+{
+    return true ;
+}
+// ERROR 

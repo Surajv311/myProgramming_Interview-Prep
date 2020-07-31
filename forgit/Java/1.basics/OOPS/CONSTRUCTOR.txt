@@ -1,0 +1,32 @@
+package pracjavaproject;
+import java.util.Scanner;
+
+public class Pracname {
+
+	int x ;
+	
+	int modelYear;
+	  String modelName;
+
+Pracname()
+{
+	 x = 7; // you need not use 'int' again in <int x = 5> 
+	System.out.println("CONSTRUCTOR CALLED");
+
+	  /*public Pracname(int year, String name) {
+	    modelYear = year;
+	    modelName = name;
+	  }*/
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pracname obj = new Pracname();
+		System.out.println(obj.x);
+	
+		/*{
+		    Pracname myCar = new Car(1969, "Mustang");
+		    System.out.println(myCar.modelYear + " " + myCar.modelName);
+		  }*/
+	}
+
+}

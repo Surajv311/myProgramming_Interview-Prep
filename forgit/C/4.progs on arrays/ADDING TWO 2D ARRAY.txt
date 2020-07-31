@@ -1,0 +1,78 @@
+//ADDING TWO 2D ARRAY 
+
+#include <stdio.h>
+void main()
+{
+    int a[3][3],b[3][3],c[3][3],i,j;
+    printf(" enter the elements \n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+        printf("element a[%d][%d]",i,j);
+        scanf("%d",&a[i][j]);
+
+        }
+    }
+  for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+        printf("element b[%d][%d]",i,j);
+        scanf("%d",&b[i][j]);
+
+        }
+    }
+printf("the sum is \n ");
+
+for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+        c[i][j]= a[i][j]+b[i][j];
+
+            printf("%d\t",c[i][j]);
+        }
+        printf("\n");
+    }
+    }
+
+or   
+
+in detail 
+
+#include <stdio.h>
+void main()
+{
+   int m, n, i, j, a[10][10], b[10][10], sum[10][10];
+   printf("enter the number of rows , columns \n");
+   scanf("%d%d", &m, &n);
+   printf("enter elements \n"); // first matrix
+   for (i= 0; i < m; i++)
+      {
+          for (j = 0; j < n; j++)
+     {
+         printf("elements a[%d][%d]",i,j);
+         scanf("%d", &a[i][j]);
+   }
+   }
+   printf("enter elements \n");// second matrix
+   for (i= 0; i < m; i++)
+      {
+          for (j= 0 ; j < n; j++)
+
+      {
+          printf("elements b[%d][%d]",i,j);
+          scanf("%d", &b[i][j]);
+      }
+      }
+   printf("sum \n");
+
+   for (i = 0; i < m; i++) {
+      for (j= 0 ; j < n; j++) {
+         sum[i][j] = a[i][j] + b[i][j];
+         printf("%d\t", sum[i][j]);
+      }
+      printf("\n");
+   }
+}

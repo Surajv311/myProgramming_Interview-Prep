@@ -1,0 +1,36 @@
+
+//STAR PATTERN WHERE STARS ARE ALIGNED AT ONE SIDE  FROM SMALL TO LARGE
+
+#include <stdio.h>
+void main()
+
+{
+    int i,j,n;
+    printf("enter input number");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=i;j++)
+        printf("*",i);
+
+printf("\n",j);
+}
+}
+
+for large to small
+
+#include <stdio.h>
+void main()
+
+{
+    int i,j,n;
+    printf("enter input number");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=i;j<=n;j++)
+        printf("*");
+
+printf("\n");
+}
+}

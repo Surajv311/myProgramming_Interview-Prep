@@ -1,0 +1,10 @@
+// HELLO WORLD PRINT
+
+main()
+{
+    printf("hello world ");
+}
+/* in any program even if you don't write the header file
+and its library i.e say- stdio.h or string.h .......
+the compiler will automatically identify your need on writing the
+functions. its important to write the main function in beginning */

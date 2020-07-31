@@ -1,0 +1,56 @@
+// SHELL SORT
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+void main()
+{
+   int n ,  i;
+      printf("SIZE OF UNSORTED ARRAY\n");
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0 ; i<n ; i++)
+    {
+        printf("element:%d->",i);
+        scanf("%d",&arr[i]);
+    }
+    // when gap = 1 then shell sort works as insertion sort
+    // you compare in forward direction also and then if swapping done then you must compare in the backward direction also
+// used when smaller elements are in the rightmost side
+shellSort(arr , n);
+printf("SORTED ARRAY\n");
+for(i=0 ; i<n ; i++)
+    {
+        printf("%d\t",arr[i]);
+    }
+}
+int shellSort(int arr[] , int n )
+{
+    int i , j ,gap , t ;
+    for(gap = n/2 ; gap>=1 ; gap = gap/2)
+    {
+        for(j=gap ; j<n ; j++)
+         {
+             for(i= j - gap ; i >=0 ; i = i-gap)
+             {
+                 if(arr[i] < arr[i+gap])
+                 {
+                     break;
+                 }
+                 else
+                    // swap arr[i+gap] , arr[i]
+                    t = arr[i+gap];
+                 arr[i+gap]= arr[i];
+                 arr[i] = t ;
+             }
+         }
+    }
+}
+
+
+
+
+
+
+
+
+

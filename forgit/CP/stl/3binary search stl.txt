@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+
+	int arr[] = {5 , 4 , 2, 6, 7 , 7, 7, 8, 1};
+	int key = 7 ; // the element that you want to search
+// size of the array
+	int size = sizeof(arr) / sizeof(int);
+
+// to do binary search
+	bool x = binary_search(arr , arr + size , key);
+	// if x is true
+	if (x) {
+
+		cout << "present" << endl;
+	}
+// to find frequency of an element in the array
+	auto it = lower_bound(arr , arr + size , 7); // returns index of number '>=' to the searched number
+	cout << "address of it " << it << endl;
+	auto it2 = upper_bound(arr , arr + size , 7); // returns index of number '>' that the number searched
+	cout << "address of it2 " << it2 << endl;
+
+// now frequency of the element in the array
+	cout << "frequency " << it2 - it << endl;
+
+}

@@ -1,0 +1,10 @@
+. jdk = java development kit 
+.javac (jdk)  converts .java text files to binary 
+. you get a binary file for every .java file >>> class ( is like an idea in a programming language )
+. binary file extension = .class 
+. you may have more than one class in a java file  
+. jvm = java virtual machine ( kind of extra layer on your existing computer )
+.the binary file runs in jvm and not on your same computer 
+.java>new project>name >next >finish>>class.....
+. alt + enter = prop.
+.

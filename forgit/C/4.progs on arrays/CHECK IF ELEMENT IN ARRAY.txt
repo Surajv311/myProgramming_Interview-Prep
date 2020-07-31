@@ -1,0 +1,29 @@
+// CHECK IF ELEMENT PRESENT IN THE ARRAY 
+
+#include <stdio.h> 
+void main() 
+{ 
+  int arr[10], search,x, n; 
+ 
+  printf("enter elements in array\n"); 
+  scanf("%d", &n); 
+  printf("enter %d integers\n",n); 
+ 
+  for (x = 0; x< n; x++) 
+    scanf("%d", &arr[x]); 
+ 
+  printf("enter a number to search\n"); 
+  scanf("%d", &search); 
+
+ 
+  for (x= 0; x< n;x++) 
+  { 
+    if (arr[x] == search)    /* if the integer is found */ 
+    { 
+      printf("%d is present at location %d \n", search, x+1); 
+      break; 
+    } 
+  } 
+  if (x == n) 
+    printf("%d isn't present in the array.\n", search); 
+} 

@@ -1,0 +1,25 @@
+// LARGEST ELEMENT IN 1D ARRAY
+
+#include <stdio.h>
+void main()
+{
+    int arr[100],s, i,l; // l is largest
+
+        printf("\nsize of array is  ");
+        scanf("%d", &s); // s is size
+
+        printf("\n enter %d elements ", s);
+        for (i = 0; i < s; i++)
+		scanf("%d", &arr[i]);
+
+        l = arr[0];
+
+        for (i = 1; i < s; i++)
+        {
+		if (l < arr[i])
+			l = arr[i];
+	}
+
+        printf("largest element in array is %d \n ", l);
+
+}

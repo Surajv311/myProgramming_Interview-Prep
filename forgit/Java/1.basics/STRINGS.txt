@@ -1,0 +1,14 @@
+package proj1;
+
+public class prac3 {
+	public static void main(String[] args) {
+		
+String A1 = "yup";
+String A2 = " yo!";
+String A3 = "       ";
+String A4 = "hmm!";
+String B1 = A1 + A2 + A3 + A4 ;
+System.out.println(B1);
+ // or System.out.println("yup"+" yo!"+"       "+"hmm!");
+}
+}

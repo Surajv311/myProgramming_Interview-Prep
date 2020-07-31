@@ -1,0 +1,23 @@
+// CHECK IF THE NUMBER IS PRIME OR NOT 
+
+#include <stdio.h> 
+void main() 
+{ 
+int a,b=2; 
+printf("enter number",a); 
+scanf("%d",&a); 
+for(b=2;b<=a-1;b++) 
+{ 
+if(a%b==0) 
+{ 
+printf("not prime %d",a); 
+break; 
+} 
+} 
+if(a==b) 
+{ 
+printf("is prime %d",a); 
+} 
+} 
+ 
+ 

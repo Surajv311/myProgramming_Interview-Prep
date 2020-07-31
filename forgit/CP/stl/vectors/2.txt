@@ -1,0 +1,66 @@
+#include <bits/stdc++.h>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+int main()
+{
+
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+
+	vector<int> d{1, 2, 3, 4, 5};
+
+	d.push_back(18);
+	d.pop_back();
+	d.pop_back(); // removes the last element
+
+	d.insert(d.begin() + 3, 100); // to insert an element in the middle , say 100 at the 3rd index
+	d.insert(d.begin() + 3, 5, 100);
+
+	// erase some elments in the middle
+	d.erase(d.begin() + 3);
+
+	// we avoid to shrink
+	d.resize(10);
+	// d.clear(); // removes all the elements
+
+	if (d.empty()) {
+		cout << "this is empty vector" << endl;
+	}
+
+
+	for (int x : d) {
+		cout << x << " ";
+
+	}
+
+
+	cout << endl;
+
+	cout << d.front() << endl;
+	cout << d.back() << endl;
+
+
+	// NOW
+
+	vector<int> arr;
+	int a ;
+	cin >> a ;
+	for (int i = 0; i < a; i++) {
+		int s ;
+		cin >> s;
+		arr.push_back(s);
+		cout << "changing capacity" << arr.capacity() << endl;
+
+	}
+
+// AS YOU CAN SEE THAT THE CAPACITY INCREASES IN EVERY ITERATION SO IT'S A TIME TAKING PROCESS
+	// TO AVOID THAT WE USE 'reserve'
+	arr.reserve(100);
+	for (int i = 0; i < a; i++) {
+		cout << "changing capacity" << arr.capacity() << endl;
+
+	}
+
+}

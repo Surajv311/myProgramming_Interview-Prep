@@ -1,0 +1,10 @@
+// FOLLOWING CAN BE USED TO CLEAR SCREEN IN C/C++
+
+
+# include <stdio.h>
+# include <stdlib.h> // include this header file 
+void main()
+{
+printf("hi\n");
+system("cls"); // use this 
+}

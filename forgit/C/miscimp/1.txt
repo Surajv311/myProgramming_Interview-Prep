@@ -1,0 +1,97 @@
+#include<stdio.h>
+ void main()
+{             // starting of main
+auto int i=79;
+      {
+                // starting of block 1
+          auto int i=89;
+              {               // starting of block 2
+                   auto int i=99;
+                      {                // starting of block 3
+                       printf("%d \n",i);
+                      }                // end of block 3
+               }               // end of block 2
+      printf("%d \n",i);
+        }       // end of block 1
+printf("%d \n",i);
+}      // end of main
+
+
+
+or 
+
+
+
+
+
+#include<stdio.h>
+ void main()
+{             // starting of main
+register int i=79;
+      {
+                // starting of block 1
+          register int i=89;
+              {               // starting of block 2
+                   register  int i=99;
+                      {                // starting of block 3
+                       printf("%d \n",i);
+                      }                // end of block 3
+               }               // end of block 2
+      printf("%d \n",i);
+        }       // end of block 1
+printf("%d \n",i);
+}      // end of main
+
+
+or 
+
+
+
+#include<stdio.h>
+ void main()
+{             // starting of main
+static int i=79;
+      {
+                // starting of block 1
+          static int i=89;
+              {               // starting of block 2
+                   static  int i=99;
+                      {                // starting of block 3
+                       printf("%d \n",i);
+                      }                // end of block 3
+               }               // end of block 2
+      printf("%d \n",i);
+        }       // end of block 1
+printf("%d \n",i);
+}      // end of main
+
+
+
+o/p - 99 
+      89
+      79
+
+
+
+#include<stdio.h>
+ void main()
+{             // starting of main
+extern int i=79;
+      {
+                // starting of block 1
+          extern int i=89;
+              {               // starting of block 2
+                   extern  int i=99;
+                      {                // starting of block 3
+                       printf("%d \n",i);
+                      }                // end of block 3
+               }               // end of block 2
+      printf("%d \n",i);
+        }       // end of block 1
+printf("%d \n",i);
+}      // end of main
+
+
+
+o/p - error = both extern and i are the initializer
+   

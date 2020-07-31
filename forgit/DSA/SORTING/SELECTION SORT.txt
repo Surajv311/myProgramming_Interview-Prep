@@ -1,0 +1,41 @@
+//SELECTION SORT
+// WE DENOTE PASS FOR THE ITERATIONS
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+//#include <algorithm>
+void main()
+{
+    int n , i , j , temp ,t  ;
+printf("SIZE OF UNSORTED ARRAY\n");
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++)
+    {
+        printf("element:%d->",i);
+        scanf("%d",&arr[i]);
+    }
+
+    int min;
+    for(i=0;i<n;i++)
+    {
+        min= i ;
+        for(j=i+1;j<n;j++)
+        {
+            if(arr[min]>arr[j])
+                min = j;
+        }
+        if(min!=i)
+        {
+            t = arr[i];
+            arr[i] = arr[min];
+            arr[min]=t;//swap(arr[i],arr[min]);
+        }
+    }
+    printf("SORTED ARRAY\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\t",arr[i]);
+    }
+}
+

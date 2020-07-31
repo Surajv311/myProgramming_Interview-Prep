@@ -1,0 +1,29 @@
+#include<stdio.h>
+int x=5;
+extern int y;
+void display();
+void function();
+void main()
+{
+    printf("%d \n",x);
+    display();
+    function();
+}
+void display()       /*2 different  functions are  called 3 times in  total,i.e 
+                        (see in void display function we are calling the void function ...)
+                        But the  value remains  same*/
+{
+printf("%d \n",y);
+function();
+}
+void function()
+{
+printf("%d \n",y);
+}
+int y=9;
+
+
+o/p = 5
+      9
+      9
+      9

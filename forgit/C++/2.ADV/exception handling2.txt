@@ -1,0 +1,77 @@
+//EXCEPTION HANDLING
+ #include <iostream>
+ #include <stdlib.h>
+ #include <string>
+ using namespace std;
+ int main()
+ {
+    //exception handling
+    //try: represents a block of code that can throw an exception/ block of code that gives an error
+    //catch: represents a block of code that is executed when a particular exception is thrown
+    int numberA;
+    cout<<"CASE-1 : THROWING CHAR EXCEPTION"<<endl;
+    cout<<"In this case if the value of the input integer is less than zero then it would throw an exception"<<endl;
+    try{
+        cin >> numberA;
+        if(numberA<0) // WE WILL throw A char NOW
+    throw "error" ;
+    else
+       cout<<"NO EXCEPTION"<<"\n"<<"numberA is :"<<numberA<<endl;
+    }
+    catch(const char *msg_Pointer) // const must be used
+    {
+        cout<<msg_Pointer;
+    }
+    cout<<"\n";
+
+    int numberB;
+    cout<<"CASE-2 : THROWING STRING EXCEPTION"<<endl;
+    cout<<"In this case if the value of the input integer is less than zero then it would throw an exception"<<endl;
+    try{
+        cin >> numberB;
+        if(numberB<0) // WE WILL throw A string NOW
+    throw string ("error");
+    else
+       cout<<"NO EXCEPTION"<<"\n"<<"numberB is :"<<numberB<<endl;
+    }
+     catch(string msg) // pointer reference is not used
+    {
+        cout<<msg;
+    }
+    cout<<"\n";
+
+int numberC;
+cout<<"CASE-3 : THROWING INTEGER EXCEPTION"<<endl;
+cout<<"In this case if the value of the input integer is less than zero then it would throw an exception"<<endl;
+
+    try{
+        cin >> numberC;
+        if(numberC<=0)
+    throw 404 ;// if you throw an int then you must catch with int
+    else
+      cout<<"NO EXCEPTION"<<"\n"<<"numberC is :"<<numberC<<endl;
+    }
+    catch(int numCatch)
+    {
+        cout<<numCatch;
+    }
+    cout<<"\n";
+int numberD;
+cout<<"CASE-4 : THROWING FLOAT EXCEPTION"<<endl;
+cout<<"In this case if the value of the input integer is less than zero then it would throw an exception"<<endl;
+
+    try{
+        cin >> numberD;
+        if(numberD<=0)
+    throw float(404.404) ;// if you throw an int then you must catch with int
+    else
+      cout<<"NO EXCEPTION"<<"\n"<<"numberD is :"<<numberD<<endl;
+    }
+    catch(float floatCatch)
+    {
+        cout<<floatCatch;
+    }
+    cout<<"\n";
+
+ }
+

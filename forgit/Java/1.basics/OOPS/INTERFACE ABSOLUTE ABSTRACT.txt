@@ -1,0 +1,30 @@
+package pracjavaproject;
+import java.util.Scanner; 
+import java.util.*;
+
+// an interface is completely abstract class
+// we use implements keyword to inherit and use the interface class 
+// we have methods declared in the interface class and defined in the inherited classes using the implements keyword 
+// interface method does not have a body 
+interface  InterfaceA
+{
+	 void fun();
+}
+class Child implements InterfaceA
+{
+    public void fun()
+	{
+		System.out.println("interface class ,keyword implements ");
+	}
+}
+class Pracname {
+	
+ 
+	public static void main(String[] args) { 
+	
+	Child obj = new Child();
+	obj.fun();
+		
+	}
+
+}

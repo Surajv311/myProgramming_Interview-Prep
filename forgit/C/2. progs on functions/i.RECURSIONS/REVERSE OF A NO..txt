@@ -1,0 +1,24 @@
+// REVERSE OF A NO.
+
+#include<stdio.h>
+int main()
+{
+int n,rn;//rn is reverse of number
+   printf("\nenter any number:");
+   scanf("%d",&n);
+   rn=r_fn(n);
+   printf("\nafter reverse the no. is :%d",rn);
+   return 0;
+}
+int sum=0,rem;
+r_fn(int n)
+{
+   if(n)
+    {
+      rem=n%10;
+      sum=sum*10+rem;
+      r_fn(n/10);
+   }
+   else
+    return sum;
+   }

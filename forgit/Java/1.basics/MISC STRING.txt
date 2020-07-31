@@ -1,0 +1,53 @@
+package pracjavaproject;
+import java.util.Scanner;
+
+public class Pracname {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//WHEN YOU DO TEH TYPECASTING byte <-> short <-> char <-> int <-> long <-> float <-> double
+		
+		String txt = "Please locate where 'locate' occurs!";
+		System.out.println(txt.indexOf("locate"));
+		String a = "ruoewifjwf";
+		System.out.println(a.length());
+		String firstName = "John";
+		String lastName = "Doe";
+		System.out.println(firstName + " " + lastName);
+		//String firstName = "John ";
+		//String lastName = "Doe";
+		//System.out.println(firstName.concat(lastName));
+		 String myStr = "Hello";
+		 System.out.println(myStr.replace('l', 'p')); // to replace 
+		 String myStr_ = "AHello";
+		 int result = myStr_.codePointAt(0);// this would give us the unicode value of the character 
+		 System.out.println(result);
+		 String txt_ = "Hello World";
+		 System.out.println(txt_.toUpperCase());
+		 System.out.println(txt_.toLowerCase());
+		 
+		 System.out.println(Math.sqrt(64));
+	// similarly Math.max(x,y) or min()...
+		 //System.out.println(Math.random()); -> returns a random number between 0 and 1 
+		 //variable = (condition) ? expressionTrue :  expressionFalse; -> short hand if - else statement 
+		/* do {
+			  // code block to be executed if condition correct 
+			} -> do-while is a variant of while loop 
+			while (condition);*/
+		 
+	// for - each LOOP , like for loop 
+		/* for (type variableName : arrayName) {
+			  // code block to be executed
+			}*/		 
+		 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+		 for (String any_Variable : cars) {
+		   System.out.println(any_Variable);
+		 }
+		 
+		// The break statement can also be used to jump out of a loop or switch statement 
+		 /*The continue statement breaks one iteration (in the loop), 
+		 if a specified condition occurs, and continues with the next iteration in the loop.*/
+		 	
+	}
+
+}

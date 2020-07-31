@@ -1,0 +1,76 @@
+//BUBBLE SORT OR SINKING SORT
+// a[i] is compared with a[i+1]
+// pass 1 , 2 ....
+// number of passes required = no. of elements - 1 usually
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+void main()
+{
+
+    int i , j ,size ;
+    printf("SIZE OF UNSORTED ARRAY\n");
+    scanf("%d",&size);
+    int arr[size];
+    for(i=0;i<size;i++)
+    {
+        printf("element:%d->",i);
+        scanf("%d",&arr[i]);
+    }
+int t,flag ;
+// bubble sort
+/*for(i=0;i<size-1;i++)
+{
+    for(j=0;j<size-1;j++) // if j<i-1 then there would be wastage of time by program hence we have only o/p iterations
+    {
+        if(arr[j]>arr[j+1])
+    {
+        //swap
+        t = arr[j];
+        arr[j]=arr[j+1];
+        arr[j+1]=t;
+       
+    }
+    }
+}
+ */
+// to reduce number of passes
+// above for to reduce iterations
+/*for(i=0;i<size-1;i++)
+{
+    for(j=0;j<size-i-1;j++) // if j<i-1 then there would be wastage of time by program hence we have only o/p iterations
+    {
+        if(arr[j]>arr[j+1])
+    {
+        //swap
+        t = arr[j];
+        arr[j]=arr[j+1];
+        arr[j+1]=t;
+       
+    }
+    }
+
+}*/
+for(i=0;i<size-1;i++)
+{ flag=0;
+    for(j=0;j<size-i-1;j++)
+    {
+        if(arr[j]>arr[j+1])
+    {
+        //swap
+        t = arr[j];
+        arr[j]=arr[j+1];
+        arr[j+1]=t;
+        flag=1;
+    }
+    }
+    if(flag==0)
+        break;
+}
+printf("SORTED ARRAY:\n");
+for(i=0;i<size;i++)
+    {
+        printf("%d\t",arr[i]);
+    }
+}
+

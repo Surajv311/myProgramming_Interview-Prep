@@ -1,0 +1,30 @@
+// DECLARE 2D ARRAY 
+
+#include <stdio.h>
+void main()
+{
+  int arr[3][3],i,j;
+
+       printf("3x3 matrix is :\n");
+/* Stored values into the array*/
+       printf("input elements in the matrix :\n");
+  for(i=0;i<3;i++)
+  {
+      for(j=0;j<3;j++) /* now the loop will run as - first i=0 then
+      j=0,1,2 elements would
+    be printed then it would come out of j loop then , i=1 ............,
+        hence the input would be given*/
+      {
+	      printf("element: [%d],[%d]",i,j);
+	      scanf("%d",&arr[i][j]);
+      }
+  }
+
+ printf("\nthe matrix is :");
+  for(i=0;i<3;i++)
+  {
+      printf("\n");
+      for(j=0;j<3;j++)
+           printf("%d \t",arr[i][j]);
+  }
+}

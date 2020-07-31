@@ -1,0 +1,49 @@
+package pracjavaproject;
+import java.util.*;
+// import java.util.ArrayList;
+
+class Pracname {
+	
+	static int[] intArray = {1, 2,3,4, 5};
+	static String[] cars_ = {"_Volvo", "_BMW", "_Ford", "_Mazda"};
+	static int[][] Array_ = new int[][] { {1,2} ,{3,4}, {4,5}, {9,0} };
+	public static void main(String[] args) { 
+				    ArrayList<String> cars = new ArrayList<String>();
+                                    // similarly valid integer array list -> ArrayList<Integer> list_I = new ArrayList<Integer>();
+                                    // similarly char ArrayList -> ArrayList<Character>...........
+				    cars.add("Volvo");
+				    cars.add("BMW");
+				    cars.add("Ford");
+				    cars.add("Mazda");
+				    for (String i : cars) 
+				    {
+			/**/	      System.out.println(i);
+				    }
+				     
+				    for (int j=0 ; j < cars.size();j++)
+				    {
+			/**/	    	 System.out.println(cars.get(j)); // we use get() as its a ArrayList 
+				    }
+				    
+		   /**/	          System.out.println(Arrays.asList(cars)); // to print as list 
+				   
+				    // IN ARRAYLIST WE USE SIZE AND IN ARRAY WE USE LENGTH 
+				    
+				    for (String any_Variable : cars_)
+				    {
+				 	   System.out.println(any_Variable);
+				    }
+				 	   for (int j=0 ; j < cars_.length;j++)
+					    {
+					    	 System.out.println(cars_[j]);
+					    }
+				 	  System.out.println(Arrays.asList(cars_));
+				 	  
+				 	//->DOES NOT WORK FOR int[]  System.out.println(Arrays.asList(intArray));
+				 	  System.out.println(Arrays.toString(intArray));
+				 	  System.out.println(Arrays.deepToString(Array_));
+				 	  
+				 	  
+				  }
+				}
+		

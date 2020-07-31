@@ -1,0 +1,44 @@
+// array 
+package domain;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        int [] num = {3,2,4};
+        System.out.println(num[2]);
+    }
+
+}
+/*
+package domain;
+import java.util.*;
+public class HelloWorld {
+    public static void main(String[] args) {
+        List l = new ArrayList();
+        l.add(3);
+        l.add(4);
+        l.add(5);
+        l.remove(1);
+        System.out.println(l.get(1)); // l.toString() would display the array
+        
+    }
+
+}
+*/
+/* 
+     HASHMAP
+package domain;
+import java.util.*;
+public class HelloWorld {
+    public static void main(String[] args) {
+      Map m = new HashMap();
+        m.put("ab","cd");
+        m.put("ef","gh");
+        m.remove("ef");
+        System.out.println(m.toString());
+        
+    }
+
+}
+
+*/
