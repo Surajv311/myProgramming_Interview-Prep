@@ -24,21 +24,18 @@ void c_p_c()
 }
 
 int32_t main() {
-
-///////////
 	c_p_c();
-///////////
 
 	// code
-
-
-
-
-
-
-
-
-
-
+	int inputs;
+	cin >> inputs;
+	string s;
+	while (inputs--)
+	{
+		cin >> s;
+		sort(s.begin(), s.end());
+		cout << s << endl;
+	}
 	return 0;
+
 }
