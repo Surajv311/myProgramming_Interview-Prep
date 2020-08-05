@@ -1,15 +1,4 @@
 #include <bits/stdc++.h>
-#include <algorithm>
-#include <list>
-#include <queue>
-#include <stack>
-#include <map>
-#include <deque>
-#include <iterator>
-#include <memory>
-#include <set>
-#include <utility>
-#include <vector>
 #define int long long int
 #define setbits(x) __builtin_popcount(x)
 using namespace std;
