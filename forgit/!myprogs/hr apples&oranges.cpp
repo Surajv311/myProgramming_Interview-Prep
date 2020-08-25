@@ -1,3 +1,8 @@
+// hackerrank Apple and Orange
+
+
+
+
 #include <bits/stdc++.h>
 #define int long long int
 #define setbits(x) __builtin_popcount(x)
