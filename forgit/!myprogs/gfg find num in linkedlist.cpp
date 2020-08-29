@@ -1,4 +1,4 @@
-// To find length of an entire linkedlist
+// To find number from an entire linkedlist
 
 #include <bits/stdc++.h>
 #define int long long int
