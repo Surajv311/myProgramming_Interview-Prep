@@ -19,7 +19,6 @@ int32_t main() {
 	c_p_c();
 ///////
 
-// max pair sum presence in rotated sorted array
 // various constructor of string class
 
 	// initialization by raw string
