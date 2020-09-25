@@ -13,7 +13,7 @@ if (x) {cout << "present" << endl;}
 // to find frequency of an element in the array
 auto it = lower_bound(arr , arr + size , 7); // returns index of number '>=' to the searched number
 cout << "address of it " << it << endl;
-auto it2 = upper_bound(arr , arr + size , 7); // returns index of number '>' that the number searched
+auto it2 = upper_bound(arr , arr + size , 7); // returns index of number '>' than the number searched
 cout << "address of it2 " << it2 << endl;
 cout << "frequency " << it2 - it << endl;
 
