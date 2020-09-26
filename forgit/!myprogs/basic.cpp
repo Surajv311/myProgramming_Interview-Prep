@@ -45,3 +45,5 @@ next_permutation(arr, arr + n);
 
 
 
+int maxElement = *max_element(arr, arr + n);
+// to find max element in an array
