@@ -44,7 +44,7 @@ void push(Node **n , int data) {
 
 	(*n) = newnode ;
 
-}
+} // ll in reverse fashion
 
 
 
