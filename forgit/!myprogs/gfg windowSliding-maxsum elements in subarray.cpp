@@ -45,6 +45,7 @@ void c_p_c()
 
 int32_t maxsumWS(int arr[] , int n , int m ) {
 
+
 // n must be greater
 	if (n < m) {
 		cout << "error";
@@ -58,12 +59,13 @@ int32_t maxsumWS(int arr[] , int n , int m ) {
 	}
 
 	int sum2 = sum ;
+	int d ;
 	for (int i = m; i < n; ++i)
 	{
 		sum2 += arr[i] - arr[i - m]; // sliding like window pane
+		d = max(sum , sum2);
 	}
 
-	int d = max(sum , sum2);
 
 	return d ;
 }
@@ -81,7 +83,7 @@ int32_t main() {
 	int n ; // size of array
 	cin >> n ;
 
-	int m ; // no. of cons. elements for max sum
+	int m ; // max sum to be found in consecutive elements in array
 	cin >> m ;
 
 	int arr[n] ;
