@@ -83,7 +83,7 @@ int32_t main() {
 	int n ; // size of array
 	cin >> n ;
 
-	int m ; // max sum to be found in consecutive elements in array
+	int m ; // number of consecutive elements in array
 	cin >> m ;
 
 	int arr[n] ;
