@@ -1,8 +1,6 @@
 /////////////////////////////////////////////////////////
 /*
-
-Print elements in sorted vector.
-
+counting sort 2
 */
 ////////////////////////////////////////////////////////////
 
@@ -28,24 +26,37 @@ int32_t main() {
 	c_p_c();
 ///////
 
-	vector<int> v ;
 
-	int n ;
-	cin >> n ;
-	int m ;
+	int arr[1000000] , size;
+	cin >> size ;
+	for (int i = 0 ; i < size ; i++) {
+		cin >> arr[i];
+		if (arr[i] >= 100 || arr[i] < 0) {
+			break;
+		}
 
-	for (int i = 0 ; i < n ; i++) {
-		cin >> m ;
-		v.push_back(m);
 	}
+// to sort the function
+	sort(arr , arr + size);
 
-	sort(v.begin() , v.end());
-	//cout << v.size() << endl ;
-	for (int i = 0 ; i < n ; i++) {
-		cout << v[i] << " " ;
-	}
+	for (int i = 0 ; i < size ; i++)
+		cout << arr[i] << " ";
+
+
 	return 0;
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

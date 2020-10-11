@@ -1,8 +1,7 @@
 /////////////////////////////////////////////////////////
 /*
 
-Print elements in sorted vector.
-
+angry professor
 */
 ////////////////////////////////////////////////////////////
 
@@ -28,23 +27,48 @@ int32_t main() {
 	c_p_c();
 ///////
 
-	vector<int> v ;
 
-	int n ;
-	cin >> n ;
-	int m ;
+	int t ;
+	cin >> t ; // number of cycles
 
-	for (int i = 0 ; i < n ; i++) {
-		cin >> m ;
-		v.push_back(m);
+	for (int i = 0; i < t; ++i)
+	{
+
+		int n , k ; // number of students and cancellation threshold
+
+		cin >> n >> k ;
+
+		int arr[n] ;
+		int count = 0 ;
+
+		for (int j = 0; j < n; ++j)
+		{
+
+			cin >> arr[i] ;
+			if (arr[i] <= 0 ) {
+				count++ ;
+			}
+		}
+		if (count >= k) {
+			cout << "NO" << endl;
+		}
+		else {
+			cout << "YES" << endl;
+		}
+
+
+
+
 	}
 
-	sort(v.begin() , v.end());
-	//cout << v.size() << endl ;
-	for (int i = 0 ; i < n ; i++) {
-		cout << v[i] << " " ;
-	}
+
+
+
+
+
+
 	return 0;
+
 }
 
 
