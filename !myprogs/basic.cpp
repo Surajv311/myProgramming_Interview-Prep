@@ -8,7 +8,7 @@ auto it = find(arr , arr + size , key);
 cout << "index is " << it - arr << endl;
 
 
-bool x = binary_search(arr , arr + size , key);
+bool x = binary_search(arr , arr + size , key); // binary search is done in a sorted array
 if (x) {cout << "present" << endl;}
 // to find frequency of an element in the array
 auto it = lower_bound(arr , arr + size , 7); // returns index of number '>=' to the searched number
