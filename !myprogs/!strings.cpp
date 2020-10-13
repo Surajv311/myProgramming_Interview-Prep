@@ -34,7 +34,7 @@ int32_t main() {
 	string str4(str1, 6, 6); //    from 6th index (second parameter)
 	// 6 characters (third parameter)
 
-	// initialization by part of another string : iteartor version
+	// initialization by part of another string : iterator version
 	string str5(str2.begin(), str2.begin() + 5);
 
 	cout << str1 << endl;
