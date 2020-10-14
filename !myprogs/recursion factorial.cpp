@@ -19,6 +19,18 @@ void c_p_c()
 #endif
 }
 
+
+int32_t fact(int n ) {
+
+	if (n > 0) {
+		return n * fact(n - 1);
+	}
+	else
+		return 1 ;
+
+
+}
+
 int32_t main() {
 
 ///////////
@@ -26,10 +38,13 @@ int32_t main() {
 ///////////
 
 	// code
+	int n ;
+	cin >> n ;
+
+	// finding factorial using recursion
 
 
-
-
+	cout << fact(n);
 
 
 
