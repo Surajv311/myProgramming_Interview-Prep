@@ -12,4 +12,7 @@ void main()
 int i=5;
 printf("%d",i++);
 }
-o/p - 5 as i++ gets value of 5 and i get the value of 4
+o/p - 5 
+
+++i will increment the value of i, and then return the incremented value.
+i++ will increment the value of i, but return the original value that i held before being incremented.
