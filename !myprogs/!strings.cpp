@@ -120,6 +120,29 @@ int32_t main() {
 
 	cout << str6 << endl;
 
+
+
+	string s ;
+	cin >> s ;
+	cout << s[0] << s.size() << endl ; // you can also use s.length()
+
+	char str[] = "Hi";
+	cout << strlen(str) << endl;
+
+	if (isupper(s[0]))
+		count++;//////////////////
+
+
+	string su = "Hello";
+	transform(su.begin(), su.end(), su.begin(), ::tolower);
+	cout << su << endl;
+
+
+	char arr[] = "Hello";
+	for (int x = 0; x < strlen(arr); x++)
+		putchar(tolower(arr[x]));
+
+
 	return 0;
 
 }
