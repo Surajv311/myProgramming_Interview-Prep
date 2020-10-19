@@ -2,6 +2,14 @@
 ///////////////////////////////////////////
 
 
+In short get rid of string '010' from input.....
+
+Sample Input 0
+7
+0101010
+
+Sample Output 0
+2
 
 ///////////////////////////////////////////
 */
@@ -38,6 +46,7 @@ void c_p_c()
 #endif
 }
 
+
 int32_t main() {
 
 ///////////
@@ -47,12 +56,28 @@ int32_t main() {
 	// code
 
 
+	int l ; // length of string
 
+	cin >> l ;
+	string s ;
 
+	cin >> s ;
 
-
-
-
+	if (l == s.size()) {
+		int n = s.size(), count = 0, i = 0;
+		while (i < n)
+		{
+			if (s[i] == '0' && s[i + 1] == '1' && s[i + 2] == '0')
+			{
+				count++;
+				i += 3;
+			}
+			else
+				i++;
+		}
+		ct(count);
+	}
 
 	return 0;
+
 }

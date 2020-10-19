@@ -1,7 +1,35 @@
 /*
 ///////////////////////////////////////////
 
+Function Description
 
+Complete the alternatingCharacters function in the editor below.
+It must return an integer representing the minimum number of
+deletions to make the alternating string.
+
+alternatingCharacters has the following parameter(s):
+
+s: a string
+
+Sample Input
+5
+AAAA
+BBBBB
+ABABABAB
+BABABA
+AAABBB
+
+Sample Output
+3
+4
+0
+0
+4
+
+Explanation
+The characters marked red are the ones that
+can be deleted so that the string doesn't have
+matching consecutive characters.
 
 ///////////////////////////////////////////
 */
@@ -38,6 +66,21 @@ void c_p_c()
 #endif
 }
 
+
+int32_t rep(string &s) {
+
+	int count = 0 ;
+	int d = s.size() ;
+
+	forn(i, d) {
+		if (s[i] == s[i + 1]) {
+			count++ ;
+		}
+	}
+
+	return count ;
+}
+
 int32_t main() {
 
 ///////////
@@ -46,6 +89,16 @@ int32_t main() {
 
 	// code
 
+	int t ;
+
+	cin >> t ;
+
+	forn(i, t) {
+		string s ;
+		cin >> s ;
+
+		ct(rep(s));
+	}
 
 
 

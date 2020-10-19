@@ -47,3 +47,14 @@ next_permutation(arr, arr + n);
 
 int maxElement = *max_element(arr, arr + n);
 // to find max element in an array
+
+int sum = accumulate(arr, arr + n, sum); // to find sum of entire array elements
+// then ct(sum);
+
+ct(sqrt(40)); // square root
+ct(cbrt(x)); // cube root
+ct(floor(2.343)); // similarly ceil()
+ct(abs(x)) ; // absolute
+ct(hypot(x, y)) ; // hypotneuse
+ct(cos(x)); // similarly exp(x)
+ct(acos(x)); // arc cos
