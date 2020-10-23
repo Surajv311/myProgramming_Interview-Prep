@@ -1,26 +1,8 @@
 /*
 ///////////////////////////////////////////
 
-When you select a contiguous block of text in a PDF viewer,
-the selection is highlighted with a blue rectangle.
-In a new kind of PDF viewer, the selection of each word
-is independent of the other words; this means that each
-rectangular selection area forms independently around
-each highlighted word.
 
-In this type of PDF viewer,
-the width of the rectangular selection
-area is equal to the number of letters in
-the word times the width of a letter, and the
-height is the maximum height of any letter in the word.
-
-
-Sample Input 0
-1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
-abc
-
-Sample Output 0
-9
+Reverse a number codechef...
 
 ///////////////////////////////////////////
 */
@@ -56,6 +38,8 @@ void c_p_c()
 #endif
 }
 
+
+
 int32_t main() {
 
 ///////////
@@ -64,29 +48,51 @@ int32_t main() {
 
 	// code
 
-	int arr[1000] ;
 
-	forx(i, 97, 123) {
-		cin >> arr[i] ;
+	int t ;
+	cin >> t ;
+
+	forn(i, t) {
+
+		int num ;
+		cin >> num ;
+
+// reverse the number
+		int32_t n2 = num ;
+		string m = to_string(n2);
+		int k = m.size() ;
+
+		int x , q = 0;
+
+		while (num != 0) {
+
+			x = num % 10;
+			q = q + x * pow(10, k - 1);
+
+			num = num / 10;
+			k--;
+
+		}
+
+
+		ct(q);
+
 	}
+//////// OR //////////
+
+	/*int n, reversedNumber = 0, remainder;
 
 
-	string s ;
+	   cin >> n;
 
-	cin >> s ;
+	   while(n != 0) {
+	       remainder = n%10;
+	       reversedNumber = reversedNumber*10 + remainder;
+	       n /= 10;
+	   }
 
-	int d = s.size() ;
-
-	int arrs[d] ;
-	forn(i, d) {
-		arrs[i] = arr[int32_t(s[i])];
-	}
-
-	int max = *max_element(arrs, arrs + d);
-
-	int k = max * d;
-	cout << k ;
-
+	   cout << reversedNumber;
+	*/
 
 
 

@@ -14,7 +14,8 @@ B: an array of integers
 
 Output Format
 
-For each query, print YES on a new line if valid permutations exist. Otherwise, print NO.
+For each query, print YES on a new line if valid permutations exist.
+Otherwise, print NO.
 
 Sample Input
 2

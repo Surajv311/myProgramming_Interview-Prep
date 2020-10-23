@@ -1,7 +1,8 @@
 /*
 ///////////////////////////////////////////
 
-Complete the maximizingXor function in the editor below. It must return an integer representing the maximum value calculated.
+Complete the maximizingXor function in the editor below.
+It must return an integer representing the maximum value calculated.
 
 maximizingXor has the following parameter(s):
 
