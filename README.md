@@ -1,5 +1,5 @@
 # CP practice solutions
 <br>
 Included : CP , DS & Algo , py , java , C , C++ programs that I practice...etc. <br>
-from Codechef/Hackerrank/GF.
+from Codechef/Hackerrank/GFG.
 
