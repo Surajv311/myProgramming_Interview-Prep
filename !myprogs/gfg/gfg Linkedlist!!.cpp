@@ -23,6 +23,8 @@ public:
 
 void Push_l(Node** ref , int d) {
 
+// add node in front
+
 	Node *new_node = new Node();
 
 	new_node->data = d ;
@@ -35,6 +37,8 @@ void Push_l(Node** ref , int d) {
 
 
 void Push_r(Node** head , int d) {
+
+// add node at end
 
 	Node *new_node = new Node() ;
 
@@ -94,7 +98,6 @@ int32_t main() {
 
 	print(nodeL);
 
-	// insert nodes from end of ll - pref
 
 
 	Node *nodeR = NULL;
