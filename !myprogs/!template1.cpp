@@ -15,7 +15,6 @@
 #define ct2(x,y) cout<<x<<" "<<y<<endl;
 #define forn(i, n) for (int i = 0; i < (int)(n); i++)
 #define forx(i, x, n) for (int i = x ; i < (int)(n); i++)
-#define for1(i,n) for (int i = 1; i <= (int)(n); i++)
 #define all(v) v.begin(), v.end()
 
 //typedef long long int lli;
