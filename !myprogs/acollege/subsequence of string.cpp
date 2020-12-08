@@ -1,7 +1,7 @@
 /*
 ///////////////////////////////////////////
 
-Generate subsequence of a string...
+Generate subsequence of a string...(also if wanna generate ASCII values...)
 
 ///////////////////////////////////////////
 */
@@ -49,6 +49,13 @@ void subsq(string s, string ans)
 	string ros = s.substr(1);
 	subsq(ros, ans);
 	subsq(ros, ans + ch);
+
+	/*
+		// to generate ASCII values as well then
+		add int code = ch ; // to convert to ASCII
+		// and pass :
+		sub(x , ans + to_string(code)); // done
+	*/
 
 }
 int32_t main() {
