@@ -3,6 +3,12 @@
 
 delete node from linkedlist
 
+Let us formulate the problem statement to understand the deletion process. Given a ‘key’, delete the first occurrence of this key in the linked list.
+To delete a node from the linked list, we need to do the following steps.
+1) Find the previous node of the node to be deleted.
+2) Change the next of the previous node.
+3) Free memory for the node to be deleted.
+
 ///////////////////////////////////////////
 */
 
