@@ -71,5 +71,36 @@ int32_t main() {
 // because for high values it would have precision issues...
 // despite fixed/setprecision()
 
+
+	/*ALSO:
+
+		We use modulor 1000000007 % to avoid overflow of integers....
+		(10^9 + 7 ) is a prime number.
+		It is the first 10-digit prime number.
+
+	Printing your answer modulo (10^9 +7) ensures that
+	it fits the maximum value your system is capable of
+	storing in standard allotted space, preventing “integer overflow”,
+	after which variables will begin to behave erratically,
+	giving wrong answers. It is also consistent with the
+	test code written by the question setter as well as case tester.
+
+	You can use online resources to see how to better
+	and more quickly implement mod in order to obtain
+	the result,mod(10^9+7).
+
+		/*
+
+
+		/* MODULO:
+
+
+	(a+b)%n = ((a%n)+(b%n))%n ; // to reduce ...
+
+	cout << 234 % 1000000007;
+	cout << 4e3 ; // e is 10 so: 1e3 = 1000, 1e2 = 100, 4e3 = 4000....
+	cout << (1e9) + 7;
+
+	*/
 	return 0;
 }

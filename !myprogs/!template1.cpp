@@ -16,6 +16,8 @@
 #define forn(i, n) for (int i = 0; i < (int)(n); i++)
 #define forx(i, x, n) for (int i = x ; i < (int)(n); i++)
 #define all(v) v.begin(), v.end()
+#define PI 3.1415926535897932384626433832795
+#define MOD 1000000007
 
 //typedef long long int lli;
 typedef long double ld;
