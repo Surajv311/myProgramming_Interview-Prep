@@ -48,7 +48,7 @@ int pairf(int n) {
 		return n;
 	}
 
-	return ( pairf(n - 1) + (pairf(n - 1) * pairf(n - 2))  );
+	return ( pairf(n - 1) + ((n - 1) * pairf(n - 2))  );
 
 }
 

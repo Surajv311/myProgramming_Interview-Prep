@@ -58,3 +58,8 @@ ct(abs(x)) ; // absolute
 ct(hypot(x, y)) ; // hypotneuse
 ct(cos(x)); // similarly exp(x)
 ct(acos(x)); // arc cos
+
+
+// defining 2D vector matrix of m*n
+vector<vector<int>> matrix (n, vector<int>m);
+// to initialise you may: vector<int>(m,0)... inside...
