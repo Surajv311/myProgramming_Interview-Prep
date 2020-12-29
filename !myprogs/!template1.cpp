@@ -16,10 +16,10 @@ using namespace std;
 #define ct(x) 			cout<<x<<endl;
 #define ct2(x,y) 		cout<<x<<" "<<y<<endl;
 #define forn(i,n) 		for(int i = 0; i < (int)(n); i++)
-#define forx(i,x,n) 	for(int i = x; i < (int)(n); i++)
+#define forx(i,x,n) 		for(int i = x; i < (int)(n); i++)
 #define all(v) 			v.begin(),v.end()
 #define fsp(x,y) 		fixed<<setprecision(y)<<x;
-#define PI 				3.1415926535897932384626433832795
+#define PI 			3.1415926535897932384626433832795
 #define MOD 			1000000007 // (1e9+7)
 #define pii 			pair<int,int>;
 #define pis 			pair<int,string>;
