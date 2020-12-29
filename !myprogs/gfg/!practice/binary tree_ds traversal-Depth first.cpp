@@ -2,6 +2,7 @@
 ///////////////////////////////////////////
 //Question/Info
 
+CODE FOR A *BINARY TREE* DATA STRUCTURE
 
 ///////////////////////////////////////////
 */
@@ -41,6 +42,74 @@ void c_p_c()
 #endif
 }
 
+
+class Node {
+public:
+
+	int data ;
+	Node *left;
+	Node *right;
+
+};
+
+Node* create(int data) { // Node* - since it would return a pointer
+
+	Node *nn = new Node();
+
+	nn->data = data;
+	nn->right = 0;
+	nn->left = 0;
+
+	return nn;
+
+
+}
+
+void check(Node* &x, int data) {
+
+
+	if (x == 0) {
+		x = create(data); // now our new node with a data is created
+	}
+
+	else if (x->data > data) {
+		check(x->left, data);
+	}
+	else {
+		check(x->right, data);
+	}
+}
+
+void display(Node* ref) {
+
+// Inorder[LPR], Preorder[PLR] , Postorder[LRP]
+
+	//  preorder
+
+	if (ref != NULL) {
+		cout << ref->data << " "; //p
+		display(ref->left);//l
+		display(ref->right); //r
+	}
+
+	// post order lrp
+
+	// if (ref != NULL) {
+	// 	display(ref->left);//l
+	// 	display(ref->right); //r
+	// 	cout << ref->data << " "; //p
+	// }
+
+	// inorder l p r
+
+	// if (ref != NULL) {
+	// 	display(ref->left); //l
+	// 	cout << ref->data << " "; //p
+	// 	display(ref->right); //r
+	// }
+
+}
+
 int32_t main() {
 
 ///////////
@@ -49,13 +118,19 @@ int32_t main() {
 
 	// code
 
+	Node* root = NULL;
 
+	int n ; // number of nodes
+	cin >> n ;
 
+	forn(i, n) {
 
+		int data;
+		cin >> data ;
+		check(root, data);
+	}
 
-
-
-
+	display(root);
 
 	return 0;
 }
