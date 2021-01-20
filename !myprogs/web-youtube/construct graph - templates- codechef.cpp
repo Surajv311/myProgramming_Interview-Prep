@@ -84,7 +84,8 @@ public:
 	void display() {
 
 		//cout << adj.size(); // can't use forn(i,adj.size()) since, this->adj
-		for (auto x : this->adj) {
+		for (auto x : this->adj) { // NOTE: 'this' is not necessarily required
+			// for(auto x: adj){} would also suffice.
 			cout << x.first << "-> ";
 
 			for (T y : x.second) {
