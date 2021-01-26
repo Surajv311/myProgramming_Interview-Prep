@@ -2,6 +2,7 @@
 ///////////////////////////////////////////
 //Question/Info
 
+Travelling Salesman problem
 
 ///////////////////////////////////////////
 */
@@ -40,6 +41,55 @@ void c_p_c()
 	freopen("output.txt", "w", stdout);
 #endif
 }
+// consider the adjacency matrix
+
+int adj[10][10] = {
+//	   A B C D
+//  A
+//  B
+//  C
+//  D
+
+	{0 , 20 , 42, 25},
+	{20 , 0 , 30 , 34},
+	{42, 30 , 0 , 10},
+	{25, 34 , 10 , 0}
+};
+
+int dp[16][4]; // [mask][pos]
+int n = 4 ; // since total elements = 4^2
+int visited = (1 << n) - 1 ; // ~1111
+// every bit denotes a position : A,B,C,D
+
+int tsp(int mask , int pos) {
+
+	//  base case
+	if (mask == visited) { // i.e ~...1111
+		return adj[pos][0];
+		// adj value from last reached node to start node
+	}
+
+// overlapping subproblem...
+	if (dp[mask][pos] != -1) {
+		// means node is already visited...
+		return dp[mask][pos];
+	}
+
+	int ans = INT_MAX;
+	for (auto city = 0 ; city < n; city++) {
+
+		if ((mask & (1 << city)) == 0) {
+			// means it is unvisited ...
+			// mask leads to combination of of cities...
+			// pos gives us the city we are in ...
+			int anss = adj[pos][city] + tsp(mask | (1 << city), city);
+			ans = min(ans, anss);
+		}
+	}
+
+	return dp[mask][pos] = ans;
+}
+
 
 int32_t main() {
 
@@ -53,10 +103,17 @@ int32_t main() {
 	int t ; cin >> t; while(t--){}
 	*/
 
+	for (int i = 0 ; i < (1 << n); i++) {
+		for (int j = 0; j < n; j++) {
+			dp[i][j] = -1;
+		}
+	}
 
+	ct(tsp(1, 0));
 
+	/* Usual complexity : (n-1)!, after using dp : ((2^n)*n)...*/
+	// hamiltonian path
 
-
-// cerr << "time: " << clock() << " ms" << '\n';
 	return 0;
 }
+
