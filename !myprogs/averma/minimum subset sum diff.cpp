@@ -58,7 +58,7 @@ int mssd(int arr[], int n)
 
 	int sum = accumulate(arr, arr + n, 0);
 
-	int dp[n + 1][sum + 1];
+	int dp[n + 1][sum + 1]; // can be bool also
 	// memset(dp, -1, sizeof(dp));
 
 	//  so first we mark all the true/false nodes...
