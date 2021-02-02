@@ -9,10 +9,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define int 		   long long int
+// #define int 		   long long int
 #define setbits(x) 	   __builtin_popcount(x)
 #define pb(x) 		   push_back(x)
 #define mp(x,y) 	   make_pair(x,y)
+#define eb(x) 		   emplace_back(x)
 #define ct(x) 		   cout<<x<<endl;
 #define ct2(x,y) 	   cout<<x<<" "<<y<<endl;
 #define forn(i,n) 	   for(int i = 0; i < (int)(n); i++)
@@ -26,7 +27,8 @@ using namespace std;
 #define vi  		   vector<int>
 #define vii 		   vector<pii>
 #define mii 		   map<int,int>
-//typedef long long int lli;
+
+typedef long long int lli;
 typedef long double ld;
 
 #pragma GCC optimize("Ofast")
