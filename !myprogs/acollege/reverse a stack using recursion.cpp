@@ -2,19 +2,8 @@
 ///////////////////////////////////////////
 //Question/Info
 
-count subsets sum with X
-
-Given an array arr[] of length N and an integer X, the task is to find the number of subsets with sum equal to X.
-
-Examples:
-
-Input: arr[] = {1, 2, 3, 3}, X = 6
-Output: 3
-All the possible subsets are {1, 2, 3},
-{1, 2, 3} and {3, 3}
-
-Input: arr[] = {1, 1, 1, 1}, X = 1
-Output: 4
+Reverse a stack without creating another stack
+(use recursion)
 
 ///////////////////////////////////////////
 */
@@ -22,10 +11,11 @@ Output: 4
 #include <bits/stdc++.h>
 using namespace std;
 
-#define int 		   long long int
+// #define int 		   long long int
 #define setbits(x) 	   __builtin_popcount(x)
 #define pb(x) 		   push_back(x)
 #define mp(x,y) 	   make_pair(x,y)
+#define eb(x) 		   emplace_back(x)
 #define ct(x) 		   cout<<x<<endl;
 #define ct2(x,y) 	   cout<<x<<" "<<y<<endl;
 #define forn(i,n) 	   for(int i = 0; i < (int)(n); i++)
@@ -39,7 +29,8 @@ using namespace std;
 #define vi  		   vector<int>
 #define vii 		   vector<pii>
 #define mii 		   map<int,int>
-//typedef long long int lli;
+
+typedef long long int lli;
 typedef long double ld;
 
 #pragma GCC optimize("Ofast")
@@ -54,34 +45,38 @@ void c_p_c()
 #endif
 }
 
+void insert(stack<int>&ss, int x) {
 
-int subsx(int arr[], int n, int W)
-{
-
-
-	int dp[n + 1][W + 1];
-	// memset(dp, -1, sizeof(dp));
-	forx(i, 0, (n + 1)) {
-		forx(j, 0, (W + 1)) {
-			if (i == 0 or j == 0) {
-				dp[i][j] = 0 ;
-				if (j == 0) {
-					dp[i][j] = 1;
-				}
-			}
-
-			else {
-				if (arr[i - 1] > j) {
-					dp[i][j] = dp[i - 1][j];
-				}
-				else {
-					dp[i][j] = ((dp[i - 1][j]) + (dp[i - 1][j - arr[i - 1]]));
-				}
-			}
-		}
+	if (ss.empty()) {
+		ss.push(x);
+		return;
 	}
 
-	return dp[n][W];
+	int k = ss.top();
+	ss.pop();
+	insert(ss, x);
+	ss.push(k);
+
+}
+
+void rev(stack<int> &ss) {
+	if (ss.empty()) {
+		return;
+	}
+
+	int x = ss.top() ;
+
+	ss.pop();
+	rev(ss);
+	insert(ss, x);
+
+}
+
+void display(stack<int> ss) {
+	while (!ss.empty()) {
+		ct(ss.top());
+		ss.pop();
+	}
 }
 
 int32_t main() {
@@ -95,18 +90,18 @@ int32_t main() {
 	/*
 	int t ; cin >> t; while(t--){}
 	*/
+	stack<int> ss;
 
-	int arr[] = {1, 2, 3, 4, 5, 7};
-	int W = 6 ;
-	int n = sizeof(arr) / sizeof(arr[0]);
-
-	// its very similar to subset sum problem
-	ct(subsx(arr, n, W));
-
-
-
+	ss.push(1);
+	ss.push(2);
+	ss.push(3);
+	ss.push(4);
+	ss.push(5);
+	display(ss);
+	ct("")
+	rev(ss);
+	display(ss);
 
 // cerr << "time: " << clock() << " ms" << '\n';
 	return 0;
 }
-

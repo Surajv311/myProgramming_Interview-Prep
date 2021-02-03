@@ -1,19 +1,33 @@
 /*
 ///////////////////////////////////////////
 //Question/Info
-equal sum partition
 
-Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is the same.
+count number of subset with a given difference, say 2
+(It's similar to target sum question leetcode)
 
-Examples:
+In case of target sum it basically asks:
+Given an integer array, find number of ways to calculate a target number using only array elements and addition or subtraction operator.
 
-arr[] = {1, 5, 11, 5}
-Output: true
-The array can be partitioned as {1, 5, 5} and {11}
+Example:
 
-arr[] = {1, 5, 3}
-Output: false
-The array cannot be partitioned into equal sum sets.
+Input: arr[] = {-3, 1, 3, 5}, k = 6
+Output: 4
+Explanation -
+- (-3) + (3)
++ (1) + (5)
++ (-3) + (1) + (3) + (5)
+- (-3) + (1) - (3) + (5)
+
+Input: arr[] = {2, 3, -4, 4}, k = 5
+Output: 6
+Explanation -
++ (2) + (3)
++ (2) + (3) + (4) + (-4)
++ (2) + (3) - (4) - (-4)
+- (3) + (4) - (-4)
+- (2) + (3) + (4)
+- (2) + (3) - (-4)
+
 ///////////////////////////////////////////
 */
 
@@ -52,36 +66,33 @@ void c_p_c()
 #endif
 }
 
+int tss(int arr[], int n, int W) {
 
-int subss(int arr[], int n, int W)
-{
-
-
-	bool dp[n + 1][W + 1];
-
-
-	forx(i, 0, (n + 1)) {
-		forx(j, 0, (W + 1)) {
+	int dp[n + 1][W + 1];
+// memset(dp, -1, sizeof(dp));
+	for (int i = 0 ; i < (n + 1); i++) {
+		for (int j = 0; j < (W + 1); j++) {
 			if (i == 0 or j == 0) {
-				dp[i][j] = false ;
+				dp[i][j] = 0 ;
 				if (j == 0) {
-					dp[i][j] = true;
+					dp[i][j] = 1;
 				}
 			}
-
 			else {
 				if (arr[i - 1] > j) {
 					dp[i][j] = dp[i - 1][j];
 				}
 				else {
-					dp[i][j] = ((dp[i - 1][j]) or (dp[i - 1][j - arr[i - 1]]));
+					dp[i][j] = ((dp[i - 1][j]) + (dp[i - 1][j - arr[i - 1]]));
 				}
 			}
 		}
 	}
 
 	return dp[n][W];
+
 }
+
 
 int32_t main() {
 
@@ -95,33 +106,46 @@ int32_t main() {
 	int t ; cin >> t; while(t--){}
 	*/
 
-	int arr[] = {1, 1, 5, 3};
-
-	// int W = 40 ;
+	int arr[] = {1, 1, 2, 3};
 	int n = sizeof(arr) / sizeof(arr[0]);
-
+	int diff = 1;
 	int sum = accumulate(arr, arr + n, 0);
-	int hsum = sum / 2;
 
-// check odd/even
-	// only even sum array can be partitioned into two halves...then only two equal sum sets would exist
-	// once partitioned into a half, all we have to do now is find a subset with that given sum(half of...)
-	// if such a set with half sum exist then obviously other set would be full-half = half...
-	// its like subset sum problem
+// so basically the difference of sum of two subsets must be (say/given) 2
 
-	if (sum & 1) {
-		ct("No")
-	}
-	else {
-		if (subss(arr, n, hsum)) {
-			ct("Yes");
-		}
-		else {
-			ct("No");
-		}
-	}
+	/*
+	So
+
+	s1 - s2 = 2
+	s1 + s2 = sumof(arr)
+
+	So:
+	(2 + sumof(arr))/2 = s1
+
+	Hence we must find existence of a set s1 with sum = (shown above)
+	*/
+//
+
+	int W = (diff + sum) / 2;
+
+	cout << tss(arr, n, W);
 
 
 // cerr << "time: " << clock() << " ms" << '\n';
 	return 0;
 }
+
+/* ANOTHER SOLID APPROACH:
+
+	int n, w  ;
+	n = 4 ; w = 4;
+	vector<int>a(n), dp(w + 1) ;
+	dp[0] = 1 ;
+	for (int &x : a) {
+		cin >> x  ; // input in the array
+		for (int j = w; j >= x; --j)
+			dp[j] += dp[j - x] ;
+	}
+	cout << dp[w] ;
+
+*/

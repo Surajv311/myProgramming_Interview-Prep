@@ -87,7 +87,7 @@ int mssd(int arr[], int n)
 			}
 
 			else {
-				if (arr[i] > sum) {
+				if (arr[i - 1] > j) {
 					dp[i][j] = dp[i - 1][j];
 				}
 				else {

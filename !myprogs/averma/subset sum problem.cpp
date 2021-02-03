@@ -76,7 +76,7 @@ int subss(int arr[], int n, int W)
 			}
 
 			else {
-				if (arr[i] > W) {
+				if (arr[i - 1] > j) {
 					dp[i][j] = dp[i - 1][j];
 				}
 				else {
