@@ -96,6 +96,13 @@ int mnds(string a, string b, int la, int lb) {
 
 	*/
 
+	/*
+	SAME APPROACH TO FIND MIN. NUMBER OF INSERTIONS IN STRING
+	TO GET PALINDROME....
+	AS NO. OF INSERTION WOULD EQUAL NO. OF DELETION
+	TO GET PALINDROME.
+	*/
+
 	int kk = la - dp[la][lb]; // we know , la == lb...
 	return kk;
 }
