@@ -2,24 +2,11 @@
 ///////////////////////////////////////////
 //Question/Info
 
-Given two strings ‘X’ and ‘Y’, find the length of the longest common substring.
-
-Examples :
-
-Input : X = “GeeksforGeeks”, y = “GeeksQuiz”
-Output : 5
-Explanation:
-The longest common substring is “Geeks” and is of length 5.
-
-Input : X = “abcdxyz”, y = “xyzabcd”
-Output : 4
-Explanation:
-The longest common substring is “abcd” and is of length 4.
-
-Input : X = “zxabcdezy”, y = “yzabcdezx”
-Output : 6
-Explanation:
-The longest common substring is “abcdez” and is of length 6.
+Given two sequences, print the characters in
+longest subsequence present in both of them.
+Examples:
+LCS for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3.
+LCS for input Sequences “AGGTAB” and “GXTXAYB” is “GTAB” of length 4.
 
 ///////////////////////////////////////////
 */
@@ -62,40 +49,57 @@ void c_p_c()
 }
 
 // using bottom up dp
-int lcsqdp(string a, string b, int la, int lb) {
+string lcscp(string a, string b, int la, int lb) {
 
 
 	int dp[la + 1][lb + 1];
-	int res = 0;
 	forn(i, la + 1) {
 		forn(j, lb + 1) {
 			// base case
 			if (i == 0 or j == 0) {
 				dp[i][j] = 0;
 			}
-
-			/*
-
-			//  so if the string letter is same we add 1
-			// Note that it must be continuous,
-			// we can see in else that if string letter
-			//do not match then we just return 0 and start the
-			//count again, hence we are taking/ the max possible count
-			*/
 			else {
 				if (a[i - 1] == b[j - 1]) {
 					dp[i][j] = 1 + dp[i - 1][j - 1];
-					res = max(res, dp[i][j]);
-
 				}
 
 				else {
-					dp[i][j] = 0;
+					dp[i][j] = max(dp[i - 1][j], dp[i][j - 1] );
 				}
 
 			}
 		}
 	}
+
+	/*
+	 now since table is filled up we can now move backwards
+	from dp[la][lb] to reach the start point and push string letters
+	accrding to the conditions....
+
+		*/
+	int i = la;
+	int j = lb;
+	string res = "";
+	while (i != 0 and j != 0) {
+
+		if (a[i - 1] == b[j - 1]) {
+			res.pb(a[i - 1]);
+			i--; j--;
+		}
+
+		else {
+			if (dp[i - 1][j] > dp[i][j - 1]) {
+				i--;
+			}
+			else {
+				j--;
+			}
+		}
+
+	}
+
+	reverse(all(res)); // necessary as we are moving backwards...
 
 	return res;
 }
@@ -112,15 +116,15 @@ int32_t main() {
 	int t ; cin >> t; while(t--){}
 	*/
 
-	string a = "aaaaj";
-	string b = "aaaowj";
+	string a = "aajq";
+	string b = "aowjq";
 
 	int la = a.length();
 	int lb = b.length();
 
 
 	// dp bottom up
-	ct(lcsqdp(a , b , la, lb));
+	ct(lcscp(a , b , la, lb));
 
 
 // cerr << "time: " << clock() << " ms" << '\n';
