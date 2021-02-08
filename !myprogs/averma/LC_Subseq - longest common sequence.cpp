@@ -2,6 +2,8 @@
 ///////////////////////////////////////////
 //Question/Info
 
+length of longest common subsequence
+
 LCS Problem Statement: Given two sequences,
 find the length of longest subsequence present
 in both of them. A subsequence is a sequence that
@@ -109,12 +111,12 @@ int lcsm(string a, string b, int la, int lb) {
 
 	if (a[la - 1] == b[lb - 1]) {
 
-		return dp[la][lb] = (1 + lcs(a, b, la - 1, lb - 1));
+		return dp[la][lb] = (1 + lcsm(a, b, la - 1, lb - 1));
 
 	}
 
 	else {
-		return dp[la][lb] = max(lcs(a, b, la - 1, lb), lcs(a, b, la, lb - 1));
+		return dp[la][lb] = max(lcsm(a, b, la - 1, lb), lcsm(a, b, la, lb - 1));
 	}
 
 }
