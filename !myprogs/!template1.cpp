@@ -27,6 +27,7 @@ using namespace std;
 #define vi  		   vector<int>
 #define vii 		   vector<pii>
 #define mii 		   map<int,int>
+#define _IOS      	   ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
 // typedef long long int lli;
 typedef long double ld;
@@ -36,7 +37,6 @@ typedef long double ld;
 
 void c_p_c()
 {
-	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
@@ -44,10 +44,11 @@ void c_p_c()
 }
 
 int32_t main() {
-
 ///////////
 	c_p_c();
 ///////////
+	_IOS
+//////////
 
 	// code
 
