@@ -1,1 +1,1 @@
-arrays are always passed by reference by default in a function.
+arrays are always passed by reference (by default) in a function.
