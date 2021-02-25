@@ -48,11 +48,27 @@ void c_p_c()
 void insertv(vi &v, int temp)
 {
 
+// after recursive calls from sortv(),
+	// we may have one element in vi, and temp var
+	// initially, after each return, our
+	// vi, size would be more and would have more elements
+
 	if (v.size() == 0 or v[v.size() - 1] <= temp)
 	{
 		v.pb(temp);
 		return;
 	}
+
+//  say we have to insert our 2 in 1 5 6 ,
+	// then we must first pop 5 and 6
+	// which would be done below
+	// and the moment
+	// v[v.size()-1] <= temp, where temp is our '2'
+	// and observe that everytime same temp '2' would
+	// be passed and the numbers '5' and '6' would be popped,
+	// then '2' would be inserted and now since our val, stored
+	// the elements '5' , '6'recursively,
+	//  they would be then inserted by v.pb(val)
 
 	int val = v[v.size() - 1];
 	v.pop_back();
