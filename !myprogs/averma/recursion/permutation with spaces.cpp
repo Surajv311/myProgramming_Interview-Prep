@@ -69,6 +69,8 @@ void permutate(string ip, string op) {
 	permutate(ip, op2);
 	return;
 
+	/* SIMILAR QUESTION ~ PERMUTATION WITH CASE CHANGE
+	JUST USE : toupper()/tolower(),...*/
 
 }
 
