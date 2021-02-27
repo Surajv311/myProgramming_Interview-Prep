@@ -2,7 +2,8 @@
 ///////////////////////////////////////////
 //Question/Info
 
-Sort an array recusrsively
+
+reverse a stack using recursion
 
 author: srj_v
 ///////////////////////////////////////////
@@ -45,53 +46,35 @@ void c_p_c()
 #endif
 }
 
-void insertv(vi &v, int temp)
-{
+void inss(stack<int>&st, int ele) {
 
-// after recursive calls from sortv(),
-	// we may have one element in vi, and temp var
-	// initially, after each return, our
-	// vi, size would be more and would have more elements
-
-	if (v.size() == 0 or v[v.size() - 1] <= temp)
-	{
-		v.pb(temp);
-		return;
+	if (st.size() == 0) {
+		st.push(ele);
+		return ;
 	}
 
-//  say we have to insert our 2 in 1 5 6 ,
-	// then we must first pop 5 and 6
-	// which would be done below
-	// and the moment
-	// v[v.size()-1] <= temp, where temp is our '2'
-	// and observe that everytime same temp '2' would
-	// be passed and the numbers '5' and '6' would be popped,
-	// then '2' would be inserted and now since our val, stored
-	// the elements '5' , '6'recursively,
-	//  they would be then inserted by v.pb(val)
+	int temp = st.top();
+	st.pop();
+	inss(st, ele);
+	st.push(temp);
 
-	int val = v[v.size() - 1];
-	v.pop_back();
-
-	insertv(v, temp); // same vector is passed by reference and the same temp...
-	v.pb(val);
 	return;
 }
 
-void sortv(vi &v)
+void rev(stack<int>&st)
 {
-
-	if (v.size() == 1) {
-		return;
+	if (st.size() == 1) {
+		return ;
 	}
-// storing last element
-	int temp = v[v.size() - 1];
-	v.pop_back();
 
-	sortv(v);
-	insertv(v, temp);
+	int temp = st.top();
+	st.pop();
+	rev(st);
+	inss(st, temp);
 
+	return;
 }
+
 
 int32_t main() {
 ///////////
@@ -106,15 +89,21 @@ int32_t main() {
 	int t ; cin >> t; while(t--){}
 	*/
 
-	vi v{5, 4, 2, 1, 3};
+	stack<int> st ;
 
-	sortv(v);
+	st.push(5);
+	st.push(4);
+	st.push(3);
+	st.push(2);
+	st.push(1);
 
-	forn(i, v.size()) {
-		cout << v[i] << " ";
+	rev(st);
+
+
+	while (!st.empty()) {
+		cout << st.top() << " ";
+		st.pop();
 	}
-
-
 
 // cerr << "time: " << clock() << " ms" << '\n';
 	return 0;
