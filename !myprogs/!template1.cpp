@@ -16,8 +16,8 @@ using namespace std;
 #define pb(x) 		   push_back(x)
 #define mp(x,y) 	   make_pair(x,y)
 #define eb(x) 		   emplace_back(x)
-#define ct(x) 		   cout << x << endl;
-#define ct2(x,y) 	   cout << x << " " << y << endl;
+#define ct(x) 		   cout << x << "\n";
+#define ct2(x,y) 	   cout << x << " " << y << "\n";
 #define forn(i,n) 	   for(int i = 0; i < (int)(n); ++i)
 #define forx(i,x,n)    for(int i = x; i < (int)(n); ++i)
 #define nfor(i,n)      for(int i = n-1; i >= 0; --i)
