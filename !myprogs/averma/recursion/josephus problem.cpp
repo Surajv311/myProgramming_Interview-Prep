@@ -62,7 +62,7 @@ void c_p_c()
 void jos(vi v, int k, int index, int &ans) {
 
 	if (v.size() == 1) {
-		//  as eith this only one person would remain standing.
+		//  as with this only one person would remain standing.
 		ans = v[0];
 		return ;
 	}
