@@ -2,7 +2,6 @@
 ///////////////////////////////////////////
 //Question/Info
 
-
 reverse a stack using recursion
 
 author: srj_v
@@ -98,7 +97,6 @@ int32_t main() {
 	st.push(1);
 
 	rev(st);
-
 
 	while (!st.empty()) {
 		cout << st.top() << " ";

@@ -114,8 +114,6 @@ int32_t main() {
 		cout << v[i] << " ";
 	}
 
-
-
 // cerr << "time: " << clock() << " ms" << '\n';
 	return 0;
 }

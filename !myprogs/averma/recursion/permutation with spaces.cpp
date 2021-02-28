@@ -4,6 +4,14 @@
 
 permutation with spaces.
 
+Given a string you need to print all possible strings that can be made by placing spaces (zero or one) in between them.
+
+Input:  str[] = "ABC"
+Output: ABC
+        AB C
+        A BC
+        A B C
+
 author: srj_v
 ///////////////////////////////////////////
 */
@@ -86,7 +94,6 @@ int32_t main() {
 	/*
 	int t ; cin >> t; while(t--){}
 	*/
-
 
 	string ip ; //cin >>ip ; // input string
 	ip = "ABC";
