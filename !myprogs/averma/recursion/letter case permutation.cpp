@@ -91,6 +91,7 @@ void lcpn(string ip, string op, vector<string>&v )
 
 		ip.erase(ip.begin() + 0); // we could also pass substring
 
+// recursive calls
 		lcpn(ip, op1, v);
 		lcpn(ip, op2, v);
 	}

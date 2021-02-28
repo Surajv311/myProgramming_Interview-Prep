@@ -53,7 +53,7 @@ void c_p_c()
 #endif
 }
 
-void permutate(string ip, string op) {
+void pmt(string ip, string op) {
 
 	if (ip.length() == 0) {
 		ct(op);
@@ -73,8 +73,8 @@ void permutate(string ip, string op) {
 
 // now recursive calls for both
 
-	permutate(ip, op1);
-	permutate(ip, op2);
+	pmt(ip, op1);
+	pmt(ip, op2);
 	return;
 
 	/* SIMILAR QUESTION ~ PERMUTATION WITH CASE CHANGE
@@ -105,7 +105,7 @@ int32_t main() {
 // so: ip=bc
 	ip.erase(ip.begin() + 0);
 
-	permutate(ip, op);
+	pmt(ip, op);
 
 
 // cerr << "time: " << clock() << " ms" << '\n';

@@ -84,7 +84,7 @@ void sortv(vi &v)
 	if (v.size() == 1) {
 		return;
 	}
-// storing last element
+// storing last element ...
 	int temp = v[v.size() - 1];
 	v.pop_back();
 
