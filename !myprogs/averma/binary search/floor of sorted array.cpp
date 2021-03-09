@@ -2,28 +2,24 @@
 ///////////////////////////////////////////
 //Question/Info
 
-
-WHENEVER ARRAY IS SORTED, THINK OF USING BINARY SEARCH ,
-SINCE FOR LINEAR SEARCH : O(n) AND BINARY SEARCH - O(log(n))
-
-find number of rotations in a sorted and rotated array.
-
-Consider an array of distinct numbers sorted in increasing order. The array has been rotated (clockwise) k number of times. Given such an array, find the value of k.
+Given a sorted array and a value x, the floor of x is the largest element in array smaller than or equal to x. Write efficient functions to find floor of x.
 
 Examples:
 
-Input : arr[] = {15, 18, 2, 3, 6, 12}
-Output: 2
-Explanation : Initial array must be {2, 3,
-6, 12, 15, 18}. We get the given array after
-rotating the initial array twice.
+Input : arr[] = {1, 2, 8, 10, 10, 12, 19}, x = 5
+Output : 2
+2 is the largest element in
+arr[] smaller than 5.
 
-Input : arr[] = {7, 9, 11, 12, 5}
-Output: 4
+Input : arr[] = {1, 2, 8, 10, 10, 12, 19}, x = 20
+Output : 19
+19 is the largest element in
+arr[] smaller than 20.
 
-Input: arr[] = {7, 9, 11, 12, 15};
-Output: 0
-
+Input : arr[] = {1, 2, 8, 10, 10, 12, 19}, x = 0
+Output : -1
+Since floor doesn't exist,
+output is -1.
 
 author: srj_v
 ///////////////////////////////////////////
@@ -66,37 +62,28 @@ void c_p_c()
 #endif
 }
 
-int cr(int arr[], int l, int h)
+int res = 0;
+
+int fe(int arr[], int l, int h, int k)
 {
-	// This condition is needed to handle the case
-	// when the array is not rotated at all
-	if (h < l)
-		return 0;
 
-	// If there is only one element left
-	if (h == l)
-		return l;
+	if (l <= h) {
+		int mid = l + (h - l) / 2;
 
-	// Find mid
-	int m = l + (h - l) / 2; /*(low + high)/2;*/
+		if (k > arr[mid]) {
+			res = arr[mid];
+		}
 
-	// Check if element (mid+1) is minimum element.
-	// Consider the cases like {3, 4, 5, 1, 2}
-	if (m < h && arr[m + 1] < arr[m])
-		return (m + 1);
+		if (arr[mid] > k) {
+			return fe(arr, l, mid - 1, k);
+		}
 
-	// Check if mid itself is minimum element
-	if (m > l && arr[m] < arr[m - 1])
-		return m;
+		return fe(arr, mid + 1, h, k);
+	}
 
-	// Decide whether we need to go to left half or
-	// right half
-	if (arr[h] > arr[m])
-		return cr(arr, l, m - 1);
+	return res;
 
-	return cr(arr, m + 1, h);
 }
-
 
 int32_t main() {
 ///////////
@@ -111,10 +98,22 @@ int32_t main() {
 	int t ; cin >> t; while(t--){}
 	*/
 
-	int arr[] = {15, 18, 2, 3, 6, 12};
-	int n = sizeof(arr) / sizeof(arr[0]);
-	cout << cr(arr, 0, n - 1);
+	int arr[] = {1, 2, 3, 4, 8, 10, 10, 12, 19};
 
+	int l = 0;
+	int h = sizeof(arr) / sizeof(arr[0]);
+
+	int k = 5 ; // element whose floor to be found
+
+
+	if (arr[h] <= k) {
+		res = k;
+	}
+	else {
+		res = fe(arr, l, h - 1, k);
+	}
+
+	ct(res);
 
 // cerr << "time: " << clock() << " ms" << '\n';
 	return 0;
