@@ -62,7 +62,7 @@ void c_p_c()
 #endif
 }
 
-int res = 0;
+int res = INT_MIN;
 
 int fe(int arr[], int l, int h, int k)
 {
@@ -70,7 +70,7 @@ int fe(int arr[], int l, int h, int k)
 	if (l <= h) {
 		int mid = l + (h - l) / 2;
 
-		if (k > arr[mid]) {
+		if (k >= arr[mid]) {
 			res = arr[mid];
 		}
 
@@ -104,7 +104,6 @@ int32_t main() {
 	int h = sizeof(arr) / sizeof(arr[0]);
 
 	int k = 5 ; // element whose floor to be found
-
 
 	if (arr[h] <= k) {
 		res = k;
