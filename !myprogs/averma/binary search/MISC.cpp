@@ -1,17 +1,21 @@
-Find position of an element in a sorted array of infinite numbers
+// Misc Q's and their approach.
 
+/*
+-> Find position of an element in a sorted array of infinite numbers.
+{
 Introduce 'l' and 'h' = 0;
 Now simply iterate your 'l' and 'h' where your
-high is incremented with 2 everytime, and low with 1.
+high += 2 (you may any other number as well),
+and low +=1 or...store previous high....
 Hence in consequence steps you would be in a position wherein
-your high would exceed the element you want to find.
-(Means since your high would be incremented + 2, so you should stop
- in case where high > k , now you need worry about the infinite list
-     of numbers ahead...)
-    With this you can stop and the range from your current low
-    and high can be binary searched to pinpoint your element.
+your high would exceed the element you want to find; i.e a
+case wherein high>k (after high+=2 everytime...) so break here,
+now no need to worry about the numbers ahead in infinite list.
+Now you get the range from current low and high and now you can
+use binary search to pinpoint your element.
 
-    int findPos(int arr[], int key)
+// pseudocode......
+    int rangepos(int arr[], int key)
 {
     int l = 0, h = 1;
     int val = arr[0];
@@ -30,31 +34,40 @@ your high would exceed the element you want to find.
     return binarySearch(arr, l, h, key).......;
     // you may define function and do binary_search.
 }
+}
+---------------------------------------------------------------------
 
----------------------------------------------------------------------------------------- -
+-> Find element with minimum difference from key in Sorted Array
+{
+Its similar to earlier solved qs.
+Find floor & ceil of the given key from array then
+return min(key-floor , key -ceil);
+}
+---------------------------------------------------------------------
 
-Minimum Difference Element in a Sorted Array
+-> Peak element, ~ Similar q. is Biotonic Array
+A peak element is an element that is greater than its neighbors.
+Eg. in a,b,c,d : c is peak if c>b and c>d.
+{
+Compare the arr[mid] with arr[mid - 1]
+and arr[mid + 1] if our arr[mid] is greater than
+both then its peak else: now we must think which
+side we must move on to search for our peak,
+cosidering arr[m - 1] < arr[m] so the sides of
+arr[m-1] need not be considered as they would be already
+small. But since say arr[m+1] is greater than arr[m]
+then there is a possibility that arr[m+1] > arr[m+2]
+as well so we move right...as more possibility...
+so vice-versa...
 
-To break it down into the problems we already solved, need to find floor & ceil of the given element and return one of them which has min diff with the given key
+Also consider if peak is at begining or end then :
+if mid==0  : if arr[0] > arr[1] return 0 else 1
+if mid ==size-1 then if arr[size-1] > arr[size-2] then return size-1 else size-2
 
-        ---------------------------------------------------------------------------------------- -
-
-        Peak element
-
-        Now A peak element is an element that is greater than its neighbors.
-
-        Given an input array nums, where nums[i] ≠ nums[i + 1], find a peak element and return its index.
-
-                The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.
-
-                            Sol: so basically compare the mid element with arr[mid - 1] and arr[mid + 1] if our arr[mid] is greater than both then its peak else, now we must think which side we must mpve on to search for our peak, cosidering arr[m - 1] would already be small than arr[m] so arr[m - 1] can' tbe peak , but arr[m+1] is greater > arr[m] so there is a possibility that arr[m+2] is less than arr[m+1] then our m=1 would become the peak, as it would be greater than both, hence the possiblity of finding peak is on the right side of mid element, so we further do a recursive call for rihgt side to search for peak...need not be necessarily be right side, we could do recursive call for left as well, if our arr[m-1] is greater than arr[m]
-        also for say our peak is at begining or end then :
-        if mid==0  : if arr0 > arr1 then return 0 else 1
-        if mid ==size-1 then if arr[size-1] > arr[size-1] then return size-1 else size-2
-        So very cleverly binary search coed has or can be used .....
-        the question is similar to finding element in biotonic arrya....
-        only thing is in bitoninc array, there is only 1 peak element
-        -----------------------------------------------------------------------------------------------------
+So very smart use of binarySearch.
+}
+---------------------------------------------------------------------
+*/
 
 
 
