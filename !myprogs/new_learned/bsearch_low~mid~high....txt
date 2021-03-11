@@ -1,0 +1,25 @@
+Nearly All Binary Searches and Mergesorts are Broken
+Because:
+(google AI blog) - https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html
+
+int mid =(low + high) / 2; -> BUGGY 
+
+int mid = low + ((high - low) / 2); -> CORRECT
+
+In binary search , we don't recommend writing (low+high)/2 and instead 
+prefer: low + ((high - low) / 2) ~ [YOU COMPUTE IT , WOULD YIELD SAME...]
+
+Because: (google AI blog) - https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html
+
+On the face of it, this assertion might appear correct, but it 
+fails for large values of the int variables low and high. 
+Specifically, it fails if the sum of low and high is greater than the 
+maximum positive int value (2^31 - 1). The sum overflows to a 
+negative value, and the value stays negative when divided by two. 
+In C this causes an array - index out of bounds with unpredictable results. 
+In Java, it throws - ArrayIndexOutOfBoundsException.
+
+This bug can manifest itself for arrays whose length (in elements) is 
+2^30 or greater (roughly a billion elements). 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

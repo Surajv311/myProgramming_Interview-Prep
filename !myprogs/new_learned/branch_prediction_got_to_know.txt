@@ -1,5 +1,6 @@
 Why is processing a sorted array faster than processing an unsorted array?
-(summing up an array....) 
+( consider case of summing up an array....) 
+link: https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array
 
 Branch prediction.
 Now for the sake of argument, suppose this is back in the 1800s - before long distance or radio communication.
