@@ -61,20 +61,20 @@ void pkc(int arr[], int n, int x, int k)
 {
 	// Make a max heap of difference with
 	// first k elements.
-	p_q<pii> pqh;
+	p_q<pii> maxh;
 
 	forn(i, n) {
-		pqh.push({ abs(arr[i] - x), arr[i] });
+		maxh.push({ abs(arr[i] - x), arr[i] });
 
-		if (pqh.size() > k) {
-			pqh.pop();
+		if (maxh.size() > k) {
+			maxh.pop();
 		}
 	}
 
 	// Print contents of heap.
-	while (!pqh.empty()) {
-		cout << pqh.top().second << " ";
-		pqh.pop();
+	while (!maxh.empty()) {
+		cout << maxh.top().second << " ";
+		maxh.pop();
 	}
 }
 

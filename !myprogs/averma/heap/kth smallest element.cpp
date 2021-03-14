@@ -66,22 +66,22 @@ void c_p_c()
 
 int hsm(int (&arr)[5], int size , int k) {
 
-	p_q<int> pqi ; // heap
+	p_q<int> maxh ; // heap
 // its a max heap
 
 	for (int i : arr) {
 
-		pqi.push(i);
+		maxh.push(i);
 
-		if (pqi.size() > k) {
-			pqi.pop();
+		if (maxh.size() > k) {
+			maxh.pop();
 		}
 
 	}
 
 // O(nlogn) -> O(nlogk)
 
-	return (pqi.top());
+	return (maxh.top());
 
 }
 
