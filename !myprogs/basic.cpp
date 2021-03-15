@@ -63,3 +63,22 @@ ct(acos(x)); // arc cos
 // defining 2D vector matrix of m*n
 vector<vector<int>> matrix (n, vector<int>m);
 // to initialise you may: vector<int>(m,0)... inside...
+
+/*
+The map::count() is a built-in function in C++ STL
+which returns 1 if the element with key K is
+present in the map container.
+Syntax: map_name.count(key k)
+*/
+
+
+
+
+
+
+
+
+
+
+
+
