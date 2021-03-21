@@ -18,6 +18,8 @@ using namespace std;
 #define eb(x) 		   emplace_back(x)
 #define ct(x) 		   cout << x << "\n";
 #define ct2(x,y) 	   cout << x << " " << y << "\n";
+#define tc(x) 		   cout << x << " ";
+#define tc2(x,y) 	   cout << x << " " << y << " ";
 #define forn(i,n) 	   for(int i = 0; i < (int)(n); ++i)
 #define forx(i,x,n)    for(int i = x; i < (int)(n); ++i)
 #define nfor(i,n)      for(int i = n-1; i >= 0; --i)
@@ -44,6 +46,7 @@ void c_p_c()
 	freopen("output.txt", "w", stdout);
 #endif
 }
+
 
 int32_t main() {
 ///////////
