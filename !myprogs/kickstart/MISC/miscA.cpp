@@ -133,7 +133,7 @@ forn(i,n){
 }
 
 // now calculating for each cell in 4 directions : L shape,
-// using dp based approach, precomputing the counts of 1s... cell by cell we are adding the stream of 1s we encoutner, with 0, the stream ends and continues next possible stream with 1s after that zero
+// using dp based approach, precomputing~prefix sum the counts of 1s... cell by cell we are adding the stream of 1s we encoutner, with 0, the stream ends and continues next possible stream with 1s after that zero
 
 forn(i,n){
 	forn(j,m){
