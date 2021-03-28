@@ -374,6 +374,189 @@ int main()
 
 
 
+--------------------------------------------------------------
+
+
+
+
+
+D. Epic Transformation
+time limit per test2 seconds
+memory limit per test256 megabytes
+inputstandard input
+outputstandard output
+You are given an array a of length n consisting of integers. You can apply the following operation, consisting of several steps, on the array a zero or more times:
+
+you select two different numbers in the array ai and aj;
+you remove i-th and j-th elements from the array.
+For example, if n=6 and a=[1,6,1,1,4,4], then you can perform the following sequence of operations:
+
+select i=1,j=5. The array a becomes equal to [6,1,1,4];
+select i=1,j=2. The array a becomes equal to [1,4].
+What can be the minimum size of the array after applying some sequence of operations to it?
+
+Input
+The first line contains a single integer t (1≤t≤104). Then t test cases follow.
+
+The first line of each test case contains a single integer n (1≤n≤2⋅105) is length of the array a.
+
+The second line of each test case contains n integers a1,a2,…,an (1≤ai≤109).
+
+It is guaranteed that the sum of n over all test cases does not exceed 2⋅105.
+
+Output
+For each test case, output the minimum possible size of the array after applying some sequence of operations to it.
+
+Example
+inputCopy
+5
+6
+1 6 1 1 4 4
+2
+1 2
+2
+1 1
+5
+4 5 4 5 4
+6
+2 3 2 1 3 1
+outputCopy
+0
+0
+2
+1
+0
+
+
+
+
+
+
+
+
+
+
+1506D - Epic Transformation
+Let's replace each character with the number of its occurrences in the string. Then each operation — take two non-zero numbers and subtract one from them. In the end, we will have only one non-zero number left, and we want to minimize it. We can say that we want to minimize the maximum number after applying all the operations, which means we want to minimize the maximum number at each step.
+
+We get the following greedy solution — each time we take two characters with maximal occurrences number and delete them.
+
+Solution
+#include <bits/stdc++.h>
+
+using namespace std;
+using ll = long long;
+
+void solve() {
+    priority_queue<pair<int, int>> q;
+    int n;
+    cin >> n;
+    map<int, int> v;
+    for (int i = 0; i < n; i++) {
+        int x;
+        cin >> x;
+        v[x]++;
+    }
+    for (auto [x, y] : v) {
+        q.push({y, x});
+    }
+    int sz = n;
+    while (q.size() >= 2) {
+        auto [cnt1, x1] = q.top();
+        q.pop();
+        auto [cnt2, x2] = q.top();
+        q.pop();
+        cnt1--;
+        cnt2--;
+        sz -= 2;
+        if (cnt1) {
+            q.push({cnt1, x1});
+        }
+        if (cnt2) {
+            q.push({cnt2, x2});
+        }
+    }
+    cout << sz << "\n";
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr); cout.tie(nullptr);
+    int n;
+    cin >> n;
+    while (n--) {
+        solve();
+    }
+}
+
+
+[OR ANOTHER GOOD SOL.]
+
+
+
+#include <bits/stdc++.h>
+typedef long long int ll;
+const unsigned int MOD = 1000000007;
+
+using namespace std;
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+
+    int t;
+    cin >> t;
+    for (int tt = 0; tt < t; tt++)
+    {
+        int n;
+        cin>>n;
+
+        int a[n];
+
+        map<int,int>mp;
+        int m=0;
+        for (int i = 0; i < n; i++)
+        {
+            cin>>a[i];
+            mp[a[i]]++;
+            m=max(mp[a[i]],m);
+        }
+        if (n % 2 == 0)
+        {
+            if (m <= n / 2)
+            {
+                cout << 0 << "\n";
+            }
+            else
+                cout << 2 * m - n << "\n";
+        }
+        else
+        {
+            if (m <= n / 2)
+                cout << 1 << "\n";
+            else
+                cout << 2 * m - n << "\n";
+        }
+    }
+#ifndef ONLINE_JUDGE
+    cerr << "Time : " << 1000 * ((double)clock()) / (double)CLOCKS_PER_SEC << "ms\n";
+#endif
+    return 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
