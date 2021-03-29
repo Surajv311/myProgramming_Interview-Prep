@@ -12,7 +12,7 @@ author: srj_v
 using namespace std;
 
 #define int 		   long long int
-#define setbits(x) 	   __builtin_popcount(x)
+#define sbit(x) 	   __builtin_popcount(x)
 #define pb(x) 		   push_back(x)
 #define mp(x,y) 	   make_pair(x,y)
 #define eb(x) 		   emplace_back(x)
