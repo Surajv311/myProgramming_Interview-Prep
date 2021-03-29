@@ -20,7 +20,7 @@ cout << "frequency " << it2 - it << endl;
 
 sort(arr , arr + size);
 for (int i = 0 ; i < size ; i++)
-	cout << arr[i] << " " ;
+    cout << arr[i] << " " ;
 
 //use comparators for reversing
 bool comparator(int a , int b) {return a > b;}
@@ -72,12 +72,38 @@ Syntax: map_name.count(key k)
 */
 
 
+/*
+vect.push_back( make_pair(arr[i], arr1[i]) );
+for (int i = 0; i < n; i++)
+{
+    cout << vect[i].first << " "
+         << vect[i].second << endl;
+}
+*/
 
 
 
+/*
+An example of iterating backward through a std::map:
+
+#include <iostream>
+#include <map>
+#include <string>
+
+int main() {
+    std::map<std::string, std::string> m;
+    m["a"] = "1";
+    m["b"] = "2";
+    m["c"] = "3";
+
+    for (auto iter = m.rbegin(); iter != m.rend(); ++iter) {
+        std::cout << iter->first << ": " << iter->second << std::endl;
+    }
+}
 
 
-
+-> rbegin(),rend()... in vectors/sets/maps....
+*/
 
 
 
