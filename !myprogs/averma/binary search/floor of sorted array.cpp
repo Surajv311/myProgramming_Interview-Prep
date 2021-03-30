@@ -106,6 +106,7 @@ int32_t main() {
 	int k = 5 ; // element whose floor to be found
 
 	if (arr[h] <= k) {
+		// use h-1 ~ n-1....
 		res = k;
 	}
 	else {

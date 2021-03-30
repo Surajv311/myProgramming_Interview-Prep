@@ -57,14 +57,17 @@ cosidering arr[m - 1] < arr[m] so the sides of
 arr[m-1] need not be considered as they would be already
 small. But since say arr[m+1] is greater than arr[m]
 then there is a possibility that arr[m+1] > arr[m+2]
-as well so we move right...as more possibility...
+as well so we move right...as more possibility...\
+So basically : arr[mid-1] < arr[mid] > arr[mid+1],
+if this case not possible then we move right side to check :
+arr[mid] < arr[mid+1] > arr[mid+2].... so on...
 so vice-versa...
 
 Also consider if peak is at begining or end then :
 if mid==0  : if arr[0] > arr[1] return 0 else 1
 if mid ==size-1 then if arr[size-1] > arr[size-2] then return size-1 else size-2
 
-So very smart use of binarySearch.
+So... smart use of binarySearch.
 }
 ---------------------------------------------------------------------
 */
