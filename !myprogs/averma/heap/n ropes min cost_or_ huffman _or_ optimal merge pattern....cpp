@@ -107,6 +107,9 @@ int rmc(int arr[], int size) {
 
 	}
 
+// hence we solved via a heap instead of taking all the
+// combinations via a dp...
+
 	return cost;
 }
 
