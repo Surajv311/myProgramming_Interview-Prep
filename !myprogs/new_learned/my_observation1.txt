@@ -24,3 +24,11 @@ forn(i,n){
 cin >> arr[i]; 
 }
 -----------------------------------------------
+//When it comes to maps in C++:
+
+map<int , int > mp; // it is valid 
+map<pair<int , int>> // INVALID
+unlike vector where vector<pii> exist, in simple map it doesn't
+BUT : map<int, pair<int , int>> exists...
+-----------------------------------------------
+-----------------------------------------------

@@ -22,7 +22,7 @@ o/p = {1,1,1,1,2,2,3,4}
 hence sorted array based on frequency
 
 Logic:
-So basically create a map with pii (pair<int,int>) and store the arr
+So basically create a map <int , int > ... pii ... and store the arr
 elements along with its count
 i.e say map 'mp' -> mp[arr[i]]++ ; and then create a min heap 'minh'
 with pii, and push elements with note that pii must:
