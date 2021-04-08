@@ -24,7 +24,7 @@ using namespace std;
 #define forx(i,x,n)    for(int i = x; i < (int)(n); ++i)
 #define nfor(i,n)      for(int i = n-1; i >= 0; --i)
 #define all(v) 		   v.begin(),v.end()
-#define fsp(x,y)       fixed << setprecision(y) << x;
+#define fsp(x,y)       fixed << setprecision(y) << x
 #define PI 			   3.1415926535897932384626433832795
 #define MOD 		   1000000007 // (1e9+7)
 #define pii 		   pair<int,int>
