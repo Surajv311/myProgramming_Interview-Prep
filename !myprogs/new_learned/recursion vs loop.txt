@@ -1,0 +1,15 @@
+Is recursion ever faster than looping?
+
+This depends on the language being used. You wrote 'language-agnostic', so I'll give some examples.
+
+In Java, C, and Python, recursion is fairly expensive compared to iteration (in general) because it requires the allocation of a new stack frame. In some C compilers, one can use a compiler flag to eliminate this overhead, which transforms certain types of recursion (actually, certain types of tail calls) into jumps instead of function calls.
+
+In functional programming language implementations, sometimes, iteration can be very expensive and recursion can be very cheap. In many, recursion is transformed into a simple jump, but changing the loop variable (which is mutable) sometimes requires some relatively heavy operations, especially on implementations which support multiple threads of execution. Mutation is expensive in some of these environments because of the interaction between the mutator and the garbage collector, if both might be running at the same time.
+
+I know that in some Scheme implementations, recursion will generally be faster than looping.
+
+In short, the answer depends on the code and the implementation. Use whatever style you prefer. If you're using a functional language, recursion might be faster. If you're using an imperative language, iteration is probably faster. In some environments, both methods will result in the same assembly being generated (put that in your pipe and smoke it).
+
+Addendum: In some environments, the best alternative is neither recursion nor iteration but instead higher order functions. These include "map", "filter", and "reduce" (which is also called "fold"). Not only are these the preferred style, not only are they often cleaner, but in some environments these functions are the first (or only) to get a boost from automatic parallelization — so they can be significantly faster than either iteration or recursion. Data Parallel Haskell is an example of such an environment.
+
+List comprehensions are another alternative, but these are usually just syntactic sugar for iteration, recursion, or higher order functions.
