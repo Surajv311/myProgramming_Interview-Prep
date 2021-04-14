@@ -11,7 +11,7 @@ author: srj_v
 #include <bits/stdc++.h>
 using namespace std;
 
-#define int 		   long long int
+// #define int 		   long long int
 #define sbit(x) 	   __builtin_popcount(x)
 #define pb(x) 		   push_back(x)
 #define mp(x,y) 	   make_pair(x,y)
@@ -36,6 +36,7 @@ using namespace std;
 #define _IOS      	   ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
 typedef long double ld;
+typedef long long int lli;
 
 #pragma GCC optimize("Ofast")
 
