@@ -1,3 +1,5 @@
+/*
+
 PALPALS - Editorial
 PROBLEM:
 You are given a string SS (consisting of lowercase Latin letters only) and you can rearrange the letters of this string in any way. You have to find out if it is possible to rearrange the letters of string SS to obtain a Palpal string.
@@ -72,12 +74,12 @@ The time complexity can be O(N)O(N) or O(N*log(N))O(N∗log(N)) depending upon i
 The memory complexity is O(N)O(N) per test case, can be reduced to O(1)O(1).
 
 int main()
-{   
+{
     int t; cin >> t;
-    vector<long long> v;    
+    vector<long long> v;
     while(t--){
         v.clear();
-        int n; cin >> n; 
+        int n; cin >> n;
         for(int i = 0; i < n; i++){
             int x; cin >> x;
             v.push_back(x);
@@ -88,7 +90,17 @@ int main()
         ans = max(ans, (v[n - 2] + 1) * (v[n - 1] - 1) + 1);
         cout << ans << endl;
     }
-} 
-
+}
+*/
 --------------------------------------------------------------------------------------------------
 
+/*
+april long learnings...
+
+For any dice,
+if 5 faces are visible, then the values should be 6, 5, 4, 3, 2.
+if 4 faces are visible, then the values should be 6, 5, 4, 3.
+if 3 faces are visible, then the values should be 6, 5, 4.
+if 2 faces are visible, then the values should be 6, 5.
+.........
+*/
