@@ -1,6 +1,6 @@
 /*
 
-To identify if stack would be used in a question , then
+To identify if stack would be used in a question ,
 if you notice two loops i,j is being used ,
 wherein j is dependent on i , i.e say: (j=0;j<i;...)
 then think of using a stack ds....
