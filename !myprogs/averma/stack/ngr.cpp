@@ -24,6 +24,8 @@ d) For the input array [13, 7, 6, 12}, the next greater elements for each elemen
    6       -->     12
    12      -->     -1
 
+SIMILARLY NG(LEFT), N(SMALLEST)(LEFT), NS(RIGHT)
+
 author: srj_v
 ///////////////////////////////////////////
 */
@@ -67,6 +69,8 @@ void c_p_c()
 	freopen("output.txt", "w", stdout);
 #endif
 }
+
+// SIMILARLY NG(LEFT), N(SMALLEST)(LEFT), NS(RIGHT)
 
 void ngr(int arr[], int n)
 {
