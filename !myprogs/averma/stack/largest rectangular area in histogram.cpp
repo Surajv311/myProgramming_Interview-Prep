@@ -139,14 +139,6 @@ int lrah(int arr[], int n) {
 	vi v1 = nsl(arr, n);
 	vi v2 = nsr(arr, n);
 
-
-	forn(i, n) {
-		// tc(v1[i]);
-	}
-	ct("")
-	forn(i, n) {
-		// tc(v2[i]);
-	}
 	int w[n];
 	forn(i, n) {
 		w[i] = abs(v1[i] - v2[i]) - 1;
