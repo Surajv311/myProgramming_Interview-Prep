@@ -81,6 +81,10 @@ void c_p_c()
 }
 
 
+/*
+Note that it is SUBSEQ. SO IT NEED NOT BE CONTIGUOUS...
+*/
+
 int longestSubsequence(int n, int a[])
 {
 	// your code here
