@@ -17,6 +17,37 @@ Input: coins[] = {9, 6, 5, 1}, V = 11
 Output: Minimum 2 coins required
 We can use one coin of 6 cents and 1 coin of 5 cents
 
+-----------------------
+
+Number of Coins
+Medium Accuracy: 47.78% Submissions: 10768 Points: 4
+Given a value V and array coins[] of size M, the task is to make the change for V cents, given that you have an infinite supply of each of coins{coins1, coins2, ..., coinsm} valued coins. Find the minimum number of coins to make the change. If not possible to make change then output -1
+
+Example 1:
+
+Input: V = 30, M = 3, coins[] = {25, 10, 5}
+Output: 2
+Explanation: Use one 25 cent coin
+and one 5 cent coin
+Example 2:
+Input: V = 11, M = 4,coins[] = {9, 6, 5, 1}
+Output: 2
+Explanation: Use one 6 cent coin
+and one 5 cent coin
+
+Your Task:
+You don't need to read input or print anything. Complete the function minCoins() which takes V, M and array coins as input parameters and returns the answer.
+
+Expected Time Complexity: O(V*M)
+Expected Auxiliary Space: O(V)
+
+Constraints:
+1 ≤ V*M ≤ 106
+All the elements of array are distinct
+Company Tags
+ Accolite Amazon Morgan Stanley Oracle Paytm Samsung Snapdeal Synopsys Visa Microsoft
+
+
 ///////////////////////////////////////////
 */
 
@@ -123,6 +154,7 @@ int32_t main() {
 
 /*
 
+Q.
 Coin change problem -1
 Maximum number of ways
 
@@ -143,7 +175,7 @@ So the output should be 5.
 
 ---------------
 
-
+Ans.
 int ccp(int wt[], int W , int n) {
 
 	int dp[n + 1][W + 1];
@@ -168,7 +200,6 @@ int ccp(int wt[], int W , int n) {
 				else {
 					dp[i][j] = dp[i - 1][j];
 				}
-
 
 			}
 		}

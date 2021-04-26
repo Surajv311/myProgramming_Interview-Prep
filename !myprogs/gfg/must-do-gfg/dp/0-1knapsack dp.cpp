@@ -2,23 +2,41 @@
 ///////////////////////////////////////////
 //Question/Info
 
-recursion is the parent of dp.
-dp is enhanced recursion.
-we us dp when choice given or its asking optimal...
-if two functions are being called in a recursion then its probable that you could use dp.
+0 - 1 Knapsack Problem
+Medium Accuracy: 47.21% Submissions: 32302 Points: 4
+You are given weights and values of N items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. Note that we have only one quantity of each item.
+In other words, given two integer arrays val[0..N-1] and wt[0..N-1] which represent values and weights associated with N items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item, or don’t pick it (0-1 property).
 
-recusrsive function-> memoization and top-down
+Example 1:
 
-knapsack types: fractional(done via greedy) , 0-1 knapsack , unbounded knapsack
+Input:
+N = 3
+W = 4
+values[] = {1,2,3}
+weight[] = {4,5,1}
+Output: 3
+Example 2:
 
-fractional... we can divide the weight of items and add in values...
-0-1... we either put an item or not,...can't divide like fractional...
-unbounded... we can add multiple occurences of an item...
+Input:
+N = 3
+W = 3
+values[] = {1,2,3}
+weight[] = {4,5,6}
+Output: 0
+Your Task:
+Complete the function knapSack() which takes maximum capacity W, weight array wt[], value array val[] and number of items n as a parameter and returns the maximum possible value you can get.
 
-recursive base condition becomes similarly initialization for top down...
+Expected Time Complexity: O(N*W).
+Expected Auxiliary Space: O(N*W)
 
-When to apply dp... when knapsack like questions given...
-like to find max of something from..............
+Constraints:
+1 ≤ N ≤ 1000
+1 ≤ W ≤ 1000
+1 ≤ wt[i] ≤ 1000
+1 ≤ v[i] ≤ 1000
+
+Company Tags
+ Amazon Directi Flipkart GreyOrange Microsoft Mobicip Morgan Stanley Oracle Payu Snapdeal Visa
 
 
 ///////////////////////////////////////////
