@@ -254,6 +254,14 @@ int32_t main() {
 		}
 	};
 
+	/*
+
+	Legendre's three-square theorem states that a natural number
+	can be represented as the sum of three squares of integers
+	n=x²+y²+z² if and only if n is not of the form n=4ᵃ(8b+7)
+	for nonnegative integers a and b.
+
+	*/
 
 
 
