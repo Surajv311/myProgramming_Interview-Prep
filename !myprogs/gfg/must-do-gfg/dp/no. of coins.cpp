@@ -158,7 +158,6 @@ Q.
 Coin change problem -1
 Maximum number of ways
 
-
 Given a value N, if we want to make change for N cents,
 and we have infinite supply of each of S = { S1, S2, .. , Sm}
 valued coins, how many ways can we make the change?
@@ -170,7 +169,6 @@ So output should be 4. For N = 10 and S = {2, 5, 3, 6},
 there are five solutions:
 {2,2,2,2,2}, {2,2,3,3}, {2,2,6}, {2,3,5} and {5,5}.
 So the output should be 5.
-
 
 
 ---------------
