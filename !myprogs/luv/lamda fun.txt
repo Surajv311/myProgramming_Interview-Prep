@@ -1,0 +1,8 @@
+// lamda function
+
+int main(){
+
+auto sum = [](int x , int y ){return x+y;};
+cout << sum(2,3);
+
+}
