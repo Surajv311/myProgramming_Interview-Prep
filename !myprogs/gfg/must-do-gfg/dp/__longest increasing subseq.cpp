@@ -34,7 +34,7 @@ Constraints:
 0 ≤ A[i] ≤ 106
 
 Company Tags
- Amazon BankBazaar OYO Rooms Paytm Samsung Microsoft
+Amazon BankBazaar OYO Rooms Paytm Samsung Microsoft
 
 author: srj_v
 ///////////////////////////////////////////
