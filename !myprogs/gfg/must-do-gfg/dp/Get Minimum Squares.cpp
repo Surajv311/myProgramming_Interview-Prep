@@ -133,7 +133,7 @@ int32_t main() {
 
 
 			/*
-			// 	dp -> o(n^2)
+			// 	dp based approach
 			int dp[n+1];
 
 			dp[0] = 0;
