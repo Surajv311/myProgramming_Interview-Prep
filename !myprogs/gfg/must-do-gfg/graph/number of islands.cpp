@@ -128,6 +128,14 @@ int32_t main() {
 			dfs(grid, x, y + 1, row, col);
 			dfs(grid, x, y - 1, row, col);
 
+			/*
+				dfs(grid, x+1, y+1, row, col);
+			    dfs(grid, x-1, y-1, row, col);
+			    dfs(grid, x-1, y+1, row, col);
+			    dfs(grid, x+1, y-1, row, col);
+			*/
+
+
 		}
 
 		//Function to find the number of islands.
