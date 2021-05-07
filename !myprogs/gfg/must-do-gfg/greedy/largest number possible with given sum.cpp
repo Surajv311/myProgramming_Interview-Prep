@@ -126,6 +126,10 @@ int32_t main() {
 			return res += to_string(0);
 		}
 
+		// else if(sum==0 and n>1){
+		//        return res+=to_string(-1);
+		//     }
+
 		else {
 			for (int i = 0 ; i < n ; ++i) {
 
