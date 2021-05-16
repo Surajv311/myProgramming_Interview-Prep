@@ -135,6 +135,30 @@ int32_t main() {
 
 
 
+	/*
+
+	OR:
+
+
+	//          for (int i = 0; i < m; i++)
+	//             {
+
+	//         if (arr1[i] > arr2[0])
+	//         {
+	//             swap(arr1[i], arr2[0]);
+	//             int first = arr2[0];
+
+	//           int k;
+	//             for (k = 1; k < n && arr2[k] < first; k++) {
+	//                 arr2[k - 1] = arr2[k];
+	//             }
+
+	//             arr2[k - 1] = first;
+	//         }
+	//     }
+
+	*/
+
 // cerr << "time: " << clock() << " ms" << '\n';
 	return 0;
 }
