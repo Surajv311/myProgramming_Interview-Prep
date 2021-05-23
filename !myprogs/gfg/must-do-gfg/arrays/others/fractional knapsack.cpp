@@ -140,6 +140,7 @@ int32_t main() {
 
 		         ans+=val;
 
+					break; // must
 		     }
 
 
