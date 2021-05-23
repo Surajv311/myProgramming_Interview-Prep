@@ -97,7 +97,7 @@ int32_t main() {
 		}
 
 		int mergeSort(vector<int> &nums, int low, int high ) {
-			int count = 0;
+			// int count = 0;
 			if (low < high) {
 
 				int mid = low + (high - low) / 2;
@@ -108,7 +108,7 @@ int32_t main() {
 
 			}
 
-			return count;
+			// return count;
 		}
 
 		int reversePairs(vector<int>& nums) {

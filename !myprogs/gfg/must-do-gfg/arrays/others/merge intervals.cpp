@@ -100,14 +100,11 @@ int32_t main() {
 
 			}
 
-			// pushing the last node
+			// pushing the last element
 
 			ans.push_back(start);
 
 			return ans;
-
-
-
 
 		}
 	};
