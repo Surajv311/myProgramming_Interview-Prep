@@ -1,0 +1,10 @@
+Note that more programs are to be added in the 
+3 cpp files. 
+
+-> Puzzles - 10q done out of 40+...
+-> .c progs - 5q done out of 20+...
+-> .cpp progs - 5q done out of 10+...
+
+-----------------------------------------------
+
+
