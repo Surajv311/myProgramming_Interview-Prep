@@ -5,10 +5,13 @@ questions that I did during my 4yrs of college to become
 a pro-noob coder XD. 
 
 <br>
+Table of contents
+
 * CP 
 * DS & Algo
 * py
 * java 
-*C, C++ programs that I practice...etc. <br>
+*C, 
+C++ programs that I practice...etc. <br>
 from Codechef/Codeforces/Hackerrank/GFG.
 
