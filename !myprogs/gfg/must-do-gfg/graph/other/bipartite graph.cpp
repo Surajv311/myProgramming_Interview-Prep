@@ -14,7 +14,7 @@
 
 	//if a graph has odd length cycle then it is not a bipartite
 
-	//if a graph doesn't have an odd leangth cycle then it is
+	//if a graph doesn't have an odd length cycle then it is
 	//bipartite, it doesn't have to be of even length
 
 
