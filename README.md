@@ -7,6 +7,9 @@ a pro-noob coder XD.
 <br>
 Table of contents
 
+
+Leetcode questions that i practiced.......
+
 * CP 
 * DS & Algo
 * py
