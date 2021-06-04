@@ -1,7 +1,7 @@
 # Programming Questions 
 
 This repository hosts a list of programming 
-questions that I did during my 4yrs of college to become
+questions that I did during my 4yrs. of college to become
 a pro-noob coder XD. 
 
 <br>
