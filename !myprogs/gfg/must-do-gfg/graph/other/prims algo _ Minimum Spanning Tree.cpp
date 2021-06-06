@@ -2,7 +2,7 @@
 ///////////////////////////////////////////
 //Question/Info
 
-Minimum Spanning Tree
+Minimum Spanning Tree Prims Algo
 
 if we can draw a tree from a graph consisting of
 n nodes and n-1 edges such that every node is reachable to

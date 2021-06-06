@@ -4,6 +4,20 @@
 
 Kruskal's Algorithm to find Minimum spanning tree...
 
+if we can draw a tree from a graph consisting of
+n nodes and n-1 edges such that every node is reachable to
+every other node in that tree and the cost of the edge weights
+is minimal... then its MST...
+
+Its a spanning tree, hence there must not be any cycle... else
+it would become a graph...
+
+2 Algos to find MST:
+
+-> Prims Algo
+-> Kruskals Algo
+
+
 author: srj_v
 ///////////////////////////////////////////
 */
