@@ -41,7 +41,7 @@ void c_p_c()
 #endif
 }
 
-/* PRIMS AGLO */
+/* PRIMS ALGO */
 
 void distance(int V, vector<int>parent, vector<pair<int, int>> adj[]) {
 
