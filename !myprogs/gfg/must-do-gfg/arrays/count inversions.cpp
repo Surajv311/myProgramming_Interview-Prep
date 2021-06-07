@@ -113,7 +113,7 @@ int32_t main() {
 			long long n1 = mid - low + 1;
 			long long n2 = high - mid;
 
-			long long right[n1], left[n2];
+			long long right[n2], left[n1];
 
 			for (long long i = 0; i < n1; i++)
 			{
