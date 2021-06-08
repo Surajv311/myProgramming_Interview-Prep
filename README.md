@@ -5,7 +5,7 @@ questions that I did during my 4yrs. of college to become
 a pro-noob coder XD. 
 
 <br>
-Table of contents
+Table of contents:
 
 
 Leetcode questions that i practiced.......
