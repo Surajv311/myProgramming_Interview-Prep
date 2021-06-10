@@ -7,6 +7,14 @@ a pro-noob coder XD.
 <br>
 Table of contents:
 
+Year 1:
+
+Year 2:
+
+Year 3:
+
+Year 4:
+
 
 Leetcode questions that i practiced.......
 
