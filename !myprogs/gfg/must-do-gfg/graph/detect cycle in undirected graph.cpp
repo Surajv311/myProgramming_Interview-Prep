@@ -94,6 +94,7 @@ int32_t main() {
 				// parent has previous node from previous recursion
 
 				else if (x != parent) {
+					// if x!=parent && vis[x]==true...
 					return true;
 				}
 
@@ -125,6 +126,7 @@ int32_t main() {
 					}
 
 					else if (x != parent) {
+						// if x!=parent && vis[x]==true...
 						return true;
 					}
 				}
