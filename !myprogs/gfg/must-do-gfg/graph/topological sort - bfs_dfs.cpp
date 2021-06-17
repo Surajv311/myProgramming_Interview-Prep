@@ -105,7 +105,7 @@ int32_t main() {
 			/*
 			observe that we would reach the deepest node,
 			and now we would push it. since in stack if we
-			push it and so on it would be at teh bottom and as the function
+			push it and so on it would be at the bottom and as the function
 			calls are returned the starting node would be pushed last in
 			stack hence it would be on top of stack.
 			no need to reverse stack... as it already following this order...
