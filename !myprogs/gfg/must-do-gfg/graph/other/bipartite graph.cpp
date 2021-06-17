@@ -43,6 +43,9 @@ void c_p_c()
 /////////////////////////////////////
 
 bool bipartiteDfs(int node, vector<int> adj[], int color[]) {
+
+	if (color[node] == -1) color[node] = 1 ;
+
 	for (auto it : adj[node]) {
 		if (color[it] == -1) {
 			color[it] = 1 - color[node];
