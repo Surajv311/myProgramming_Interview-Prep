@@ -76,8 +76,12 @@ int shortestPath(vector<pair<int, int>> adj[], int V, int src ) {
 			/*
 			 it means we have reached the node
 			 note that dist[src] == 0 , our source and the stack st.top(),
-			 could be differnt... while traversing, everything would be found...
+			 could be different... while traversing, everything would be found...
 			 since shortest path in a DAG from given src node...
+
+			 // there could be a case where reverse direction
+			 is not possible...
+
 			*/
 
 			for (auto x : adj[node]) {
