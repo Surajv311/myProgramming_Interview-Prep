@@ -18,7 +18,8 @@ In case of directed graph:
 But the Algo would detect the negative cycle & let us know.
 
 
-we do V-1 times relaxations... since longest path we can have is V-1...
+we do V-1 times relaxations... since longest path we
+can have say in a linear graph eg case... is V-1...
 
 Here relaxations is :
 if (dist[it.u] + it.wt < dist[it.v]){
