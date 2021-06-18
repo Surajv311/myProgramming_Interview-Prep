@@ -26,3 +26,12 @@ Leetcode questions that i practiced.......
 C++ programs that I practice...etc. <br>
 from Codechef/Codeforces/Hackerrank/GFG.
 
+
+Codeforces:
+
+Div 2:
+
+Div 3:
+
+Div1:
+
