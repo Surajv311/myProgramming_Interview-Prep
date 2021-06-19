@@ -44,7 +44,7 @@ void c_p_c()
 	-> If you have 2 nodes with same rank then increment
 	the rank by 1(since tree height would be increased)
 	->In the union of two nodes, ensure that the
-	lower rank guy is attached to a higher rank guy/node.
+	lower rank node is attached to a higher rank node.
 	With this tree height won't increase... so no need
 	to increment rank...
 	Eg. node rank = 4 <- node rank 3 <- node rank 2 .....
