@@ -13,11 +13,11 @@ every vertex is reachable from every other vertex.
 The algo is:
 
 -> Approach 1 is you start iterating graph via dfs from
-backwords (using topo sort order) in the directed graph.
+backwards (using topo sort order) in the directed graph.
 
 -> Approach 2 is you find the toposort of the graph
 and then transpose your graph.
-Now iterate backwords using the toposort order in
+Now iterate using the toposort order in
 your transpose graph and find the components.
 
 
