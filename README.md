@@ -16,7 +16,7 @@ Year 3:
 Year 4:
 
 
-Leetcode questions that i practiced.......
+Leetcode questions that i practiced...
 
 * CP 
 * DS & Algo
