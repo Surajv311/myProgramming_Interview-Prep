@@ -88,13 +88,19 @@ int32_t main() {
 			for (int i = 0; i < nums.size(); i++) {
 				v.push_back({nums[i], i});
 			}
-			sort(v.begin(), v.end());
+
+			sort(v.begin(), v.end()); // properly sorted...
+
 			for (int i = 0; i < nums.size(); i++) {
 				if (i == v[i].second)  continue;
 				else {
 					x++;
+
+					/* now scrambling back to original & counting at
+					 the same time.... */
 					swap(v[i], v[v[i].second]);
-					i--;
+
+					i--; // necessary step...
 				}
 			}
 
