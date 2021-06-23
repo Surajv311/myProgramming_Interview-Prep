@@ -117,81 +117,47 @@ int32_t main() {
 	};
 	 */
 
+
+
 //Function to return a list containing elements of left view of the binary tree.
 	vector<int> leftView(Node * root)
 	{
 		// Your code here
 
-
 		if (root == NULL) return {};
-		queue <Node*> q;
-		vector <int> v;
 
-		q.push(root);
-		Node* temp;
-		int f = 0, count = 0;
+		Node*curr = root;
+
+		queue<Node*> q;
+		vector<int> ans;
+
+		q.push(curr);
 
 		while (!q.empty()) {
-			count = q.size();
-			while (count--) {
-				temp = q.front();
+
+			int sz = q.size();
+
+			ans.push_back(q.front()->data); // pushing the lefmost node...
+
+			// now removing the nodes..from the level...
+
+			while (sz--) {
+
+				Node* node = q.front();
 				q.pop();
-				if (f == 0) {
-					v.push_back(temp->data);
-				}
-				f++;
-				if (temp->left)
-					q.push(temp->left);
-				if (temp->right)
-					q.push(temp->right);
+
+				if (node->left) q.push(node->left);
+				if (node->right) q.push(node->right);
+
+
 			}
-			f = 0;
-		}
-		return v;
 
-		/*
-
-		vector<int> leftView(Node *root)
-		{
-		   // Your code here
-
-
-		    if(root==NULL) return {};
-
-		    queue <Node*> q;
-		    vector <int> v;
-
-		    q.push(root);
-
-
-		    while(!q.empty()){
-		int n =q.size();
-
-		for(int i = 1 ; i <=n ; ++i){
-
-		    Node* temp = q.front();
-		    q.pop();
-
-		    if(i==1){
-		        v.push_back(temp->data);
-		    }
-
-		    if(temp->left!=NULL)
-		    {
-		        q.push(temp->left);
-		    }
-
-		    else if(temp->right!=NULL){
-		        q.push(temp->right);
-		    }
-		}
 		}
 
-		return v;
-		}
+		return ans;
 
-		*/
 	}
+
 
 
 
