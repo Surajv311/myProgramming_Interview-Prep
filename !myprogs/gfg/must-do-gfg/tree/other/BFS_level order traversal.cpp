@@ -125,6 +125,41 @@ int32_t main() {
 	};
 
 
+	/*
+
+	USING RECURSION
+
+
+	int height(Node *curr)
+	{
+	    if (curr == NULL)
+	       return -1;
+	    int lheight = height(curr->left);
+	    int rheight = height(curr->right);
+	    return max(lheight, rheight) + 1;
+	}
+
+	void print_level(Node *curr, int level)
+	{
+	    if (curr == NULL)
+	       return;
+	    else if (level == 0)
+	       cout << curr->val << " ";
+	    else if (level > 0)
+	    {
+	        print_level(curr->left, level-1);
+	        print_level(curr->right, level-1);
+	    }
+	}
+
+	void levelorder_traversal(Node *root)
+	{
+	    cout << height(root) << endl;
+	    for (int level=0; level <= height(root); level++)
+	        print_level(root, level);
+	}
+	*/
+
 
 // cerr << "time: " << clock() << " ms" << '\n';
 	return 0;
