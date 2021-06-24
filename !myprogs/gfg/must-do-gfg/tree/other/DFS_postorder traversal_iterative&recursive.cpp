@@ -154,25 +154,28 @@ int32_t main() {
 	class Solution {
 	public:
 	    vector<int> postorderTraversal(Node* root) {
-	        vector<int> nodes;
-	        stack<Node*> todo;
-	        Node* last = NULL;
-	        while (root || !todo.empty()) {
-	            if (root) {
-	                todo.push(root);
-	                root = root -> left;
+	        vector<int> ans;
+	        Node *curr = curr;
+	        stack<Node*> st;
+	        Node* prev = NULL;
+	        while (curr or !st.empty()) {
+	            if (curr) {
+	                st.push(curr);
+	                curr = curr -> left;
 	            } else {
-	                Node* node = todo.top();
-	                if (node -> right && last != node -> right) {
-	                    root = node -> right;
+	               curr = st.top();
+	                if (curr -> right==0 or curr -> right==prev) // using the condition when our node becomes parent in LRP...
+	                 {
+	                    ans.push_back(curr -> data);
+	                    prev = curr;
+	                    curr = 0 ; // to escape the if condition in beginning...
+	                     st.pop();
 	                } else {
-	                    nodes.push_back(node -> val);
-	                    last = node;
-	                    todo.pop();
+	                    curr = curr -> right;
 	                }
 	            }
 	        }
-	        return nodes;
+	        return ans;
 	    }
 	};
 
