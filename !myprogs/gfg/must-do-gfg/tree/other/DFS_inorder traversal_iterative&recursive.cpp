@@ -158,6 +158,43 @@ int32_t main() {
 	};
 
 
+	/*
+
+	Morris Inorder traversal - O(n) time & O(1) space
+
+	pseudocode:
+
+	Node* curr = root;
+
+	while curr!=NULL
+
+	if curr->left ==0
+	cout << curr->data
+	curr = curr->right
+
+	else
+	predecessor = findPredecessor(curr)
+	if predecessor->right ==0
+	predecessor->right = curr
+	curr = curr->left
+
+	else
+
+	predecessor ->right = NULL
+	cout << curr->data
+	curr = curr->right
+
+	// where
+
+	function predecessor(curr){
+
+	// in the left subtree of curr,
+	pick the rightmost node , not
+	equal to numm or curr...
+
+	}
+
+	*/
 
 
 
