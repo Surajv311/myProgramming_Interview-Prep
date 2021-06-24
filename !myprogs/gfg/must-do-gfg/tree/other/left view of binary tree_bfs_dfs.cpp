@@ -101,7 +101,6 @@ int32_t main() {
 	*/
 
 
-
 	/* A binary tree node
 
 	struct Node
@@ -117,7 +116,20 @@ int32_t main() {
 	};
 	 */
 
+	void left(Node * currN, int &currL, int level,  vector<int> &ans) {
 
+		if (currN == NULL) return;
+		if (currL < level) {
+			ans.push_back(currN->data);
+			currL = level;
+		}
+
+		left(currN->left, currL , level + 1 , ans);
+		left(currN->right, currL , level + 1 , ans);
+
+		return ;
+
+	}
 
 //Function to return a list containing elements of left view of the binary tree.
 	vector<int> leftView(Node * root)
@@ -126,33 +138,37 @@ int32_t main() {
 
 		if (root == NULL) return {};
 
-		Node*curr = root;
-
-		queue<Node*> q;
 		vector<int> ans;
 
-		q.push(curr);
+		int currL = -1;
+		Node*currN = root;
 
-		while (!q.empty()) {
-
-			int sz = q.size();
-
-			ans.push_back(q.front()->data); // pushing the lefmost node...
-
-			// now removing the nodes..from the level...
-
-			while (sz--) {
-
-				Node* node = q.front();
-				q.pop();
-
-				if (node->left) q.push(node->left);
-				if (node->right) q.push(node->right);
+		left(currN, currL, 0, ans);
 
 
-			}
+//   queue<Node*> q;
+//   q.push(currN);
 
-		}
+//   while(!q.empty()){
+
+//       int sz = q.size();
+
+//       ans.push_back(q.front()->data); // pushing the lefmost node...
+
+//       // now removing the nodes..from the level...
+
+//       while(sz--){
+
+//           Node* node = q.front();
+//           q.pop();
+
+//           if(node->left) q.push(node->left);
+//           if(node->right) q.push(node->right);
+
+
+//       }
+
+//   }
 
 		return ans;
 
