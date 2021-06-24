@@ -127,7 +127,7 @@ int32_t main() {
 		//     while(!st1.empty()){
 
 		//       Node* node = st1.top(); st1.pop();
-
+		//       st2.push(node);
 		//       if(node->left!=0){
 		//           st1.push(node->left);
 		//       }
@@ -135,8 +135,6 @@ int32_t main() {
 		//       if(node->right!=0){
 		//           st1.push(node->right);
 		//       }
-
-		//       st2.push(node);
 
 		//         }
 
