@@ -127,6 +127,14 @@ int32_t main() {
 		left(currN->left, currL , level + 1 , ans);
 		left(currN->right, currL , level + 1 , ans);
 
+		/*
+
+		for right view of tree, recursive approach:
+		fun(currN->right,,,)
+		fun(currN->left,,,)
+
+		*/
+
 		return ;
 
 	}
@@ -169,6 +177,16 @@ int32_t main() {
 //       }
 
 //   }
+
+
+		/*
+
+		for right view of tree, iterative approach:
+
+		all same, just :
+		ans.push_back(q.back()->data); // thats it!
+
+		*/
 
 		return ans;
 
