@@ -1,4 +1,4 @@
-# Programming Questions 
+# Programming Questions (CP & Interview Prep. Q's.)
 
 This repository hosts a list of programming 
 questions that I did during my 4yrs. of college to become
