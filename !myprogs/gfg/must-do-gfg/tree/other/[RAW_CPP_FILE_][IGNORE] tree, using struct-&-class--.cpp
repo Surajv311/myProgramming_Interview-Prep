@@ -26,12 +26,12 @@ void c_p_c()
 #endif
 }
 
-class Node {
+class NodeCl {
 
 public:
-	int data ; Node* left ; Node* right;
+	int data ; NodeCl* left ; NodeCl* right;
 
-	Node(int data) {
+	NodeCl(int data) {
 		this->data = data;
 		left = 0;
 		right = 0;
@@ -41,15 +41,15 @@ public:
 };
 
 
-struct NodeNode {
+struct NodeSt {
 	int data;
-	NodeNode* left;
-	NodeNode* right;
+	NodeSt* left;
+	NodeSt* right;
 };
 
-NodeNode* CreateNode(int data)
+NodeSt* create(int data)
 {
-	NodeNode* nn = new NodeNode();
+	NodeSt* nn = new NodeSt();
 	if (!nn) {
 		cout << "Memory error\n";
 		return NULL;
@@ -59,7 +59,7 @@ NodeNode* CreateNode(int data)
 	return nn;
 }
 
-void inorder(NodeNode* temp)
+void inorder(NodeSt* temp)
 {
 	if (temp == NULL)
 		return;
@@ -83,14 +83,14 @@ int32_t main() {
 	int t ; cin >> t; while(t--){}
 	*/
 
-	// Node *root = new Node(1);
-	// root->left = new Node(2);
-	// root->right = new Node(3);
+	// NodeCl *root = new NodeCl(1);
+	// root->left = new NodeCl(2);
+	// root->right = new NodeCl(3);
 
 
-	NodeNode* root = CreateNode(1);
-	root->left = CreateNode(2);
-	root->right = CreateNode(3);
+	NodeSt* root = create(1);
+	root->left = create(2);
+	root->right = create(3);
 	inorder(root);
 
 
