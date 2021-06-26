@@ -155,7 +155,7 @@ int32_t main() {
 	public:
 	    vector<int> postorderTraversal(Node* root) {
 	        vector<int> ans;
-	        Node *curr = curr;
+	        Node *curr = root;
 	        stack<Node*> st;
 	        Node* prev = NULL;
 	        while (curr or !st.empty()) {
