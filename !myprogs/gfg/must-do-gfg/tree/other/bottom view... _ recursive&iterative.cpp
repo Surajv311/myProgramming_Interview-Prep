@@ -105,7 +105,6 @@ int32_t main() {
 	*/
 
 
-
 	void bottom(Node * curr, map<int, pair<int, int>> &mp, int dist, int level) {
 
 		if (curr == 0) return ;
@@ -125,7 +124,6 @@ int32_t main() {
 	vector <int> bottomView(Node * root)
 	{
 		// Your Code Here
-
 
 		// RECURSIVE.
 		int dist = 0 ; int level = 0;
@@ -171,8 +169,6 @@ int32_t main() {
 
 		          if(curr->left) q.push({curr->left,dist-1});
 		          if(curr->right) q.push({curr->right,dist+1});
-
-
 		      }
 
 		      vector<int> ans;
