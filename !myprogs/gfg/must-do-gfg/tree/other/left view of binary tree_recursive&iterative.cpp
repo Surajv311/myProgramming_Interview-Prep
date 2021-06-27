@@ -126,6 +126,8 @@ int32_t main() {
 
 		fleft(currN->left, currL , level + 1 , ans);
 		fleft(currN->right, currL , level + 1 , ans);
+		/// for the currN->right call ,our currL becomes
+		// equal to level... hence our data is not push_back...
 
 		/*
 
