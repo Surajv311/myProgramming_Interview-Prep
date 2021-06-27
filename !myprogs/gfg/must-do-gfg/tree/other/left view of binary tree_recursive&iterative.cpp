@@ -116,7 +116,7 @@ int32_t main() {
 	};
 	 */
 
-	void left(Node * currN, int &currL, int level,  vector<int> &ans) {
+	void fleft(Node * currN, int &currL, int level,  vector<int> &ans) {
 
 		if (currN == NULL) return;
 		if (currL < level) {
@@ -124,8 +124,8 @@ int32_t main() {
 			currL = level;
 		}
 
-		left(currN->left, currL , level + 1 , ans);
-		left(currN->right, currL , level + 1 , ans);
+		fleft(currN->left, currL , level + 1 , ans);
+		fleft(currN->right, currL , level + 1 , ans);
 
 		/*
 
@@ -151,7 +151,7 @@ int32_t main() {
 		int currL = -1;
 		Node*currN = root;
 
-		left(currN, currL, 0, ans);
+		fleft(currN, currL, 0, ans);
 
 
 //   queue<Node*> q;
