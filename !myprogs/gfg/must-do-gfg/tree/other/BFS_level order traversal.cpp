@@ -122,6 +122,8 @@ int32_t main() {
 			return ans;
 
 		}
+
+		// O(n) complexity
 	};
 
 
@@ -158,6 +160,9 @@ int32_t main() {
 	    for (int level=0; level <= height(root); level++)
 	        print_level(root, level);
 	}
+
+	//it is O(n^2) complexity... worst case...
+
 	*/
 
 
