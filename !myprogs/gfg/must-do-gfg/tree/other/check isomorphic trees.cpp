@@ -84,7 +84,7 @@ int32_t main() {
 
 	class Solution {
 	public:
-		// Return True if the given trees are isomotphic. Else return False.
+		// Return True if the given trees are isomorphic. Else return False.
 		bool isIsomorphic(Node *root1, Node *root2)
 		{
 			//add code here.
