@@ -121,10 +121,8 @@ int32_t main() {
 			return true;
 		}
 
-
 		else if (r1 and r2 and r1->data == r2->data) {
 			return ( check(r1->left, r2->right) and check(r1->right, r2->left));
-
 		}
 
 		return false;
@@ -135,7 +133,6 @@ int32_t main() {
 	bool isSymmetric(struct Node * root)
 	{
 		// Code here
-
 		return check(root, root);
 
 	}
