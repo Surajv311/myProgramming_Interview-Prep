@@ -20,8 +20,8 @@ Leetcode questions that i practiced...
 
 * CP 
 * DS & Algo
-* py
-* java 
+* Python Basics
+* Java Basics
 *C, 
 C++ programs that I practice...etc. <br>
 from Codechef/Codeforces/Hackerrank/GFG.
