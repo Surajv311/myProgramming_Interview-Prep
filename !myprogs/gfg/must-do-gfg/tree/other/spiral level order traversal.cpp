@@ -179,8 +179,14 @@ int32_t main() {
 	            curr = st1.top();
 	            st1.pop();
 	            cout << curr->val << " ";
+
+	           ///// NOTE WE ARE PUSHING RIGHT FIRST... ////
+
 	            if (curr->right != NULL)
 	                st2.push(curr->right);
+
+
+			/// LEFT IS PUSHED LATER...
 	            if (curr->left != NULL)
 	                st2.push(curr->left);
 	        }
