@@ -130,7 +130,7 @@ int32_t main() {
 	    return max(lheight, rheight) + 1;
 	}
 
-	void print_level(Node *node, int level, int ltr)
+	void display(Node *node, int level, int ltr)
 	{
 	    if (node == NULL)
 	       return;
