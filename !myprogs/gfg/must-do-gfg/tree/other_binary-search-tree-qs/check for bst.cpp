@@ -118,17 +118,11 @@ int32_t main() {
 
 		bool fun(Node*root , Node*min , Node*max) {
 
-			if (root == 0) {
-				return true;
-			}
+			if (root == 0) return true;
 
-			if (min != 0 and root->data <= min->data) {
-				return false;
-			}
+			if (min and root->data <= min->data) return false;
 
-			if (max != 0 and root->data >= max->data) {
-				return false;
-			}
+			if (max and root->data >= max->data) return false;
 
 			bool left = fun(root->left, min, root);
 			bool right = fun(root->right, root, max);
