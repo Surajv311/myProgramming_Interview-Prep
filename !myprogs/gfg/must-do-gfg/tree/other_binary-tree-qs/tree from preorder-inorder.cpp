@@ -117,28 +117,28 @@ int32_t main() {
 		ITERATIVE.....
 
 
-		Node* construct_tree(vector<char>& inorder, vector<char>& preorder)
+		Node* construct_tree(vector<char>& in, vector<char>& pre)
 		{
-		int preIndex = 0, inIndex = 0, flag = 0;
+		int preIn = 0, inIn = 0, flag = 0;
 		stack<Node*> st;
 
-		Node* root = new Node(preorder[preIndex]);
-		++preIndex;
+		Node* root = new Node(pre[preIn]);
+		++preIn;
 		st.push(root);
 		Node *prev = root;
 
-		while (preIndex < preorder.size())
+		while (preIn < pre.size())
 		{
-		    if (!st.empty() && inorder[inIndex] == st.top()->val)
+		    if (!st.empty() && in[inIn] == st.top()->val)
 		    {
 		        prev = st.top();
 		        st.pop();
-		        ++inIndex;
+		        ++inIn;
 		        flag = 1;
 		    }
 		    else
 		    {
-		        Node* node = new Node(preorder[preIndex]);
+		        Node* node = new Node(pre[preIn]);
 		        if (flag == 0)
 		        {
 		            prev->left = node;
@@ -151,7 +151,7 @@ int32_t main() {
 		            flag = 0;
 		        }
 		        st.push(node);
-		        ++preIndex;
+		        ++preIn;
 		    }
 		}
 		return root;
