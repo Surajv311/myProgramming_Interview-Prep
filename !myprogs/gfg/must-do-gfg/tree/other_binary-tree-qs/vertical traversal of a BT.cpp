@@ -117,7 +117,7 @@ int32_t main() {
 
 			while (minv <= maxv) {
 
-				// if (mp.find (min_dist) != mp.end()) // for using unordered_map<>
+				// if (mp.find (minv) != mp.end()) // for using unordered_map<>
 				for (auto i : mp[minv]) {
 
 					ans.push_back(i);
