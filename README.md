@@ -1,4 +1,4 @@
-# Programming Questions (CP & Interview Prep. Q's.)
+# Programming Questions (C.P & Interview Prep. Q's.)
 
 This repository hosts a list of programming 
 questions that I did during my 4yrs. of college to become
@@ -34,4 +34,23 @@ Div 2:
 Div 3:
 
 Div1:
+
+
+Topic :
+
+Arrays
+String
+Linked List
+Stack and Queue
+Tree and BST
+Heap
+Recursion
+Hashing
+Graph
+Greedy
+Dynamic Programming
+Divide and Conquer
+Backtracking
+Bit Magic
+
 
