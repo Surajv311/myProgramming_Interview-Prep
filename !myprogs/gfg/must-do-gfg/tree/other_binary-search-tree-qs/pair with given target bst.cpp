@@ -31,7 +31,6 @@ Output: 0
 Explanation:
 There's no pair that sums up to 2.
 
-
 Your Task:
 You don't need to read input or print anything. Your task is to complete the function isPairPresent() that takes a root node and a target value as a parameter and returns 1 if there's a pair of Nodes in the BST with values summing up to the target sum, else returns 0.
 
@@ -43,7 +42,7 @@ Constraints:
 1<=Sum<=1000005
 
 Company Tags
- Amazon OYO Rooms Snapdeal VMWare Microsoft Google
+Amazon OYO Rooms Snapdeal VMWare Microsoft Google
 
 author: srj_v
 ///////////////////////////////////////////
@@ -66,7 +65,6 @@ void c_p_c()
 	freopen("output.txt", "w", stdout);
 #endif
 }
-
 
 int32_t main() {
 ///////////
