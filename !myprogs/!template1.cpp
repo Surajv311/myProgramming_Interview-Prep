@@ -36,7 +36,7 @@ using namespace std;
 #define _IOS      	   ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
 typedef long double ld;
-typedef long long int lli;
+// typedef long long int lli;
 
 #pragma GCC optimize("Ofast")
 
