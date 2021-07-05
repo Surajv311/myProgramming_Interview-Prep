@@ -11,7 +11,7 @@ author: srj_v
 #include <bits/stdc++.h>
 using namespace std;
 
-// #define int 		   long long int
+#define int 		   long long int
 #define sbit(x) 	   __builtin_popcount(x)
 #define pb(x) 		   push_back(x)
 #define mp(x,y) 	   make_pair(x,y)
