@@ -1,11 +1,11 @@
 /*
-///////////////////////////////////////////
+//////////////////////////////////////////////////////
 //Question/Info
 
 
 
 author: srj_v
-///////////////////////////////////////////
+//////////////////////////////////////////////////////
 */
 
 #include <bits/stdc++.h>
@@ -32,13 +32,27 @@ using namespace std;
 #define vi  		   vector<int>
 #define vii 		   vector<pii>
 #define mii 		   map<int,int>
-#define p_q            priority_queue // priority_queue<int> (&) priority_queue< int,vi,greater<int> >
+#define p_q            priority_queue // priority_queue<int> || priority_queue<int,vi,greater<int>>
 #define _IOS      	   ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define dbg(x) 		   cout << #x << "=" << x << "\n";
+#define dbg2(x,y) 	   cout << #x << "=" << x << " , " << #y << "=" << y << "\n";
+#define F 			   first
+#define S 			   second
 
 typedef long double ld;
 // typedef long long int lli;
 
 #pragma GCC optimize("Ofast")
+
+template<typename... T>
+void read(T&... args) {
+	((cin >> args), ...);
+}
+
+template<typename... T>
+void write(T&&... args) {
+	((cout << args << "\n"), ...);
+}
 
 void c_p_c()
 {
@@ -47,6 +61,8 @@ void c_p_c()
 	freopen("output.txt", "w", stdout);
 #endif
 }
+
+///**************////////////////////**************///
 
 
 int32_t main() {
@@ -57,7 +73,6 @@ int32_t main() {
 //////////
 
 	// code
-
 
 	int t ; cin >> t; while (t--) {}
 
@@ -70,3 +85,5 @@ int32_t main() {
 // cerr << "time: " << clock() << " ms" << '\n';
 	return 0;
 }
+
+///**************////////////////////**************///
