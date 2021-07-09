@@ -108,7 +108,6 @@ int32_t main() {
 		// similar logic like ...
 		// there insert/delete, here insert/delete/replace ...
 
-
 		int la = s.length();
 		int lb = t.length();
 
@@ -131,8 +130,6 @@ int32_t main() {
 				else {
 					dp[i][j] =  1 + min(dp[i - 1][j], min(dp[i][j - 1], dp[i - 1][j - 1]));
 				}
-
-
 			}
 		}
 
