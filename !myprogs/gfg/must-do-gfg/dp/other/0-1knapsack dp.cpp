@@ -115,8 +115,6 @@ int32_t main() {
 		return K[n][W];
 	}
 
-
-
 	return 0;
 }
 
