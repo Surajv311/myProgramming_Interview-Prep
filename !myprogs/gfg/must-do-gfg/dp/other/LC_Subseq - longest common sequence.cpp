@@ -150,12 +150,14 @@ int lcsdp(string a, string b, int la, int lb) {
 	}
 
 	return dp[la][lb];
+}
 
-	/*
 
-	//to print LCS:-
+/*
 
-	int i = la;
+// to print the lcs:
+
+int i = la;
 	int j = lb;
 	string res = "";
 	while (i != 0 and j != 0) {
@@ -179,9 +181,9 @@ int lcsdp(string a, string b, int la, int lb) {
 	reverse(all(res));
 
 	cout << res;
-	*/
 
-}
+
+*/
 
 int32_t main() {
 
