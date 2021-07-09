@@ -111,10 +111,12 @@ int longestSubsequence(int n, int a[])
 BRUTE FORCE DP
 
       int list[n];
- list[0] = 1;
+
+ for(int i = 0 ; i < n ; i++){
+             list[i] = 1;
+        }
 
       for(int i = 1 ; i < n ; i ++){
-          list[i] = 1;
           for(int j = 0 ; j < i ; j++){
 
               if(arr[i]>arr[j] and list[j]>=list[i])
