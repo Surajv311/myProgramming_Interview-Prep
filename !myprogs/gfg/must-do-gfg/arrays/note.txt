@@ -2,3 +2,6 @@ didn't/couldn't do:
 
 * find number of pairs
 * Jumping Caterpillars 
+
+Note:
+* Unique paths in a grid(shifted to backtracking dir/)
