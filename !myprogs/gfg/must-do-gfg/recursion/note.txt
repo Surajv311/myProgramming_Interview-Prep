@@ -1,0 +1,9 @@
+couldn't/didn't do:
+- subset II 
+-
+-
+-
+-
+
+(note)
+- palindrome partitioning ~ already done... in dp dir/...
