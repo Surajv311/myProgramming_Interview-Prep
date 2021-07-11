@@ -40,8 +40,8 @@ Div1:
 
 Topic :
 
-Arrays
-String
+* Arrays
+* String
 Linked List
 Stack and Queue
 Tree and BST
