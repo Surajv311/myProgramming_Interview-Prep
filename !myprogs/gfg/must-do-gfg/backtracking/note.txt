@@ -1,0 +1,12 @@
+couldn't/didn't do:
+
+-
+-
+-
+-
+
+
+(note)
+- word break problem (solved in dp dir/...)
+-
+-
