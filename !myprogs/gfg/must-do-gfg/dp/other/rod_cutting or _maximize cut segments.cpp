@@ -100,7 +100,7 @@ int32_t main() {
 
 	// int dp[100007];
 
-	// int fun(int n, int x, int y, int z){
+	// int mtc(int n, int x, int y, int z){
 
 
 	//   if(n<=0){
@@ -114,15 +114,15 @@ int32_t main() {
 	//       int a = INT_MIN ; int b = INT_MIN; int c = INT_MIN;
 
 	//  if(n>=x){
-	//       a = maximizeTheCuts(n-x, x, y, z);
+	//       a = mtc(n-x, x, y, z);
 	//   }
 
 	//   if(n>=y){
-	//       b = maximizeTheCuts(n-y, x, y, z);
+	//       b = mtc(n-y, x, y, z);
 	//   }
 
 	//   if(n>=z){
-	//       c = maximizeTheCuts(n-z, x, y, z);
+	//       c = mtc(n-z, x, y, z);
 	//   }
 
 	//   return dp[n] = 1 + max(a, max(b,c));
