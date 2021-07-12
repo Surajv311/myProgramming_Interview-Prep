@@ -42,8 +42,8 @@ Topic :
 
 * Arrays
 * String
-Linked List
-Stack and Queue
+* Linked List
+* Stack and Queue
 Tree and BST
 Heap
 Recursion
