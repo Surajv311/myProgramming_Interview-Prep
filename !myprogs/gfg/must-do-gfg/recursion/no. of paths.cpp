@@ -90,10 +90,8 @@ int32_t main() {
 		{
 			return true;
 		}
-		while (m > 0 & n > 0)
-		{
-			return numberOfPaths(m - 1, n) + numberOfPaths(m, n - 1); // going rowwise & col wise...
-		}
+
+		return numberOfPaths(m - 1, n) + numberOfPaths(m, n - 1); // going rowwise & col wise...
 
 	}
 
