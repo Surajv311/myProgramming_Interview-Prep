@@ -11,7 +11,7 @@ Year 1:
 
 Year 2:
 More focus on DS-Algos. 
-Started giving CP seriously. (by year 2 ending)
+Started giving CP seriously.
 
 Year 3:
 
