@@ -9,7 +9,31 @@ to make it palindromic. (application of kmp algo...)
 -Compare version numbers
 
 -Longest Common Prefix in an Array  (Via trie approach)
--
+
+-Most frequent word in an array of strings
+
+-CamelCase Pattern Matching
+
+-String Ignorance
+
+-Design a tiny URL or URL shortener
+
+-Permutations of a given string
+
+-Non Repeating Character
+
+-Check if strings are rotations of each other or not
+
+-Save Ironman
+
+-Repeated Character
+
+-Remove common characters and concatenate
+
+-Geek and its Colored Strings
+
+-Second most repeated string in a sequence
+
 -
 -
 -
