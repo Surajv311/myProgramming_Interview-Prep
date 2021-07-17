@@ -8,7 +8,7 @@ to make it palindromic. (application of kmp algo...)
 
 -Compare version numbers
 
--
+-Longest Common Prefix in an Array  (Via trie approach)
 -
 -
 -
