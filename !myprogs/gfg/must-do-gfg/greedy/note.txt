@@ -1,7 +1,8 @@
 couldn't/didn't solve:
 
 - coin piles
-- 
+- Minimum number of platforms required for a railway 
+(ALREADY SOLVED IN ARRAYS EARLIER...) 
 -
 -
 -
