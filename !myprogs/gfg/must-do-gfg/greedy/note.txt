@@ -6,6 +6,6 @@ couldn't/didn't solve:
 -Fractional Knapsack 
 (ALREADY SOLVED IN ARRAYS EARLIER...) ~ noted in dp in notes...
 
--
+-page faults in lru...
 
 -
