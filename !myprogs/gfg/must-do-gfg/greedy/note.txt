@@ -1,9 +1,11 @@
 couldn't/didn't solve:
 
-- coin piles
 - Minimum number of platforms required for a railway 
 (ALREADY SOLVED IN ARRAYS EARLIER...) 
+
+-Fractional Knapsack 
+(ALREADY SOLVED IN ARRAYS EARLIER...) ~ noted in dp in notes...
+
 -
--
--
+
 -
