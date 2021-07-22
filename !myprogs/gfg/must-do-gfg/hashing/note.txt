@@ -6,9 +6,9 @@ couldn't/didn't do:
 -First element to occur k times 
 -Check if frequencies can be equal
 -Array Subset of another array 
--
--
--
+-Array Pair Sum Divisibility Problem 
+-Swapping pairs make sum equal 
+-Check if frequencies can be equal 
 -
 -
 -
