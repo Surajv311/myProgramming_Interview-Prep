@@ -1,8 +1,5 @@
 # Programming Questions (C.P & Interview Prep. Q's.)
 
-This repository hosts a list of programming 
-questions that I did during my 4yrs. of college to become
-a pro-noob coder XD. 
 
 <br>
 Table of contents:
