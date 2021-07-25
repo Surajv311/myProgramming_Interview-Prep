@@ -1,0 +1,9 @@
+What does it mean to say nodeJS is built on the V8 engine?
+
+In order for a programming language to be executed by a computer, it needs to be translated into a format the machine can understand (generally termed machine code). Javascript is no different. When your browser is presented with Javascript code on a website, something needs to compile or, in the case of Javascript, interpret the instructions into machine code.
+
+V8 is the program that was developed by Google to do exactly that. When you use Chrome and it detects Javascript on a page, it passes it to V8 to run the compilation and then your computer executes the resulting code.
+
+V8 was open sourced by Google. The creator of Node, Ryan Dahl, modified the source code so that V8 could be used outside of Chrome and inside an operating system like Linux or MacOS. That is what is meant by your first quote.
+
+The important thing to note here is that you do not execute your Node programs in a browser but rather with the actual computer you are using. There's no correlation between V8 and Firefox, Safari, IE, etc. All of those browsers have their own Javascript interpreters.

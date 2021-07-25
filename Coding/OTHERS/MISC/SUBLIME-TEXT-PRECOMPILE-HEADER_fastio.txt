@@ -1,0 +1,94 @@
+
+Precompiling headers for fast compilation: (using Sublime Text)
+
+1. Create new build system, name it say, : "cpp_fast_build".sublime-build,
+Now paste this:
+
+{
+"cmd": ["g++.exe",
+ "-std=c++17", "${file}", 
+  "-o",
+   "${file_base_name}.exe",
+    "&&" ,
+     "${file_base_name}.exe<input.txt>output.txt"],
+"shell":true,
+"working_dir":"$file_path",
+"selector":"source.cpp"
+}
+
+2. Change build with system to our - cpp_fast_build
+
+3. Go to : C:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits
+
+There open powershell (right click + shift) and run: g++ -std=c++17 stdc++.h
+
+4. A stdc++.h.gch file would be created.
+
+5. Done. Note that when running your cpp file, no need for c_p_c() function, 
+Hence sample template to run cpp file via - cpp_fast_build is:
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define _IOS   ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+typedef long double ld;
+typedef long long int lli;
+
+#pragma GCC optimize("Ofast")
+
+/*
+void c_p_c()
+{
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+}
+*/
+
+int32_t main() {
+///////////
+	/* c_p_c(); */
+/* with fast build don't use cpc, else you may*/ 
+///////////
+	_IOS
+//////////
+
+	// code
+
+	/*
+	int t ; cin >> t; while(t--){}
+	*/
+
+
+	cout << "hi";
+
+
+
+// cerr << "time: " << clock() << " ms" << '\n';
+	return 0;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

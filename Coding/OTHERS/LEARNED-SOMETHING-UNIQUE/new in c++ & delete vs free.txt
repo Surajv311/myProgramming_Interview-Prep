@@ -1,0 +1,51 @@
+*Dynamic memory allocation in C/C++ refers to performing memory allocation manually by programmer.
+
+*One use of dynamically allocated memory is to allocate 
+memory of variable size which is not possible with 
+compiler allocated memory except variable length arrays.
+
+*The most important use is flexibility provided to programmers. 
+We are free to allocate and deallocate memory whenever we need 
+and whenever we don’t need anymore. There are many cases where 
+this flexibility helps. Examples of such cases are Linked List, Tree, etc.
+
+*For normal variables like “int a”, “char str[10]”, etc, memory is automatically 
+allocated and deallocated. For dynamically allocated 
+memory like “int *p = new int[10]”, it is programmers 
+responsibility to deallocate memory when no longer needed. 
+If programmer doesn’t deallocate memory, 
+it causes memory leak (memory is not deallocated until program terminates).
+
+*C uses malloc() and calloc() function to allocate memory dynamically 
+at run time and uses free() function to free dynamically allocated memory. 
+C++ supports these functions and also has two operators new and delete 
+that perform the task of allocating and freeing the memory in a better and easier way.
+
+*There is a difference between declaring a normal array and allocating a 
+block of memory using new. The most important difference is, 
+normal arrays are deallocated by compiler (If array is local, then 
+deallocated when function returns or completes). However, 
+dynamically allocated arrays always remain there until either 
+they are deallocated by programmer or program terminates.
+
+*If enough memory is not available in the heap to allocate, 
+the new request indicates failure by throwing an exception 
+of type std::bad_alloc, unless “nothrow” is used with the new operator.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Memory leak occurs when programmers create a memory in heap and forget to delete it.
+Memory leaks are particularly serious issues for programs like daemons and servers which by definition never terminate.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*In C++, delete operator should only be used either for the pointers pointing 
+to the memory allocated using new operator or for a NULL pointer, 
+and free() should only be used either for the pointers pointing to 
+the memory allocated using malloc() or for a NULL pointer.
+
+*The most important reason why free() should not be used for 
+de-allocating memory allocated using NEW is that, it does not 
+call the destructor of that object while delete operator does.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

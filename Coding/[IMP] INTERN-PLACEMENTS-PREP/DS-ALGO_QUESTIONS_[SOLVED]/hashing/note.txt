@@ -1,0 +1,14 @@
+couldn't/didn't do:
+
+-Minimum indexed character
+-Check if two arrays are equal or not 
+-Uncommon characters 
+-First element to occur k times 
+-Check if frequencies can be equal
+-Array Subset of another array 
+-Array Pair Sum Divisibility Problem 
+-Swapping pairs make sum equal 
+-Check if frequencies can be equal 
+-
+-
+-

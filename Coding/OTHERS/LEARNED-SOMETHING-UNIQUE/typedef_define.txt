@@ -1,0 +1,2 @@
+#define is a preprocessor token: the compiler itself will never see it.
+typedef is a compiler token: the preprocessor does not care about it.

@@ -1,0 +1,21 @@
+Assertion Vs Normal Error Handling
+Assertions are mainly used to check logically impossible situations. For example, they can be used to check the state a code expects before it starts running or state after it finishes running. Unlike normal error handling, assertions are generally disabled at run-time. Therefore, it is not a good idea to write statements in assert() that can cause side effects. 
+
+#include <stdio.h>
+#include <assert.h>
+  
+int main()
+{
+    int x = 7;
+  
+    /*  Some big code in between and let's say x 
+       is accidentally changed to 9  */
+    x = 9;
+  
+    // Programmer assumes x to be 7 in rest of the code
+    assert(x==7);
+  
+    /* Rest of the code */
+  
+    return 0;
+}

@@ -1,3 +1,0 @@
-vector<int, int> ~ bad practice. 
-instead use 
-vector < pair<int,int>> ......

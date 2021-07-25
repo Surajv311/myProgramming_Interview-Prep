@@ -1,0 +1,4 @@
+NOTE:
+To hash an array of negative numbers say: {1,2,-3,-7,6,-1}.
+Here simply just add say +10, Now do the precomputation ...
+In the ans in main(), simply subtract -10, to get the exact ans. 
