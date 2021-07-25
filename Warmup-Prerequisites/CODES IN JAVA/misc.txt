@@ -6,5 +6,3 @@
 . jvm = java virtual machine ( kind of extra layer on your existing computer )
 .the binary file runs in jvm and not on your same computer 
 .java>new project>name >next >finish>>class.....
-. alt + enter = prop.
-.
