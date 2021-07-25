@@ -1,4 +1,4 @@
-*Note* that in most of the questions I've,
-pasted the logic/ solution code of the question inside the 
+*Note* that in all the questions I've solved,
+I've pasted the logic/ solution code of the question inside the 
 main() function...
 (it should be defined outside...; Would be updated...)
