@@ -59,7 +59,8 @@ Arrays-
 -----------
 2 numbers with sum closest to zero.
 -----------
-
+convert array into zig-zag form
+-----
 String-
 Linked List-
 Stack and Queue-
