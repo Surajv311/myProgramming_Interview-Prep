@@ -16,6 +16,7 @@ been following, to improve my thinking skills to crack the opportunities that co
 - [Coding-NOOB](#coding-noob-beginner)
 - [Coding-PRO_NOOB](#coding-pro_noob-intermediate)
 - [Handwritten-notes](#notes)
+- [DS-Algo-Questions](#ds-algo-qs)
 
 ----------------------------------
 
@@ -84,6 +85,17 @@ A compiled list of resources that I have been following and questions that I hav
 ### Notes
 
 - Link to my handwritten notes (updated occasionally): [drive link](https://drive.google.com/drive/folders/1DCXUvS2_-5aqUsNPJO7Wf8INegCi4Yi4?usp=sharing)
+
+<div align="right">
+    <b><a href="#table-of-contents">⬆ Back To Top
+    </a></b>
+</div>
+
+------------------------------------
+
+### DS-Algo-Qs
+
+List
 
 <div align="right">
     <b><a href="#table-of-contents">⬆ Back To Top
