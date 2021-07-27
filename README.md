@@ -21,10 +21,12 @@ been following, to improve my thinking skills to crack the opportunities that co
 
 ----------------------------------
 
+### Author:
 
+- [Suraj Verma ~ me ;)](https://github.com/surajv311)
 
-
-
+----------------------------------
+----------------------------------
 
 
 
