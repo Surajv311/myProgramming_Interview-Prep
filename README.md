@@ -19,7 +19,7 @@ been following, to improve my thinking skills to crack the opportunities that co
 
 ----------------------------------
 
-#### Coding-Noob-Beginner
+### Coding-Noob-Beginner
 
 1. Written code in Py/Java/C/C++ to get an experience of every language. 
 2. Finally decided to go with cpp.
@@ -34,22 +34,22 @@ been following, to improve my thinking skills to crack the opportunities that co
 
 -------------------------------------
 
-#### Coding-Pro_Noob-Intermediate
+### Coding-Pro_Noob-Intermediate
 
 A compiled list of resources that I have been following and questions that I have been practising:
 
-## Competitive Coding
+#### Competitive Coding
 - [Questions upsolved](https://github.com/Surajv311/myProgramming/tree/master/Coding/COMPETITIVE%20PROGRAMMING/CP-Qs_-UPSOLVED)
 - [MY CP template](https://github.com/Surajv311/myProgramming/tree/master/Coding/COMPETITIVE%20PROGRAMMING/MY-CP-TEMPLATE)
 
-## Practiced & Learned from Internet
+#### Practiced & Learned from Internet
 - [GFG](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/GFG)
 - [Hackerrank](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/HACKERRANK)
 - [Leetcode](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/LEETCODE)
 - [Youtube University](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/YOUTUBE_UNIVERSITY_XD)
 - [Misc](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/others)
 
-## Internship/ Placements specific preparation 
+#### Internship/ Placements specific preparation 
 - [CS Core Subjects](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/CS-CORE_SUBJECTS): 
 [DBMS](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/CS-CORE_SUBJECTS/dbms), 
 [Networks](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/CS-CORE_SUBJECTS/networks), 
@@ -60,9 +60,18 @@ A compiled list of resources that I have been following and questions that I hav
 - [System Design (IGNORE)](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/%5BIGNORE%5D_SYSTEM-DESIGN)
 - [DS-Algo](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D)
 
+#### Others
+- [Learned something unique](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/LEARNED-SOMETHING-UNIQUE)
+- [Off-campus info.](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/offcampus)
+- [Competitive Coding Resources](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/COMPETITIVE_PROGRAMMING)
+- [CS-Core Questions](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/COMPETITIVE_PROGRAMMING)
+- [DS-Algo Must Do Questions](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/DS-ALGO)
+- [Other resources](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/others)
+- [Misc](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/MISC)
+
 -------------------------------------
 
-#### Notes
+### Notes
 
 - Link to my handwritten notes (updated occasionally): [drive link](https://drive.google.com/drive/folders/1DCXUvS2_-5aqUsNPJO7Wf8INegCi4Yi4?usp=sharing)
 
