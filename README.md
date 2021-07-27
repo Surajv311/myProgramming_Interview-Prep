@@ -95,10 +95,11 @@ A compiled list of resources that I have been following and questions that I hav
 
 ### DS-Algo-Qs
 
-List of DS-Algo Questions that I have practised: <br>
-(**Note**: These questions can be accessed via the: <br>
-```Coding-PRO_NOOB [section] -> Internships & Placements preparation [heading] -> DS-Algo [sub-heading]```  as well. <br>
-To keep things little simplified, I've added all the questions that I have been practising specifically for internships/placements over here!.) 
+- This section consists of a list of DS-Algo Questions that I have practised: <br>
+- **Note**: These questions can be accessed via the: <br>
+`Coding-PRO_NOOB [section] -> Internships & Placements preparation [heading] -> DS-Algo [sub-heading]` section as well.<br> 
+([Link](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D))<br>
+- To keep things little simplified, I've added all the questions that I have been practising specifically for internships/placements over here!.
 <br>
 
 #### Contents:
@@ -126,7 +127,6 @@ To keep things little simplified, I've added all the questions that I have been 
 | ------------- | ------------- | ------------- |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -137,7 +137,6 @@ To keep things little simplified, I've added all the questions that I have been 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
@@ -152,7 +151,6 @@ To keep things little simplified, I've added all the questions that I have been 
 | ------------- | ------------- | ------------- |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -163,7 +161,6 @@ To keep things little simplified, I've added all the questions that I have been 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
@@ -178,7 +175,6 @@ To keep things little simplified, I've added all the questions that I have been 
 | ------------- | ------------- | ------------- |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -189,7 +185,6 @@ To keep things little simplified, I've added all the questions that I have been 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
@@ -204,7 +199,6 @@ To keep things little simplified, I've added all the questions that I have been 
 | ------------- | ------------- | ------------- |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -215,7 +209,6 @@ To keep things little simplified, I've added all the questions that I have been 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
@@ -230,7 +223,6 @@ To keep things little simplified, I've added all the questions that I have been 
 | ------------- | ------------- | ------------- |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -241,7 +233,6 @@ To keep things little simplified, I've added all the questions that I have been 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
@@ -256,7 +247,6 @@ To keep things little simplified, I've added all the questions that I have been 
 | ------------- | ------------- | ------------- |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -267,7 +257,6 @@ To keep things little simplified, I've added all the questions that I have been 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
@@ -282,7 +271,6 @@ To keep things little simplified, I've added all the questions that I have been 
 | ------------- | ------------- | ------------- |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -293,7 +281,6 @@ To keep things little simplified, I've added all the questions that I have been 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
