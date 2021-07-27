@@ -1,84 +1,25 @@
 
-# myProgramming
-
+# myProgramming 👨‍💻
 --------------------------------------------------------
 
-<br>
-
-### Computer Science Questions/Ans./Resources for Internships/Placements/CP.
+## Coding practice, CS-Core questions & Resources to improve...! 🚀
 
 <br>
 
-This repository hosts a list of DS-Algo Questions, CS-Core Questions and resources that I have 
-been following to prepare for internships/placements and improve my CP skills. 
+This repository hosts a list of DS-Algo Questions that I've solved, CS-Core Questions and resources that I have 
+been following, to improve my thinking skills to crack the opportunities that come in my way.  
 
-<br>
+------------------------------------
 
-Link to my hand-written notes I practice... (updated occasionally): [drive link]
+### Table of contents:
+(follow the link)
 
-https://drive.google.com/drive/folders/1DCXUvS2_-5aqUsNPJO7Wf8INegCi4Yi4?usp=sharing
+- [Coding-WARMUP-(learning)](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites)
+- [Coding-PRACTICE-(implementation)](https://github.com/Surajv311/myProgramming/tree/master/Coding)
+- [Handwritten-notes-(drive_link)](https://drive.google.com/drive/folders/1DCXUvS2_-5aqUsNPJO7Wf8INegCi4Yi4?usp=sharing)
+(updated occasionally) 
 
-<br>
-
-Table of contents:
-
-<br>
-
-CP Questions upsolved
-
-<br>
-
-DS-Algo Questions I practice for placements/internships
-
-<br>
-
-DS-Algo Questions I practice from Youtube University :) 
-
-<br>
-
-DS-Algo Questions from GFG/ Leetcode/ Hackerrank 
-
-<br>
-
-CS-Core Subjects: DBMS, OS, NETWORKS, OOPS
-[notes & practice questions] 
-
-<br>
-
-Subject Questions & Puzzles
-
-<br>
-
-Off-campus references
-
-<br>
-
-DS-Algo Topics :
-
-Arrays-
------------
-2 numbers with sum closest to zero.
------------
-convert array into zig-zag form
------
-String-
-Linked List-
-Stack and Queue-
-Trees (BT and BST)-
-Heap-
-Recursion-
-Hashing-
-Graph-
-Greedy-
-Dynamic Programming-
-Backtracking-
-Bit Magic-
-Sorting Algos-
-Misc (Others)-
-
-<br>
-
---------------------------------------------------------------------------------
+----------------------------------
 
 
 
