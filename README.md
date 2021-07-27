@@ -17,7 +17,7 @@ been following, to improve my thinking skills to crack the opportunities that co
 - [Coding-PRO_NOOB](#coding-pro_noob-intermediate)
 - [Handwritten-notes](#notes)
 - [DS-Algo-Questions](#ds-algo-qs)
-
+- [Author](#author)
 ----------------------------------
 
 ### Coding-Noob-Beginner
@@ -48,14 +48,14 @@ A compiled list of resources that I have been following and questions that I hav
 - [Questions upsolved](https://github.com/Surajv311/myProgramming/tree/master/Coding/COMPETITIVE%20PROGRAMMING/CP-Qs_-UPSOLVED)
 - [MY CP template](https://github.com/Surajv311/myProgramming/tree/master/Coding/COMPETITIVE%20PROGRAMMING/MY-CP-TEMPLATE)
 
-#### Practiced & Learned from Internet
+#### Practised & Learned from Internet
 - [GFG](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/GFG)
 - [Hackerrank](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/HACKERRANK)
 - [Leetcode](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/LEETCODE)
 - [Youtube University](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/YOUTUBE_UNIVERSITY_XD)
 - [Misc](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/others)
 
-#### Internship/ Placements specific preparation 
+#### Internship & Placements specific preparation (that I've done)
 - [CS Core Subjects](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/CS-CORE_SUBJECTS): 
 [DBMS](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/CS-CORE_SUBJECTS/dbms), 
 [Networks](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/CS-CORE_SUBJECTS/networks), 
@@ -70,7 +70,7 @@ A compiled list of resources that I have been following and questions that I hav
 - [Learned something unique](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/LEARNED-SOMETHING-UNIQUE)
 - [Off-campus info.](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/offcampus)
 - [Competitive Coding Resources](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/COMPETITIVE_PROGRAMMING)
-- [CS-Core Questions](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/COMPETITIVE_PROGRAMMING)
+- [CS-Core Must Do Questions](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/COMPETITIVE_PROGRAMMING)
 - [DS-Algo Must Do Questions](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/DS-ALGO)
 - [Other resources](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/others)
 - [Misc](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/MISC)
@@ -95,18 +95,153 @@ A compiled list of resources that I have been following and questions that I hav
 
 ### DS-Algo-Qs
 
-List
+List of DS-Algo Questions that I have practised: <br>
+(**Note**: These questions can be accessed via the: <br>
+```Coding-PRO_NOOB [section] -> Internships & Placements preparation [heading] -> DS-Algo [sub-heading]```  as well. <br>
+To keep things little simplified, I've added all the questions that I have been practising specifically for internships/placements over here!.) 
+<br>
+
+#### Contents:
+
+- [String](#string)
+- [Linked List](#linkedlist)
+- [Stack and Queue](#stack_queue)
+- [Trees (BT and BST)](#trees)
+- [Heap](#heap)
+- [Recursion](#recursion)
+- [Hashing](#hashing)
+- [Graph](#graph)
+- [Greedy](#greedy)
+- [Dynamic Programming](#dp)
+- [Backtracking](#backtracking)
+- [Bit Magic](#bit_magic)
+- [Sorting Algos](#sorting_algos)
+- [Misc (Others)](#misc)
+
+<br>
+
+#### String
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### LinkedList
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Stack_Queue
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Trees
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Heap
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Recursion
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Hashing
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Graph
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Greedy
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### DP
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Backtracking
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Bit_Magic
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Sorting_Algos
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+#### Misc
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
-    <b><a href="#table-of-contents">⬆ Back To Top
+    <b><a href="#contents">⬆ Back To Top
     </a></b>
 </div>
 
 ------------------------------------
 
-### Author:
+### Author
 
-- [Suraj Verma ~ me ;)](https://github.com/surajv311)
+- [Suraj Verma](https://github.com/surajv311)
 
 ----------------------------------
 ----------------------------------
