@@ -24,4 +24,13 @@ A compiled list of resources that I have been following and questions that I hav
 - [System Design (IGNORE)](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/%5BIGNORE%5D_SYSTEM-DESIGN)
 - [DS-Algo](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D)
 
+## Others
+- [Learned something unique](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/LEARNED-SOMETHING-UNIQUE)
+- [Off-campus info.](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/offcampus)
+- [Competitive Coding Resources](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/COMPETITIVE_PROGRAMMING)
+- [CS-Core Questions](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/COMPETITIVE_PROGRAMMING)
+- [DS-Algo Must Do Questions](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/DS-ALGO)
+- [Other resources](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/others)
+- [Misc](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/MISC)
+
 ----------------------------------------------------
