@@ -128,6 +128,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
+
 #### LinkedList
 
 | Problem  | Link | My Solution | 
@@ -135,6 +140,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
 
 #### Stack_Queue
 
@@ -144,6 +154,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
+
 #### Trees
 
 | Problem  | Link | My Solution | 
@@ -151,6 +166,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
 
 #### Heap
 
@@ -160,6 +180,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
+
 #### Recursion
 
 | Problem  | Link | My Solution | 
@@ -167,6 +192,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
 
 #### Hashing
 
@@ -176,6 +206,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
+
 #### Graph
 
 | Problem  | Link | My Solution | 
@@ -183,6 +218,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
 
 #### Greedy
 
@@ -192,6 +232,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
+
 #### DP
 
 | Problem  | Link | My Solution | 
@@ -199,6 +244,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
 
 #### Backtracking
 
@@ -208,6 +258,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
+
 #### Bit_Magic
 
 | Problem  | Link | My Solution | 
@@ -216,6 +271,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
+
 #### Sorting_Algos
 
 | Problem  | Link | My Solution | 
@@ -223,6 +283,11 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
 
 #### Misc
 
@@ -233,7 +298,7 @@ To keep things little simplified, I've added all the questions that I have been 
 | 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
-    <b><a href="#contents">⬆ Back To Top
+    <b><a href="#contents">⬆ Back To Contents
     </a></b>
 </div>
 
