@@ -32,6 +32,11 @@ been following, to improve my thinking skills to crack the opportunities that co
 - [Codes in Python](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20PY/LEARNING_BASICS)
 - [Git/Github Learning](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/LEARNING___git-github)
 
+<div align="right">
+    <b><a href="#table-of-contents">⬆ Back To Top
+    </a></b>
+</div>
+
 -------------------------------------
 
 ### Coding-Pro_Noob-Intermediate
@@ -69,11 +74,21 @@ A compiled list of resources that I have been following and questions that I hav
 - [Other resources](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/others)
 - [Misc](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/MISC)
 
+<div align="right">
+    <b><a href="#table-of-contents">⬆ Back To Top
+    </a></b>
+</div>
+
 -------------------------------------
 
 ### Notes
 
 - Link to my handwritten notes (updated occasionally): [drive link](https://drive.google.com/drive/folders/1DCXUvS2_-5aqUsNPJO7Wf8INegCi4Yi4?usp=sharing)
+
+<div align="right">
+    <b><a href="#table-of-contents">⬆ Back To Top
+    </a></b>
+</div>
 
 ------------------------------------
 
@@ -83,9 +98,6 @@ A compiled list of resources that I have been following and questions that I hav
 
 ----------------------------------
 ----------------------------------
-
-
-
 
 
 
