@@ -104,6 +104,7 @@ A compiled list of resources that I have been following and questions that I hav
 
 #### Contents:
 
+- [Arrays](#arrays) 
 - [String](#string)
 - [Linked List](#linkedlist)
 - [Stack and Queue](#stack_queue)
@@ -120,6 +121,18 @@ A compiled list of resources that I have been following and questions that I hav
 - [Misc (Others)](#misc)
 
 <br>
+
+#### Arrays
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
 
 #### String
 
