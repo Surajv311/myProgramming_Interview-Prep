@@ -130,7 +130,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Two numbers with sum closest to 0 | [Visit](https://practice.geeksforgeeks.org/problems/two-numbers-with-sum-closest-to-zero1737/1#:~:text=Two%20numbers%20with%20sum%20closest%20to%20zero.%20Given,is%20-68%20using%20numbers%20-60%20and%20-8.%20)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/2%20num.%20sum%20closest%20to%200.cpp) |
 | Convert array to zig-zag fashion | [Visit](https://practice.geeksforgeeks.org/problems/convert-array-into-zig-zag-fashion1638/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/array%20to%20zigzag%20fashion.cpp) |
 | Boolean Matrix | [Visit](https://practice.geeksforgeeks.org/problems/boolean-matrix-problem-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/boolean%20matrix.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Chocolate Distribution Problem | [Visit](https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1#:~:text=%20Chocolate%20Distribution%20Problem%20%201%20Each%20student,number%20of%20chocolates%20given%20to%20a...%20More%20)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/chocolate%20distribution%20problem.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
