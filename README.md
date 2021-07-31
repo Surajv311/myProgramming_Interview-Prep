@@ -133,7 +133,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Chocolate Distribution Problem | [Visit](https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1#:~:text=%20Chocolate%20Distribution%20Problem%20%201%20Each%20student,number%20of%20chocolates%20given%20to%20a...%20More%20)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/chocolate%20distribution%20problem.cpp) |
 | Consecutive 1's not allowed | [Visit](https://practice.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/consecutive%201s%20not%20allowed.cpp) |
 | Contiguous Subarray with given sum | [Visit](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/contiguous%20subarray%20with%20sum.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Count Inversions | [Visit](https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/count%20inversions.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
