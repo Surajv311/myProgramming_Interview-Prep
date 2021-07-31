@@ -34,7 +34,7 @@ Mentions/ Special thanks to content creators:
 - Ravinder Babu
 - Unacademy Codechef (Prachi Agarwal, Sanket Singh, Riya Bansal...etc.)
 - Back To Back SWE
--
+- Jenny's Lectures
 -
 - etc.....
 ////////////////////////////////////////////////////////////////////
