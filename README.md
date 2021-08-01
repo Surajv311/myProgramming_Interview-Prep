@@ -135,7 +135,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Contiguous Subarray with given sum | [Visit](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/contiguous%20subarray%20with%20sum.cpp) |
 | Count Inversions | [Visit](https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/count%20inversions.cpp) |
 | Count the triplets | [Visit](https://www.geeksforgeeks.org/count-triplets-such-that-sum-of-any-two-number-is-equal-to-third-set-2/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/count%20the%20triplets.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Element with left side smaller and right side greater | [Visit](https://practice.geeksforgeeks.org/problems/unsorted-array4925/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/element%20left%20side%20smaller%20right%20greater.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
