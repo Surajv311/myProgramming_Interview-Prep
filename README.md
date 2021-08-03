@@ -138,7 +138,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Element with left side smaller and right side greater | [Visit](https://practice.geeksforgeeks.org/problems/unsorted-array4925/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/element%20left%20side%20smaller%20right%20greater.cpp) |
 | Equilibrium Point | [Visit](https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/equilibrium%20point.cpp) |
 | Find Missing And Repeating | [Visit](https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/find%20missing%20%26%20repeating.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Kadane's Algorithm | [Visit](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/kadane%20algo.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
