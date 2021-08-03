@@ -141,7 +141,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Kadane's Algorithm | [Visit](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/kadane%20algo.cpp) |
 | Kth smallest element | [Visit](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/kth%20smallest%20element.cpp) |
 | Largest Number formed from an Array | [Visit](https://practice.geeksforgeeks.org/problems/largest-number-formed-from-an-array1117/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/largest%20number%20formed%20from%20array.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Last index of One | [Visit](https://practice.geeksforgeeks.org/problems/last-index-of-15847/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/last%20index%20of%201.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
