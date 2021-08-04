@@ -145,7 +145,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Leaders in an array | [Visit](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/leaders%20in%20array.cpp) |
 | Majority Element | [Visit](https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/majority%20element.cpp) |
 | Maximum Index | [Visit](https://practice.geeksforgeeks.org/problems/maximum-index-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/maximum%20index.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Merge Without Extra Space | [Visit](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/merge%20without%20extra%20space.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
