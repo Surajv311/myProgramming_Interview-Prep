@@ -146,7 +146,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Majority Element | [Visit](https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/majority%20element.cpp) |
 | Maximum Index | [Visit](https://practice.geeksforgeeks.org/problems/maximum-index-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/maximum%20index.cpp) |
 | Merge Without Extra Space | [Visit](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/merge%20without%20extra%20space.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Minimum Platforms | [Visit](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/minimum%20platforms.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
