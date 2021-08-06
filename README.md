@@ -148,7 +148,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Merge Without Extra Space | [Visit](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/merge%20without%20extra%20space.cpp) |
 | Minimum Platforms | [Visit](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/minimum%20platforms.cpp) |
 | Missing number in array | [Visit](https://practice.geeksforgeeks.org/problems/missing-number-in-array1416/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/missing%20number.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Nuts and Bolts Problem | [Visit](https://practice.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/nuts%20and%20bolts%20problem.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
