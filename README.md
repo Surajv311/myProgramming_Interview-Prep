@@ -150,7 +150,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Missing number in array | [Visit](https://practice.geeksforgeeks.org/problems/missing-number-in-array1416/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/missing%20number.cpp) |
 | Nuts and Bolts Problem | [Visit](https://practice.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/nuts%20and%20bolts%20problem.cpp) |
 | Pythagorean Triplet | [Visit](https://practice.geeksforgeeks.org/problems/pythagorean-triplet3018/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/pythagorean%20triplet.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Rearrange Array Alternately | [Visit](https://practice.geeksforgeeks.org/problems/-rearrange-array-alternately-1587115620/1) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/rearrange%20array%20alternatively.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
