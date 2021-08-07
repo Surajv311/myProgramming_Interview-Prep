@@ -154,7 +154,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Smallest Positive missing number | [Visit](https://practice.geeksforgeeks.org/problems/smallest-positive-missing-number/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/smallest%20positive%20missing%20num..cpp) |
 | Reverse array in groups | [Visit](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/reverse%20array%20in%20gps..cpp) |
 | Sort an array of 0s, 1s and 2s | [Visit](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/sort%20array%20of%200%201%202.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Spirally traversing a matrix | [Visit](https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/spirally%20traverse%20a%20matrix.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
