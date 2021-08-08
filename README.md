@@ -158,7 +158,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Stock buy and sell | [Visit](https://practice.geeksforgeeks.org/problems/stock-buy-and-sell-1587115621/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/stock%20buy%20sell.cpp) |
 | Trapping Rain Water | [Visit](https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/trapping%20rainwater.cpp) |
 | Find All Four Sum Numbers | [Visit](https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/4%20sum%20numbers.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Find the Duplicate Number | [Visit](https://leetcode.com/problems/find-the-duplicate-number/description/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/find%20the%20duplicate%20number.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
