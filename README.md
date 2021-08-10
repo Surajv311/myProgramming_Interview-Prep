@@ -160,7 +160,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Find All Four Sum Numbers | [Visit](https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/4%20sum%20numbers.cpp) |
 | Find the Duplicate Number | [Visit](https://leetcode.com/problems/find-the-duplicate-number/description/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/find%20the%20duplicate%20number.cpp) |
 | Fractional Knapsack | [Visit](https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/fractional%20knapsack.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Max Consecutive Ones | [Visit](https://leetcode.com/problems/max-consecutive-ones/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/max%20consecutive%20ones.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
