@@ -35,6 +35,7 @@ Mentions/ Special thanks to content creators:
 - Unacademy Codechef (Prachi Agarwal, Sanket Singh, Riya Bansal...etc.)
 - Back To Back SWE
 - Jenny's Lectures
+- Mysirg lectures in hindi
 -
 - etc.....
 ////////////////////////////////////////////////////////////////////
