@@ -21,7 +21,7 @@ Mentions/ Special thanks to content creators:
 - Joma class
 - Codewitharry
 - Naresh i technologies
-- Saurabh Shukla sir
+- Saurabh Shukla sir (Mysirg lectures in hindi)
 - The cherno 
 - Saldina Nurak (Code beauty)
 - Freecodecamp
@@ -35,7 +35,7 @@ Mentions/ Special thanks to content creators:
 - Unacademy Codechef (Prachi Agarwal, Sanket Singh, Riya Bansal...etc.)
 - Back To Back SWE
 - Jenny's Lectures
-- Mysirg lectures in hindi
+- 
 -
 - etc.....
 ////////////////////////////////////////////////////////////////////
