@@ -163,7 +163,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Max Consecutive Ones | [Visit](https://leetcode.com/problems/max-consecutive-ones/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/max%20consecutive%20ones.cpp) |
 | Merge Intervals | [Visit](https://leetcode.com/problems/merge-intervals/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/merge%20intervals.cpp) |
 | Next Permutation | [Visit](https://leetcode.com/problems/next-permutation/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/next%20permutation.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Count all possible paths from top left to bottom right | [Visit](https://practice.geeksforgeeks.org/problems/count-all-possible-paths-from-top-left-to-bottom-right3011/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/possible%20paths%20in%20a%20matrix.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
