@@ -166,7 +166,7 @@ A compiled list of resources that I have been following and questions that I hav
 | Count all possible paths from top left to bottom right | [Visit](https://practice.geeksforgeeks.org/problems/count-all-possible-paths-from-top-left-to-bottom-right3011/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/possible%20paths%20in%20a%20matrix.cpp) |
 | Remove Duplicates from Sorted Array | [Visit](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/remove%20duplicates%20from%20sorted%20array.cpp) |
 | Reverse Pairs | [Visit](https://leetcode.com/problems/reverse-pairs/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/reverse%20pairs.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Rotate Image | [Visit](https://leetcode.com/problems/rotate-image/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/arrays/others/rotate%20image%20_arr.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
