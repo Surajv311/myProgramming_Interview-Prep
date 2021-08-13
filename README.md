@@ -11,7 +11,7 @@ been following, to improve my thinking skills to crack the opportunities that co
 
 ------------------------------------
 
-### Table of contents:
+### `Table of contents`:
 
 - [Coding-NOOB](#coding-noob-beginner)
 - [Coding-PRO_NOOB](#coding-pro_noob-intermediate)
@@ -84,7 +84,12 @@ A compiled list of resources that I have been following and questions that I hav
 
 ### Notes
 
-- Link to my handwritten notes (updated occasionally): [drive link](https://drive.google.com/drive/folders/1DCXUvS2_-5aqUsNPJO7Wf8INegCi4Yi4?usp=sharing)
+Link to my `handwritten notes` (updated occasionally): 
+
+- Drive link: [link](https://drive.google.com/drive/folders/1DCXUvS2_-5aqUsNPJO7Wf8INegCi4Yi4?usp=sharing)
+- Github repo link: [link](https://github.com/Surajv311/myCS-NOTES)
+
+(both links host the same notes) 
 
 <div align="right">
     <b><a href="#table-of-contents">⬆ Back To Top
