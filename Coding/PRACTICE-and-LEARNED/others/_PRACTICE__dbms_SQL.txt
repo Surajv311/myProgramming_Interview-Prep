@@ -1,0 +1,431 @@
+
+mysql> CREATE DATABASE testdb
+    -> ;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> USE testdb;
+Database changed
+mysql> CREATE TABLE dept(Name varchar(15), Id int(5), Subject varchar(10) );
+Query OK, 0 rows affected, 1 warning (0.09 sec)
+
+mysql> DESC dept;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| Name    | varchar(15) | YES  |     | NULL    |       |
+| Id      | int         | YES  |     | NULL    |       |
+| Subject | varchar(10) | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> INSERT INTO dept VALUES('art dept', '101','art');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> DESC dept;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| Name    | varchar(15) | YES  |     | NULL    |       |
+| Id      | int         | YES  |     | NULL    |       |
+| Subject | varchar(10) | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT Id, Name FROM dept;
++------+----------+
+| Id   | Name     |
++------+----------+
+|  101 | art dept |
++------+----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM dept;
++----------+------+---------+
+| Name     | Id   | Subject |
++----------+------+---------+
+| art dept |  101 | art     |
++----------+------+---------+
+1 row in set (0.00 sec)
+
+mysql> INSERT INTO dept VALUES('maths dept', '102','maths');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> INSERT INTO dept VALUES('science dept', '110','science');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> INSERT INTO dept VALUES('social dept', '107','social');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> SELECT * FROM dept;
++--------------+------+---------+
+| Name         | Id   | Subject |
++--------------+------+---------+
+| art dept     |  101 | art     |
+| maths dept   |  102 | maths   |
+| science dept |  110 | science |
+| social dept  |  107 | social  |
++--------------+------+---------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT DISTINCT Id FROM dept;
++------+
+| Id   |
++------+
+|  101 |
+|  102 |
+|  110 |
+|  107 |
++------+
+4 rows in set (0.00 sec)
+
+mysql> INSERT INTO dept VALUES('social dept23432', '107','social');
+ERROR 1406 (22001): Data too long for column 'Name' at row 1
+mysql> INSERT INTO dept VALUES('soept23432', '107','social');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> SELECT DISTINCT Id FROM dept;
++------+
+| Id   |
++------+
+|  101 |
+|  102 |
+|  110 |
+|  107 |
++------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT DISTINCT Id,Name FROM dept;
++------+--------------+
+| Id   | Name         |
++------+--------------+
+|  101 | art dept     |
+|  102 | maths dept   |
+|  110 | science dept |
+|  107 | social dept  |
+|  107 | soept23432   |
++------+--------------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT * FROM dept WHERE Id>105;
++--------------+------+---------+
+| Name         | Id   | Subject |
++--------------+------+---------+
+| science dept |  110 | science |
+| social dept  |  107 | social  |
+| soept23432   |  107 | social  |
++--------------+------+---------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT * FROM dept WHERE Id>105 AND Subject='social';
++-------------+------+---------+
+| Name        | Id   | Subject |
++-------------+------+---------+
+| social dept |  107 | social  |
+| soept23432  |  107 | social  |
++-------------+------+---------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM dept WHERE Id!=105 AND Subject='social';
++-------------+------+---------+
+| Name        | Id   | Subject |
++-------------+------+---------+
+| social dept |  107 | social  |
+| soept23432  |  107 | social  |
++-------------+------+---------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM dept WHERE Id<>105 AND Subject='social';
++-------------+------+---------+
+| Name        | Id   | Subject |
++-------------+------+---------+
+| social dept |  107 | social  |
+| soept23432  |  107 | social  |
++-------------+------+---------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM dept ORDER BY Subject;
++--------------+------+---------+
+| Name         | Id   | Subject |
++--------------+------+---------+
+| art dept     |  101 | art     |
+| maths dept   |  102 | maths   |
+| science dept |  110 | science |
+| social dept  |  107 | social  |
+| soept23432   |  107 | social  |
++--------------+------+---------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT * FROM dept ORDER BY Subject DESC;
++--------------+------+---------+
+| Name         | Id   | Subject |
++--------------+------+---------+
+| social dept  |  107 | social  |
+| soept23432   |  107 | social  |
+| science dept |  110 | science |
+| maths dept   |  102 | maths   |
+| art dept     |  101 | art     |
++--------------+------+---------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT * FROM dept ORDER BY Subject ASC;
++--------------+------+---------+
+| Name         | Id   | Subject |
++--------------+------+---------+
+| art dept     |  101 | art     |
+| maths dept   |  102 | maths   |
+| science dept |  110 | science |
+| social dept  |  107 | social  |
+| soept23432   |  107 | social  |
++--------------+------+---------+
+5 rows in set (0.00 sec)
+
+mysql> UPDATE dept SET Name = 'eropit' WHERE Id = 110;
+Query OK, 1 row affected (0.21 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM dept;
++-------------+------+---------+
+| Name        | Id   | Subject |
++-------------+------+---------+
+| art dept    |  101 | art     |
+| maths dept  |  102 | maths   |
+| eropit      |  110 | science |
+| social dept |  107 | social  |
+| soept23432  |  107 | social  |
++-------------+------+---------+
+5 rows in set (0.01 sec)
+
+mysql> DELETE FROM dept WHERE Id = 110;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT * FROM dept;
++-------------+------+---------+
+| Name        | Id   | Subject |
++-------------+------+---------+
+| art dept    |  101 | art     |
+| maths dept  |  102 | maths   |
+| social dept |  107 | social  |
+| soept23432  |  107 | social  |
++-------------+------+---------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT TOP 3 * FROM dept;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * FROM dept' at line 1
+mysql> SELECT TOP 3* FROM dept;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3* FROM dept' at line 1
+mysql> SELECT TOP 3*FROM dept;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3*FROM dept' at line 1
+mysql> SELECT TOP 3 *FROM dept;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 *FROM dept' at line 1
+mysql> SELECT * FROM dept LIMIT 2;
++------------+------+---------+
+| Name       | Id   | Subject |
++------------+------+---------+
+| art dept   |  101 | art     |
+| maths dept |  102 | maths   |
++------------+------+---------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM dept FETCH FIRST 2 ROWS ONLY;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FETCH FIRST 2 ROWS ONLY' at line 1
+mysql> COUNT(*)
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COUNT(*)' at line 1
+mysql> COUNT(Id);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COUNT(Id)' at line 1
+mysql> SELECT MAX(Id) FROM dept;
++---------+
+| MAX(Id) |
++---------+
+|     107 |
++---------+
+1 row in set (0.02 sec)
+
+mysql> SELECT COUNT(Id) FROM dept;
++-----------+
+| COUNT(Id) |
++-----------+
+|         4 |
++-----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT AVG(Id) FROM dept;
++----------+
+| AVG(Id)  |
++----------+
+| 104.2500 |
++----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT SUM(Id) FROM dept;
++---------+
+| SUM(Id) |
++---------+
+|     417 |
++---------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM dept WHERE Id IN(101,102);
++------------+------+---------+
+| Name       | Id   | Subject |
++------------+------+---------+
+| art dept   |  101 | art     |
+| maths dept |  102 | maths   |
++------------+------+---------+
+2 rows in set (0.01 sec)
+
+mysql> SELECT * FROM dept WHERE Id BETWEEN 100 AND 107;
++-------------+------+---------+
+| Name        | Id   | Subject |
++-------------+------+---------+
+| art dept    |  101 | art     |
+| maths dept  |  102 | maths   |
+| social dept |  107 | social  |
+| soept23432  |  107 | social  |
++-------------+------+---------+
+4 rows in set (0.01 sec)
+
+mysql> SELECT * FROM dept WHERE Id BETWEEN 100 AND 103;
++------------+------+---------+
+| Name       | Id   | Subject |
++------------+------+---------+
+| art dept   |  101 | art     |
+| maths dept |  102 | maths   |
++------------+------+---------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT COUNT(Id), Subject FROM dept GROUP BY Subject ORDER BY COUNT(Id) DESC;
++-----------+---------+
+| COUNT(Id) | Subject |
++-----------+---------+
+|         2 | social  |
+|         1 | art     |
+|         1 | maths   |
++-----------+---------+
+3 rows in set (0.11 sec)
+
+mysql> SELECT * FROM dept;
++-------------+------+---------+
+| Name        | Id   | Subject |
++-------------+------+---------+
+| art dept    |  101 | art     |
+| maths dept  |  102 | maths   |
+| social dept |  107 | social  |
+| soept23432  |  107 | social  |
++-------------+------+---------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT COUNT(Id), Subject FROM dept GROUP BY Subject;
++-----------+---------+
+| COUNT(Id) | Subject |
++-----------+---------+
+|         1 | art     |
+|         1 | maths   |
+|         2 | social  |
++-----------+---------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT Id, Subject FROM dept GROUP BY Subject;
++------+---------+
+| Id   | Subject |
++------+---------+
+|  101 | art     |
+|  102 | maths   |
+|  107 | social  |
++------+---------+
+3 rows in set (0.03 sec)
+
+mysql> ALTER TABLE dept ADD Rate varchar(15);
+Query OK, 0 rows affected (0.39 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM dept;
++-------------+------+---------+------+
+| Name        | Id   | Subject | Rate |
++-------------+------+---------+------+
+| art dept    |  101 | art     | NULL |
+| maths dept  |  102 | maths   | NULL |
+| social dept |  107 | social  | NULL |
+| soept23432  |  107 | social  | NULL |
++-------------+------+---------+------+
+4 rows in set (0.02 sec)
+
+mysql> ALTER TABLE dept DROP COLUMN Rate;
+Query OK, 0 rows affected (0.19 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM dept;
++-------------+------+---------+
+| Name        | Id   | Subject |
++-------------+------+---------+
+| art dept    |  101 | art     |
+| maths dept  |  102 | maths   |
+| social dept |  107 | social  |
+| soept23432  |  107 | social  |
++-------------+------+---------+
+4 rows in set (0.00 sec)
+
+mysql> ALTER TABLE dept RENAME TO dept2;
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> CREATE TABLE tab1 (Name varchar(5), Id int(5));
+Query OK, 0 rows affected, 1 warning (0.11 sec)
+
+mysql> INSERT INTO tab1 values('ABC', 1);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> CREATE TABLE tab2 (Name varchar, Id int);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', Id int)' at line 1
+mysql> CREATE TABLE tab2 (Name varchar, Id int);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', Id int)' at line 1
+mysql> CREATE TABLE tab2 (Name varchar(5), Id int(5));
+Query OK, 0 rows affected, 1 warning (0.04 sec)
+
+mysql> CREATE TABLE tab3 (Name varchar(5), Id int(5) FOREIGN KEY REFERENCEStab2(Id) );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY REFERENCEStab2(Id) )' at line 1
+mysql> CREATE TABLE tab3 (Name varchar(5), Id int(5) FOREIGN KEY REFERENCES tab2(Id) );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY REFERENCES tab2(Id) )' at line 1
+mysql> CREATE TABLE tab3 (Name varchar(5), Id int(5) FOREIGN KEY(Id) REFERENCES tab2(Id));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY(Id) REFERENCES tab2(Id))' at line 1
+mysql> CREATE TABLE tab4 (Name varchar(5), Id int(5) FOREIGN KEY(Id) REFERENCES tab2(Id));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY(Id) REFERENCES tab2(Id))' at line 1
+mysql> CREATE TABLE tab5 (Name varchar(5), Id int(5) PRIMARY KEY);
+Query OK, 0 rows affected, 1 warning (0.05 sec)
+
+mysql> CREATE TABLE tab6 (Name varchar(5), Id int(5), FOREIGN KEY(Id) REFERENCES tab5(Id));
+Query OK, 0 rows affected, 1 warning (0.11 sec)
+
+mysql> CREATE TABLE tab7 (Name varchar(5), Id int(5));
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+mysql> CREATE TABLE tab8 (Name varchar(5), Id int(5));
+Query OK, 0 rows affected, 1 warning (0.09 sec)
+
+mysql> ALTER TABLE tab7 ADD PRIMARY KEY(Id);
+Query OK, 0 rows affected (0.27 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc tab7;
++-------+------------+------+-----+---------+-------+
+| Field | Type       | Null | Key | Default | Extra |
++-------+------------+------+-----+---------+-------+
+| Name  | varchar(5) | YES  |     | NULL    |       |
+| Id    | int        | NO   | PRI | NULL    |       |
++-------+------------+------+-----+---------+-------+
+2 rows in set (0.04 sec)
+
+mysql> ALTER TABLE tab8 ADD FOREIGN KEY(Id) REFERENCES tab7(Id);
+Query OK, 0 rows affected (0.23 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc tab8;
++-------+------------+------+-----+---------+-------+
+| Field | Type       | Null | Key | Default | Extra |
++-------+------------+------+-----+---------+-------+
+| Name  | varchar(5) | YES  |     | NULL    |       |
+| Id    | int        | YES  | MUL | NULL    |       |
++-------+------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql>
+
