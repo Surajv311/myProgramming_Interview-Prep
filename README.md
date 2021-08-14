@@ -184,7 +184,7 @@ Link to my `handwritten notes` (updated occasionally):
 | ------------- | ------------- | ------------- |
 | Check if string is rotated by two places | [Visit](https://practice.geeksforgeeks.org/problems/check-if-string-is-rotated-by-two-places-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/check%20if%20string%20rotated%20by%202%20places.cpp) |
 | Longest Palindrome in a String | [Visit](https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string1956/1/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/longest%20palindromic%20substring.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Smallest window in a string containing all the characters of another string | [Visit](https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/minimum%20window%20substr....cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
