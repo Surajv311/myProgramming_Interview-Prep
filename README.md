@@ -1,17 +1,19 @@
 
 # myProgramming 👨‍💻
+
+**DS-Algo, CP Questions | CS-Core subjects | Notes | Practice | Resources to improve...! 🚀**
+
 --------------------------------------------------------
-
-## Coding practice, CS-Core questions & Resources to improve...! 🚀
-
 <br>
 
-This repository hosts a list of DS-Algo Questions that I've solved, CS-Core Questions and resources that I have 
-been following, to improve my thinking skills to crack the opportunities that come in my way.  
+This repository hosts a list of DS-Algo Questions that I've solved, CS-Core Questions and resources that I have been following, 
+and the handwritten notes I made; To improve my thinking skills to crack the opportunities that come in my way.  
+
+`Doing this since Nov 2020 - present.` 
 
 ------------------------------------
 
-### `Table of contents`:
+## `Table of contents`:
 
 - [Coding-NOOB](#coding-noob-beginner)
 - [Coding-PRO_NOOB](#coding-pro_noob-intermediate)
@@ -23,7 +25,6 @@ been following, to improve my thinking skills to crack the opportunities that co
 ### Coding-Noob-Beginner
 
 1. Written code in Py/Java/C/C++ to get an experience of every language. 
-2. Finally decided to go with cpp.
 
 (Basic)
 
@@ -32,6 +33,8 @@ been following, to improve my thinking skills to crack the opportunities that co
 - [Codes in Java](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20JAVA)
 - [Codes in Python](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20PY/LEARNING_BASICS)
 - [Git/Github Learning](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/LEARNING___git-github)
+
+2. Finally decided to go with **cpp**.
 
 <div align="right">
     <b><a href="#table-of-contents">⬆ Back To Top
