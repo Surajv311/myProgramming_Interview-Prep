@@ -24,17 +24,13 @@ and the handwritten notes I made; To improve my thinking skills to crack the opp
 
 ### Coding-Noob-Beginner
 
-1. Written code in Py/Java/C/C++ to get an experience of every language. 
+1. Written beginner level codes in Py/Java/C/C++ to get an experience of every language. 
 
-(Basic)
+> [Codes in C](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20C) **|** [Codes in Cpp](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20CPP) **|** [Codes in Java](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20JAVA) **|** [Codes in Python](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20PY/LEARNING_BASICS).
 
-- [Codes in C](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20C)
-- [Codes in Cpp](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20CPP)
-- [Codes in Java](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20JAVA)
-- [Codes in Python](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/CODES%20IN%20PY/LEARNING_BASICS)
-- [Git/Github Learning](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/LEARNING___git-github)
+2. Learned [Git/Github](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/LEARNING___git-github).
 
-2. Finally decided to go with **cpp**.
+3. Finally decided to go with **cpp**.
 
 <div align="right">
     <b><a href="#table-of-contents">⬆ Back To Top
@@ -52,11 +48,8 @@ A compiled list of resources that I have been following and questions that I hav
 - [MY CP template](https://github.com/Surajv311/myProgramming/tree/master/Coding/COMPETITIVE%20PROGRAMMING/MY-CP-TEMPLATE)
 
 #### Practised & Learned from Internet
-- [GFG](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/GFG)
-- [Hackerrank](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/HACKERRANK)
-- [Leetcode](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/LEETCODE)
-- [Youtube University](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/YOUTUBE_UNIVERSITY_XD)
-- [Misc](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/others)
+
+> [GFG](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/GFG) **|** [Hackerrank](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/HACKERRANK) **|** [Leetcode](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/LEETCODE) **|** [Youtube University](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/YOUTUBE_UNIVERSITY_XD) **|** [Misc](https://github.com/Surajv311/myProgramming/tree/master/Coding/PRACTICE-and-LEARNED/others)
 
 #### Internship & Placements specific preparation (that I've done)
 - [CS Core Subjects](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/CS-CORE_SUBJECTS): 
