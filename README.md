@@ -9,7 +9,7 @@
 This repository hosts a list of DS-Algo Questions that I've solved, CS-Core Questions and resources that I have been following, 
 and the handwritten notes I made; To improve my thinking skills to crack the opportunities that come in my way.  
 
-`Doing this since Nov 2020 - present.` 
+`In progress: Since Nov 2020 - present.` 
 
 ------------------------------------
 
