@@ -188,7 +188,7 @@ Link to my `handwritten notes` (updated occasionally):
 | Longest Substring Without Repeating Characters | [Visit](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/substr.%20without%20repeating%20chars.cpp) |
 | Anagram | [Visit](https://practice.geeksforgeeks.org/problems/anagram-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/other/anagram.cpp) |
 | Longest Prefix Suffix - KMP Algo | [Visit](https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/other/kmp%20algo__%20longest%20prefix%20suffix.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Implement strstr & Rabin Karp Algo | [Visit](https://practice.geeksforgeeks.org/problems/implement-strstr/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/other/rabin%20carp..._implement%20strstr....cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
