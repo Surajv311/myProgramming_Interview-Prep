@@ -190,25 +190,6 @@ Link to my `handwritten notes` (updated occasionally):
 | Longest Prefix Suffix - KMP Algo | [Visit](https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/other/kmp%20algo__%20longest%20prefix%20suffix.cpp) |
 | Implement strstr & Rabin Karp Algo | [Visit](https://practice.geeksforgeeks.org/problems/implement-strstr/1) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/other/rabin%20carp..._implement%20strstr....cpp) |
 | Roman Number to Integer | [Visit](https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/string/other/roman%20num.%20to%20int.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -219,6 +200,25 @@ Link to my `handwritten notes` (updated occasionally):
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
