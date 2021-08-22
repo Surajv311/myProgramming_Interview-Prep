@@ -200,7 +200,7 @@ Link to my `handwritten notes` (updated occasionally):
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Construct a Linkedlist | -  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/CONSTRUCT%20A%20LINKEDLIST....cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
