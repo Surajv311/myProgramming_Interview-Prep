@@ -204,7 +204,7 @@ Link to my `handwritten notes` (updated occasionally):
 | Implement Queue using Linked List | [Visit](https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/implement%20queue%20using%20ll.cpp) |
 | Implement Stack using Linked List | [Visit](https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/implement%20stack%20using%20ll.cpp) |
 | Finding middle element in a linked list | [Visit](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/middle%20element%20of%20ll.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Pairwise swap elements of a linked list##################################### | [Visit](12345) https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1 | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/pairwise%20swap%20ll%20elements.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
