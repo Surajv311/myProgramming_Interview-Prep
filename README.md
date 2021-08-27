@@ -207,7 +207,7 @@ Link to my `handwritten notes` (updated occasionally):
 | Pairwise swap elements of a linked list | [Visit](https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/pairwise%20swap%20ll%20elements.cpp) |
 | Remove loop in Linked List | [Visit](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/remove%20loop%20in%20ll.cpp) |
 | Reverse a linked list | [Visit](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/reverse%20a%20ll.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Rotate a Linked List | [Visit](https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/rotate%20a%20ll.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
