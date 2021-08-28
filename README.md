@@ -208,7 +208,7 @@ Link to my `handwritten notes` (updated occasionally):
 | Remove loop in Linked List | [Visit](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/remove%20loop%20in%20ll.cpp) |
 | Reverse a linked list | [Visit](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/reverse%20a%20ll.cpp) |
 | Rotate a Linked List | [Visit](https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/rotate%20a%20ll.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Given a linked list of 0s, 1s and 2s, sort it. | [Visit](https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1/?category[]=Linked%20List&category[]=Linked%20List&company[]=Amazon&company[]=Amazon&page=1&query=category[]Linked%20Listcompany[]Amazonpage1company[]Amazoncategory[]Linked%20List)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/sort%20ll%20of%201s-2s-3s.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
