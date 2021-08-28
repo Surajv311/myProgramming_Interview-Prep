@@ -30,7 +30,7 @@ and the handwritten notes I made; To improve my thinking skills to crack the opp
 
 2. Learned [Git/Github](https://github.com/Surajv311/myProgramming/tree/master/Warmup-Prerequisites/LEARNING___git-github).
 
-3. Finally decided to go with **cpp**.
+3. Finally decided to go with **C++ (cpp)**.
 
 <div align="right">
     <b><a href="#table-of-contents">⬆ Back To Top
