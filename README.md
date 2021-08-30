@@ -213,7 +213,7 @@ Link to my `handwritten notes` (updated occasionally):
 | Add two numbers represented by linked lists | [Visit](https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/add%202%20nums.%20in%20linkedlist.cpp) |
 | Check if Linked List is Palindrome | [Visit](https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1#)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/check%20if%20ll%20palindrome.cpp) |
 | Flattening a Linked List | [Visit](https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/flatten%20a%20ll.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Nth node from end of linked list | [Visit](https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/get-remove%20nth%20node%20from%20end%20in%20ll.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
