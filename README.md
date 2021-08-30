@@ -212,7 +212,7 @@ Link to my `handwritten notes` (updated occasionally):
 | Check if the linked list has loop or not (Floyd's Algorithm) | [Visit](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/Floyd%20Algo-%20loop%20in%20linkedlist.cpp) |
 | Add two numbers represented by linked lists | [Visit](https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/add%202%20nums.%20in%20linkedlist.cpp) |
 | Check if Linked List is Palindrome | [Visit](https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1#)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/check%20if%20ll%20palindrome.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Flattening a Linked List | [Visit](https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/flatten%20a%20ll.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
