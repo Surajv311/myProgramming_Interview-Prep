@@ -200,7 +200,7 @@ Link to my `handwritten notes` (updated occasionally):
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| Construct a Linkedlist | -  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/CONSTRUCT%20A%20LINKEDLIST....cpp) |
+| Construct a Linkedlist | [Visit](https://www.geeksforgeeks.org/data-structures/linked-list/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/CONSTRUCT%20A%20LINKEDLIST....cpp) |
 | Implement Queue using Linked List | [Visit](https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/implement%20queue%20using%20ll.cpp) |
 | Implement Stack using Linked List | [Visit](https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/implement%20stack%20using%20ll.cpp) |
 | Finding middle element in a linked list | [Visit](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/middle%20element%20of%20ll.cpp) |
