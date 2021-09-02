@@ -219,8 +219,6 @@ Link to my `handwritten notes` (updated occasionally):
 | Linked List Cycle II | [Visit](https://leetcode.com/problems/linked-list-cycle-ii/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/ll%20cycle%20_%202_floyd%20algo.cpp) |
 | Merge two sorted linked lists  | [Visit](https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/merge%202%20sorted%20ll.cpp) |
 | Reverse a Linked List in groups of given size | [Visit](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/linkedlist/other/reverse%20k%20nodes.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
