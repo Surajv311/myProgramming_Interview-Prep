@@ -3,7 +3,7 @@ stack & queue ...
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
 | First non-repeating character in a stream | [Visit](https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/first%20non%20repeating%20char%20in%20stream.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Gas Station (Circular Tour) | [Visit](https://leetcode.com/problems/gas-station/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/gas%20station-%20circular%20tour.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
