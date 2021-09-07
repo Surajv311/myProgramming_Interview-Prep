@@ -6,7 +6,7 @@ stack & queue ...
 | Gas Station (Circular Tour) | [Visit](https://leetcode.com/problems/gas-station/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/gas%20station-%20circular%20tour.cpp) |
 | Get minimum element from stack | [Visit](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/min%20element%20from%20stack.cpp) |
 | Largest Rectangular Area in a Histogram | [Visit](https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/largest%20rectangular%20area%20in%20histogram.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| LRU Cache | [Visit](https://leetcode.com/problems/lru-cache/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/lru_cache.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
