@@ -10,7 +10,7 @@ stack & queue ...
 | Maximum of all subarrays of size k | [Visit](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/max%20all%20subarrays%2C%20k%20size.cpp) |
 | Given a binary matrix, find the maximum size rectangle binary-sub-matrix with all 1’s | [Visit](https://practice.geeksforgeeks.org/problems/max-rectangle/1#:~:text=Your%20task%20is%20to%20complete%20the%20function%20maxArea,which%20denotes%20the%20size%20of%20the%20matrix%20M.)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/max%20rectangle%20area%20in%20binary%20matrix.cpp) |
 | Special Stack | [Visit](https://practice.geeksforgeeks.org/problems/special-stack/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/min%20%2C%20special%20stack....cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Next Greater Element | [Visit](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/next%20greater%20element.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
