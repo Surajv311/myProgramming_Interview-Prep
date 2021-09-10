@@ -13,7 +13,7 @@ stack & queue ...
 | Next Greater Element | [Visit](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/next%20greater%20element.cpp) |
 | Next Greater Element (Right) | [Visit](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/ngr.cpp) |
 | Parenthesis Checker | [Visit](https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/parenthesis%20checker.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Queue using two Stacks | [Visit](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/queue%20using%20stack.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
