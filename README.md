@@ -18,10 +18,10 @@ stack & queue ...
 | Stack using two queues | [Visit](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stack%20using%20queue.cpp) |
 | Stack using two queues | [Visit](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stack%20using%20queue.cpp) |
 | Stock Span Problem | [Visit](https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stockspan.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+
+
+#####################_----------------------------------------| 12345 | [Visit](12345)  | [Check](12345) |
+
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
