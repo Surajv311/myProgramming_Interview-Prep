@@ -16,7 +16,7 @@ stack & queue ...
 | Queue using two Stacks | [Visit](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/queue%20using%20stack.cpp) |
 | Rotten Oranges | [Visit](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/rotten%20oranges.cpp) |
 | Stack using two queues | [Visit](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stack%20using%20queue.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Stack using two queues | [Visit](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stack%20using%20queue.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
