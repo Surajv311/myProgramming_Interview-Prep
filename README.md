@@ -4,7 +4,7 @@ binary tree
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| non repeating char... | [Visit](12345)  | [Check](12345) |
+| Level order traversal | [Visit](https://practice.geeksforgeeks.org/problems/level-order-traversal/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/BFS_level%20order%20traversal.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
