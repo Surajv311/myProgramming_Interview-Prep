@@ -1,29 +1,43 @@
-stack & queue ... 
+trees
+
+binary tree 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| First non-repeating character in a stream | [Visit](https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/first%20non%20repeating%20char%20in%20stream.cpp) |
-| Gas Station (Circular Tour) | [Visit](https://leetcode.com/problems/gas-station/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/gas%20station-%20circular%20tour.cpp) |
-| Get minimum element from stack | [Visit](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/min%20element%20from%20stack.cpp) |
-| Largest Rectangular Area in a Histogram | [Visit](https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/largest%20rectangular%20area%20in%20histogram.cpp) |
-| LRU Cache | [Visit](https://leetcode.com/problems/lru-cache/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/lru_cache.cpp) |
-| Maximum of all subarrays of size k | [Visit](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/max%20all%20subarrays%2C%20k%20size.cpp) |
-| Given a binary matrix, find the maximum size rectangle binary-sub-matrix with all 1’s | [Visit](https://practice.geeksforgeeks.org/problems/max-rectangle/1#:~:text=Your%20task%20is%20to%20complete%20the%20function%20maxArea,which%20denotes%20the%20size%20of%20the%20matrix%20M.)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/max%20rectangle%20area%20in%20binary%20matrix.cpp) |
-| Special Stack | [Visit](https://practice.geeksforgeeks.org/problems/special-stack/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/min%20%2C%20special%20stack....cpp) |
-| Next Greater Element | [Visit](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/next%20greater%20element.cpp) |
-| Next Greater Element (Right) | [Visit](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/ngr.cpp) |
-| Parenthesis Checker | [Visit](https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/parenthesis%20checker.cpp) |
-| Queue using two Stacks | [Visit](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/queue%20using%20stack.cpp) |
-| Rotten Oranges | [Visit](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/rotten%20oranges.cpp) |
-| Stack using two queues | [Visit](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stack%20using%20queue.cpp) |
-| Stack using two queues | [Visit](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stack%20using%20queue.cpp) |
-| Stock Span Problem | [Visit](https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stockspan.cpp) |
-
-
-#####################_----------------------------------------| 12345 | [Visit](12345)  | [Check](12345) |
-
+| non repeating char... | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+binary search tree
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| non repeating char... | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
 
 # myProgramming 👨‍💻
 
@@ -254,28 +268,22 @@ Link to my `handwritten notes` (updated occasionally):
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| non repeating char... | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| First non-repeating character in a stream | [Visit](https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/first%20non%20repeating%20char%20in%20stream.cpp) |
+| Gas Station (Circular Tour) | [Visit](https://leetcode.com/problems/gas-station/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/gas%20station-%20circular%20tour.cpp) |
+| Get minimum element from stack | [Visit](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/min%20element%20from%20stack.cpp) |
+| Largest Rectangular Area in a Histogram | [Visit](https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/largest%20rectangular%20area%20in%20histogram.cpp) |
+| LRU Cache | [Visit](https://leetcode.com/problems/lru-cache/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/lru_cache.cpp) |
+| Maximum of all subarrays of size k | [Visit](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/max%20all%20subarrays%2C%20k%20size.cpp) |
+| Given a binary matrix, find the maximum size rectangle binary-sub-matrix with all 1’s | [Visit](https://practice.geeksforgeeks.org/problems/max-rectangle/1#:~:text=Your%20task%20is%20to%20complete%20the%20function%20maxArea,which%20denotes%20the%20size%20of%20the%20matrix%20M.)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/max%20rectangle%20area%20in%20binary%20matrix.cpp) |
+| Special Stack | [Visit](https://practice.geeksforgeeks.org/problems/special-stack/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/min%20%2C%20special%20stack....cpp) |
+| Next Greater Element | [Visit](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/next%20greater%20element.cpp) |
+| Next Greater Element (Right) | [Visit](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/ngr.cpp) |
+| Parenthesis Checker | [Visit](https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/parenthesis%20checker.cpp) |
+| Queue using two Stacks | [Visit](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/queue%20using%20stack.cpp) |
+| Rotten Oranges | [Visit](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/rotten%20oranges.cpp) |
+| Stack using two queues | [Visit](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stack%20using%20queue.cpp) |
+| Stack using two queues | [Visit](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stack%20using%20queue.cpp) |
+| Stock Span Problem | [Visit](https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/stack%26queue/other/stockspan.cpp) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
