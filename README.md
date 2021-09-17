@@ -8,7 +8,7 @@ binary tree
 | Inorder Traversal (Iterative & Recursive) | [Visit](https://practice.geeksforgeeks.org/problems/inorder-traversal/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/DFS_inorder%20traversal_iterative%26recursive.cpp) |
 | Postorder Traversal (Iterative & Recursive) | [Visit](https://practice.geeksforgeeks.org/problems/postorder-traversal/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/DFS_postorder%20traversal_iterative%26recursive.cpp) |
 | Preorder Traversal (Iterative & Recursive) | [Visit](https://practice.geeksforgeeks.org/problems/preorder-traversal/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/DFS_preorder%20traversal_iterative%26recursive.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Lowest Common Ancestor in a Binary Tree | [Visit](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/LCA-%20lowest%20common%20ancestor%2C%20binary%20tree.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
