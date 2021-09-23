@@ -16,7 +16,7 @@ binary tree
 | Determine if Two Trees are Identical | [Visit](https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/check%20if%20two%20trees%20identical.cpp) |
 | Check if Tree is Isomorphic | [Visit](https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/check%20isomorphic%20trees.cpp) |
 | Symmetric Tree | [Visit](https://practice.geeksforgeeks.org/problems/symmetric-tree/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/check%20symmetric%20tree.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Count Leaves in Binary Tree | [Visit](https://practice.geeksforgeeks.org/problems/count-leaves-in-binary-tree/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/count%20leaves%20in%20a%20BT.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
