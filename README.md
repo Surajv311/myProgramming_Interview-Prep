@@ -20,7 +20,7 @@ binary tree
 | Diameter of Binary Tree | [Visit](https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/diameter%20of%20binary%20tree.cpp) |
 | Flatten Binary Tree to Linked List | [Visit](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/flatten%20binary%20tree%20to%20linkedlist.cpp) |
 | Height of Binary Tree | [Visit](https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/height%20of%20binary%20tree.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Left View of Binary Tree | [Visit](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/left%20view%20of%20binary%20tree_recursive%26iterative.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
