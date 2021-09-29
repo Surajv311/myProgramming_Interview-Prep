@@ -23,7 +23,7 @@ binary tree
 | Left View of Binary Tree (Iterative & Recursive) | [Visit](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/left%20view%20of%20binary%20tree_recursive%26iterative.cpp) |
 | Binary Tree Maximum Path Sum | [Visit](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/maximum%20path%20sum.cpp) |
 | Mirror Tree | [Visit](https://practice.geeksforgeeks.org/problems/mirror-tree/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/mirror%20tree.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Serialize and Deserialize a Binary Tree | [Visit](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/serialize%20%26%20deserialize%20a%20bt.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
