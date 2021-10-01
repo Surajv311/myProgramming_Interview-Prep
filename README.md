@@ -28,7 +28,7 @@ binary tree
 | Top View of Binary Tree | [Visit](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/top%20view%20of%20binary%20tree_recursive%26iterative.cpp) |
 | Tree from Postorder and Inorder | [Visit](https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/tree%20from%20postorder-inorder.cpp) |
 | Construct Tree from Inorder & Preorder | [Visit](https://practice.geeksforgeeks.org/problems/construct-tree-1/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/tree%20from%20preorder-inorder.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Vertical Traversal of Binary Tree | [Visit](https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/vertical%20traversal%20of%20a%20BT.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
