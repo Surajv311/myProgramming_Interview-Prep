@@ -33,6 +33,15 @@ binary tree
 | 12345 | [Visit](12345)  | [Check](12345) |
 
 binary search tree
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| Lowest Common Ancestor in a BST | [Visit](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/LCA%20in%20BST.cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+
+
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
