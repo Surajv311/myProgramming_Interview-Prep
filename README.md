@@ -37,7 +37,7 @@ binary search tree
 | ------------- | ------------- | ------------- |
 | Lowest Common Ancestor in a BST | [Visit](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/LCA%20in%20BST.cpp) |
 | Check for BST | [Visit](https://practice.geeksforgeeks.org/problems/check-for-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/check%20for%20bst.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Constructing a BST | [Visit](https://www.geeksforgeeks.org/binary-search-tree-data-structure/#:~:text=1%20Find%20the%20node%20with%20minimum%20value%20in,modification%20to%20BST%20is%20not%20allowed.%20More%20items)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/construct%20%26%20search%20in%20bst.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
 
