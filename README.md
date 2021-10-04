@@ -8,14 +8,17 @@ binary search tree
 | Check for BST | [Visit](https://practice.geeksforgeeks.org/problems/check-for-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/check%20for%20bst.cpp) |
 | Constructing a BST | [Visit](https://www.geeksforgeeks.org/binary-search-tree-data-structure/#:~:text=1%20Find%20the%20node%20with%20minimum%20value%20in,modification%20to%20BST%20is%20not%20allowed.%20More%20items)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/construct%20%26%20search%20in%20bst.cpp) |
 | Floor and Ceil from a BST | [Visit](https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/floor%26ceil%20from%20bst.cpp) |
-
+| k-th smallest element in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/kth%20smallest%20element%20in%20bst.cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 
 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
 | non repeating char... | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| k-th smallest element in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/kth%20smallest%20element%20in%20bst.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
