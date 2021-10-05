@@ -10,15 +10,16 @@ binary search tree
 | Floor and Ceil from a BST | [Visit](https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/floor%26ceil%20from%20bst.cpp) |
 | k-th smallest element in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/kth%20smallest%20element%20in%20bst.cpp) |
 | Largest BST | [Visit](https://practice.geeksforgeeks.org/problems/largest-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/largest%20bst%20in%20bt.cpp) |
+| Find a pair with given target in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/pair%20with%20given%20target%20bst.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
 | non repeating char... | [Visit](12345)  | [Check](12345) |
-| k-th smallest element in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/kth%20smallest%20element%20in%20bst.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
