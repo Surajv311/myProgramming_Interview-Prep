@@ -11,7 +11,7 @@ binary search tree
 | k-th smallest element in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/kth%20smallest%20element%20in%20bst.cpp) |
 | Largest BST | [Visit](https://practice.geeksforgeeks.org/problems/largest-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/largest%20bst%20in%20bt.cpp) |
 | Find a pair with given target in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/pair%20with%20given%20target%20bst.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Populating Next Right Pointers in Each Node | [Visit](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/populate%20next%20right%20pointers.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
