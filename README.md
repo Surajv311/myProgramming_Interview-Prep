@@ -1,20 +1,13 @@
-trees
+heap.............
 
-
-binary search tree
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| Lowest Common Ancestor in a BST | [Visit](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/LCA%20in%20BST.cpp) |
-| Check for BST | [Visit](https://practice.geeksforgeeks.org/problems/check-for-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/check%20for%20bst.cpp) |
-| Constructing a BST | [Visit](https://www.geeksforgeeks.org/binary-search-tree-data-structure/#:~:text=1%20Find%20the%20node%20with%20minimum%20value%20in,modification%20to%20BST%20is%20not%20allowed.%20More%20items)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/construct%20%26%20search%20in%20bst.cpp) |
-| Floor and Ceil from a BST | [Visit](https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/floor%26ceil%20from%20bst.cpp) |
-| k-th smallest element in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/kth%20smallest%20element%20in%20bst.cpp) |
-| Largest BST | [Visit](https://practice.geeksforgeeks.org/problems/largest-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/largest%20bst%20in%20bt.cpp) |
-| Find a pair with given target in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/pair%20with%20given%20target%20bst.cpp) |
-| Populating Next Right Pointers in Each Node | [Visit](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/populate%20next%20right%20pointers.cpp) |
+| non repeating char... | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
 
 
 | Problem  | Link | My Solution | 
@@ -310,6 +303,26 @@ binary tree
 | Vertical Traversal of Binary Tree | [Visit](https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/vertical%20traversal%20of%20a%20BT.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+
+###########-------------#################################--------------------------------------------------------------------------------------
+
+
+binary search tree
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| Lowest Common Ancestor in a BST | [Visit](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/LCA%20in%20BST.cpp) |
+| Check for BST | [Visit](https://practice.geeksforgeeks.org/problems/check-for-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/check%20for%20bst.cpp) |
+| Constructing a BST | [Visit](https://www.geeksforgeeks.org/binary-search-tree-data-structure/#:~:text=1%20Find%20the%20node%20with%20minimum%20value%20in,modification%20to%20BST%20is%20not%20allowed.%20More%20items)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/construct%20%26%20search%20in%20bst.cpp) |
+| Floor and Ceil from a BST | [Visit](https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/floor%26ceil%20from%20bst.cpp) |
+| k-th smallest element in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/kth%20smallest%20element%20in%20bst.cpp) |
+| Largest BST | [Visit](https://practice.geeksforgeeks.org/problems/largest-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/largest%20bst%20in%20bt.cpp) |
+| Find a pair with given target in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/pair%20with%20given%20target%20bst.cpp) |
+| Populating Next Right Pointers in Each Node | [Visit](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/populate%20next%20right%20pointers.cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
