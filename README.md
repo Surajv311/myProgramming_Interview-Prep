@@ -3,7 +3,7 @@ heap.............
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
 | Heap Sort | [Visit](https://practice.geeksforgeeks.org/problems/heap-sort/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/heap%20sort.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Kth largest element in a stream | [Visit](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/kth%20largest%20element%20in%20stream.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
