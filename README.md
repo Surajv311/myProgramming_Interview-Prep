@@ -6,7 +6,7 @@ Merge K sorted linked lists
 | Kth largest element in a stream | [Visit](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/kth%20largest%20element%20in%20stream.cpp) |
 | Find median in a stream | [Visit](https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/median%20in%20a%20stream.cpp) |
 | Merge K sorted linked lists | [Visit](https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/merge%20k%20sorted%20ll.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Find k closest numbers in an unsorted array | [Visit](https://www.geeksforgeeks.org/find-k-closest-numbers-in-an-unsorted-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/k%20closest%20numbers.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
