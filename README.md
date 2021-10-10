@@ -10,7 +10,7 @@ Merge K sorted linked lists
 | Find k numbers with most occurrences in the given array | [Visit](https://www.geeksforgeeks.org/find-k-numbers-occurrences-given-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/k%20num.%20most%20occurrences.cpp) |
 | K’th Smallest/Largest Element in Unsorted Array | [Visit](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/kth%20smallest%20element.cpp) |
 | Connect n ropes with minimum cost | [Visit](https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/n%20ropes%20min%20cost_or_%20huffman%20_or_%20optimal%20merge%20pattern....cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Sort a K Sorted Array | Sort Nearly Sorted Array | [Visit](https://practice.geeksforgeeks.org/problems/nearly-sorted-algorithm/0)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/sort%20k%20sorted%20array.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
