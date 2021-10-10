@@ -1,16 +1,14 @@
-heap.............
-Merge K sorted linked lists
+recursion 
+
+
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| Heap Sort | [Visit](https://practice.geeksforgeeks.org/problems/heap-sort/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/heap%20sort.cpp) |
-| Kth largest element in a stream | [Visit](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/kth%20largest%20element%20in%20stream.cpp) |
-| Find median in a stream | [Visit](https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/median%20in%20a%20stream.cpp) |
-| Merge K sorted linked lists | [Visit](https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/merge%20k%20sorted%20ll.cpp) |
-| Find k closest numbers in an unsorted array | [Visit](https://www.geeksforgeeks.org/find-k-closest-numbers-in-an-unsorted-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/k%20closest%20numbers.cpp) |
-| Find k numbers with most occurrences in the given array | [Visit](https://www.geeksforgeeks.org/find-k-numbers-occurrences-given-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/k%20num.%20most%20occurrences.cpp) |
-| K’th Smallest/Largest Element in Unsorted Array | [Visit](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/kth%20smallest%20element.cpp) |
-| Connect n ropes with minimum cost | [Visit](https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/n%20ropes%20min%20cost_or_%20huffman%20_or_%20optimal%20merge%20pattern....cpp) |
-| Sort a K Sorted Array | Sort Nearly Sorted Array | [Visit](https://practice.geeksforgeeks.org/problems/nearly-sorted-algorithm/0)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/sort%20k%20sorted%20array.cpp) |
+| 12345 | [Visit](12345)  | [Check](q1 links....balanced parenthesis....https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/balanced%20parenthesis.cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
@@ -339,8 +337,22 @@ binary search tree
 
 #### Heap
 
+
+heap.............
+Merge K sorted linked lists
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
+| Heap Sort | [Visit](https://practice.geeksforgeeks.org/problems/heap-sort/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/heap%20sort.cpp) |
+| Kth largest element in a stream | [Visit](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/kth%20largest%20element%20in%20stream.cpp) |
+| Find median in a stream | [Visit](https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/median%20in%20a%20stream.cpp) |
+| Merge K sorted linked lists | [Visit](https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/merge%20k%20sorted%20ll.cpp) |
+| Find k closest numbers in an unsorted array | [Visit](https://www.geeksforgeeks.org/find-k-closest-numbers-in-an-unsorted-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/k%20closest%20numbers.cpp) |
+| Find k numbers with most occurrences in the given array | [Visit](https://www.geeksforgeeks.org/find-k-numbers-occurrences-given-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/k%20num.%20most%20occurrences.cpp) |
+| K’th Smallest/Largest Element in Unsorted Array | [Visit](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/kth%20smallest%20element.cpp) |
+| Connect n ropes with minimum cost | [Visit](https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/n%20ropes%20min%20cost_or_%20huffman%20_or_%20optimal%20merge%20pattern....cpp) |
+| Sort a K Sorted Array | Sort Nearly Sorted Array | [Visit](https://practice.geeksforgeeks.org/problems/nearly-sorted-algorithm/0)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/sort%20k%20sorted%20array.cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 
