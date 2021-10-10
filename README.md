@@ -8,7 +8,7 @@ Merge K sorted linked lists
 | Merge K sorted linked lists | [Visit](https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/merge%20k%20sorted%20ll.cpp) |
 | Find k closest numbers in an unsorted array | [Visit](https://www.geeksforgeeks.org/find-k-closest-numbers-in-an-unsorted-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/k%20closest%20numbers.cpp) |
 | Find k numbers with most occurrences in the given array | [Visit](https://www.geeksforgeeks.org/find-k-numbers-occurrences-given-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/k%20num.%20most%20occurrences.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| K’th Smallest/Largest Element in Unsorted Array | [Visit](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/kth%20smallest%20element.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
