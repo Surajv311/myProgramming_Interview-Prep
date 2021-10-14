@@ -8,7 +8,7 @@ recursion
 | Number of paths | [Visit](https://practice.geeksforgeeks.org/problems/number-of-paths0926/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/no.%20of%20paths.cpp) |
 | Special Keyboard | [Visit](https://practice.geeksforgeeks.org/problems/special-keyboard3018/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/special%20keyboard.cpp) |
 | Generate all balanced parenthesis | [Visit](https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/balanced%20parenthesis.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Combination Sum I | [Visit](https://leetcode.com/problems/combination-sum/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/combination%20sum%20I.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
