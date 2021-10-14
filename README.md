@@ -10,9 +10,18 @@ recursion
 | Generate all balanced parenthesis | [Visit](https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/balanced%20parenthesis.cpp) |
 | Combination Sum I | [Visit](https://leetcode.com/problems/combination-sum/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/combination%20sum%20I.cpp) |
 | Combination Sum II | [Visit](https://leetcode.com/problems/combination-sum-ii/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/combination%20sum%20II.cpp) |
+| kth symbol in grammar | [Visit](https://leetcode.com/problems/k-th-symbol-in-grammar/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/kth%20symbol%20in%20grammar.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 
 
 | Problem  | Link | My Solution | 
