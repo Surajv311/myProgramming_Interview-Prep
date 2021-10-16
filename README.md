@@ -13,7 +13,7 @@ recursion
 | kth symbol in grammar | [Visit](https://leetcode.com/problems/k-th-symbol-in-grammar/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/kth%20symbol%20in%20grammar.cpp) |
 | Letter case permutation | [Visit](https://leetcode.com/problems/letter-case-permutation/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/letter%20case%20permutation.cpp) |
 | Permutation Sequence | [Visit](https://leetcode.com/problems/permutation-sequence/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/permutation%20seq..cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Permutation with spaces | [Visit](https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/permutation%20with%20spaces.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
