@@ -1,21 +1,16 @@
-recursion 
 
+Hashing
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| Flood fill Algorithm | [Visit](https://leetcode.com/problems/flood-fill/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/flood%20fill%20algo.cpp) |
-| Josephus problem | [Visit](https://practice.geeksforgeeks.org/problems/josephus-problem/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/josephus%20problem.cpp) |
-| Number of paths | [Visit](https://practice.geeksforgeeks.org/problems/number-of-paths0926/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/no.%20of%20paths.cpp) |
-| Special Keyboard | [Visit](https://practice.geeksforgeeks.org/problems/special-keyboard3018/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/special%20keyboard.cpp) |
-| Generate all balanced parenthesis | [Visit](https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/balanced%20parenthesis.cpp) |
-| Combination Sum I | [Visit](https://leetcode.com/problems/combination-sum/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/combination%20sum%20I.cpp) |
-| Combination Sum II | [Visit](https://leetcode.com/problems/combination-sum-ii/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/combination%20sum%20II.cpp) |
-| kth symbol in grammar | [Visit](https://leetcode.com/problems/k-th-symbol-in-grammar/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/kth%20symbol%20in%20grammar.cpp) |
-| Letter case permutation | [Visit](https://leetcode.com/problems/letter-case-permutation/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/letter%20case%20permutation.cpp) |
-| Permutation Sequence | [Visit](https://leetcode.com/problems/permutation-sequence/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/permutation%20seq..cpp) |
-| Permutation with spaces | [Visit](https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/permutation%20with%20spaces.cpp) |
-| Reverse a stack using recursion | [Visit](https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/reverse%20stack.cpp) |
-| Sort an array recursively | [Visit](https://practice.geeksforgeeks.org/problems/sort-the-array0055/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/sort%20array%20recursively.cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
@@ -371,10 +366,31 @@ Merge K sorted linked lists
 
 #### Recursion
 
+recursion 
+
+
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
+| Flood fill Algorithm | [Visit](https://leetcode.com/problems/flood-fill/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/flood%20fill%20algo.cpp) |
+| Josephus problem | [Visit](https://practice.geeksforgeeks.org/problems/josephus-problem/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/josephus%20problem.cpp) |
+| Number of paths | [Visit](https://practice.geeksforgeeks.org/problems/number-of-paths0926/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/no.%20of%20paths.cpp) |
+| Special Keyboard | [Visit](https://practice.geeksforgeeks.org/problems/special-keyboard3018/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/special%20keyboard.cpp) |
+| Generate all balanced parenthesis | [Visit](https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/balanced%20parenthesis.cpp) |
+| Combination Sum I | [Visit](https://leetcode.com/problems/combination-sum/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/combination%20sum%20I.cpp) |
+| Combination Sum II | [Visit](https://leetcode.com/problems/combination-sum-ii/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/combination%20sum%20II.cpp) |
+| kth symbol in grammar | [Visit](https://leetcode.com/problems/k-th-symbol-in-grammar/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/kth%20symbol%20in%20grammar.cpp) |
+| Letter case permutation | [Visit](https://leetcode.com/problems/letter-case-permutation/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/letter%20case%20permutation.cpp) |
+| Permutation Sequence | [Visit](https://leetcode.com/problems/permutation-sequence/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/permutation%20seq..cpp) |
+| Permutation with spaces | [Visit](https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/permutation%20with%20spaces.cpp) |
+| Reverse a stack using recursion | [Visit](https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/reverse%20stack.cpp) |
+| Sort an array recursively | [Visit](https://practice.geeksforgeeks.org/problems/sort-the-array0055/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/sort%20array%20recursively.cpp) |
+| Subset Sums | [Visit](https://practice.geeksforgeeks.org/problems/subset-sums2234/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/subset%20sums.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
