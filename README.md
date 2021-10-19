@@ -4,7 +4,7 @@ Hashing
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
 | Zero Sum Subarrays | [Visit](https://practice.geeksforgeeks.org/problems/zero-sum-subarrays1825/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/0-sum%20subarrays.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Find all pairs with a given sum | [Visit](https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/all%20pairs%20with%20given%20sum.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
