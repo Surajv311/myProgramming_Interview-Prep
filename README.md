@@ -3,7 +3,7 @@ graph
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| BFS of graph | [Visit](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/bfs.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
