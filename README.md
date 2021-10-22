@@ -1,16 +1,22 @@
 
-Hashing
+graph
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| Zero Sum Subarrays | [Visit](https://practice.geeksforgeeks.org/problems/zero-sum-subarrays1825/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/0-sum%20subarrays.cpp) |
-| Find all pairs with a given sum | [Visit](https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/all%20pairs%20with%20given%20sum.cpp) |
-| Common Elements | [Visit](https://practice.geeksforgeeks.org/problems/common-elements5420/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/common%20elements.cpp) |
-| Count distinct elements in every window | [Visit](https://practice.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/count%20distinct%20elements%20in%20window...cpp) |
-| Longest Continuous Increasing Subsequence | [Visit](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/longest%20consecutive%20increasing%20seq..cpp) |
-|  Longest Consecutive Sequence | [Visit](https://leetcode.com/problems/longest-consecutive-sequence/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/longest%20consecutive%20seq..cpp) |
-| Sort an array according to the other | [Visit](https://practice.geeksforgeeks.org/problems/relative-sorting4323/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/sort%20array%20according%20to%20other.cpp) |
-| Sorting Elements of an Array by Frequency | [Visit](https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/sort%20elements%20by%20freq..cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
@@ -398,11 +404,25 @@ recursion
 </div>
 
 #### Hashing
+Hashing
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
+| Zero Sum Subarrays | [Visit](https://practice.geeksforgeeks.org/problems/zero-sum-subarrays1825/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/0-sum%20subarrays.cpp) |
+| Find all pairs with a given sum | [Visit](https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/all%20pairs%20with%20given%20sum.cpp) |
+| Common Elements | [Visit](https://practice.geeksforgeeks.org/problems/common-elements5420/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/common%20elements.cpp) |
+| Count distinct elements in every window | [Visit](https://practice.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/count%20distinct%20elements%20in%20window...cpp) |
+| Longest Continuous Increasing Subsequence | [Visit](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/longest%20consecutive%20increasing%20seq..cpp) |
+|  Longest Consecutive Sequence | [Visit](https://leetcode.com/problems/longest-consecutive-sequence/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/longest%20consecutive%20seq..cpp) |
+| Sort an array according to the other | [Visit](https://practice.geeksforgeeks.org/problems/relative-sorting4323/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/sort%20array%20according%20to%20other.cpp) |
+| Sorting Elements of an Array by Frequency | [Visit](https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/sort%20elements%20by%20freq..cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
