@@ -6,7 +6,7 @@ graph
 | BFS of graph | [Visit](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/bfs.cpp) |
 | Alien Dictionary | [Visit](https://practice.geeksforgeeks.org/problems/alien-dictionary/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/alien%20dictionary.cpp) |
 | Detect cycle in a directed graph | [Visit](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/detect%20cycle%20in%20DIRECTED%20graph.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Detect cycle in an undirected graph | [Visit](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/detect%20cycle%20in%20undirected%20graph.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
