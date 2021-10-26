@@ -73,7 +73,7 @@ int32_t main() {
 
 	// code
 
-	int t ; cin >> t; while (t--) {}
+	// int t ; cin >> t; while (t--) {}
 
 
 
