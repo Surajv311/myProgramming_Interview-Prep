@@ -11,7 +11,7 @@ graph
 | Find whether path exist | [Visit](https://practice.geeksforgeeks.org/problems/find-whether-path-exist5238/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/find%20if%20path%20exist%20matrix..cpp) |
 | Floyd Warshall | [Visit](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/floyd%20warshall.cpp) |
 | Minimum Swaps to Sort | [Visit](https://practice.geeksforgeeks.org/problems/minimum-swaps/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/min%20swaps%20sort..cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Find the number of islands | [Visit](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/number%20of%20islands.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
