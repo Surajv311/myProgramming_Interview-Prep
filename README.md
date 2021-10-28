@@ -13,7 +13,7 @@ graph
 | Minimum Swaps to Sort | [Visit](https://practice.geeksforgeeks.org/problems/minimum-swaps/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/min%20swaps%20sort..cpp) |
 | Find the number of islands | [Visit](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/number%20of%20islands.cpp) |
 | Topological sort | [Visit](https://practice.geeksforgeeks.org/problems/topological-sort/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/topological%20sort%20-%20bfs_dfs.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Dijkstra's Algorithm - Shortest Path in Undirected Graph | [Visit](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/Dijkstra's%20Algorithm_%20Shortest%20Path%20in%20Undirected%20Graphs.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
