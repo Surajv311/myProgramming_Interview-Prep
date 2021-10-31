@@ -16,7 +16,7 @@ graph
 | Dijkstra's Algorithm - Shortest Path in Undirected Graph | [Visit](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/Dijkstra's%20Algorithm_%20Shortest%20Path%20in%20Undirected%20Graphs.cpp) |
 | Bellman Ford Algorithm - Detect Negative Weight Cycle in Graphs | [Visit](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bellman%20ford%20algo%20to%20detect%20negative%20weight%20cycle.cpp) |
 | Check if it's a Bipartite Graph | [Visit](https://practice.geeksforgeeks.org/problems/bipartite-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bipartite%20graph.cpp) |
-| 12345 | [Visit](12345) https://www.geeksforgeeks.org/bridge-in-a-graph/  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bridges%20in%20graph.cpp) |
+| Bridges in Graph (or) Cut Edge | [Visit](https://www.geeksforgeeks.org/bridge-in-a-graph/) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bridges%20in%20graph.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
