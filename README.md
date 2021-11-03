@@ -18,7 +18,7 @@ graph
 | Check if it's a Bipartite Graph | [Visit](https://practice.geeksforgeeks.org/problems/bipartite-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bipartite%20graph.cpp) |
 | Bridges in Graph (or) Cut Edge | [Visit](https://www.geeksforgeeks.org/bridge-in-a-graph/) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bridges%20in%20graph.cpp) |
 | Disjoint Set - Union By Rank and Path Compression | [Visit](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/disjoint%20set%20union%20_%20path%20compression.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Kosaraju's Algorithm for Strongly Connected Components (SCC) | [Visit](https://www.geeksforgeeks.org/strongly-connected-components/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/kosaraju%20algo%20for%20SCC.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
