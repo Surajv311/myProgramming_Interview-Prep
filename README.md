@@ -19,7 +19,7 @@ graph
 | Bridges in Graph (or) Cut Edge | [Visit](https://www.geeksforgeeks.org/bridge-in-a-graph/) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bridges%20in%20graph.cpp) |
 | Disjoint Set - Union By Rank and Path Compression | [Visit](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/disjoint%20set%20union%20_%20path%20compression.cpp) |
 | Kosaraju's Algorithm for Strongly Connected Components (SCC) | [Visit](https://www.geeksforgeeks.org/strongly-connected-components/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/kosaraju%20algo%20for%20SCC.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Kruskal's Algorithm to find MST | [Visit](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/kruskals%20algo%20_minimum%20spanning%20tree.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
