@@ -36,31 +36,10 @@ Input:
 Output: 20 8 4 10 14 25 22
 Explanation:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Your Task:
 This is a function problem. You don't have to take input. Just complete the function printBoundary() that takes the root node as input and returns an array containing the boundary values in anti-clockwise.
-
-
-
 Expected Time Complexity: O(N).
 Expected Auxiliary Space: O(Height of the Tree).
-
-
 
 Constraints:
 1 ≤ Number of nodes ≤ 105
