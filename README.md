@@ -1,29 +1,29 @@
 
-graph
+Greedy
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| BFS of graph | [Visit](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/bfs.cpp) |
-| Alien Dictionary | [Visit](https://practice.geeksforgeeks.org/problems/alien-dictionary/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/alien%20dictionary.cpp) |
-| Detect cycle in a directed graph | [Visit](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/detect%20cycle%20in%20DIRECTED%20graph.cpp) |
-| Detect cycle in an undirected graph | [Visit](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/detect%20cycle%20in%20undirected%20graph.cpp) |
-| DFS of Graph | [Visit](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/dfs.cpp) |
-| Find whether path exist | [Visit](https://practice.geeksforgeeks.org/problems/find-whether-path-exist5238/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/find%20if%20path%20exist%20matrix..cpp) |
-| Floyd Warshall | [Visit](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/floyd%20warshall.cpp) |
-| Minimum Swaps to Sort | [Visit](https://practice.geeksforgeeks.org/problems/minimum-swaps/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/min%20swaps%20sort..cpp) |
-| Find the number of islands | [Visit](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/number%20of%20islands.cpp) |
-| Topological sort | [Visit](https://practice.geeksforgeeks.org/problems/topological-sort/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/topological%20sort%20-%20bfs_dfs.cpp) |
-| Dijkstra's Algorithm - Shortest Path in Undirected Graph | [Visit](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/Dijkstra's%20Algorithm_%20Shortest%20Path%20in%20Undirected%20Graphs.cpp) |
-| Bellman Ford Algorithm - Detect Negative Weight Cycle in Graphs | [Visit](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bellman%20ford%20algo%20to%20detect%20negative%20weight%20cycle.cpp) |
-| Check if it's a Bipartite Graph | [Visit](https://practice.geeksforgeeks.org/problems/bipartite-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bipartite%20graph.cpp) |
-| Bridges in Graph (or) Cut Edge | [Visit](https://www.geeksforgeeks.org/bridge-in-a-graph/) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bridges%20in%20graph.cpp) |
-| Disjoint Set - Union By Rank and Path Compression | [Visit](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/disjoint%20set%20union%20_%20path%20compression.cpp) |
-| Kosaraju's Algorithm for Strongly Connected Components (SCC) | [Visit](https://www.geeksforgeeks.org/strongly-connected-components/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/kosaraju%20algo%20for%20SCC.cpp) |
-| Kruskal's Algorithm to find MST | [Visit](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/kruskals%20algo%20_minimum%20spanning%20tree.cpp) |
-| MST Prims Algo | [Visit](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/prims%20algo%20_%20Minimum%20Spanning%20Tree.cpp) |
-| Shortest Path in Undirected Graph with Unit Weights | [Visit](https://www.geeksforgeeks.org/shortest-path-unweighted-graph/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/shortest%20path%20UNDIRECTED%20UNIT%20WEIGHT%20GRAPH.cpp) |
-| Shortest Path in Directed Acyclic Graph (DAG) | [Visit](https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/shortest%20path%20in%20DAG.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
@@ -428,10 +428,32 @@ Hashing
 
 #### Graph
 
+graph
+
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
+| BFS of graph | [Visit](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/bfs.cpp) |
+| Alien Dictionary | [Visit](https://practice.geeksforgeeks.org/problems/alien-dictionary/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/alien%20dictionary.cpp) |
+| Detect cycle in a directed graph | [Visit](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/detect%20cycle%20in%20DIRECTED%20graph.cpp) |
+| Detect cycle in an undirected graph | [Visit](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/detect%20cycle%20in%20undirected%20graph.cpp) |
+| DFS of Graph | [Visit](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/dfs.cpp) |
+| Find whether path exist | [Visit](https://practice.geeksforgeeks.org/problems/find-whether-path-exist5238/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/find%20if%20path%20exist%20matrix..cpp) |
+| Floyd Warshall | [Visit](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/floyd%20warshall.cpp) |
+| Minimum Swaps to Sort | [Visit](https://practice.geeksforgeeks.org/problems/minimum-swaps/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/min%20swaps%20sort..cpp) |
+| Find the number of islands | [Visit](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/number%20of%20islands.cpp) |
+| Topological sort | [Visit](https://practice.geeksforgeeks.org/problems/topological-sort/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/topological%20sort%20-%20bfs_dfs.cpp) |
+| Dijkstra's Algorithm - Shortest Path in Undirected Graph | [Visit](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/Dijkstra's%20Algorithm_%20Shortest%20Path%20in%20Undirected%20Graphs.cpp) |
+| Bellman Ford Algorithm - Detect Negative Weight Cycle in Graphs | [Visit](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bellman%20ford%20algo%20to%20detect%20negative%20weight%20cycle.cpp) |
+| Check if it's a Bipartite Graph | [Visit](https://practice.geeksforgeeks.org/problems/bipartite-graph/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bipartite%20graph.cpp) |
+| Bridges in Graph (or) Cut Edge | [Visit](https://www.geeksforgeeks.org/bridge-in-a-graph/) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/bridges%20in%20graph.cpp) |
+| Disjoint Set - Union By Rank and Path Compression | [Visit](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/disjoint%20set%20union%20_%20path%20compression.cpp) |
+| Kosaraju's Algorithm for Strongly Connected Components (SCC) | [Visit](https://www.geeksforgeeks.org/strongly-connected-components/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/kosaraju%20algo%20for%20SCC.cpp) |
+| Kruskal's Algorithm to find MST | [Visit](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/kruskals%20algo%20_minimum%20spanning%20tree.cpp) |
+| MST Prims Algo | [Visit](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/prims%20algo%20_%20Minimum%20Spanning%20Tree.cpp) |
+| Shortest Path in Undirected Graph with Unit Weights | [Visit](https://www.geeksforgeeks.org/shortest-path-unweighted-graph/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/shortest%20path%20UNDIRECTED%20UNIT%20WEIGHT%20GRAPH.cpp) |
+| Shortest Path in Directed Acyclic Graph (DAG) | [Visit](https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/shortest%20path%20in%20DAG.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
