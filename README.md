@@ -1,4 +1,15 @@
-add one4all ..  link github repo...
+add one4all ..  link github repo... <br>
+websites for remote jobs:   <br>
+https://twitter.com/i/lists/1438709173307392004  <br>
+https://twitter.com/i/lists/1437000980764131341  <br>
+https://nodesk.co/remote-jobs/  <br>
+https://randall-kanna.pallet.xyz/jobs  <br>
+https://www.levels.fyi/still-hiring/  <br>
+https://sahil.pallet.xyz/jobs  <br>
+https://remoteok.com/remote-work-statistics  <br>
+https://www.useweb3.xyz/  <br>
+https://angel.co/jobs  <br>
+ 
 <br>
 
 Greedy
