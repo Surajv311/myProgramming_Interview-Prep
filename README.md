@@ -10,7 +10,7 @@ https://remoteok.com/remote-work-statistics  <br>
 https://www.useweb3.xyz/  <br>
 https://angel.co/jobs  <br>
  https://www.linkedin.com/
- 
+ - add important twitter threads 
 <br>
 
 Greedy
