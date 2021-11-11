@@ -21,7 +21,7 @@ Greedy
 | Largest number with given sum | [Visit](https://practice.geeksforgeeks.org/problems/largest-number-with-given-sum-1587115620/1) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/greedy/largest%20number%20possible%20with%20given%20sum.cpp) |
 | Maximize Toys | [Visit](https://practice.geeksforgeeks.org/problems/maximize-toys0331/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/greedy/maximize%20toys.cpp#L9) |
 | Minimize the Heights II | [Visit](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/greedy/minimize%20heights%20II.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Minimize the sum of product | [Visit](https://practice.geeksforgeeks.org/problems/minimize-the-sum-of-product1525/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/greedy/minimize%20the%20sum%20of%20pdt....cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
