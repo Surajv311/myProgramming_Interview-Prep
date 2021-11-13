@@ -26,6 +26,8 @@ https://angel.co/jobs  <br>
  https://www.producthunt.com/jobs
  <br> 
  
+ https://yourstory.com/search?category=Funding
+ 
  <br>
  
  - add important twitter threads 
