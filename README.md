@@ -9,7 +9,9 @@ https://sahil.pallet.xyz/jobs  <br>
 https://remoteok.com/remote-work-statistics  <br>
 https://www.useweb3.xyz/  <br>
 https://angel.co/jobs  <br>
- https://www.linkedin.com/
+ https://www.linkedin.com/ <br>
+ https://www.diversifytech.co/job-board
+ 
  - add important twitter threads 
 <br>
 
