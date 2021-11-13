@@ -12,6 +12,19 @@ https://angel.co/jobs  <br>
  https://www.linkedin.com/ <br>
  https://www.diversifytech.co/job-board
  
+ ---------------------
+ https://remoteok.com/ <br>
+ https://weworkremotely.com/ <br>
+ https://remotive.io/ <br>
+ https://remoteglobal.com/ <br>
+ https://www.workingnomads.co/jobs <br>
+ https://triplebyte.com/ <br>
+ https://remotehunt.com/ <br>
+ https://epicjobs.co/ <br>
+ https://nodesk.co/ <br>
+ 
+ <br>
+ 
  - add important twitter threads 
 <br>
 
