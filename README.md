@@ -1,3 +1,31 @@
+
+dynamic programming 
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| Box Stacking | [Visit](https://practice.geeksforgeeks.org/problems/box-stacking/1/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/box%20stacking.cpp) |
+| Count number of hops | [Visit](https://practice.geeksforgeeks.org/problems/count-number-of-hops-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/count%20no.%20of%20hops.cpp) |
+| Max length chain | [Visit](https://practice.geeksforgeeks.org/problems/max-length-chain/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/max%20length%20chain.cpp) |
+| Minimum number of jumps | [Visit](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/min.%20no.%20of%20jumps.cpp) |
+| Minimum Operations | [Visit](https://practice.geeksforgeeks.org/problems/find-optimum-operation4504/1)  | [Check](https://github.com/Surajv311/myProgramming/edit/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/minimum%20operations.cpp) |
+| 0/1 Knapsack Problem | [Visit](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/0-1knapsack%20dp.cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| non repeating char... | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+
+<br>
+
 add one4all ..  link github repo... <br>
 websites for remote jobs:   <br>
 https://twitter.com/i/lists/1438709173307392004  <br>
@@ -32,31 +60,6 @@ https://angel.co/jobs  <br>
  
  - add important twitter threads 
 <br>
-
-dynamic programming 
-
-| Problem  | Link | My Solution | 
-| ------------- | ------------- | ------------- |
-| Box Stacking | [Visit](https://practice.geeksforgeeks.org/problems/box-stacking/1/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/box%20stacking.cpp) |
-| Count number of hops | [Visit](https://practice.geeksforgeeks.org/problems/count-number-of-hops-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/count%20no.%20of%20hops.cpp) |
-| Max length chain | [Visit](https://practice.geeksforgeeks.org/problems/max-length-chain/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/max%20length%20chain.cpp) |
-| Minimum number of jumps | [Visit](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/min.%20no.%20of%20jumps.cpp) |
-| Minimum Operations | [Visit](https://practice.geeksforgeeks.org/problems/find-optimum-operation4504/1)  | [Check](https://github.com/Surajv311/myProgramming/edit/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/minimum%20operations.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-
-
-| Problem  | Link | My Solution | 
-| ------------- | ------------- | ------------- |
-| non repeating char... | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 
 # myProgramming 👨‍💻
