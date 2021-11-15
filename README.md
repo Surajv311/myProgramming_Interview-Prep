@@ -41,7 +41,7 @@ dynamic programming
 | Count number of hops | [Visit](https://practice.geeksforgeeks.org/problems/count-number-of-hops-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/count%20no.%20of%20hops.cpp) |
 | Max length chain | [Visit](https://practice.geeksforgeeks.org/problems/max-length-chain/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/max%20length%20chain.cpp) |
 | Minimum number of jumps | [Visit](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/min.%20no.%20of%20jumps.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Minimum Operations | [Visit](https://practice.geeksforgeeks.org/problems/find-optimum-operation4504/1)  | [Check](https://github.com/Surajv311/myProgramming/edit/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/minimum%20operations.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
