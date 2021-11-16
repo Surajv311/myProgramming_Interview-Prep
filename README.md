@@ -10,11 +10,16 @@ dynamic programming
 | Minimum Operations | [Visit](https://practice.geeksforgeeks.org/problems/find-optimum-operation4504/1)  | [Check](https://github.com/Surajv311/myProgramming/edit/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/minimum%20operations.cpp) |
 | 0/1 Knapsack Problem (DP) | [Visit](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/0-1knapsack%20dp.cpp) |
 | 0/1 Knapsack Problem (Memoization) | [Visit](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/0-1knapsack_memoization.cpp) |
+| Count ways to reach the n'th stair | [Visit](https://practice.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/Count%20ways%20to%20reach%20the%20n'th%20stair.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| 12345 | [Visit](12345)  | [Check](12345) |
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
