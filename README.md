@@ -12,7 +12,7 @@ dynamic programming
 | 0/1 Knapsack Problem (Memoization) | [Visit](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/0-1knapsack_memoization.cpp) |
 | Count ways to reach the n'th stair | [Visit](https://practice.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/Count%20ways%20to%20reach%20the%20n'th%20stair.cpp) |
 | Get Minimum Squares | [Visit](https://practice.geeksforgeeks.org/problems/get-minimum-squares0538/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/Get%20Minimum%20Squares.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Find length of longest common subsequence & print the subsequence (string) | [Visit](https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1)  | [Check](12345) https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/LC_Subseq%20-%20longest%20common%20sequence.cpp |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
