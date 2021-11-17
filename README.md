@@ -90,7 +90,7 @@ and the handwritten notes I made; To improve my thinking skills to crack the opp
 - [Author](#author)
 ----------------------------------
 
-### Coding-Noob-Beginner
+### When I was a noob!
 
 1. Written beginner level codes in Py/Java/C/C++ to get an experience of every language. 
 
@@ -107,7 +107,7 @@ and the handwritten notes I made; To improve my thinking skills to crack the opp
 
 -------------------------------------
 
-### Coding-Pro_Noob-Intermediate
+### Time to become expert 🚀
 
 A compiled list of resources that I have been following and questions that I have been practising:
 
