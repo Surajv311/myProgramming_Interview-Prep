@@ -90,7 +90,7 @@ and the handwritten notes I made; To improve my thinking skills to crack the opp
 - [Author](#author)
 ----------------------------------
 
-### When I was a noob!
+### When I was a noob 🐣
 
 1. Written beginner level codes in Py/Java/C/C++ to get an experience of every language. 
 
