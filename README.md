@@ -14,7 +14,7 @@ dynamic programming
 | Get Minimum Squares | [Visit](https://practice.geeksforgeeks.org/problems/get-minimum-squares0538/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/Get%20Minimum%20Squares.cpp) |
 | Find length of longest common subsequence & print the subsequence (string) | [Visit](https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/LC_Subseq%20-%20longest%20common%20sequence.cpp)  |
 | Given two strings ‘X’ and ‘Y’, find the length of the longest common substring | [Visit](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/LC_Substr.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Longest Palindromic Subsequence Length | [Visit](12345) https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/  | [Check](12345) https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/L_Palindrome_Subseq.cpp |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
