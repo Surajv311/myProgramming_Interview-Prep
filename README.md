@@ -17,8 +17,8 @@ dynamic programming
 | Longest Palindromic Subsequence Length | [Visit](https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/L_Palindrome_Subseq.cpp) |
 | Shortest Common Supersequence Length | [Visit](https://practice.geeksforgeeks.org/problems/shortest-common-supersequence0322/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/Shortest%20length%20common%20supersequence.cpp) |
 | Longest Increasing Subsequence | [Visit](https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/__longest%20increasing%20subseq.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Coin change problem - I | [Visit](https://practice.geeksforgeeks.org/problems/coin-change2448/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/coin%20change%20problem1.cpp) |
+| problem - II  | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
