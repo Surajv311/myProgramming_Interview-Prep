@@ -20,7 +20,7 @@ dynamic programming
 | Coin change problem - I | [Visit](https://practice.geeksforgeeks.org/problems/coin-change2448/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/coin%20change%20problem1.cpp) |
 | Coin change problem - II  | [Visit](https://practice.geeksforgeeks.org/problems/number-of-coins1824/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/coin%20change%20problem2.cpp) |
 | Number of ways to calculate a target number using only array elements | [Visit](https://www.geeksforgeeks.org/number-of-ways-to-calculate-a-target-number-using-only-array-elements/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/count%20no.%20of%20subs%20with%20given%20diff-%20target%20sum.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Count subsets sum with X | [Visit](https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/count%20subsets%20with%20given%20sum.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
