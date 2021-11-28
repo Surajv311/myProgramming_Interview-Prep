@@ -23,7 +23,7 @@ dynamic programming
 | Count subsets sum with X | [Visit](https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/count%20subsets%20with%20given%20sum.cpp) |
 | Edit Distance | [Visit](https://practice.geeksforgeeks.org/problems/edit-distance3702/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/edit%20distance.cpp) |
 | Egg dropping problem | [Visit](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/egg%20dropping%20problem.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Partition problem | [Visit](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/equal%20sum%20partition.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
