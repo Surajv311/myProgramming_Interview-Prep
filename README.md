@@ -24,7 +24,7 @@ dynamic programming
 | Edit Distance | [Visit](https://practice.geeksforgeeks.org/problems/edit-distance3702/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/edit%20distance.cpp) |
 | Egg dropping problem | [Visit](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/egg%20dropping%20problem.cpp) |
 | Partition problem | [Visit](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/equal%20sum%20partition.cpp) |
-| House Robber | [Visit](12345)  | [Check](12345) |
+| House Robber | [Visit](https://leetcode.com/problems/house-robber/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/house%20robber_leetcode.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
