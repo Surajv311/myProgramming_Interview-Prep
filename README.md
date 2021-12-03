@@ -28,7 +28,7 @@ dynamic programming
 | Longest Repeated Subsequence | [Visit](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/longest%20repeated%20subseq.cpp) |
 | Maximum Product Subarray | [Visit](https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/max%20product%20subarray.cpp) |
 | Maximum sum increasing subsequence | [Visit](https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/max%20sum%20increasing%20subseq..cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Matrix Chain Multiplication | [Visit](https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/mcm.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
