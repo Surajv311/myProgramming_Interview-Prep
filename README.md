@@ -30,7 +30,7 @@ dynamic programming
 | Maximum sum increasing subsequence | [Visit](https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/max%20sum%20increasing%20subseq..cpp) |
 | Matrix Chain Multiplication | [Visit](https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/mcm.cpp) |
 | Minimum number of deletions to make a string palindrome | [Visit](https://practice.geeksforgeeks.org/problems/minimum-deletitions1648/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/min_del_to%20make%20string%20palindrome.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Minimum Path Sum | [Visit](https://leetcode.com/problems/minimum-path-sum/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/minimum%20path%20sum.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
