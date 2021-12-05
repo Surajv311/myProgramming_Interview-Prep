@@ -33,7 +33,7 @@ dynamic programming
 | Minimum Path Sum | [Visit](https://leetcode.com/problems/minimum-path-sum/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/minimum%20path%20sum.cpp) |
 | Minimum sum partition | [Visit](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/minimum%20subset%20sum%20diff.cpp) |
 | Palindrome partitioning problem | [Visit](https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/palindrome%20partitioning.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Printing Shortest Common Supersequence | [Visit](https://practice.geeksforgeeks.org/problems/shortest-common-supersequence0322/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/print%20shortest%20common%20supersequence.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
