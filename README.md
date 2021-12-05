@@ -32,7 +32,7 @@ dynamic programming
 | Minimum number of deletions to make a string palindrome | [Visit](https://practice.geeksforgeeks.org/problems/minimum-deletitions1648/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/min_del_to%20make%20string%20palindrome.cpp) |
 | Minimum Path Sum | [Visit](https://leetcode.com/problems/minimum-path-sum/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/minimum%20path%20sum.cpp) |
 | Minimum sum partition | [Visit](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/minimum%20subset%20sum%20diff.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Palindrome partitioning problem | [Visit](https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/palindrome%20partitioning.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
