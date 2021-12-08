@@ -88,6 +88,9 @@ https://angel.co/jobs  <br>
  
  https://yourstory.com/search?category=Funding
  
+ https://gen-z-vcs-jobs.pallet.xyz/jobs
+ 
+ 
  <br>
  
  - add important twitter threads 
