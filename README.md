@@ -1,4 +1,6 @@
 
+#### open sourced my hardwork LOL
+
 dynamic programming 
 
 | Problem  | Link | My Solution | 
