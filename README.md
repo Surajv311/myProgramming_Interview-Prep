@@ -39,7 +39,7 @@ dynamic programming
 | Maximize The Cut Segments/ Rod Cutting | [Visit](https://practice.geeksforgeeks.org/problems/cutted-segments1642/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/rod_cutting%20or%20_maximize%20cut%20segments.cpp) |
 | Scrambled String | [Visit](https://leetcode.com/problems/scramble-string/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/scrambled%20string.cpp) | 
 | Sequence Pattern Matching | [Visit](https://practice.geeksforgeeks.org/problems/check-for-subsequence4930/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/seq.%20pattern%20matching.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Subset sum problem | [Visit](https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1/?category[]=Dynamic%20Programming&category[]=Dynamic%20Programming&page=4&query=category[]Dynamic%20Programmingpage4category[]Dynamic%20Programming)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/subset%20sum%20problem.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
