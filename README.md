@@ -42,7 +42,7 @@ dynamic programming
 | Subset sum problem | [Visit](https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1/?category[]=Dynamic%20Programming&category[]=Dynamic%20Programming&page=4&query=category[]Dynamic%20Programmingpage4category[]Dynamic%20Programming)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/subset%20sum%20problem.cpp) |
 | Minimum number of deletions and insertions to transform one string into another | [Visit](https://practice.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/transform%20string...%20min.%20ins-del.cpp) |
 | Knapsack with Duplicate Items/ Unbounded Knapsack | [Visit](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/unbounded%20knapsack.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Weighted Job Scheduling | [Visit](https://www.geeksforgeeks.org/weighted-job-scheduling/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/weighted%20job%20scheduling.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
