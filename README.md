@@ -7,7 +7,7 @@ backtracking questions to be added:  https://github.com/Surajv311/myProgramming/
 | ------------- | ------------- | ------------- |
 | N-Queen Problem | [Visit](https://practice.geeksforgeeks.org/problems/n-queen-problem0315/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/n%20queen%20problem.cpp) |
 | Word Boggle | [Visit](https://practice.geeksforgeeks.org/problems/word-boggle4143/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/word%20boggle.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| M-Coloring Problem | [Visit](https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/other/m%20coloring%20problem.cpp) |
 
 
 | Problem  | Link | My Solution | 
