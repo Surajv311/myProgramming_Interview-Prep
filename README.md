@@ -3,6 +3,11 @@
 
 bit magic questions to be added: https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic
 
+<br>
+
+bit magic
+
+<br> 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
