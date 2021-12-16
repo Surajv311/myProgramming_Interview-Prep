@@ -9,7 +9,7 @@ backtracking questions to be added:  https://github.com/Surajv311/myProgramming/
 | Word Boggle | [Visit](https://practice.geeksforgeeks.org/problems/word-boggle4143/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/word%20boggle.cpp) |
 | M-Coloring Problem | [Visit](https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/other/m%20coloring%20problem.cpp) |
 | Permutations of a given string | [Visit](https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string2041/0/?company[]=Accolite&company[]=Accolite&page=1&query=company[]Accolitepage1company[]Accolite)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/other/permutations%20of%20a%20string.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Print all possible paths from top left to bottom right of a mXn matrix | [Visit](https://practice.geeksforgeeks.org/problems/count-all-possible-paths-from-top-left-to-bottom-right3011/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/other/possible%20paths%20from%20top%20to%20bottom.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
