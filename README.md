@@ -11,7 +11,7 @@ bit magic
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Find first set bit | [Visit](https://practice.geeksforgeeks.org/problems/find-first-set-bit-1587115620/1#)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/find%20first%20set%20bit.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
