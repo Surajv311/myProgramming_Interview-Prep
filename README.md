@@ -15,10 +15,12 @@ bit magic
 | Find the 2 unique numbers from an array where all numbers are repeated twice except the two | [Visit](https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/2%20unique%20numbers%20if%20all%20number%20repeated%20twice.cpp) |
 
 
-| 12345 | [Visit](12345)  | [Check](12345) | bit operations ..............https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/bit%20operations.set-get-clear-update-bit.cpp!!!!!!!!!!!!!!!!!!!!!!!https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
+| 12345 | [Visit](12345)  | [Check](12345) | bit operations ..............https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/bit%20operations.set-get-clear-update-bit.cpp!!!!!!!!!!!!!!!!!!!!!!!https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/ |
 
 
 | Find number of ones in bits of a number | [Visit](https://practice.geeksforgeeks.org/problems/set-bits0143/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/count%20ones%20in%20bits%20of%20number.cpp) |
+
+
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
