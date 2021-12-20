@@ -21,7 +21,7 @@ bit magic
 | Find number of ones in bits of a number | [Visit](https://practice.geeksforgeeks.org/problems/set-bits0143/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/count%20ones%20in%20bits%20of%20number.cpp) |
 
 
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Check if no. is power of 2 | [Visit](https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/power%20of%202.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
