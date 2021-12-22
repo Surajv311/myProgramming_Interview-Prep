@@ -23,7 +23,7 @@ bit magic
 
 | Check if no. is power of 2 | [Visit](https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/power%20of%202.cpp) |
 | Power Set  | [Visit](https://practice.geeksforgeeks.org/problems/power-set4302/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/power%20set%20....%20subsets%20of%20set.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Find the unique number from an array where all numbers are repeated thrice except the unique one | [Visit](https://www.geeksforgeeks.org/find-the-element-that-appears-once/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/unique%20number%20if%20all%20number%20repeated%20THRICE.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
