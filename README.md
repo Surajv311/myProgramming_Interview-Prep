@@ -8,7 +8,7 @@
  
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| non repeating char... | [Visit](12345)  | [Check](12345) |
+| Bubble Sort | [Visit](https://www.programiz.com/dsa/bubble-sort)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/sorting_algos/bubble%20sort.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
