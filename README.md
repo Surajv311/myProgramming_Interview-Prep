@@ -13,14 +13,8 @@ bit magic
 | ------------- | ------------- | ------------- |
 | Find first set bit | [Visit](https://practice.geeksforgeeks.org/problems/find-first-set-bit-1587115620/1#)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/find%20first%20set%20bit.cpp) |
 | Find the 2 unique numbers from an array where all numbers are repeated twice except the two | [Visit](https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/2%20unique%20numbers%20if%20all%20number%20repeated%20twice.cpp) |
-
-
-| 12345 | [Visit](12345)  | [Check](12345) | bit operations ..............https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/bit%20operations.set-get-clear-update-bit.cpp!!!!!!!!!!!!!!!!!!!!!!!https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/ |
-
-
+| BASIC Bit Operations | [Visit Page](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/) | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/bit%20operations.set-get-clear-update-bit.cpp) |
 | Find number of ones in bits of a number | [Visit](https://practice.geeksforgeeks.org/problems/set-bits0143/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/count%20ones%20in%20bits%20of%20number.cpp) |
-
-
 | Check if no. is power of 2 | [Visit](https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/power%20of%202.cpp) |
 | Power Set  | [Visit](https://practice.geeksforgeeks.org/problems/power-set4302/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/power%20set%20....%20subsets%20of%20set.cpp) |
 | Find the unique number from an array where all numbers are repeated THRICE except the unique one | [Visit](https://www.geeksforgeeks.org/find-the-element-that-appears-once/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/unique%20number%20if%20all%20number%20repeated%20THRICE.cpp) |
