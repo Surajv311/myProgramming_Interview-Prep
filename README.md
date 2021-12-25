@@ -24,7 +24,7 @@
 | ------------- | ------------- | ------------- |
 | Allocate minimum number of pages | [Visit](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/allocate%20min%20num.%20of%20pages.cpp) |
 | Binary Search | [Visit](https://www.geeksforgeeks.org/search-insert-position-of-k-in-a-sorted-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/binary%20search.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Given two number x and n, find n-th root of x | [Visit](https://www.geeksforgeeks.org/calculating-n-th-real-root-using-binary-search/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/calculate%20nth%20root.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
