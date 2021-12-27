@@ -29,7 +29,7 @@
 | Given two number x and n, find n-th root of x | [Visit](https://www.geeksforgeeks.org/calculating-n-th-real-root-using-binary-search/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/calculate%20nth%20root.cpp) |
 | Find the element that appears once in sorted array | [Visit](https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/element%20that%20appears%20once.cpp) |
 | Floor in a Sorted Array | [Visit](https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/floor%20of%20sorted%20array.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Median in a row-wise sorted Matrix | [Visit](https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/median%20in%20row-wise%20sorted%20matrix.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
