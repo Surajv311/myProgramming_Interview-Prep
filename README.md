@@ -32,7 +32,7 @@
 | Median in a row-wise sorted Matrix | [Visit](https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/median%20in%20row-wise%20sorted%20matrix.cpp) |
 | Nth Natural Number | [Visit](https://practice.geeksforgeeks.org/problems/nth-natural-number/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/nth%20natural%20number.cpp) |
 | Find the Rotation Count in Rotated Sorted array | [Visit](https://practice.geeksforgeeks.org/problems/rotation4723/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/number%20of%20rotations%20in%20sorted%20rotated%20arr..cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
+| Search in row wise and column wise sorted array | [Visit](https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/search%20in%20row%20-col%20wise%20sorted%20arr..cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
