@@ -36,11 +36,7 @@
 | Sum of Middle Elements of two sorted arrays | [Visit](https://practice.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays2305/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/sum%20of%20middle%20elements%20of%20two%20sorted%20arrays.cpp) |
 | The Celebrity Problem | [Visit](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/the%20celebrity%20problem.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-
-
-https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/trailing%20zeroes.cpp
-
+| Trailing zeroes in factorial | [Visit](https://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial5134/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/trailing%20zeroes.cpp) |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | Miscellaneous Qs | - | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/MISC.cpp) |
 
