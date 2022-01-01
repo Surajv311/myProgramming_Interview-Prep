@@ -51,39 +51,7 @@ shell - https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%
 
 <br>
 
-add one4all ..  link github repo... <br>
-websites for remote jobs:   <br>
-https://twitter.com/i/lists/1438709173307392004  <br>
-https://twitter.com/i/lists/1437000980764131341  <br>
-https://nodesk.co/remote-jobs/  <br>
-https://randall-kanna.pallet.xyz/jobs  <br>
-https://www.levels.fyi/still-hiring/  <br>
-https://sahil.pallet.xyz/jobs  <br>
-https://remoteok.com/remote-work-statistics  <br>
-https://www.useweb3.xyz/  <br>
-https://angel.co/jobs  <br>
- https://www.linkedin.com/ <br>
- https://www.diversifytech.co/job-board
- 
- ---------------------
- https://remoteok.com/ <br>
- https://weworkremotely.com/ <br>
- https://remotive.io/ <br>
- https://remoteglobal.com/ <br>
- https://www.workingnomads.co/jobs <br>
- https://triplebyte.com/ <br>
- https://remotehunt.com/ <br>
- https://epicjobs.co/ <br>
- https://nodesk.co/ <br>
- 
- https://www.producthunt.com/jobs
- <br> 
- 
- https://yourstory.com/search?category=Funding
- 
- https://gen-z-vcs-jobs.pallet.xyz/jobs
- 
- 
+
  <br>
  
  - add important twitter threads 
