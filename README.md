@@ -281,7 +281,7 @@ Link to my `handwritten notes` (updated occasionally):
 
 #### Trees
 
-binary tree 
+(Binary Tree)
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
@@ -310,13 +310,11 @@ binary tree
 | Tree from Postorder and Inorder | [Visit](https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/tree%20from%20postorder-inorder.cpp) |
 | Construct Tree from Inorder & Preorder | [Visit](https://practice.geeksforgeeks.org/problems/construct-tree-1/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/tree%20from%20preorder-inorder.cpp) |
 | Vertical Traversal of Binary Tree | [Visit](https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-tree-qs/vertical%20traversal%20of%20a%20BT.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
-###########-------------#################################--------------------------------------------------------------------------------------
+<br>
 
+(Binary Search Tree) 
 
-binary search tree
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
 | Constructing a BST | [Visit](https://www.geeksforgeeks.org/binary-search-tree-data-structure/#:~:text=1%20Find%20the%20node%20with%20minimum%20value%20in,modification%20to%20BST%20is%20not%20allowed.%20More%20items)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/construct%20%26%20search%20in%20bst.cpp) |
@@ -327,11 +325,6 @@ binary search tree
 | Largest BST | [Visit](https://practice.geeksforgeeks.org/problems/largest-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/largest%20bst%20in%20bt.cpp) |
 | Find a pair with given target in BST | [Visit](https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/pair%20with%20given%20target%20bst.cpp) |
 | Populating Next Right Pointers in Each Node | [Visit](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/tree/binary-search-tree-qs/populate%20next%20right%20pointers.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-
-
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -340,9 +333,6 @@ binary search tree
 
 #### Heap
 
-
-heap.............
-Merge K sorted linked lists
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
 | Heap Sort | [Visit](https://practice.geeksforgeeks.org/problems/heap-sort/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/heap%20sort.cpp) |
@@ -354,10 +344,6 @@ Merge K sorted linked lists
 | K’th Smallest/Largest Element in Unsorted Array | [Visit](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/kth%20smallest%20element.cpp) |
 | Connect n ropes with minimum cost | [Visit](https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/n%20ropes%20min%20cost_or_%20huffman%20_or_%20optimal%20merge%20pattern....cpp) |
 | Sort a K Sorted Array | Sort Nearly Sorted Array | [Visit](https://practice.geeksforgeeks.org/problems/nearly-sorted-algorithm/0)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/heap/other/sort%20k%20sorted%20array.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -382,12 +368,6 @@ Merge K sorted linked lists
 | Reverse a stack using recursion | [Visit](https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/reverse%20stack.cpp) |
 | Sort an array recursively | [Visit](https://practice.geeksforgeeks.org/problems/sort-the-array0055/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/sort%20array%20recursively.cpp) |
 | Subset Sums | [Visit](https://practice.geeksforgeeks.org/problems/subset-sums2234/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/recursion/other/subset%20sums.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -395,7 +375,6 @@ Merge K sorted linked lists
 </div>
 
 #### Hashing
-Hashing
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
@@ -407,13 +386,6 @@ Hashing
 |  Longest Consecutive Sequence | [Visit](https://leetcode.com/problems/longest-consecutive-sequence/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/longest%20consecutive%20seq..cpp) |
 | Sort an array according to the other | [Visit](https://practice.geeksforgeeks.org/problems/relative-sorting4323/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/sort%20array%20according%20to%20other.cpp) |
 | Sorting Elements of an Array by Frequency | [Visit](https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/hashing/sort%20elements%20by%20freq..cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -421,8 +393,6 @@ Hashing
 </div>
 
 #### Graph
-
-graph
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
@@ -446,8 +416,6 @@ graph
 | MST Prims Algo | [Visit](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/prims%20algo%20_%20Minimum%20Spanning%20Tree.cpp) |
 | Shortest Path in Undirected Graph with Unit Weights | [Visit](https://www.geeksforgeeks.org/shortest-path-unweighted-graph/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/shortest%20path%20UNDIRECTED%20UNIT%20WEIGHT%20GRAPH.cpp) |
 | Shortest Path in Directed Acyclic Graph (DAG) | [Visit](https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/graph/other/shortest%20path%20in%20DAG.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -455,7 +423,6 @@ graph
 </div>
 
 #### Greedy
-Greedy
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
@@ -467,11 +434,6 @@ Greedy
 | N meetings in one room | [Visit](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/greedy/n%20meetings%201%20room.cpp) |
 | Job Sequencing Problem | [Visit](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/greedy/other/job%20sequencing%20problem.cpp) |
 | Greedy Algorithm to find Minimum number of Coins | [Visit](https://practice.geeksforgeeks.org/problems/number-of-coins1824/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/greedy/other/min%20no.%20of%20coins.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -479,8 +441,6 @@ Greedy
 </div>
 
 #### DP
-
-dynamic programming 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
@@ -523,11 +483,6 @@ dynamic programming
 | Knapsack with Duplicate Items/ Unbounded Knapsack | [Visit](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/unbounded%20knapsack.cpp) |
 | Weighted Job Scheduling | [Visit](https://www.geeksforgeeks.org/weighted-job-scheduling/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/weighted%20job%20scheduling.cpp) |
 | Word Break | [Visit](https://practice.geeksforgeeks.org/problems/word-break1352/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/dp/other/word%20break%20problem.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -545,10 +500,6 @@ dynamic programming
 | Print all possible paths from top left to bottom right of a mXn matrix | [Visit](https://practice.geeksforgeeks.org/problems/count-all-possible-paths-from-top-left-to-bottom-right3011/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/other/possible%20paths%20from%20top%20to%20bottom.cpp) |
 | Rat in a Maze Problem - I | [Visit](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/other/rat%20in%20a%20maze%20problem.cpp) |
 | Sudoku Solver | [Visit](https://leetcode.com/problems/sudoku-solver/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/backtracking/other/sudoku%20solver.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -556,10 +507,6 @@ dynamic programming
 </div>
 
 #### Bit_Magic
-
-bit magic
-
-<br> 
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
@@ -571,11 +518,6 @@ bit magic
 | Power Set  | [Visit](https://practice.geeksforgeeks.org/problems/power-set4302/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/power%20set%20....%20subsets%20of%20set.cpp) |
 | Find the unique number from an array where all numbers are repeated THRICE except the unique one | [Visit](https://www.geeksforgeeks.org/find-the-element-that-appears-once/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/unique%20number%20if%20all%20number%20repeated%20THRICE.cpp) |
 | Find the unique number from an array where all numbers are repeated TWICE except the unique one | [Visit](https://www.geeksforgeeks.org/find-element-appears-array-every-element-appears-twice/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/bitmagic/other/unique%20number%20if%20all%20number%20repeated%20twice.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-
   
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
@@ -598,15 +540,6 @@ bit magic
 
 | Problem  | Link | My Solution | 
 | ------------- | ------------- | ------------- |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-
- misc coding questions...
- 
- https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc
- 
-| Problem  | Link | My Solution | 
-| ------------- | ------------- | ------------- |
 | Allocate minimum number of pages | [Visit](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/allocate%20min%20num.%20of%20pages.cpp) |
 | Binary Search | [Visit](https://www.geeksforgeeks.org/search-insert-position-of-k-in-a-sorted-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/binary%20search.cpp) |
 | Given two number x and n, find n-th root of x | [Visit](https://www.geeksforgeeks.org/calculating-n-th-real-root-using-binary-search/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/calculate%20nth%20root.cpp) |
@@ -618,11 +551,8 @@ bit magic
 | Search in row wise and column wise sorted array | [Visit](https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/search%20in%20row%20-col%20wise%20sorted%20arr..cpp) |
 | Sum of Middle Elements of two sorted arrays | [Visit](https://practice.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays2305/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/sum%20of%20middle%20elements%20of%20two%20sorted%20arrays.cpp) |
 | The Celebrity Problem | [Visit](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/the%20celebrity%20problem.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 | Trailing zeroes in factorial | [Visit](https://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial5134/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/trailing%20zeroes.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
 | Miscellaneous Qs | - | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/MISC.cpp) |
-
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
