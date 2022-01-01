@@ -23,27 +23,7 @@ selection - https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP
 
 shell - https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/sorting_algos/shell%20sort.cpp
  
- misc coding questions...
- 
- https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc
- 
-| Problem  | Link | My Solution | 
-| ------------- | ------------- | ------------- |
-| Allocate minimum number of pages | [Visit](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/allocate%20min%20num.%20of%20pages.cpp) |
-| Binary Search | [Visit](https://www.geeksforgeeks.org/search-insert-position-of-k-in-a-sorted-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/binary%20search.cpp) |
-| Given two number x and n, find n-th root of x | [Visit](https://www.geeksforgeeks.org/calculating-n-th-real-root-using-binary-search/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/calculate%20nth%20root.cpp) |
-| Find the element that appears once in sorted array | [Visit](https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/element%20that%20appears%20once.cpp) |
-| Floor in a Sorted Array | [Visit](https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/floor%20of%20sorted%20array.cpp) |
-| Median in a row-wise sorted Matrix | [Visit](https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/median%20in%20row-wise%20sorted%20matrix.cpp) |
-| Nth Natural Number | [Visit](https://practice.geeksforgeeks.org/problems/nth-natural-number/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/nth%20natural%20number.cpp) |
-| Find the Rotation Count in Rotated Sorted array | [Visit](https://practice.geeksforgeeks.org/problems/rotation4723/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/number%20of%20rotations%20in%20sorted%20rotated%20arr..cpp) |
-| Search in row wise and column wise sorted array | [Visit](https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/search%20in%20row%20-col%20wise%20sorted%20arr..cpp) |
-| Sum of Middle Elements of two sorted arrays | [Visit](https://practice.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays2305/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/sum%20of%20middle%20elements%20of%20two%20sorted%20arrays.cpp) |
-| The Celebrity Problem | [Visit](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/the%20celebrity%20problem.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| Trailing zeroes in factorial | [Visit](https://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial5134/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/trailing%20zeroes.cpp) |
-| 12345 | [Visit](12345)  | [Check](12345) |
-| Miscellaneous Qs | - | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/MISC.cpp) |
+
 
  
 
@@ -144,12 +124,12 @@ Link to my `handwritten notes` (updated occasionally):
 
 ### DS-Algo-Qs
 
-- This section consists of a list of DS-Algo Questions that I have practised: <br>
-- **Note**: These questions can be accessed via the: <br>
-`Coding-PRO_NOOB [section] -> Internships & Placements preparation [heading] -> DS-Algo [sub-heading]` section as well.<br> 
+- This section consists of a list of DS-Algo Questions that I have practised for internships/placements: <br>
+- These questions can be accessed via this path: <br>
+`myProgramming/Coding/[IMP] INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_[SOLVED]/` .<br> 
 ([Link](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D))<br>
-- To keep things little simplified, I've added all the questions that I have been practising specifically for internships/placements over here!.<br>
-- Also, in the solutions of most of the questions, I've pasted the logic inside the `main()` function (which can be separated to a different function).
+- **Note**: The main ans logic of the question is coded & just pasted in main function, than creating a separate function...!.
+
 <br>
 
 #### Contents:
@@ -620,6 +600,29 @@ bit magic
 | ------------- | ------------- | ------------- |
 | 12345 | [Visit](12345)  | [Check](12345) |
 | 12345 | [Visit](12345)  | [Check](12345) |
+
+ misc coding questions...
+ 
+ https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc
+ 
+| Problem  | Link | My Solution | 
+| ------------- | ------------- | ------------- |
+| Allocate minimum number of pages | [Visit](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/allocate%20min%20num.%20of%20pages.cpp) |
+| Binary Search | [Visit](https://www.geeksforgeeks.org/search-insert-position-of-k-in-a-sorted-array/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/binary%20search.cpp) |
+| Given two number x and n, find n-th root of x | [Visit](https://www.geeksforgeeks.org/calculating-n-th-real-root-using-binary-search/)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/calculate%20nth%20root.cpp) |
+| Find the element that appears once in sorted array | [Visit](https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/element%20that%20appears%20once.cpp) |
+| Floor in a Sorted Array | [Visit](https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/floor%20of%20sorted%20array.cpp) |
+| Median in a row-wise sorted Matrix | [Visit](https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/median%20in%20row-wise%20sorted%20matrix.cpp) |
+| Nth Natural Number | [Visit](https://practice.geeksforgeeks.org/problems/nth-natural-number/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/nth%20natural%20number.cpp) |
+| Find the Rotation Count in Rotated Sorted array | [Visit](https://practice.geeksforgeeks.org/problems/rotation4723/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/number%20of%20rotations%20in%20sorted%20rotated%20arr..cpp) |
+| Search in row wise and column wise sorted array | [Visit](https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/search%20in%20row%20-col%20wise%20sorted%20arr..cpp) |
+| Sum of Middle Elements of two sorted arrays | [Visit](https://practice.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays2305/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/sum%20of%20middle%20elements%20of%20two%20sorted%20arrays.cpp) |
+| The Celebrity Problem | [Visit](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/the%20celebrity%20problem.cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| Trailing zeroes in factorial | [Visit](https://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial5134/1)  | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/trailing%20zeroes.cpp) |
+| 12345 | [Visit](12345)  | [Check](12345) |
+| Miscellaneous Qs | - | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/MISC.cpp) |
+
 
 <div align="right">
     <b><a href="#contents">⬆ Back To Contents
