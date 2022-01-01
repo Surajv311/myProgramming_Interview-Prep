@@ -45,17 +45,7 @@ shell - https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%
 | 12345 | [Visit](12345)  | [Check](12345) |
 | Miscellaneous Qs | - | [Check](https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/misc/MISC.cpp) |
 
-
  
- 
-
-<br>
-
-
- <br>
- 
- - add important twitter threads 
-<br>
 
 
 # myProgramming 👨‍💻
@@ -70,18 +60,17 @@ and the handwritten notes I made; To improve my thinking skills to crack the opp
 
 `In progress: Since Nov 2020 - present.` 
 
-------------------------------------
-
 ## `Table of contents`:
 
-- [Coding-NOOB](#coding-noob-beginner)
+- [Coding-NOOB](#Noobme)
 - [Coding-PRO_NOOB](#coding-pro_noob-intermediate)
-- [Handwritten-notes](#notes)
+- [My_Handwritten-notes](#notes)
 - [DS-Algo-Questions](#ds-algo-qs)
 - [Author](#author)
+
 ----------------------------------
 
-### When I was a noob 🐣
+### Noob me 🐣
 
 1. Written beginner level codes in Py/Java/C/C++ to get an experience of every language. 
 
