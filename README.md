@@ -109,6 +109,7 @@ A compiled list of resources that I have been following and questions that I hav
 - [Puzzles](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/SUBJECTIVE%20Qs%20%26%20PUZZLES/PUZZLES)
 - [System Design](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/%5BIGNORE%5D_SYSTEM-DESIGN)
 - [DS-Algo](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D)
+(Check the table at bottom for DS Algo Qs. solved)
 
 #### Others
 - [Learned something unique](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/LEARNED-SOMETHING-UNIQUE)
