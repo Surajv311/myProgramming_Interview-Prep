@@ -52,7 +52,6 @@ shell - https://github.com/Surajv311/myProgramming/blob/master/Coding/%5BIMP%5D%
 
 **DS-Algo, CP Questions | CS-Core subjects | Notes | Practice | Resources to improve...! 🚀**
 
---------------------------------------------------------
 <br>
 
 This repository hosts a list of DS-Algo Questions that I've solved, CS-Core Questions and resources that I have been following, 
@@ -62,15 +61,16 @@ and the handwritten notes I made; To improve my thinking skills to crack the opp
 
 ## `Table of contents`:
 
-- [Coding-NOOB](#Noobme)
-- [Coding-PRO_NOOB](#coding-pro_noob-intermediate)
+- [Coding Noob 🐣](#noob)
+- [Time to go Pro 🚀](#pro_noob)
 - [My_Handwritten-notes](#notes)
 - [DS-Algo-Questions](#ds-algo-qs)
 - [Author](#author)
 
 ----------------------------------
+----------------------------------
 
-### Noob me 🐣
+### Noob 
 
 1. Written beginner level codes in Py/Java/C/C++ to get an experience of every language. 
 
@@ -87,7 +87,7 @@ and the handwritten notes I made; To improve my thinking skills to crack the opp
 
 -------------------------------------
 
-### Time to become expert 🚀
+### Pro_Noob  
 
 A compiled list of resources that I have been following and questions that I have been practising:
 
@@ -107,7 +107,7 @@ A compiled list of resources that I have been following and questions that I hav
 [OS](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/CS-CORE_SUBJECTS/os)
 - [Subjective Questions](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/SUBJECTIVE%20Qs%20%26%20PUZZLES/SUBJECTIVE%20Qs)
 - [Puzzles](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/SUBJECTIVE%20Qs%20%26%20PUZZLES/PUZZLES)
-- [System Design (IGNORE)](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/%5BIGNORE%5D_SYSTEM-DESIGN)
+- [System Design](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/%5BIGNORE%5D_SYSTEM-DESIGN)
 - [DS-Algo](https://github.com/Surajv311/myProgramming/tree/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D)
 
 #### Others
