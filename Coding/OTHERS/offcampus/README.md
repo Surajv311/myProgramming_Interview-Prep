@@ -24,6 +24,7 @@ Few websites for good opportunities/jobs:
 - [Yourstory Startups News](https://yourstory.com/search?category=Funding) 
 - [Genz vcs jobs](https://gen-z-vcs-jobs.pallet.xyz/jobs) 
 - [one4all Website](https://one4all.netlify.app/)  
+- [YC Startup jobs](https://www.ycombinator.com/jobs/role/software-engineer)
 - [Twitter list of internships - CURRENTLY UNDER PROGRESS](https://twitter.com/i/lists/1438709173307392004)   
 - [Twitter list of jobs - CURRENTLY UNDER PROGRESS](https://twitter.com/i/lists/1437000980764131341)   
 
