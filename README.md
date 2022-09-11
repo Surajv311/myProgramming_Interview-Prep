@@ -540,6 +540,8 @@ Link to my `handwritten notes` (updated occasionally):
     </a></b>
 </div>
 
+- Side Note: Github gist to some random questions solved again for practice from Leetcode/GFG/Neetcode, etc. ~ [Gist](https://gist.github.com/Surajv311/d355d08ab637c0e996e39bf7a4e01339)
+
 ------------------------------------
 
 ### Author
