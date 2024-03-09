@@ -73,6 +73,7 @@ A compiled list of resources that I have been following and questions that I hav
 - [DS-Algo Must Do Questions](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/DS-ALGO)
 - [Other resources](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/RESOURCES/others)
 - [Misc](https://github.com/Surajv311/myProgramming/tree/master/Coding/OTHERS/MISC)
+- [Memory Dump of interesting tech stuff](https://github.com/Surajv311/mDumpSWE)
 
 <div align="right">
     <b><a href="#table-of-contents">⬆ Back To Top
