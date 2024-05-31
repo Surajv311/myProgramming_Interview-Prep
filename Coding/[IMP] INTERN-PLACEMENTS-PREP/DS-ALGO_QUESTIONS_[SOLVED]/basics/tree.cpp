@@ -15,6 +15,7 @@ public:
 Node* adddata(int data)
 {
 	Node* newNode = new Node(data);
+	// understand that from constructor anyways left/right pointer becoming 0 - so we need not worry about that
 	return newNode;
 }
 
