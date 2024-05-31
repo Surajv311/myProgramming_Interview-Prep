@@ -1,4 +1,5 @@
 
+
 void dfs(vector<int> adj[], vector<int> &vis, int baseNode, vector<int>&ans) {
 	vis[baseNode] = 1;
 	ans.push_back(baseNode);
@@ -36,6 +37,11 @@ void creategraph(int node1, int node2, vector<int> adj[]) {
 	// an array is passed by reference in simple words; to be more technical ~ you pass a pointer to its first element. Hence in vector<int> adj[] we are not specifically adding '&' ~  vector<int> adj[]& like this, as it would give error as well.
 	adj[node1].push_back(node2);
 	adj[node2].push_back(node1);// to make graph bidirectional
+	// for unidirectional/directed - comment one of them
+
+	// for a weighted graph:
+	// adj[node1].push_back({node2, weight});
+
 	return;
 }
 
