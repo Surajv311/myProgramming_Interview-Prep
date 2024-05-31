@@ -109,6 +109,7 @@ Link to my `handwritten notes` (updated occasionally):
 
 #### Contents:
 
+- [Basics](#basics)
 - [Arrays](#arrays) 
 - [String](#string)
 - [Linked List](#linkedlist)
@@ -126,6 +127,19 @@ Link to my `handwritten notes` (updated occasionally):
 - [Misc (Others)](#misc)
 
 <br>
+
+#### Basics
+
+| Data Structure  | Code |
+| ------------- | ------------- |
+| Graph | [Check](https://github.com/Surajv311/myProgramming_Interview-Prep/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/basics/graph.cpp) |
+| Linkedlist | [Check](https://github.com/Surajv311/myProgramming_Interview-Prep/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/basics/linkedlist.cpp) |
+| Tree | [Check](https://github.com/Surajv311/myProgramming_Interview-Prep/blob/master/Coding/%5BIMP%5D%20INTERN-PLACEMENTS-PREP/DS-ALGO_QUESTIONS_%5BSOLVED%5D/basics/tree.cpp) |
+
+<div align="right">
+    <b><a href="#contents">⬆ Back To Contents
+    </a></b>
+</div>
 
 #### Arrays
 
