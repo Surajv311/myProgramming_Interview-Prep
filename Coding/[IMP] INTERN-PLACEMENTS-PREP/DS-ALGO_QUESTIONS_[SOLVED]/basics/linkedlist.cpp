@@ -25,12 +25,14 @@ int32_t main() {
 //////////
 
 	Node* root = new Node(10);// root node
+	// setting up the base value, post that we add dynamic values
 	Node* node = root;
 
 	int n = 5;
 	for (int i = 0 ; i < n ; i++) {
 		int data; cin >> data;
-		node = adddata(node, data);
+		node = adddata(node, data); 
+		// we don not have to iterate over the end of the node to add new node as observe we are returning the newly created node directly hence nodes are getting added on it 
 	}
 
 	// traversal can be done using while loop
